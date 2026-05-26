@@ -25,3 +25,16 @@ She needed: You can only work while waiting IF you applied before study permit e
 - Add deadline reality check near page top
 - Add portal navigation note to language test step
 - Clarify Step 10 work authorization language
+
+---
+
+## Edge case: PGWP extension after passport renewal
+Date: May 26, 2026
+
+Decision: Do NOT publish procedural steps for this scenario.
+Reason: Unsourced, high-risk, complex edge case. Fails Source, Advice, and Staleness tests.
+
+Action taken: Added brief acknowledgment note to "Things people commonly miss" section with RCIC referral.
+
+Business signal: Second instance of user hitting edge case requiring paid professional help.
+Confirms RCIC referral as viable monetization path.
