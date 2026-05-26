@@ -70,3 +70,12 @@ Date accessed: May 26, 2026
 Claims supported:
   - Study permit expires 90 days after completion or printed expiry date whichever comes first
   - Must apply before study permit expires to work while waiting
+
+SOURCE 10
+Title: Post-graduation work permit: About the PGWP — IRCC
+URL: https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/about.html
+Date accessed: May 26, 2026
+Claims supported:
+  - Multiple programs can be combined for longer PGWP
+  - Each program must be at least 8 months long
+  - Higher language requirement applies if programs differ
