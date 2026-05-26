@@ -4,6 +4,12 @@ One entry per working session. Most recent first.
 
 ---
 
+## 2026-05-26
+
+May 26 — Three user-feedback improvements live, netlify.toml fixed deployment, PGWP page complete.
+
+---
+
 ## 2026-05-25
 
 **Session goal:** Project bootstrap

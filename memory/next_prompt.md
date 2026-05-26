@@ -8,36 +8,26 @@ We are building CanadaSteps (canadasteps.org) — a plain-language immigration g
 
 **Current phase:** Phase 0 — Foundation
 
-**Where we left off:** Project scaffold complete. All documentation written. pgwp.html stub exists but content is not finished.
+**Session ended:** May 26, 2026
 
-**Immediate goal for this session:** Complete the PGWP page.
+**Status:** PGWP page complete and live at canadasteps.org/pgwp.html
 
-**Next steps (in order):**
+**Last commits:** netlify.toml fix + three user-feedback additions (PR awareness, travel warning, health coverage note)
 
-1. Open `pages/pgwp.html` and complete the content:
-   - Verify eligibility rules against current IRCC PGWP page
-   - Verify PGWP validity rules (8 months to 2 years / 2 years or more)
-   - Add the 180-day application window with source
-   - Add the application fee (link directly to IRCC fee page, do not paraphrase)
-   - Add inline date attribution ("as of [Month Year] per IRCC")
-   - Link processing time section to live IRCC tool
+**Deployment:** Netlify manual drag-and-drop of canadasteps folder
+**Netlify URL:** hilarious-madeleine-0801d5.netlify.app
+**Custom domain:** canadasteps.org/pgwp.html
 
-2. Create `docs/sources-log/pgwp.md` with source citations for every factual claim
-
-3. Run the editorial rulebook checklist against pgwp.html
-
-4. Create `assets/style.css` (minimal, mobile-first, system fonts)
-
-5. Run `git init` and make the first commit
+**Next task:** Decide page 2 — SIN number guide recommended (see user-feedback/pgwp-feedback-round1.md for rationale)
 
 **Key files:**
-- `docs/editorial-rulebook.md` — all editorial rules
-- `docs/sources-log/` — source citations go here
-- `implementation_plan.md` — full step-by-step plan
-- `risks.md` — known risks and mitigations
+- `pgwp.html` — canonical live page (root, not pages/)
 - `memory/current_state.md` — current project state
+- `user-feedback/pgwp-feedback-round1.md` — Round 1 gaps and page 2 candidates
+- `docs/editorial-rulebook.md` — all editorial rules
 
 **Rules to follow:**
+- Read memory/next_prompt.md only at session start
 - Never paraphrase fees — quote and link
 - Never state processing times as a number — link to live tool
 - Grade 8 reading level
