@@ -105,3 +105,53 @@ Boring, maintainable technology. Minimum operational surface. Zero servers to pa
 - Before adding a feature: apply the Scope Guard check (memory/rejected_approaches.md)
 - Before publishing any page: run the editorial checklist (docs/editorial-rulebook.md Section 9)
 - After a session: update memory/current_state.md and memory/next_prompt.md
+
+## Standard Update Workflow
+
+After every change to the project, always:
+
+1. Run git status to confirm what changed
+2. Stage and commit with a clear descriptive message
+3. Update memory/current_state.md to reflect latest state
+4. Update docs/project-status.md if sprint status changed
+5. Update daily.md with a one-line session log entry
+
+This applies to every change — content, fixes, structure, or documentation. No exceptions.
+
+## Token Optimization Rules
+
+To minimize context window usage every session:
+
+### Session Start
+- Read ONLY memory/next_prompt.md first
+- Do not read entire codebase on startup
+- Do not read all docs unless task requires it
+- Ask clarifying question if task is ambiguous before reading any files
+
+### During Work
+- Read only the specific file being edited
+- Do not re-read files already in context
+- Do not summarize back large blocks of content
+- Confirm changes in one line not paragraphs
+
+### File Reading Priority
+- memory/next_prompt.md — always first
+- memory/current_state.md — only if needed
+- Specific file being changed — only that file
+- docs/ — only if content decision required
+- Never read all files to "get context"
+
+### Commit and Close
+- git status
+- commit with clear message
+- update memory/current_state.md — 5 lines max
+- update memory/next_prompt.md — 3 lines max
+- update daily.md — one line only
+
+### What NOT To Do
+- Do not read pgwp.html to answer a question about project status
+- Do not read rulebook unless writing new content
+- Do not re-read sources log unless updating it
+- Do not summarize entire session back to user
+
+Goal: Every session starts in under 30 seconds with next_prompt.md only.

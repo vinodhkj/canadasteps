@@ -38,3 +38,31 @@ Action taken: Added brief acknowledgment note to "Things people commonly miss" s
 
 Business signal: Second instance of user hitting edge case requiring paid professional help.
 Confirms RCIC referral as viable monetization path.
+
+---
+
+## Round 1 — Additional gaps identified May 26, 2026
+
+### GAP 4 — PR pathway awareness missing
+Action: Added awareness note linking to CEC and NOC/TEER
+Not added: TEER job qualification guidance — too specific
+
+### GAP 5 — SIN card expiry during maintained status
+Action: Deferred — IMM 5604 claim unverified
+Flagged for IRCC source verification before adding
+Future page candidate: SIN number newcomer guide
+
+### GAP 6 — Health coverage gap after graduation
+Action: Added awareness note with OHIP link
+Not added: Specific insurance recommendations — advice
+
+### GAP 7 — Travel while pending — warning too soft
+Action: Strengthened existing warning with clearer language
+Not added: Specific travel scenarios — unsourced
+
+---
+
+### Page 2 candidates from this feedback
+- SIN number guide
+- Health coverage for newcomers
+- Express Entry / PR pathway overview
