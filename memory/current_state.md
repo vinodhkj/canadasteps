@@ -24,7 +24,7 @@ Phase 0 — Foundation
 - index.html redirects to /pgwp.html
 
 ## Last change
-Added sourced 90-day study permit expiry warning to "Before you read further" box. SOURCE 9 logged in pgwp.md.
+Added sourced multi-program combination rule to "Things people commonly miss." SOURCE 10 logged in pgwp.md.
 
 ## What was shipped (May 26 session)
 

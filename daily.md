@@ -9,6 +9,7 @@ One entry per working session. Most recent first.
 May 26 — Three user-feedback improvements live, netlify.toml fixed deployment, PGWP page complete.
 May 26 — Both URLs live, deployment stable, ready for page 2.
 May 26 — Added sourced 90-day study permit expiry warning to PGWP page.
+May 26 — Added sourced multi-program combination rule to commonly missed section.
 
 ---
 
