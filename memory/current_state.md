@@ -1,6 +1,6 @@
 # Current State
 
-_Updated: 2026-05-25_
+_Updated: 2026-05-26_
 
 ## Phase
 
@@ -8,29 +8,43 @@ Phase 0 — Foundation
 
 ## What exists
 
-- Full project scaffold committed (see changed_files.md)
-- Editorial rulebook: complete
-- pgwp.html: stub only — content needs completion and verification
-- assets/style.css: does not exist yet
-- Git: not initialized yet
-- Hosting: not configured yet
+- pgwp.html — canonical file at project root (this is the live file)
+- index.html — root redirect to /pgwp.html
+- docs/sources-log/pgwp.md — complete source log, last verified May 26, 2026
+- docs/editorial-rulebook.md — complete
+- user-feedback/pgwp-feedback-round1.md — Round 1 feedback logged
+- Git: initialized, multiple commits from May 26, 2026 session
 
 ## What works
 
-- Project structure is navigable
-- pgwp.html opens in browser (unstyled)
-- All documentation files are in place
+- Site is LIVE at canadasteps.org/pgwp.html
+- Deployed via Netlify manual drag-and-drop
+- DNS connected and verified May 26, 2026
+- SSL certificate active
+- index.html redirects to /pgwp.html
 
-## What is broken / incomplete
+## What was shipped (May 26 session)
 
-- pgwp.html content is incomplete (eligibility rules not fully sourced, fee not included, processing time section needs live IRCC link verified)
-- No CSS — pages are unstyled
-- No source log for pgwp.html
-- Git not initialized
-- Not deployed
+- Reality check box (180-day window, work authorization warning)
+- One-PGWP lifetime warning box
+- PGWP timeline at a glance
+- Cost table (fees and processing time)
+- Step 05 portal navigation note for language test upload
+- Step 10 work authorization language clarified
+- Maintained status URL corrected to verified IRCC page
+
+## File structure note
+
+- Canonical pgwp.html is in the PROJECT ROOT
+- pages/pgwp.html has been removed (was a duplicate)
+- Do not recreate pages/pgwp.html
+
+## What is incomplete
+
+- assets/style.css does not exist — pgwp.html uses inline styles
+- No second page published yet
+- No automated link-checking
 
 ## Immediate next action
 
-Complete pgwp.html content → create sources-log/pgwp.md → create style.css → git init → deploy.
-
-See `implementation_plan.md` for the ordered steps.
+Push repo to GitHub for backup. Plan Phase 1 content based on Round 1 user feedback signals.
