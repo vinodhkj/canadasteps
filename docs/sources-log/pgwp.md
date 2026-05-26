@@ -62,3 +62,11 @@ URL: college-ic.ca/protecting-the-public/
 Date accessed: May 25, 2026
 Claims supported:
   - Disclaimer RCIC link
+
+SOURCE 9
+Title: Post-graduation work permit: How to apply — IRCC
+URL: https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/apply.html
+Date accessed: May 26, 2026
+Claims supported:
+  - Study permit expires 90 days after completion or printed expiry date whichever comes first
+  - Must apply before study permit expires to work while waiting
