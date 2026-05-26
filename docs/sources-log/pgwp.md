@@ -28,8 +28,8 @@ Claims supported:
 
 SOURCE 4
 Title: Maintained and implied status — IRCC
-URL: canada.ca/.../maintained-status.html
-Date accessed: May 25, 2026
+URL: https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/operational-bulletins-manuals/temporary-residents/visitors/implied-status-extending-stay.html
+Date accessed: May 26, 2026
 Claims supported:
   - Step 10 implied status note
   - Work authorization deferral
