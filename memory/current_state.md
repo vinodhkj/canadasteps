@@ -23,6 +23,9 @@ Phase 0 — Foundation
 - SSL certificate active
 - index.html redirects to /pgwp.html
 
+## Last change
+Added sourced 90-day study permit expiry warning to "Before you read further" box. SOURCE 9 logged in pgwp.md.
+
 ## What was shipped (May 26 session)
 
 - Reality check box (180-day window, work authorization warning)
