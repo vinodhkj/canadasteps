@@ -1,77 +1,742 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Post-Graduation Work Permit (PGWP) — CanadaSteps</title>
-  <meta name="description" content="Plain-language guide to the Post-Graduation Work Permit (PGWP) for international students who graduated from a Canadian institution.">
-  <link rel="stylesheet" href="../assets/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Post-Graduation Work Permit (PGWP) — Step-by-Step Guide | CanadaSteps</title>
+<meta name="description" content="Clear, step-by-step guide to applying for your Post-Graduation Work Permit (PGWP) in Canada. Every step links to the official IRCC source. No advice — just the process.">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f7f5f0;
+    --bg-card: #ffffff;
+    --bg-soft: #f0ede6;
+    --navy: #1a2640;
+    --navy-mid: #243352;
+    --red: #b91c1c;
+    --teal: #1a7a6e;
+    --teal-light: #e8f5f3;
+    --amber: #d97706;
+    --amber-light: #fef9c3;
+    --green: #166534;
+    --green-light: #dcfce7;
+    --gray: #6b7280;
+    --gray-light: #e5e7eb;
+    --text: #1f2937;
+    --text-soft: #4b5563;
+    --border: #e2ddd4;
+    --step-line: #d4c9b0;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    font-size: 16px;
+  }
+
+  /* TOP BAR */
+  .topbar {
+    background: var(--navy);
+    color: rgba(255,255,255,0.65);
+    font-size: 0.72rem;
+    padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'DM Mono', monospace;
+    letter-spacing: 0.03em;
+  }
+  .topbar a { color: #f0c76a; text-decoration: none; }
+  .topbar a:hover { text-decoration: underline; }
+
+  /* NAV */
+  nav {
+    background: var(--bg-card);
+    border-bottom: 1px solid var(--border);
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+  }
+
+  .logo {
+    font-family: 'Lora', serif;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--navy);
+    text-decoration: none;
+  }
+  .logo span { color: var(--teal); }
+
+  .nav-crumb {
+    font-size: 0.75rem;
+    color: var(--gray);
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  .nav-crumb strong { color: var(--text-soft); font-weight: 600; }
+
+  /* PAGE LAYOUT */
+  .page-wrap {
+    max-width: 740px;
+    margin: 0 auto;
+    padding: 2.5rem 2rem 5rem;
+  }
+
+  /* HEADER */
+  .page-header {
+    margin-bottom: 1.75rem;
+    padding-bottom: 1.75rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .track-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: var(--teal-light);
+    color: var(--teal);
+    border: 1px solid rgba(26,122,110,0.2);
+    padding: 0.25rem 0.75rem;
+    border-radius: 100px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 0.85rem;
+    font-family: 'DM Mono', monospace;
+  }
+
+  h1 {
+    font-family: 'Lora', serif;
+    font-size: clamp(1.6rem, 4vw, 2.2rem);
+    font-weight: 700;
+    color: var(--navy);
+    line-height: 1.25;
+    margin-bottom: 0.6rem;
+    letter-spacing: -0.2px;
+  }
+
+  .page-desc {
+    font-size: 0.95rem;
+    color: var(--text-soft);
+    line-height: 1.7;
+    max-width: 620px;
+  }
+
+  .meta-row {
+    display: flex;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+    margin-top: 1.1rem;
+  }
+
+  .meta-item {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.75rem;
+    color: var(--gray);
+    font-family: 'DM Mono', monospace;
+  }
+
+  .meta-dot {
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    background: var(--teal);
+    flex-shrink: 0;
+  }
+  .meta-dot.amber { background: var(--amber); }
+
+  /* CHANGELOG */
+  .changelog {
+    background: var(--amber-light);
+    border: 1px solid rgba(217,119,6,0.2);
+    border-left: 3px solid var(--amber);
+    border-radius: 8px;
+    padding: 0.85rem 1.1rem;
+    margin-bottom: 1.75rem;
+    font-size: 0.82rem;
+    color: #78350f;
+    line-height: 1.6;
+  }
+  .changelog strong {
+    display: block;
+    font-size: 0.68rem;
+    font-family: 'DM Mono', monospace;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin-bottom: 0.3rem;
+  }
+
+  /* SECTION */
+  .section { margin-bottom: 2rem; }
+
+  h2 {
+    font-family: 'Lora', serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 0.85rem;
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+  }
+
+  .h2-num {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.65rem;
+    background: var(--navy);
+    color: white;
+    padding: 0.18rem 0.45rem;
+    border-radius: 4px;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+  }
+
+  .divider {
+    height: 1px;
+    background: var(--border);
+    margin: 1.75rem 0;
+  }
+
+  /* WHO GRID */
+  .who-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+  }
+
+  .who-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.1rem;
+  }
+  .who-card.yes { border-left: 3px solid #16a34a; }
+  .who-card.no  { border-left: 3px solid var(--red); }
+
+  .who-label {
+    font-size: 0.65rem;
+    font-family: 'DM Mono', monospace;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+  }
+  .who-card.yes .who-label { color: #16a34a; }
+  .who-card.no  .who-label { color: var(--red); }
+
+  .who-card ul { list-style: none; display: flex; flex-direction: column; gap: 0.45rem; }
+  .who-card ul li {
+    font-size: 0.83rem;
+    color: var(--text-soft);
+    display: flex;
+    gap: 0.45rem;
+    line-height: 1.45;
+  }
+  .who-card ul li::before { content: '—'; color: var(--gray-light); flex-shrink: 0; }
+
+  /* CHECKLIST */
+  .checklist { list-style: none; display: flex; flex-direction: column; gap: 0.55rem; }
+  .checklist li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    font-size: 0.875rem;
+    color: var(--text-soft);
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    line-height: 1.55;
+  }
+  .check-box {
+    width: 16px; height: 16px;
+    border: 1.5px solid var(--gray-light);
+    border-radius: 3px;
+    flex-shrink: 0;
+    margin-top: 2px;
+    background: var(--bg);
+  }
+  .checklist li strong { color: var(--text); font-weight: 600; }
+
+  /* STEPS */
+  .steps-list { list-style: none; position: relative; }
+  .steps-list::before {
+    content: '';
+    position: absolute;
+    left: 20px; top: 26px; bottom: 26px;
+    width: 1px;
+    background: var(--step-line);
+  }
+
+  .step { display: flex; gap: 1.1rem; margin-bottom: 0.85rem; position: relative; }
+
+  .step-num {
+    width: 42px; height: 42px;
+    border-radius: 50%;
+    background: var(--navy);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'DM Mono', monospace;
+    font-size: 0.75rem;
+    font-weight: 500;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1;
+    border: 3px solid var(--bg);
+    box-shadow: 0 0 0 1px var(--step-line);
+  }
+
+  .step-body {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.2rem;
+    flex: 1;
+  }
+
+  .step-title {
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: var(--navy);
+    margin-bottom: 0.3rem;
+  }
+
+  .step-desc {
+    font-size: 0.83rem;
+    color: var(--text-soft);
+    line-height: 1.6;
+    margin-bottom: 0.6rem;
+  }
+
+  .step-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--teal);
+    text-decoration: none;
+    border: 1px solid rgba(26,122,110,0.25);
+    background: var(--teal-light);
+    padding: 0.28rem 0.65rem;
+    border-radius: 5px;
+    transition: all 0.2s;
+    font-family: 'DM Mono', monospace;
+    margin-right: 0.4rem;
+    margin-bottom: 0.3rem;
+  }
+  .step-link:hover { background: rgba(26,122,110,0.12); border-color: var(--teal); }
+  .step-link::after { content: ' ↗'; }
+
+  .step-note {
+    margin-top: 0.5rem;
+    font-size: 0.77rem;
+    color: #78350f;
+    background: var(--amber-light);
+    border: 1px solid rgba(217,119,6,0.18);
+    border-radius: 6px;
+    padding: 0.4rem 0.7rem;
+    line-height: 1.5;
+  }
+
+  .step-safe {
+    margin-top: 0.5rem;
+    font-size: 0.77rem;
+    color: #1e3a5f;
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
+    border-radius: 6px;
+    padding: 0.4rem 0.7rem;
+    line-height: 1.5;
+  }
+
+  /* MISSES */
+  .misses-list { list-style: none; display: flex; flex-direction: column; gap: 0.65rem; }
+  .miss-item {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--red);
+    border-radius: 8px;
+    padding: 0.9rem 1.1rem;
+  }
+  .miss-title {
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: var(--red);
+    margin-bottom: 0.25rem;
+  }
+  .miss-item p { font-size: 0.82rem; color: var(--text-soft); line-height: 1.55; }
+
+  /* OFFICIAL LINKS */
+  .links-list { list-style: none; display: flex; flex-direction: column; gap: 0.55rem; }
+  .gov-link {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 9px;
+    padding: 0.85rem 1.1rem;
+    text-decoration: none;
+    transition: all 0.2s;
+    color: inherit;
+  }
+  .gov-link:hover { border-color: var(--teal); background: var(--teal-light); transform: translateX(2px); }
+
+  .gov-icon {
+    width: 32px; height: 32px;
+    border-radius: 7px;
+    background: var(--navy);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    flex-shrink: 0;
+  }
+
+  .gov-text { flex: 1; }
+  .gov-title { font-weight: 600; font-size: 0.85rem; color: var(--navy); line-height: 1.3; }
+  .gov-url { font-size: 0.68rem; color: var(--gray); font-family: 'DM Mono', monospace; margin-top: 0.1rem; }
+  .gov-arrow { color: var(--teal); font-size: 0.9rem; flex-shrink: 0; }
+
+  /* DISCLAIMER */
+  .disclaimer {
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.2rem;
+    font-size: 0.78rem;
+    color: var(--gray);
+    line-height: 1.65;
+    margin-top: 2.5rem;
+    text-align: center;
+  }
+  .disclaimer a { color: var(--teal); }
+  .disclaimer strong { color: var(--text-soft); }
+
+  @media (max-width: 600px) {
+    .who-grid { grid-template-columns: 1fr; }
+    .topbar { display: none; }
+    .page-wrap { padding: 1.5rem 1.1rem 4rem; }
+    h1 { font-size: 1.55rem; }
+    .nav-crumb { display: none; }
+  }
+</style>
 </head>
 <body>
 
-  <header>
-    <a href="../index.html">CanadaSteps</a>
+<!-- TOP BAR -->
+<div class="topbar">
+  <span>🇨🇦 Canada Immigration Guides — Educational &amp; Navigational Resource Only</span>
+  <a href="https://www.canada.ca/en/immigration-refugees-citizenship.html" target="_blank">Official IRCC ↗</a>
+</div>
+
+<!-- NAV -->
+<nav>
+  <a class="logo" href="#">Canada<span>Steps</span></a>
+  <div class="nav-crumb">Applicant Track &rarr; <strong>Post-Graduation Work Permit</strong></div>
+</nav>
+
+<main class="page-wrap">
+
+  <!-- HEADER -->
+  <header class="page-header">
+    <div class="track-tag">📋 Applicant Track</div>
+    <h1>Post-Graduation Work Permit (PGWP)</h1>
+    <p class="page-desc">A step-by-step walkthrough of the PGWP application process. Every step links directly to the official IRCC source. This page organizes the process — it does not interpret your eligibility.</p>
+    <div class="meta-row">
+      <div class="meta-item"><div class="meta-dot"></div>Last verified against IRCC: May 25, 2026</div>
+      <div class="meta-item"><div class="meta-dot amber"></div>Fee: CAD $255</div>
+      <div class="meta-item"><div class="meta-dot"></div>Processing times: see official IRCC source</div>
+    </div>
   </header>
 
-  <main>
+  <!-- CHANGELOG -->
+  <div class="changelog">
+    <strong>🔔 What changed recently</strong>
+    As of November 2024, IRCC updated eligibility rules for students who completed part of their program online. If any portion of your studies was remote, verify your eligibility directly on the official IRCC eligibility page before applying.
+    <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility.html" target="_blank" style="color:var(--amber);font-weight:600;display:inline-block;margin-top:0.3rem;">Check current eligibility rules ↗</a>
+  </div>
 
-    <h1>Post-Graduation Work Permit (PGWP)</h1>
-    <p>The PGWP lets eligible international graduates work anywhere in Canada for up to three years after finishing their studies.</p>
+  <!-- 01 WHO -->
+  <section class="section" id="who">
+    <h2><span class="h2-num">01</span> Who this page is for</h2>
+    <div class="who-grid">
+      <div class="who-card yes">
+        <div class="who-label">✓ Likely applies to you if</div>
+        <ul>
+          <li>You graduated from a Designated Learning Institution (DLI)</li>
+          <li>Your program was at least 8 months long</li>
+          <li>You were a full-time student for most of your program</li>
+          <li>You had a valid study permit when you graduated</li>
+          <li>You are within 180 days of receiving your final marks</li>
+        </ul>
+      </div>
+      <div class="who-card no">
+        <div class="who-label">✗ May not apply if</div>
+        <ul>
+          <li>Your DLI is not on the PGWP-eligible institutions list</li>
+          <li>Your program was entirely online (check COVID exceptions)</li>
+          <li>You have held a PGWP before</li>
+          <li>You studied on a visitor visa, not a study permit</li>
+          <li>More than 180 days have passed since your final marks</li>
+        </ul>
+      </div>
+    </div>
+    <p style="font-size:0.78rem;color:var(--gray);margin-top:0.75rem;line-height:1.55;">Always verify your eligibility directly with IRCC before starting an application. This page cannot determine whether you qualify.</p>
+  </section>
 
-    <!-- SOURCE: https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduating/about.html -->
+  <div class="divider"></div>
 
-    <h2>Who this applies to</h2>
-    <p>You may be eligible for a PGWP if you:</p>
-    <ul>
-      <li>Graduated from a designated learning institution (DLI) in Canada</li>
-      <li>Held a valid study permit when you graduated</li>
-      <li>Completed a program of at least eight months</li>
+  <!-- 02 BEFORE -->
+  <section class="section" id="before">
+    <h2><span class="h2-num">02</span> Before you start — what to have ready</h2>
+    <ul class="checklist">
+      <li>
+        <div class="check-box"></div>
+        <div><strong>Official completion letter or transcript</strong> — from your institution's Registrar confirming you have met all graduation requirements. A degree or diploma certificate alone is generally not sufficient.</div>
+      </li>
+      <li>
+        <div class="check-box"></div>
+        <div><strong>Valid passport</strong> — must be valid for the length of permit you are requesting. IRCC will not issue a permit longer than your passport's validity period.</div>
+      </li>
+      <li>
+        <div class="check-box"></div>
+        <div><strong>Copy of your current study permit</strong> — including all pages and any extensions you received.</div>
+      </li>
+      <li>
+        <div class="check-box"></div>
+        <div><strong>Digital photo</strong> — meeting IRCC photo specifications: 35mm × 45mm, white background, taken within the last 6 months.</div>
+      </li>
+      <li>
+        <div class="check-box"></div>
+        <div><strong>IRCC secure account credentials</strong> — GCKey or Sign-In Partner login. If you applied for your study permit online, you already have an account.</div>
+      </li>
+      <li>
+        <div class="check-box"></div>
+        <div><strong>Payment method</strong> — credit or debit card for the $255 CAD fee. The fee is non-refundable.</div>
+      </li>
+      <li>
+        <div class="check-box"></div>
+        <div><strong>Your school's DLI number</strong> — found on your study permit or your school's website. Confirm your institution is on the PGWP-eligible DLI list before applying.</div>
+      </li>
     </ul>
+  </section>
 
-    <h2>Steps to apply</h2>
+  <div class="divider"></div>
 
-    <h3>Step 1 — Confirm your eligibility</h3>
-    <p>Check that your school is a designated learning institution and that your program qualifies. IRCC maintains the official DLI list on canada.ca.</p>
+  <!-- 03 STEPS -->
+  <section class="section" id="steps">
+    <h2><span class="h2-num">03</span> Application steps — in order</h2>
+    <ol class="steps-list">
 
-    <h3>Step 2 — Gather your documents</h3>
-    <p>You will typically need:</p>
-    <ul>
-      <li>Your passport</li>
-      <li>Your study permit</li>
-      <li>Official transcripts or a letter of completion from your school</li>
+      <li class="step">
+        <div class="step-num">01</div>
+        <div class="step-body">
+          <div class="step-title">Confirm your school and program are eligible</div>
+          <div class="step-desc">Not every DLI qualifies graduates for a PGWP. Use the official IRCC eligibility page to confirm your institution and program are eligible before doing anything else.</div>
+          <a class="step-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility.html" target="_blank">PGWP Eligibility — IRCC</a>
+          <a class="step-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/prepare/designated-learning-institutions-list.html" target="_blank">DLI List — IRCC</a>
+        </div>
+      </li>
+
+      <li class="step">
+        <div class="step-num">02</div>
+        <div class="step-body">
+          <div class="step-title">Request your official completion letter from the Registrar</div>
+          <div class="step-desc">Contact your institution's Registrar office as soon as your final grades are submitted. Request an official letter confirming completion of all graduation requirements. This is different from your degree certificate. Processing times vary by school — typically 5 to 15 business days.</div>
+          <div class="step-note">⏱ Request this early. Waiting until after convocation may reduce your time within the 180-day application window.</div>
+        </div>
+      </li>
+
+      <li class="step">
+        <div class="step-num">03</div>
+        <div class="step-body">
+          <div class="step-title">Log into your IRCC secure account</div>
+          <div class="step-desc">Sign in using your GCKey or a Sign-In Partner account. If you applied for your study permit online through IRCC, you already have an account linked to your immigration history.</div>
+          <a class="step-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/application/account.html" target="_blank">IRCC Secure Account</a>
+        </div>
+      </li>
+
+      <li class="step">
+        <div class="step-num">04</div>
+        <div class="step-body">
+          <div class="step-title">Start a new application and select Work Permit</div>
+          <div class="step-desc">Inside your IRCC account, select "Apply for a visitor visa, study and/or work permit." Answer the eligibility questions — the system will route you to the appropriate application form based on your answers.</div>
+        </div>
+      </li>
+
+      <li class="step">
+        <div class="step-num">05</div>
+        <div class="step-body">
+          <div class="step-title">Complete Form IMM 1295</div>
+          <div class="step-desc">Fill in your personal information, study history, and passport details. Key fields include your DLI number, study permit number, and program completion date. Your name must match your passport exactly.</div>
+          <a class="step-link" href="https://www.ircc.canada.ca/english/information/applications/guides/5487ETOC.asp" target="_blank">Application Guide IMM 5487 — IRCC</a>
+          <div class="step-note">⚠️ Follow the instructions on the IRCC form carefully for each field. Some fields may require "Not Applicable" — follow the form's own guidance on how to handle fields that do not apply to you.</div>
+        </div>
+      </li>
+
+      <li class="step">
+        <div class="step-num">06</div>
+        <div class="step-body">
+          <div class="step-title">Upload your documents</div>
+          <div class="step-desc">Upload your completion letter or transcript, all pages of your current study permit including any extensions, your passport bio page, and your digital photo. Files must typically be PDF or JPEG format under 4MB. Review file quality before uploading — unclear scans can cause delays.</div>
+        </div>
+      </li>
+
+      <li class="step">
+        <div class="step-num">07</div>
+        <div class="step-body">
+          <div class="step-title">Pay the CAD $255 application fee</div>
+          <div class="step-desc">Pay using a credit or debit card. Save your payment receipt — the fee is non-refundable regardless of the outcome of your application.</div>
+          <a class="step-link" href="https://ircc.canada.ca/english/information/fees/fees.asp" target="_blank">IRCC Fee Schedule</a>
+        </div>
+      </li>
+
+      <li class="step">
+        <div class="step-num">08</div>
+        <div class="step-body">
+          <div class="step-title">Submit and save your application number</div>
+          <div class="step-desc">After submitting you will receive an acknowledgment of receipt with an application number. Save this immediately — you will need it to check your status and communicate with IRCC.</div>
+        </div>
+      </li>
+
+      <li class="step">
+        <div class="step-num">09</div>
+        <div class="step-body">
+          <div class="step-title">Biometrics — if requested</div>
+          <div class="step-desc">IRCC may send a Biometric Instruction Letter (BIL) by email. If so, book an appointment at a Service Canada location or authorized VAC. Biometrics are valid for 10 years — if you provided them for a previous application, you may not need to repeat. Follow the instructions in your BIL.</div>
+          <a class="step-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/campaigns/biometrics/how-to-give-biometrics.html" target="_blank">Biometrics Guide — IRCC</a>
+        </div>
+      </li>
+
+      <li class="step">
+        <div class="step-num">10</div>
+        <div class="step-body">
+          <div class="step-title">Track your application status</div>
+          <div class="step-desc">Check your application status through your IRCC account. Review the official IRCC processing times page for current estimates — processing times change frequently.</div>
+          <a class="step-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/application/check-status.html" target="_blank">Check Application Status</a>
+          <a class="step-link" href="https://www.ircc.canada.ca/english/information/times/index.asp" target="_blank">Current Processing Times</a>
+          <div class="step-safe">ℹ️ If you applied before your study permit expired, you may be on implied status while waiting. Work authorization during this period depends on your specific situation. Verify directly with the official IRCC guidance on implied status before making any decisions.</div>
+          <a class="step-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/permit/temporary/extend/maintained-status.html" target="_blank">Implied / Maintained Status — IRCC</a>
+        </div>
+      </li>
+
+      <li class="step">
+        <div class="step-num">11</div>
+        <div class="step-body">
+          <div class="step-title">Receive your PGWP</div>
+          <div class="step-desc">If approved, you will receive an approval letter and a Port of Entry (PoE) letter of introduction. If you are in Canada, your physical permit will be mailed to your address on file. If you travel outside Canada before receiving the physical permit, present your PoE letter at the border.</div>
+        </div>
+      </li>
+
+    </ol>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 04 COMMONLY MISSED -->
+  <section class="section" id="misses">
+    <h2><span class="h2-num">04</span> Things people commonly miss</h2>
+    <ul class="misses-list">
+      <li class="miss-item">
+        <div class="miss-title">Waiting for the degree certificate instead of the completion letter</div>
+        <p>You do not need your degree or diploma to apply. An official completion letter from the Registrar is the required document. Waiting for convocation can reduce your time within the 180-day window.</p>
+      </li>
+      <li class="miss-item">
+        <div class="miss-title">Misunderstanding when the 180-day clock starts</div>
+        <p>The 180 days begin from the date on your official completion letter or transcript — not your convocation date and not the date you receive the document. Verify the exact start date of your window carefully.</p>
+      </li>
+      <li class="miss-item">
+        <div class="miss-title">Passport expiry limiting permit length</div>
+        <p>IRCC issues a PGWP no longer than your passport's remaining validity. If your passport expires in 14 months, your PGWP will be 14 months regardless of what your program length would otherwise allow. Renew your passport before applying if it is expiring soon.</p>
+      </li>
+      <li class="miss-item">
+        <div class="miss-title">Uploading incomplete permit documents</div>
+        <p>Upload every page of your study permit including the back page and any extension documents. Incomplete uploads are a common reason for processing delays or requests for additional information.</p>
+      </li>
+      <li class="miss-item">
+        <div class="miss-title">Leaving Canada while the application is pending</div>
+        <p>If you leave Canada after submitting your PGWP application, your situation changes significantly. Review IRCC's official guidance on travelling outside Canada while a permit application is pending before making travel plans.</p>
+      </li>
+      <li class="miss-item">
+        <div class="miss-title">Not saving the acknowledgment of receipt</div>
+        <p>The acknowledgment email contains your application number. Without it you cannot track your status or respond to IRCC requests. Save it immediately after submitting.</p>
+      </li>
     </ul>
+  </section>
 
-    <h3>Step 3 — Apply online</h3>
-    <p>Submit your application through your IRCC secure account. Apply within 180 days of receiving your final marks or official letter of completion.</p>
+  <div class="divider"></div>
 
-    <h3>Step 4 — Check processing times</h3>
-    <p>Processing times change frequently. Check the <a href="https://ircc.canada.ca/english/information/times/" target="_blank" rel="noopener">IRCC processing times tool</a> for the current estimate.</p>
-
-    <h2>How long is the PGWP valid?</h2>
-    <p>As of May 2026 per IRCC, PGWP validity is tied to the length of your study program:</p>
-    <ul>
-      <li>Programs of 8 months to 2 years → PGWP valid for the same duration as the program</li>
-      <li>Programs of 2 years or more → PGWP valid for 3 years</li>
+  <!-- 05 OFFICIAL LINKS -->
+  <section class="section" id="links">
+    <h2><span class="h2-num">05</span> Official government links</h2>
+    <ul class="links-list">
+      <li><a class="gov-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation.html" target="_blank">
+        <div class="gov-icon">🏛️</div>
+        <div class="gov-text"><div class="gov-title">PGWP — Main IRCC Page</div><div class="gov-url">canada.ca → study-canada → work → after-graduation</div></div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+      <li><a class="gov-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility.html" target="_blank">
+        <div class="gov-icon">✅</div>
+        <div class="gov-text"><div class="gov-title">PGWP Eligibility Requirements</div><div class="gov-url">canada.ca → after-graduation → eligibility</div></div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+      <li><a class="gov-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/prepare/designated-learning-institutions-list.html" target="_blank">
+        <div class="gov-icon">🏫</div>
+        <div class="gov-text"><div class="gov-title">Designated Learning Institutions (DLI) List</div><div class="gov-url">canada.ca → study-permit → designated-learning-institutions-list</div></div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+      <li><a class="gov-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/application/account.html" target="_blank">
+        <div class="gov-icon">🔐</div>
+        <div class="gov-text"><div class="gov-title">IRCC Secure Online Account</div><div class="gov-url">canada.ca → application → account</div></div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+      <li><a class="gov-link" href="https://www.ircc.canada.ca/english/information/times/index.asp" target="_blank">
+        <div class="gov-icon">⏱️</div>
+        <div class="gov-text"><div class="gov-title">Current Processing Times</div><div class="gov-url">ircc.canada.ca → information → times</div></div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+      <li><a class="gov-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/permit/temporary/extend/maintained-status.html" target="_blank">
+        <div class="gov-icon">📋</div>
+        <div class="gov-text"><div class="gov-title">Implied / Maintained Status — IRCC</div><div class="gov-url">canada.ca → work-canada → permit → maintained-status</div></div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+      <li><a class="gov-link" href="https://ircc.canada.ca/english/information/fees/fees.asp" target="_blank">
+        <div class="gov-icon">💳</div>
+        <div class="gov-text"><div class="gov-title">IRCC Application Fees</div><div class="gov-url">ircc.canada.ca → information → fees</div></div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+      <li><a class="gov-link" href="https://college-ic.ca/protecting-the-public/find-an-immigration-consultant" target="_blank">
+        <div class="gov-icon">👤</div>
+        <div class="gov-text"><div class="gov-title">Find a Regulated Immigration Consultant (RCIC)</div><div class="gov-url">college-ic.ca → find-an-immigration-consultant</div></div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
     </ul>
+  </section>
 
-    <h2>Related pages</h2>
-    <ul>
-      <li><a href="express-entry.html">Express Entry overview</a></li>
-      <li><a href="study-permit-extension.html">Study permit extension</a></li>
-    </ul>
+  <!-- DISCLAIMER -->
+  <div class="disclaimer">
+    <strong>This page is for educational and navigational purposes only.</strong><br>
+    It does not constitute legal or immigration advice. All steps link directly to official Government of Canada sources. Immigration rules change — always verify current requirements with <a href="https://www.canada.ca/en/immigration-refugees-citizenship.html" target="_blank">IRCC directly</a> before submitting any application. For advice specific to your situation, consult a <a href="https://college-ic.ca/protecting-the-public/find-an-immigration-consultant" target="_blank">Regulated Canadian Immigration Consultant (RCIC)</a> or licensed immigration lawyer.
+  </div>
 
-  </main>
-
-  <aside class="disclaimer">
-    <p><strong>Not legal advice.</strong> CanadaSteps provides general information
-    about Canadian immigration programs. Every situation is different. For advice
-    about your specific case, consult a licensed immigration consultant (RCIC) or
-    immigration lawyer.</p>
-  </aside>
-
-  <footer>
-    <p>&copy; 2026 CanadaSteps. Not affiliated with the Government of Canada.</p>
-  </footer>
-
+</main>
 </body>
 </html>

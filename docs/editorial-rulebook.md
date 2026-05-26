@@ -1,163 +1,308 @@
-# CanadaSteps — Editorial Rulebook
-
-> Authoritative guide for all content written or reviewed on canadasteps.org.  
-> When in doubt, default to clarity over completeness.
-
----
-
-## 1. Mission and voice
-
-CanadaSteps explains Canadian immigration steps in plain language. The voice is:
-
-- **Calm and factual** — not promotional, not alarmist
-- **Direct** — use "you" to address the reader
-- **Neutral** — no opinions on IRCC decisions or policy
-- **Empathetic** — acknowledge that immigration is stressful; never condescending
-
-Avoid: jargon, acronyms without expansion, immigration-lawyer hedging, or bureaucratic passive voice.
+# CanadaSteps — Editorial & Content Rulebook
+**Version:** 1.0  
+**Last updated:** May 25, 2026  
+**Purpose:** Governs every page published on this platform. No exceptions.
 
 ---
 
-## 2. Reading level
+## What This Platform Is
 
-Target Grade 8 (Flesch-Kincaid ≤ 60). Practical rules:
+A calm, operational navigation layer for newcomers to Canada.
 
-- Sentences: 20 words or fewer on average
-- Paragraphs: 3–4 sentences max
-- Prefer common words ("start" over "commence", "need" over "require")
-- Define every acronym on first use: "Post-Graduation Work Permit (PGWP)"
+We organize publicly available government workflows into clear, sequenced steps.  
+We link every claim to its official source.  
+We do not give advice. We do not interpret eligibility. We do not replace lawyers or RCICs.
+
+**Our positioning:**  
+> "Calm operational documentation for newcomers."
 
 ---
 
-## 3. Accuracy and sourcing
+## What This Platform Is Not
 
-### 3.1 One claim, one source
+- Not an immigration advice service
+- Not a legal resource
+- Not a replacement for an RCIC or immigration lawyer
+- Not an AI assistant interpreting your situation
+- Not a forum for legal Q&A
 
-Every factual claim that is not common knowledge must be traceable to one official URL. Acceptable sources:
+---
 
-| Source | Domain |
-|--------|--------|
-| IRCC program pages | ircc.canada.ca |
-| Canada.ca guides | canada.ca |
-| Official regulations | laws-lois.justice.gc.ca |
-| IRCC processing times | ircc.canada.ca/english/information/times |
+## The Four Content Tests
 
-Do not cite: immigration law firm blogs, Reddit, news articles, or unofficial calculators.
+Run every sentence through all four tests before publishing.
 
-### 3.2 Source log
+---
 
-For each page, maintain a corresponding file in `docs/sources-log/<page-slug>.md` with:
+### TEST 1 — Source Test
+> Can I point to an official government page that says this?
+
+- Yes → include it and link the source
+- No → remove the claim, or replace with "verify directly with [official source]"
+
+---
+
+### TEST 2 — Advice Test
+> Does this sentence tell someone what to do in their specific situation?
+
+- Yes → replace with a link to the official guidance page
+- No → proceed
+
+Examples:
+- ❌ "You should apply before your permit expires."
+- ✅ "IRCC guidance on permit extensions: [link]"
+
+---
+
+### TEST 3 — Staleness Test
+> Could this be wrong in 6 months if policy changes?
+
+- Yes → add inline: "Verify current requirements directly with IRCC [link]"
+- No → proceed
+
+Anything involving fees, processing times, eligibility criteria, or document requirements is almost always a yes.
+
+---
+
+### TEST 4 — Interpretation Drift Test
+> Did we accidentally convert conditional government language into definitive statements?
+
+Government source says: *"applicants may be eligible if..."*  
+We must not write: *"you are eligible if..."*
+
+- Restore conditional language
+- Reduce certainty where the source is uncertain
+- Never strip nuance to make copy cleaner
+- If in doubt — defer to the official page entirely
+
+---
+
+## Approved Source Hierarchy
+
+### Primary Sources — Always preferred
+- canada.ca / IRCC official pages
+- CRA (Canada Revenue Agency)
+- Service Canada
+- Provincial government websites
+- Official DLI / university websites
+- Official banking and financial institution pages
+
+### Secondary Sources — Use with caution, always cite
+- Major Canadian financial institutions (RBC, TD, Scotiabank, etc.)
+- Officially licensed organizations (CICC, Law Society, etc.)
+- Well-known immigration publications with traceable sourcing
+
+### Never use as source-of-truth
+- Reddit
+- Quora
+- Facebook groups
+- Random blogs
+- AI-generated content
+- Uncited forum posts
+- SEO content farms
+
+Community content (tips, timelines) may only appear as anecdotal experience — never as procedural fact.
+
+---
+
+## High-Risk Topics — Hard Stops
+
+These topics require minimal text and maximum deferral to official sources.  
+Never write definitive language on these. Link and defer.
+
+| Topic | Write this | Never write this |
+|---|---|---|
+| Work authorization | "Depends on your situation — verify with IRCC [link]" | "You can/cannot work while..." |
+| Implied / maintained status | "Review IRCC guidance [link]" | "Implied status means you can stay because..." |
+| PR eligibility | "See IRCC eligibility requirements [link]" | "You qualify for PR if..." |
+| Tax residency | "CRA determines residency — see their guidance [link]" | "You are a tax resident if..." |
+| Visa refusals | "Consult an RCIC [link]" | Any procedural guidance |
+| Travel while pending | "Review IRCC guidance before travelling [link]" | "It is safe / unsafe to travel because..." |
+| Restoration of status | "Review IRCC restoration guidance [link]" | Any procedural steps |
+| Immigration status transitions | Link to official guidance only | Any interpretive summary |
+
+---
+
+## Page Structure — Required Sections (in order)
+
+Every page must contain the following sections in this order:
 
 ```
-| Claim | Source URL | Date verified |
-|-------|-----------|---------------|
-| PGWP validity matches study permit length | https://... | 2026-05-01 |
-```
-
-### 3.3 Fees and processing times
-
-- **Never paraphrase fee amounts.** Quote the official figure verbatim and link directly.
-- **Processing times change frequently.** Always link to the live IRCC processing times tool rather than stating a number of weeks.
-- Add the note: *Processing times change frequently. Check the [IRCC tool](https://ircc.canada.ca/english/information/times/) for the current estimate.*
-
-### 3.4 Date handling
-
-Do not stamp pages with a publication date. Instead, use inline attribution:
-
-> "As of [Month Year] per IRCC, applicants must…"
-
-When information becomes outdated, add a visible notice at the top of the affected section:
-
-> **Notice:** This section may be outdated. IRCC updated its policy in [Month Year]. We are reviewing this page.
-
-Never silently remove information that may still apply to in-progress applications.
-
----
-
-## 4. Legal disclaimer
-
-CanadaSteps is **not a law firm** and does not provide legal advice.
-
-- Replace "you should" / "you must" with "applicants typically" / "IRCC requires"
-- End every page with the standard disclaimer block (see Section 8)
-- Never tell a reader their specific application will succeed or fail
-
----
-
-## 5. Page structure
-
-Every content page follows this structure:
-
-```
-1. Page title (H1) — plain-language name of the permit or step
-2. One-sentence summary — what this page covers
-3. Who this applies to — eligibility in 2–3 bullet points
-4. Step-by-step section (H2 per major step)
-5. Common questions (FAQ, optional)
-6. Related pages (links)
-7. Disclaimer block
-```
-
-### H1 / H2 / H3 rules
-
-- H1: one per page, matches the page `<title>`
-- H2: major steps or sections only
-- H3: sub-steps or sub-sections within an H2
-- No H4 or deeper — restructure instead
-
----
-
-## 6. Links
-
-- Always use descriptive link text: "IRCC PGWP guide" not "click here"
-- External links (canada.ca, ircc.canada.ca) open in a new tab (`target="_blank" rel="noopener"`)
-- Internal links use relative paths: `../pages/express-entry.html`
-- Check all links before publishing; broken links erode trust
-
----
-
-## 7. Images and media
-
-- Every image needs an `alt` attribute with a meaningful description
-- Do not use stock photos of people — they can misrepresent the audience
-- Infographics must include a text equivalent (table or list) for accessibility
-- No autoplay audio or video
-
----
-
-## 8. Standard disclaimer block
-
-Paste verbatim at the bottom of every page:
-
-```html
-<aside class="disclaimer">
-  <p><strong>Not legal advice.</strong> CanadaSteps provides general information 
-  about Canadian immigration programs. Every situation is different. For advice 
-  about your specific case, consult a licensed immigration consultant (RCIC) or 
-  immigration lawyer.</p>
-</aside>
+1. PAGE STATUS BAR
+2. TRACK TAG
+3. TITLE
+4. ONE-PARAGRAPH DESCRIPTION (what this page is + what it is not)
+5. WHAT THIS PAGE DOES NOT ANSWER
+6. META ROW (last verified date, fee if applicable, processing time link)
+7. WHAT CHANGED RECENTLY (changelog)
+8. WHO THIS IS FOR / NOT FOR
+9. BEFORE YOU START (checklist)
+10. STEPS IN ORDER (with sources)
+11. THINGS PEOPLE COMMONLY MISS (editorial, clearly labeled)
+12. OFFICIAL LINKS (all sources used)
+13. SOURCES LOG (internal — may or may not be shown publicly)
+14. DISCLAIMER
 ```
 
 ---
 
-## 9. Content review checklist
+## Page Status System
 
-Before any page is published or updated, confirm:
+Every page must carry one of these statuses, visible to the user:
 
-- [ ] All claims traced to an official source in the source log
-- [ ] Fees linked directly, not paraphrased
-- [ ] Processing times linked to the live IRCC tool, not stated as a fixed number
-- [ ] Reading level checked (aim for Grade 8)
-- [ ] No legal advice language ("you should", "you will")
-- [ ] Disclaimer block present
-- [ ] All external links open in a new tab
-- [ ] All images have alt text
-- [ ] Source log file updated for this page
+| Status | Meaning | Display |
+|---|---|---|
+| ✅ Verified | Recently reviewed against official source | Green indicator |
+| ⚠️ Needs Review | Policy may have changed — under review | Amber indicator |
+| 🔴 Outdated | Significant rule changes — do not rely on this page | Red banner |
+| 📍 Province-Specific | Applies only in certain provinces — read carefully | Blue indicator |
+
+When IRCC or CRA announces a change, immediately flag affected pages as "Needs Review" until verified.
 
 ---
 
-## 10. Change log
+## Content Labeling Rules
 
-| Date | Change | Author |
-|------|--------|--------|
-| 2026-05-25 | Initial rulebook created | CanadaSteps team |
+Every piece of content must be clearly categorized. Never blur these together.
+
+| Label | What it means | Visual treatment |
+|---|---|---|
+| OFFICIAL REQUIREMENT | Sourced directly from government page | Link to source required |
+| EDITORIAL EXPLANATION | Our plain-language summary of official content | Clearly marked, lighter style |
+| COMMON MISTAKE | Observable pattern — not legal interpretation | Listed separately |
+| ANECDOTAL EXPERIENCE | Community timeline / experience only | Clearly labeled as anecdotal |
+
+---
+
+## Writing Style Rules
+
+**Feel:** Calm. Precise. Humble. Sourced. Operational.
+
+**Not:** Overconfident. Salesy. Sensational. Fear-based. Lawyer-like. SEO-spammy.
+
+| Instead of | Write |
+|---|---|
+| "You have 180 days to apply." | "IRCC states applicants must apply within 180 days of receiving final marks. Verify the current requirement directly with IRCC." |
+| "Everyone gets TFSA room automatically." | "According to CRA, TFSA contribution room accumulates yearly for eligible Canadian residents after age 18. See CRA guidance for full eligibility." |
+| "You can definitely do this." | "Verify directly with IRCC." |
+| "This is always how it works." | "Requirements may change. Verify current rules with IRCC before applying." |
+
+**Key preference:**  
+> "Verify directly with IRCC" over "You can definitely do this."  
+> "Rules may change" over "This is always how it works."
+
+---
+
+## Sources Log Format
+
+Maintained internally for every page. Format for each source:
+
+```
+SOURCE N
+Title: [Page title as it appears on the government site]
+URL: [Full URL]
+Date accessed: [Day Month Year]
+Claims supported:
+  - [Specific claim this source supports]
+  - [Specific claim this source supports]
+Notes: [Any caveats about this source's scope or recency]
+```
+
+One sources log file per page. Stored alongside the page file. Updated every time the page is reviewed.
+
+---
+
+## "What This Page Does Not Answer" — Required Section
+
+Every page must include this near the top. Adapt the specifics per page.
+
+Example for PGWP:
+
+```
+This page does not determine:
+- Whether you are eligible for a PGWP
+- Whether you are authorized to work while waiting
+- Whether travel outside Canada affects your application
+- What to do if your specific situation differs from the standard process
+
+For those questions, review the official IRCC guidance linked on this page
+or consult a Regulated Canadian Immigration Consultant (RCIC).
+```
+
+---
+
+## Review Cadence
+
+| Page type | Minimum review frequency |
+|---|---|
+| Immigration process pages | Every 90 days, or immediately after IRCC announcement |
+| Tax / financial pages | Every 6 months, or immediately after CRA budget changes |
+| Settlement / life admin pages | Every 6 months |
+
+**Review process:**
+1. Visit every linked official source
+2. Confirm steps, fees, and requirements still match
+3. Update "Last verified" date
+4. Update changelog if anything changed
+5. Update sources log with new access date
+
+Set calendar reminders. This is not optional.
+
+---
+
+## Content Scope Rules — Anti-Scope-Creep
+
+No new page is added until:
+- All existing pages are verified and maintained
+- Existing pages show recurring traffic
+- User behavior signals demand for the adjacent topic
+
+No new feature is added until:
+- The core content is validated by real users
+- The feature solves a confirmed user problem
+- The feature does not increase maintenance burden disproportionately
+
+---
+
+## The "What We Intentionally Don't Do" Statement
+
+To be published publicly on the About or FAQ page:
+
+```
+What CanadaSteps does not do:
+
+We do not determine your eligibility for any visa, permit, or program.
+We do not interpret your specific immigration situation.
+We do not provide legal or immigration advice.
+We do not replace a Regulated Canadian Immigration Consultant (RCIC) 
+or a licensed immigration lawyer.
+
+What we do:
+
+We organize publicly available government information into 
+clear, sequenced steps. Every claim links to its official source. 
+Every page shows when it was last verified.
+
+For advice specific to your situation:
+→ Find a Regulated Canadian Immigration Consultant (RCIC)
+   college-ic.ca/protecting-the-public/find-an-immigration-consultant
+```
+
+---
+
+## Failure Modes To Watch For
+
+| Failure mode | Early signal | Response |
+|---|---|---|
+| Interpretation drift | Editorial copy sounds more confident than the official source | Run Test 4 on entire page |
+| Scope creep | New categories added before existing ones are maintained | Enforce scope rules — delay addition |
+| Editorial exhaustion | Review cadence slipping, dates getting stale | Simplify page count before adding content |
+| Trust erosion | User reports wrong information | Immediately flag page, verify, correct, add changelog entry |
+| Community drift | Tips section becoming advice | Remove or lock tips on affected pages |
+| Feature accumulation | New features added without validation | Remove — restore simplicity |
+
+---
+
+*This rulebook governs all content decisions on CanadaSteps.*  
+*It is a living document. Update it when rules are clarified or new risks are identified.*  
+*When in doubt: link to the official source and defer.*
