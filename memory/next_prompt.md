@@ -10,7 +10,11 @@ We are building CanadaSteps (canadasteps.org) — a plain-language immigration g
 
 **Session ended:** May 26, 2026
 
-**Status:** PGWP page complete and live at canadasteps.org/pgwp.html
+**Status:** Both URLs confirmed working:
+- canadasteps.org redirects to pgwp.html
+- canadasteps.org/pgwp.html loads directly
+
+**Share URL:** canadasteps.org
 
 **Last commits:** netlify.toml fix + three user-feedback additions (PR awareness, travel warning, health coverage note)
 
@@ -18,7 +22,7 @@ We are building CanadaSteps (canadasteps.org) — a plain-language immigration g
 **Netlify URL:** hilarious-madeleine-0801d5.netlify.app
 **Custom domain:** canadasteps.org/pgwp.html
 
-**Next task:** Decide page 2 — SIN number guide recommended (see user-feedback/pgwp-feedback-round1.md for rationale)
+**Next task:** Build SIN number guide — page 2
 
 **Key files:**
 - `pgwp.html` — canonical live page (root, not pages/)

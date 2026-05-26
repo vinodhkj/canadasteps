@@ -7,6 +7,7 @@ One entry per working session. Most recent first.
 ## 2026-05-26
 
 May 26 — Three user-feedback improvements live, netlify.toml fixed deployment, PGWP page complete.
+May 26 — Both URLs live, deployment stable, ready for page 2.
 
 ---
 
