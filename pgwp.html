@@ -179,6 +179,45 @@
     margin-bottom: 0.3rem;
   }
 
+  /* REALITY CHECK */
+  .reality-check {
+    background: var(--amber-light);
+    border: 1px solid rgba(217,119,6,0.25);
+    border-left: 4px solid var(--amber);
+    border-radius: 8px;
+    padding: 1rem 1.1rem;
+    margin-bottom: 1.75rem;
+    font-size: 0.84rem;
+    color: #78350f;
+    line-height: 1.6;
+  }
+  .reality-check strong {
+    display: block;
+    font-weight: 700;
+    font-size: 0.82rem;
+    color: #92400e;
+    margin-bottom: 0.55rem;
+  }
+  .reality-check ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-left: 0;
+  }
+  .reality-check ul li {
+    display: flex;
+    gap: 0.5rem;
+    line-height: 1.55;
+  }
+  .reality-check ul li::before {
+    content: '→';
+    flex-shrink: 0;
+    color: var(--amber);
+    font-weight: 600;
+  }
+  .reality-check a { color: #92400e; font-weight: 600; }
+
   /* SECTION */
   .section { margin-bottom: 2rem; }
 
@@ -474,6 +513,16 @@
     <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility.html" target="_blank" style="color:var(--amber);font-weight:600;display:inline-block;margin-top:0.3rem;">Check current eligibility rules ↗</a>
   </div>
 
+  <!-- REALITY CHECK -->
+  <div class="reality-check">
+    <strong>Before you read further — check these first</strong>
+    <ul>
+      <li>Your 180-day window starts from your official completion letter date — not your convocation date and not when you receive the letter.</li>
+      <li>If your study permit expires before you submit your PGWP application, your work authorization while waiting is affected. Verify your specific situation directly with IRCC before making any decisions.</li>
+      <li>Verify current rules: <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility.html" target="_blank">IRCC PGWP Eligibility ↗</a></li>
+    </ul>
+  </div>
+
   <!-- 01 WHO -->
   <section class="section" id="who">
     <h2><span class="h2-num">01</span> Who this page is for</h2>
@@ -587,6 +636,7 @@
         <div class="step-body">
           <div class="step-title">Complete Form IMM 1295</div>
           <div class="step-desc">Fill in your personal information, study history, and passport details. Key fields include your DLI number, study permit number, and program completion date. Your name must match your passport exactly.</div>
+          <div class="step-note" style="margin-bottom:0.5rem;"><strong>Finding your language test in the portal:</strong> The language test upload is not prominently labeled. Look inside the <strong>Client Information</strong> section of the IRCC online application form. If you cannot find it, refer to the IRCC application guide for exact field locations.</div>
           <a class="step-link" href="https://www.ircc.canada.ca/english/information/applications/guides/5487ETOC.asp" target="_blank">Application Guide IMM 5487 — IRCC</a>
           <div class="step-note">⚠️ Follow the instructions on the IRCC form carefully for each field. Some fields may require "Not Applicable" — follow the form's own guidance on how to handle fields that do not apply to you.</div>
         </div>
@@ -633,7 +683,7 @@
           <div class="step-desc">Check your application status through your IRCC account. Review the official IRCC processing times page for current estimates — processing times change frequently.</div>
           <a class="step-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/application/check-status.html" target="_blank">Check Application Status</a>
           <a class="step-link" href="https://www.ircc.canada.ca/english/information/times/index.asp" target="_blank">Current Processing Times</a>
-          <div class="step-safe">ℹ️ If you applied before your study permit expired, you may be on implied status while waiting. Work authorization during this period depends on your specific situation. Verify directly with the official IRCC guidance on implied status before making any decisions.</div>
+          <div class="step-safe">ℹ️ Work authorization while your PGWP is being processed depends on your specific situation. Two conditions that affect this: whether your study permit was still valid when you submitted your application, and whether you were enrolled full-time. These are not the only factors. Verify your work authorization status directly with official IRCC guidance before working.</div>
           <a class="step-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/operational-bulletins-manuals/temporary-residents/visitors/implied-status-extending-stay.html" target="_blank">Implied / Maintained Status — IRCC</a>
         </div>
       </li>
