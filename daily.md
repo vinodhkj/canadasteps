@@ -1,0 +1,50 @@
+# CanadaSteps — Session Log
+
+One entry per working session. Most recent first.
+
+---
+
+## 2026-05-25
+
+**Session goal:** Project bootstrap
+
+**Completed:**
+- Project folder structure created (canadasteps/)
+- CLAUDE.md written with project context and editorial guardrails
+- docs/editorial-rulebook.md written (10 sections)
+- docs/project-status.md created
+- pages/pgwp.html stub created
+- README.md, AGENTS.md, .gitignore created
+- requirements.md, design.md, roadmap.md, risks.md, implementation_plan.md created
+- memory/ files initialized
+- Startup framework applied: Phase 1 challenge completed, risks documented
+
+**Not completed:**
+- Git init (next step)
+- pgwp.html content completion
+- assets/style.css
+- Hosting setup
+
+**Blockers:** None
+
+**Next session start:** See `memory/next_prompt.md`
+
+---
+
+<!-- Template for new entries:
+
+## YYYY-MM-DD
+
+**Session goal:**
+
+**Completed:**
+-
+
+**Not completed:**
+-
+
+**Blockers:**
+
+**Next session start:** See memory/next_prompt.md
+
+-->

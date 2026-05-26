@@ -1,0 +1,38 @@
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node (if build tooling is added later)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python (if scripts use it)
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Build output (if static site generator added later)
+_site/
+dist/
+public/
+
+# Secrets / env (never commit)
+.env
+.env.local
+*.key
+*.pem
+
+# Temporary files
+*.tmp
+*.bak
