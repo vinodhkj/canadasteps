@@ -57,14 +57,20 @@
   nav {
     background: var(--bg-card);
     border-bottom: 1px solid var(--border);
-    padding: 1rem 2rem;
+    padding: 0.75rem 2rem 0.6rem;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 0.35rem;
     position: sticky;
     top: 0;
     z-index: 50;
     box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+  }
+
+  .nav-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .logo {
@@ -84,6 +90,19 @@
     gap: 0.4rem;
   }
   .nav-crumb strong { color: var(--text-soft); font-weight: 600; }
+
+  .nav-links {
+    display: flex;
+    gap: 1.25rem;
+  }
+  .nav-links a {
+    font-size: 0.72rem;
+    color: var(--gray);
+    text-decoration: none;
+    font-family: 'DM Mono', monospace;
+  }
+  .nav-links a:hover { color: var(--teal); }
+  .nav-links a.current { color: var(--teal); font-weight: 500; }
 
   /* PAGE LAYOUT */
   .page-wrap {
@@ -638,8 +657,15 @@
 
 <!-- NAV -->
 <nav>
-  <a class="logo" href="#">Canada<span>Steps</span></a>
-  <div class="nav-crumb">Applicant Track &rarr; <strong>Post-Graduation Work Permit</strong></div>
+  <div class="nav-row">
+    <a class="logo" href="/index.html">Canada<span>Steps</span></a>
+    <div class="nav-crumb">Applicant Track &rarr; <strong>Post-Graduation Work Permit</strong></div>
+  </div>
+  <div class="nav-links">
+    <a href="/index.html">All Guides</a>
+    <a class="current" href="/pgwp.html">PGWP Guide</a>
+    <a href="/sin.html">SIN Guide</a>
+  </div>
 </nav>
 
 <!-- FOUNDER NOTE -->
