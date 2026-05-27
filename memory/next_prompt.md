@@ -43,27 +43,19 @@ https://www.canada.ca/en/employment-social-development/services/sin.html
 
 ---
 
-NEXT TASK — NAVIGATION AND HOMEPAGE
+NEXT TASK — NETLIFY DEPLOYMENT
 
-⚠️ Do not start this task with less than 50% credits.
+Deploy all three pages to Netlify via manual drag-and-drop.
 
-Read only:
-- pgwp.html
-- sin.html
-- index.html
-- memory/current_state.md
-- C:\Projects\SG\CanadaSteps.ca\canadasteps\daily.md
+Steps:
+1. Open Netlify dashboard: hilarious-madeleine-0801d5.netlify.app
+2. Drag the entire canadasteps/ folder onto the deploy drop zone
+3. Verify at canadasteps.org:
+   - / loads index.html homepage (not a redirect)
+   - /pgwp.html loads PGWP guide with nav links
+   - /sin.html loads SIN guide with nav links
+   - Nav links between pages work in both directions
+4. After deploy confirmed: update memory/current_state.md — mark sin.html and index.html as live
 
-Then:
-
-1. Add nav links to pgwp.html and sin.html
-   — link between the two pages in the nav bar
-   — same CSS variables, no redesign
-
-2. Replace index.html with a simple guides homepage
-   — two guide cards: PGWP and SIN, both live
-   — same CSS variables, mobile-first
-   — no new design patterns
-
-Commit: "nav: add guide navigation and simple homepage"
-Update memory/current_state.md and daily.md only.
+Do not edit any HTML files during this task.
+Commit: "ops: post-deploy state update" after confirming live.

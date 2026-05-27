@@ -4,6 +4,15 @@ _Tracks files created or modified each session._
 
 ---
 
+## 2026-05-27 — Guide workflow connections (f373ebb)
+
+**Modified:**
+- `pgwp.html` — added "Next step" transition card linking to /sin.html before disclaimer
+- `sin.html` — added "More guides coming" card before disclaimer
+- `index.html` — added category labels (Study & Graduation / Working in Canada) above guide cards
+
+---
+
 ## 2026-05-27 — Shared agent workflow
 
 **Modified:**

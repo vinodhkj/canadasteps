@@ -16,6 +16,7 @@ May 27 — sin.html v1 built: 9 sections, verified source facts only, pgwp.html 
 May 27 — Navigation added to pgwp.html and sin.html. index.html replaced with two-card guides homepage.
 May 27 — Founder note updated: clearer human tone, affiliation line separated into smaller muted text (index.html, pgwp.html).
 May 27 — Handoff update standard appended to CLAUDE.md.
+May 27 — Guides connected as workflow system: pgwp→SIN next-step card, sin→coming-soon card, index→category labels | f373ebb
 
 ---
 

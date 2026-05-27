@@ -6,14 +6,11 @@ _Updated: 2026-05-27_
 
 Phase 0 — Foundation
 
-## What exists
+## Live pages
 
-- pgwp.html — canonical file at project root (this is the live file)
-- index.html — root redirect to /pgwp.html
-- docs/sources-log/pgwp.md — complete source log, last verified May 26, 2026
-- docs/editorial-rulebook.md — complete
-- user-feedback/pgwp-feedback-round1.md — Round 1 feedback logged
-- Git: initialized, multiple commits from May 26, 2026 session
+- `pgwp.html` — PGWP guide, live at canadasteps.org/pgwp.html
+- `sin.html` — SIN guide, built but NOT YET DEPLOYED
+- `index.html` — guides homepage, built but NOT YET DEPLOYED
 
 ## What works
 
@@ -21,36 +18,36 @@ Phase 0 — Foundation
 - Deployed via Netlify manual drag-and-drop
 - DNS connected and verified May 26, 2026
 - SSL certificate active
-- index.html redirects to /pgwp.html
 
 ## Last change
-May 27 — Shared agent memory workflow added to CLAUDE.md and AGENTS.md.
 
-## What was shipped (May 26 session)
+May 27 — f373ebb — Guides connected as workflow system:
+- pgwp.html: "Next step" card added before disclaimer → links to /sin.html
+- sin.html: "More guides coming" card added before disclaimer
+- index.html: category labels added above each guide card (Study & Graduation / Working in Canada)
 
-- Reality check box (180-day window, work authorization warning)
-- One-PGWP lifetime warning box
-- PGWP timeline at a glance
-- Cost table (fees and processing time)
-- Step 05 portal navigation note for language test upload
-- Step 10 work authorization language clarified
-- Maintained status URL corrected to verified IRCC page
+## Frozen files
+
+- pgwp.html content is frozen — no edits until second user feedback received
+  (nav and transition card additions in this session are exempt as structural, not content)
+
+## What is incomplete
+
+- assets/style.css does not exist — all pages use inline styles
+- sin.html not yet deployed
+- index.html not yet deployed
+- docs/sources-log/sin.md not yet created
+- No automated link-checking
+
+## Immediate next action
+
+Deploy to Netlify: drag canadasteps folder. Deploys pgwp.html, sin.html, index.html, and nav in one push.
 
 ## File structure note
 
 - Canonical pgwp.html is in the PROJECT ROOT
 - pages/pgwp.html has been removed (was a duplicate)
 - Do not recreate pages/pgwp.html
-
-## What is incomplete
-
-- assets/style.css does not exist — both pages use inline styles
-- sin.html not yet deployed — draft only, awaiting review
-- No automated link-checking
-
-## Immediate next action
-
-Deploy to Netlify (drag canadasteps folder). Both guides live, homepage live, nav complete.
 
 ---
 
