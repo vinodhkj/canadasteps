@@ -50,4 +50,33 @@ May 27 — Post-PGWP next steps block added between Step 11 and section 04 (SIN 
 
 ## Immediate next action
 
-SIN guide architecture in progress. Full structure, source map, and ambiguity flags produced. Next step: verify 7 sourcing gaps directly on canada.ca sub-pages before writing any HTML.
+SIN guide architecture complete. Sourcing ambiguities resolved. Ready to write HTML.
+
+---
+
+## SIN guide — verified source facts
+
+Source: canada.ca/en/employment-social-development/services/sin/update.html
+Verified: May 26, 2026
+
+- UPDATE METHOD: Online, by mail, and in-person are all available for temporary residents
+  updating their SIN record. Not in-person only. (Resolves architecture ambiguity.)
+
+- MAINTAINED STATUS (verbatim): "If your SIN is expired, you may continue to work while
+  waiting for your new immigration document if you maintain your status during the processing."
+  Safe to quote directly.
+
+- POST-APPROVAL OBLIGATION (verbatim): "Once IRCC authorizes you to continue working in
+  Canada, you must apply to Service Canada with your new immigration document to update the
+  expiry date on your SIN record." Safe to quote directly.
+
+- EXPIRY DATE MATCHING (verbatim): "The expiry date on both your SIN record and your
+  immigration document must match." Safe to include.
+
+- PROCESSING TIMES: Online — about 5 business days. By mail — about 20 business days.
+  Do not state as fixed — link to official source.
+
+- NO FEE (verbatim): "There is no fee to apply for a SIN." Safe to state.
+
+- REQUIRED DOCUMENT — temporary resident: Primary document is work permit issued by IRCC.
+  Study permit must state "may accept employment" or "may work" in Canada.
