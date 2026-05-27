@@ -192,3 +192,34 @@ To minimize context window usage every session:
 - Do not summarize entire session back to user
 
 Goal: Every session starts in under 30 seconds with next_prompt.md only.
+
+## Handoff Update Standard
+
+After every completed task, update these files before committing:
+
+**memory/current_state.md**
+- Current live pages
+- Latest commit hash
+- What changed
+- What is frozen / should not be edited
+
+**memory/next_prompt.md**
+- Exact next task prompt
+- Files allowed to read
+- Files allowed to edit
+- Explicit do-not-touch items
+
+**memory/changed_files.md**
+- Files changed in this task
+- One-line reason per file
+
+**memory/risks.md**
+- Only update if a new risk, ambiguity, source gap, or unresolved question appears
+- Do not rewrite old risks unnecessarily
+
+**daily.md**
+- Append one concise line: date | task | result | commit hash
+
+Rule: Do not commit unless memory files reflect the repo state.
+
+memory/next_prompt.md is the handoff source of truth between sessions.
