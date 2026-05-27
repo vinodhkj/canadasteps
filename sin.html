@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Social Insurance Number (SIN) — Guide for Temporary Residents | CanadaSteps</title>
+<meta name="description" content="Plain-language guide to applying for a SIN and updating your SIN after your PGWP arrives. Step-by-step, with official Service Canada sources throughout.">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f7f5f0;
+    --bg-card: #ffffff;
+    --bg-soft: #f0ede6;
+    --navy: #1a2640;
+    --navy-mid: #243352;
+    --red: #b91c1c;
+    --teal: #1a7a6e;
+    --teal-light: #e8f5f3;
+    --amber: #d97706;
+    --amber-light: #fef9c3;
+    --green: #166534;
+    --green-light: #dcfce7;
+    --gray: #6b7280;
+    --gray-light: #e5e7eb;
+    --text: #1f2937;
+    --text-soft: #4b5563;
+    --border: #e2ddd4;
+    --step-line: #d4c9b0;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    font-size: 16px;
+  }
+
+  /* TOP BAR */
+  .topbar {
+    background: var(--navy);
+    color: rgba(255,255,255,0.65);
+    font-size: 0.72rem;
+    padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'DM Mono', monospace;
+    letter-spacing: 0.03em;
+  }
+  .topbar a { color: #f0c76a; text-decoration: none; }
+  .topbar a:hover { text-decoration: underline; }
+
+  /* NAV */
+  nav {
+    background: var(--bg-card);
+    border-bottom: 1px solid var(--border);
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+  }
+
+  .logo {
+    font-family: 'Lora', serif;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--navy);
+    text-decoration: none;
+  }
+  .logo span { color: var(--teal); }
+
+  .nav-crumb {
+    font-size: 0.75rem;
+    color: var(--gray);
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  .nav-crumb strong { color: var(--text-soft); font-weight: 600; }
+
+  /* PAGE LAYOUT */
+  .page-wrap {
+    max-width: 740px;
+    margin: 0 auto;
+    padding: 2.5rem 2rem 5rem;
+  }
+
+  /* HEADER */
+  .page-header {
+    margin-bottom: 1.75rem;
+    padding-bottom: 1.75rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .track-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: var(--teal-light);
+    color: var(--teal);
+    border: 1px solid rgba(26,122,110,0.2);
+    padding: 0.25rem 0.75rem;
+    border-radius: 100px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 0.85rem;
+    font-family: 'DM Mono', monospace;
+  }
+
+  h1 {
+    font-family: 'Lora', serif;
+    font-size: clamp(1.6rem, 4vw, 2.2rem);
+    font-weight: 700;
+    color: var(--navy);
+    line-height: 1.25;
+    margin-bottom: 0.6rem;
+    letter-spacing: -0.2px;
+  }
+
+  .page-desc {
+    font-size: 0.95rem;
+    color: var(--text-soft);
+    line-height: 1.7;
+    max-width: 620px;
+  }
+
+  .meta-row {
+    display: flex;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+    margin-top: 1.1rem;
+  }
+
+  .meta-item {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.75rem;
+    color: var(--gray);
+    font-family: 'DM Mono', monospace;
+  }
+
+  .meta-dot {
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    background: var(--teal);
+    flex-shrink: 0;
+  }
+  .meta-dot.amber { background: var(--amber); }
+  .meta-dot.green { background: #16a34a; }
+
+  /* REALITY CHECK */
+  .reality-check {
+    background: var(--amber-light);
+    border: 1px solid rgba(217,119,6,0.25);
+    border-left: 4px solid var(--amber);
+    border-radius: 8px;
+    padding: 1rem 1.1rem;
+    margin-bottom: 1.75rem;
+    font-size: 0.84rem;
+    color: #78350f;
+    line-height: 1.6;
+  }
+  .reality-check strong {
+    display: block;
+    font-weight: 700;
+    font-size: 0.82rem;
+    color: #92400e;
+    margin-bottom: 0.55rem;
+  }
+  .reality-check ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-left: 0;
+  }
+  .reality-check ul li {
+    display: flex;
+    gap: 0.5rem;
+    line-height: 1.55;
+  }
+  .reality-check ul li::before {
+    content: '→';
+    flex-shrink: 0;
+    color: var(--amber);
+    font-weight: 600;
+  }
+  .reality-check a { color: #92400e; font-weight: 600; }
+
+  /* SECTION */
+  .section { margin-bottom: 2rem; }
+
+  h2 {
+    font-family: 'Lora', serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 0.85rem;
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+  }
+
+  .h2-num {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.65rem;
+    background: var(--navy);
+    color: white;
+    padding: 0.18rem 0.45rem;
+    border-radius: 4px;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+  }
+
+  .divider {
+    height: 1px;
+    background: var(--border);
+    margin: 1.75rem 0;
+  }
+
+  /* WHO GRID */
+  .who-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+  }
+
+  .who-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.1rem;
+  }
+  .who-card.yes { border-left: 3px solid #16a34a; }
+  .who-card.no  { border-left: 3px solid var(--red); }
+
+  .who-label {
+    font-size: 0.65rem;
+    font-family: 'DM Mono', monospace;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+  }
+  .who-card.yes .who-label { color: #16a34a; }
+  .who-card.no  .who-label { color: var(--red); }
+
+  .who-card ul { list-style: none; display: flex; flex-direction: column; gap: 0.45rem; }
+  .who-card ul li {
+    font-size: 0.83rem;
+    color: var(--text-soft);
+    display: flex;
+    gap: 0.45rem;
+    line-height: 1.45;
+  }
+  .who-card ul li::before { content: '—'; color: var(--gray-light); flex-shrink: 0; }
+
+  /* DOCUMENT CARDS */
+  .doc-list { list-style: none; display: flex; flex-direction: column; gap: 0.55rem; }
+  .doc-item {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.85rem 1rem;
+  }
+  .doc-item.primary   { border-left: 3px solid var(--teal); }
+  .doc-item.secondary { border-left: 3px solid var(--navy); }
+  .doc-item.rejected  { border-left: 3px solid var(--red); }
+  .doc-label {
+    display: block;
+    font-size: 0.65rem;
+    font-family: 'DM Mono', monospace;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+  }
+  .doc-item.primary   .doc-label { color: var(--teal); }
+  .doc-item.secondary .doc-label { color: var(--navy); }
+  .doc-item.rejected  .doc-label { color: var(--red); }
+  .doc-item p { font-size: 0.83rem; color: var(--text-soft); line-height: 1.55; }
+  .doc-item strong { color: var(--text); font-weight: 600; }
+
+  /* STEPS */
+  .steps-list { list-style: none; position: relative; }
+  .steps-list::before {
+    content: '';
+    position: absolute;
+    left: 20px; top: 26px; bottom: 26px;
+    width: 1px;
+    background: var(--step-line);
+  }
+
+  .step { display: flex; gap: 1.1rem; margin-bottom: 0.85rem; position: relative; }
+
+  .step-num {
+    width: 42px; height: 42px;
+    border-radius: 50%;
+    background: var(--navy);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'DM Mono', monospace;
+    font-size: 0.75rem;
+    font-weight: 500;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1;
+    border: 3px solid var(--bg);
+    box-shadow: 0 0 0 1px var(--step-line);
+  }
+
+  .step-body {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.2rem;
+    flex: 1;
+  }
+
+  .step-title {
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: var(--navy);
+    margin-bottom: 0.3rem;
+  }
+
+  .step-desc {
+    font-size: 0.83rem;
+    color: var(--text-soft);
+    line-height: 1.6;
+    margin-bottom: 0.6rem;
+  }
+
+  .step-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--teal);
+    text-decoration: none;
+    border: 1px solid rgba(26,122,110,0.25);
+    background: var(--teal-light);
+    padding: 0.28rem 0.65rem;
+    border-radius: 5px;
+    transition: all 0.2s;
+    font-family: 'DM Mono', monospace;
+    margin-right: 0.4rem;
+    margin-bottom: 0.3rem;
+  }
+  .step-link:hover { background: rgba(26,122,110,0.12); border-color: var(--teal); }
+  .step-link::after { content: ' ↗'; }
+
+  .step-note {
+    margin-top: 0.5rem;
+    font-size: 0.77rem;
+    color: #78350f;
+    background: var(--amber-light);
+    border: 1px solid rgba(217,119,6,0.18);
+    border-radius: 6px;
+    padding: 0.4rem 0.7rem;
+    line-height: 1.5;
+  }
+
+  .step-safe {
+    margin-top: 0.5rem;
+    font-size: 0.77rem;
+    color: #1e3a5f;
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
+    border-radius: 6px;
+    padding: 0.4rem 0.7rem;
+    line-height: 1.5;
+  }
+
+  /* SIN UPDATE TIMELINE (prominent — teal left accent) */
+  .sin-timeline {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--teal);
+    border-radius: 10px;
+    padding: 1.1rem 1.25rem;
+    margin-bottom: 1rem;
+  }
+  .timeline-title {
+    font-family: 'Lora', serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 0.85rem;
+  }
+  .timeline-list {
+    list-style: none;
+    border-left: 2px solid var(--step-line);
+    margin-left: 0.5rem;
+  }
+  .timeline-item {
+    display: flex;
+    gap: 0.85rem;
+    padding: 0.5rem 0 0.5rem 1rem;
+    position: relative;
+  }
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -5px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: var(--navy);
+    border: 2px solid var(--bg-card);
+    box-shadow: 0 0 0 1px var(--step-line);
+  }
+  .timeline-marker {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--navy);
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 0.15rem 0.45rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+    align-self: flex-start;
+    margin-top: 0.1rem;
+  }
+  .timeline-content {
+    font-size: 0.82rem;
+    color: var(--text-soft);
+    line-height: 1.55;
+  }
+  .timeline-note {
+    margin-top: 0.85rem;
+    font-size: 0.77rem;
+    color: var(--gray);
+    line-height: 1.55;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--border);
+  }
+  .timeline-note a { color: var(--teal); font-weight: 600; text-decoration: none; }
+  .timeline-note a:hover { text-decoration: underline; }
+
+  /* VERBATIM QUOTE */
+  .verbatim-quote {
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
+    border-left: 3px solid #3b82f6;
+    border-radius: 6px;
+    padding: 0.7rem 0.9rem;
+    font-size: 0.8rem;
+    color: #1e3a5f;
+    line-height: 1.6;
+    font-style: italic;
+  }
+  .verbatim-quote cite {
+    display: block;
+    margin-top: 0.35rem;
+    font-style: normal;
+    font-size: 0.68rem;
+    font-family: 'DM Mono', monospace;
+    color: #3b82f6;
+  }
+  .verbatim-quote cite a { color: #3b82f6; text-decoration: none; }
+  .verbatim-quote cite a:hover { text-decoration: underline; }
+
+  /* MAINTAINED STATUS CARD */
+  .maintained-card {
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
+    border-left: 4px solid #3b82f6;
+    border-radius: 8px;
+    padding: 1rem 1.1rem;
+    font-size: 0.84rem;
+    color: #1e3a5f;
+    line-height: 1.6;
+  }
+  .maintained-card strong {
+    display: block;
+    font-weight: 700;
+    font-size: 0.82rem;
+    color: #1e40af;
+    margin-bottom: 0.5rem;
+  }
+  .maintained-card ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+    margin-top: 0.55rem;
+    padding-left: 0;
+  }
+  .maintained-card ul li {
+    display: flex;
+    gap: 0.5rem;
+    line-height: 1.55;
+  }
+  .maintained-card ul li::before {
+    content: '→';
+    flex-shrink: 0;
+    color: #3b82f6;
+    font-weight: 600;
+  }
+  .maintained-card a { color: #1e40af; font-weight: 600; }
+
+  /* MISSES */
+  .misses-list { list-style: none; display: flex; flex-direction: column; gap: 0.65rem; }
+  .miss-item {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--red);
+    border-radius: 8px;
+    padding: 0.9rem 1.1rem;
+  }
+  .miss-title {
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: var(--red);
+    margin-bottom: 0.25rem;
+  }
+  .miss-item p { font-size: 0.82rem; color: var(--text-soft); line-height: 1.55; }
+  .miss-item a { color: var(--teal); font-weight: 600; text-decoration: none; }
+  .miss-item a:hover { text-decoration: underline; }
+
+  /* OFFICIAL LINKS */
+  .links-list { list-style: none; display: flex; flex-direction: column; gap: 0.55rem; }
+  .gov-link {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 9px;
+    padding: 0.85rem 1.1rem;
+    text-decoration: none;
+    transition: all 0.2s;
+    color: inherit;
+  }
+  .gov-link:hover { border-color: var(--teal); background: var(--teal-light); transform: translateX(2px); }
+
+  .gov-icon {
+    width: 32px; height: 32px;
+    border-radius: 7px;
+    background: var(--navy);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    flex-shrink: 0;
+  }
+
+  .gov-text { flex: 1; }
+  .gov-title { font-weight: 600; font-size: 0.85rem; color: var(--navy); line-height: 1.3; }
+  .gov-url { font-size: 0.68rem; color: var(--gray); font-family: 'DM Mono', monospace; margin-top: 0.1rem; }
+  .gov-arrow { color: var(--teal); font-size: 0.9rem; flex-shrink: 0; }
+
+  /* DISCLAIMER */
+  .disclaimer {
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.2rem;
+    font-size: 0.78rem;
+    color: var(--gray);
+    line-height: 1.65;
+    margin-top: 2.5rem;
+    text-align: center;
+  }
+  .disclaimer a { color: var(--teal); }
+  .disclaimer strong { color: var(--text-soft); }
+
+  @media (max-width: 600px) {
+    .who-grid { grid-template-columns: 1fr; }
+    .page-wrap { padding: 1.5rem 1.1rem 4rem; }
+    h1 { font-size: 1.55rem; }
+    .nav-crumb { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <span>🇨🇦 Canada Immigration Guides — Educational &amp; Navigational Resource Only</span>
+  <a href="https://www.canada.ca/en/immigration-refugees-citizenship.html" target="_blank" rel="noopener">Official IRCC ↗</a>
+</div>
+
+<!-- NAV -->
+<nav>
+  <a class="logo" href="#">Canada<span>Steps</span></a>
+  <div class="nav-crumb">Settlement Track &rarr; <strong>Social Insurance Number</strong></div>
+</nav>
+
+<!-- FOUNDER NOTE -->
+<div style="background:var(--bg-soft);border-bottom:1px solid var(--border);padding:0.6rem 2rem;font-size:0.75rem;color:var(--gray);line-height:1.55;text-align:center;">
+  CanadaSteps was built by immigrants who found Canadian government systems genuinely confusing to navigate. We organize publicly available official information into clear practical steps. Not affiliated with the Government of Canada or IRCC. Every step links to an official source. For advice on your situation consult a Regulated Canadian Immigration Consultant.
+</div>
+
+<main class="page-wrap">
+
+  <!-- HEADER -->
+  <header class="page-header">
+    <div class="track-tag">🪪 Settlement Track</div>
+    <h1>Social Insurance Number (SIN)</h1>
+    <p class="page-desc">Step-by-step guidance on applying for a SIN as a temporary resident, and how to update your SIN after your PGWP arrives. Every step links to an official Service Canada source. This page organizes the process — it does not interpret your eligibility.</p>
+    <div class="meta-row">
+      <div class="meta-item"><div class="meta-dot"></div>Last verified: May 27, 2026</div>
+      <div class="meta-item"><div class="meta-dot green"></div>No fee</div>
+      <div class="meta-item"><div class="meta-dot"></div>Source: Service Canada</div>
+    </div>
+  </header>
+
+  <!-- REALITY CHECK -->
+  <div class="reality-check">
+    <strong>Three things to check before reading further</strong>
+    <ul>
+      <li>Your SIN number does not change after you receive your PGWP — only the expiry date on your SIN record is updated at Service Canada. You do not apply for a new SIN.</li>
+      <li>You cannot update your SIN while your PGWP application is pending — but you may continue to work if you applied before your permit expired. Verify your specific situation with IRCC before making any decisions.</li>
+      <li>Email notifications from IRCC are not accepted as a primary document at Service Canada — you need the physical permit or portal-issued document, not the approval email.</li>
+    </ul>
+  </div>
+
+  <!-- 01 WHO THIS IS FOR -->
+  <section class="section" id="who">
+    <h2><span class="h2-num">01</span> Who this page is for</h2>
+    <div class="who-grid">
+      <div class="who-card yes">
+        <div class="who-label">✓ Applies to you if</div>
+        <ul>
+          <li>You hold a study permit stating "may accept employment" or "may work" in Canada</li>
+          <li>You hold a Post-Graduation Work Permit (PGWP)</li>
+          <li>You hold an open work permit or employer-specific work permit</li>
+          <li>You are updating an existing SIN after receiving a new work permit</li>
+        </ul>
+      </div>
+      <div class="who-card no">
+        <div class="who-label">✗ Does not apply if</div>
+        <ul>
+          <li>You are in Canada on a visitor visa only</li>
+          <li>Your study permit does not include work authorization</li>
+          <li>You are a Canadian citizen or permanent resident</li>
+        </ul>
+      </div>
+    </div>
+    <p style="font-size:0.78rem;color:var(--gray);margin-top:0.75rem;line-height:1.55;">Always verify your eligibility directly with Service Canada before applying. This page cannot determine whether you qualify.</p>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 02 REQUIRED DOCUMENTS -->
+  <section class="section" id="documents">
+    <h2><span class="h2-num">02</span> Documents you need</h2>
+    <ul class="doc-list">
+      <li class="doc-item primary">
+        <span class="doc-label">Primary document — required</span>
+        <p><strong>Work permit issued by IRCC</strong> — your PGWP, open work permit, or employer-specific work permit.<br>
+        OR <strong>study permit</strong> that explicitly states "may accept employment" or "may work" in Canada.<br>
+        The permit must be the actual document — not a screenshot and not an email notification.</p>
+      </li>
+      <li class="doc-item secondary">
+        <span class="doc-label">Secondary document — required</span>
+        <p><strong>Passport</strong> (most common), provincial or territorial government-issued photo ID, or other Canadian government-issued photo ID. Must confirm your identity. All documents must be in English or French — bring an authorized translation if not.</p>
+      </li>
+      <li class="doc-item rejected">
+        <span class="doc-label">Not accepted</span>
+        <p>Email notifications from IRCC. If your name differs between documents, you will also need a supporting name-change document (marriage certificate, legal name change order).</p>
+      </li>
+    </ul>
+    <p style="font-size:0.78rem;color:var(--gray);margin-top:0.75rem;line-height:1.55;">Verify the complete document list before applying: <a href="https://www.canada.ca/en/employment-social-development/services/sin/required-documents.html" target="_blank" rel="noopener" style="color:var(--teal);font-weight:600;">Required documents — Service Canada ↗</a></p>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 03 FIRST-TIME APPLICATION -->
+  <section class="section" id="apply">
+    <h2><span class="h2-num">03</span> Applying for a SIN — first time</h2>
+    <ol class="steps-list">
+
+      <li class="step">
+        <div class="step-num">01</div>
+        <div class="step-body">
+          <div class="step-title">Confirm your permit includes work authorization</div>
+          <div class="step-desc">Your study permit must explicitly state "may accept employment" or "may work" in Canada. A PGWP or work permit includes this by default. A study permit without that wording does not qualify. Do not apply until you have the permit in hand.</div>
+        </div>
+      </li>
+
+      <li class="step">
+        <div class="step-num">02</div>
+        <div class="step-body">
+          <div class="step-title">Gather your documents</div>
+          <div class="step-desc">Primary: your work or study permit. Secondary: passport or government-issued photo ID. Have originals ready before you begin, regardless of which method you choose.</div>
+          <a class="step-link" href="https://www.canada.ca/en/employment-social-development/services/sin/required-documents.html" target="_blank" rel="noopener">Required documents — Service Canada</a>
+        </div>
+      </li>
+
+      <li class="step">
+        <div class="step-num">03</div>
+        <div class="step-body">
+          <div class="step-title">Apply online — recommended for most applicants</div>
+          <div class="step-desc">Submit at sin-nas.canada.ca. Your SIN is viewable via My Service Canada Account (MSCA) in about 5 business days. There is no fee to apply for a SIN.</div>
+          <a class="step-link" href="https://sin-nas.canada.ca/en/sin/" target="_blank" rel="noopener">Apply online — Service Canada</a>
+          <div class="step-note">In person at a Service Canada office: SIN issued the same visit if documents are in order. Originals reviewed but not surrendered. Use if you need your SIN urgently. By mail: about 20 business days — not recommended if time-sensitive.</div>
+        </div>
+      </li>
+
+      <li class="step">
+        <div class="step-num">04</div>
+        <div class="step-body">
+          <div class="step-title">Receive your SIN confirmation</div>
+          <div class="step-desc">You receive a confirmation — not a physical card. Your SIN is a 9-digit number. SINs issued to temporary residents begin with 9. This is standard and expected.</div>
+          <div class="step-safe">ℹ️ SINs starting with 9 are issued to all temporary residents authorized to work in Canada. This is normal. It does not restrict your work authorization beyond what is already stated on your permit.</div>
+        </div>
+      </li>
+
+      <li class="step">
+        <div class="step-num">05</div>
+        <div class="step-body">
+          <div class="step-title">Give your SIN number to your employer</div>
+          <div class="step-desc">Your employer needs your SIN before your first pay period. Provide the 9-digit number. There is no card to show. Your employer is required by law to collect your SIN and may not use it for purposes beyond those required by law.</div>
+        </div>
+      </li>
+
+    </ol>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 04 AFTER YOU APPLY -->
+  <section class="section" id="after-apply">
+    <h2><span class="h2-num">04</span> After you apply</h2>
+    <div class="step-body">
+      <div class="step-title">Processing times by method</div>
+      <ul style="list-style:none;display:flex;flex-direction:column;gap:0.55rem;margin-top:0.55rem;padding-left:0;">
+        <li style="display:flex;gap:0.65rem;font-size:0.83rem;color:var(--text-soft);line-height:1.55;align-items:flex-start;">
+          <span style="font-family:'DM Mono',monospace;font-size:0.72rem;font-weight:700;color:var(--teal);background:var(--teal-light);border:1px solid rgba(26,122,110,0.2);padding:0.1rem 0.4rem;border-radius:4px;flex-shrink:0;margin-top:0.15rem;">Online</span>
+          About 5 business days. SIN viewable in My Service Canada Account (MSCA). Recommended.
+        </li>
+        <li style="display:flex;gap:0.65rem;font-size:0.83rem;color:var(--text-soft);line-height:1.55;align-items:flex-start;">
+          <span style="font-family:'DM Mono',monospace;font-size:0.72rem;font-weight:700;color:var(--navy);background:var(--bg-soft);border:1px solid var(--border);padding:0.1rem 0.4rem;border-radius:4px;flex-shrink:0;margin-top:0.15rem;">In person</span>
+          Same visit if documents are in order. Originals reviewed, not surrendered. Use for urgent needs or complex documents.
+        </li>
+        <li style="display:flex;gap:0.65rem;font-size:0.83rem;color:var(--text-soft);line-height:1.55;align-items:flex-start;">
+          <span style="font-family:'DM Mono',monospace;font-size:0.72rem;font-weight:700;color:var(--gray);background:var(--bg-soft);border:1px solid var(--border);padding:0.1rem 0.4rem;border-radius:4px;flex-shrink:0;margin-top:0.15rem;">By mail</span>
+          About 20 business days. Not recommended if you need your SIN before starting work.
+        </li>
+      </ul>
+    </div>
+    <div class="step-safe" style="margin-top:0.65rem;">ℹ️ Service Canada stopped issuing SIN cards in 2014. Your SIN is a number — confirmed via MSCA or a confirmation letter. You give your employer the 9-digit number. No card or physical document is presented.</div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 05 UPDATING SIN AFTER PGWP -->
+  <section class="section" id="update">
+    <h2><span class="h2-num">05</span> Updating your SIN after your PGWP arrives</h2>
+    <p style="font-size:0.875rem;color:var(--text-soft);line-height:1.7;margin-bottom:1rem;">When your PGWP is issued, your SIN number stays the same — but the expiry date on your SIN record must be updated at Service Canada to match your new permit. This is a required step. Online, in person, and by mail are all available for this update.</p>
+
+    <div class="sin-timeline">
+      <h3 class="timeline-title">PGWP-to-SIN update — in order</h3>
+      <ol class="timeline-list">
+        <li class="timeline-item">
+          <div class="timeline-marker">PGWP submitted</div>
+          <div class="timeline-content">Maintained status begins. You cannot update your SIN record yet. If you applied before your study permit expired, you may be able to keep working. Verify your situation with IRCC.</div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-marker">PGWP approved</div>
+          <div class="timeline-content">IRCC issues an approval. Physical permit mailed to your address on file. Wait for the physical document — it is required for the next step.</div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-marker">Physical permit received</div>
+          <div class="timeline-content">Apply to Service Canada — online, in person, or by mail — with your PGWP as the primary document and passport or government ID as secondary. Purpose: update the expiry date on your existing SIN record.</div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-marker">SIN record updated</div>
+          <div class="timeline-content">Your SIN number does not change. The expiry date on the record updates to match your PGWP expiry. Online update: about 5 business days. In person: same visit.</div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-marker">Notify your employer</div>
+          <div class="timeline-content">Your employer needs to know the SIN record expiry date has changed. Your SIN number is unchanged — only the expiry date on file is different.</div>
+        </li>
+      </ol>
+      <div class="timeline-note">
+        Official source: <a href="https://www.canada.ca/en/employment-social-development/services/sin/update.html" target="_blank" rel="noopener">Service Canada — Update your SIN record ↗</a>
+      </div>
+    </div>
+
+    <div class="verbatim-quote">
+      "Once IRCC authorizes you to continue working in Canada, you must apply to Service Canada with your new immigration document to update the expiry date on your SIN record. The expiry date on both your SIN record and your immigration document must match."
+      <cite>— <a href="https://www.canada.ca/en/employment-social-development/services/sin/update.html" target="_blank" rel="noopener">Service Canada — Update your Social Insurance Number record ↗</a></cite>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 06 MAINTAINED STATUS -->
+  <section class="section" id="maintained">
+    <h2><span class="h2-num">06</span> While waiting — maintained status and your SIN</h2>
+    <div class="maintained-card">
+      <strong>What the official source says</strong>
+      "If your SIN is expired, you may continue to work while waiting for your new immigration document if you maintain your status during the processing."
+      <ul>
+        <li>Maintained status applies when you applied to extend your permit before it expired</li>
+        <li>You cannot update your SIN record until your new permit is issued by IRCC</li>
+        <li>Once your PGWP arrives, updating your SIN record is required</li>
+        <li>Verify your specific situation with IRCC before making any employment decisions</li>
+      </ul>
+    </div>
+    <p style="font-size:0.78rem;color:var(--gray);margin-top:0.75rem;line-height:1.55;">
+      Source: <a href="https://www.canada.ca/en/employment-social-development/services/sin/update.html" target="_blank" rel="noopener" style="color:var(--teal);font-weight:600;">Service Canada — Update your SIN record ↗</a> &nbsp;·&nbsp;
+      <a href="https://ircc.canada.ca/english/helpcentre/answer.asp?qnum=1505&top=17" target="_blank" rel="noopener" style="color:var(--teal);font-weight:600;">IRCC helpcentre — expired SIN and maintained status ↗</a>
+    </p>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 07 EMPLOYER SITUATIONS -->
+  <section class="section" id="employer">
+    <h2><span class="h2-num">07</span> Employer situations — what to know</h2>
+    <p style="font-size:0.875rem;color:var(--text-soft);line-height:1.6;margin-bottom:1rem;">These are common situations where employers may be uncertain about SINs starting with 9 or expired SIN records. This section is informational — it is not employment or legal advice. For advice specific to your situation, consult a Regulated Canadian Immigration Consultant.</p>
+    <ul class="misses-list">
+
+      <li class="miss-item">
+        <div class="miss-title">"Your SIN expires next month — you cannot continue working"</div>
+        <p>Your SIN expiry follows your work permit expiry. If you applied to extend your permit before it expired and are on maintained status, you may be able to continue working even with an expired SIN while your application is pending. Verify your situation directly with IRCC. <a href="https://ircc.canada.ca/english/helpcentre/answer.asp?qnum=1505&top=17" target="_blank" rel="noopener">IRCC guidance on expired SIN and maintained status ↗</a></p>
+      </li>
+
+      <li class="miss-item">
+        <div class="miss-title">"A SIN starting with 9 means you are not fully authorized to work"</div>
+        <p>SINs beginning with 9 are the standard SIN issued to all temporary residents authorized to work in Canada. The 9-prefix indicates temporary resident status — it does not limit work authorization beyond what is already stated on the work permit itself.</p>
+      </li>
+
+      <li class="miss-item">
+        <div class="miss-title">"We need to see your SIN card"</div>
+        <p>Service Canada stopped issuing physical SIN cards in 2014. SINs are confirmed by a letter (online: viewable in MSCA). The 9-digit number is the SIN. If written proof is requested, a Service Canada confirmation letter or MSCA printout is the correct document.</p>
+      </li>
+
+      <li class="miss-item">
+        <div class="miss-title">"Your T4 shows an expired SIN — that is a problem at tax time"</div>
+        <p>For temporary residents, a SIN expiry appearing on a T4 is expected when the permit expired during that tax year. This is normal SIN record behaviour. Once you have received your new permit and updated your SIN record at Service Canada, the updated expiry date applies going forward. Employers with questions can review the <a href="https://www.canada.ca/en/employment-social-development/programs/ei/ei-list/ei-employers-sin.html" target="_blank" rel="noopener">Service Canada employer SIN page ↗</a>.</p>
+      </li>
+
+      <li class="miss-item">
+        <div class="miss-title">"We cannot process payroll — your SIN is expired and you are on maintained status"</div>
+        <p>If you applied to extend your permit before it expired and are on maintained status, continued employment may be permitted. Employers can review the <a href="https://www.canada.ca/en/employment-social-development/programs/ei/ei-list/ei-employers-sin.html" target="_blank" rel="noopener">Service Canada employer SIN guidance ↗</a> and IRCC maintained status documentation. For complex employment situations, both parties should seek appropriate professional advice.</p>
+      </li>
+
+    </ul>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 08 COMMON MISTAKES -->
+  <section class="section" id="mistakes">
+    <h2><span class="h2-num">08</span> Common mistakes</h2>
+    <ul class="misses-list">
+
+      <li class="miss-item">
+        <div class="miss-title">Waiting too long after the physical PGWP arrives</div>
+        <p>You cannot update your SIN during maintained status — the physical permit must be in hand first. Once it arrives, update your SIN record as soon as possible. The expiry date on your SIN record and your immigration document must match.</p>
+      </li>
+
+      <li class="miss-item">
+        <div class="miss-title">Not informing the employer after the SIN record is updated</div>
+        <p>When your SIN record is updated, the expiry date on file changes. Your employer needs to know. Your SIN number itself has not changed — only the expiry date.</p>
+      </li>
+
+      <li class="miss-item">
+        <div class="miss-title">Bringing an email from IRCC instead of the actual permit</div>
+        <p>Email notifications from IRCC are not accepted as a primary document at Service Canada. Bring the physical permit or the portal-issued document. Confirm accepted formats on the <a href="https://www.canada.ca/en/employment-social-development/services/sin/required-documents.html" target="_blank" rel="noopener">official required documents page ↗</a> before your visit.</p>
+      </li>
+
+      <li class="miss-item">
+        <div class="miss-title">Applying before the work-authorized permit is in hand</div>
+        <p>You need the actual permit before applying — not an approval email, not a portal notification, not a screenshot. Wait until you have received the physical permit or the portal-issued document that explicitly authorizes work.</p>
+      </li>
+
+    </ul>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 09 OFFICIAL LINKS -->
+  <section class="section" id="links">
+    <h2><span class="h2-num">09</span> Official Service Canada and IRCC links</h2>
+    <ul class="links-list">
+      <li><a class="gov-link" href="https://www.canada.ca/en/employment-social-development/services/sin.html" target="_blank" rel="noopener">
+        <div class="gov-icon">🪪</div>
+        <div class="gov-text"><div class="gov-title">Social Insurance Number — Service Canada</div><div class="gov-url">canada.ca → employment-social-development → services → sin</div></div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+      <li><a class="gov-link" href="https://sin-nas.canada.ca/en/sin/" target="_blank" rel="noopener">
+        <div class="gov-icon">📋</div>
+        <div class="gov-text"><div class="gov-title">Apply for a SIN — Online Portal</div><div class="gov-url">sin-nas.canada.ca → en → sin</div></div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+      <li><a class="gov-link" href="https://www.canada.ca/en/employment-social-development/services/sin/required-documents.html" target="_blank" rel="noopener">
+        <div class="gov-icon">📄</div>
+        <div class="gov-text"><div class="gov-title">Required Documents — SIN Application</div><div class="gov-url">canada.ca → sin → required-documents</div></div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+      <li><a class="gov-link" href="https://www.canada.ca/en/employment-social-development/services/sin/update.html" target="_blank" rel="noopener">
+        <div class="gov-icon">🔄</div>
+        <div class="gov-text"><div class="gov-title">Update Your SIN Record — Service Canada</div><div class="gov-url">canada.ca → sin → update</div></div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+      <li><a class="gov-link" href="https://offices.service.canada.ca/en" target="_blank" rel="noopener">
+        <div class="gov-icon">📍</div>
+        <div class="gov-text"><div class="gov-title">Find a Service Canada Office</div><div class="gov-url">offices.service.canada.ca → en</div></div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+      <li><a class="gov-link" href="https://ircc.canada.ca/english/helpcentre/answer.asp?qnum=1505&top=17" target="_blank" rel="noopener">
+        <div class="gov-icon">ℹ️</div>
+        <div class="gov-text"><div class="gov-title">Expired SIN and Maintained Status — IRCC Helpcentre</div><div class="gov-url">ircc.canada.ca → helpcentre → answer → qnum=1505</div></div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+      <li><a class="gov-link" href="https://www.canada.ca/en/employment-social-development/services/sin/temporary-residents.html" target="_blank" rel="noopener">
+        <div class="gov-icon">🏷️</div>
+        <div class="gov-text"><div class="gov-title">SIN for Temporary Residents — Service Canada</div><div class="gov-url">canada.ca → sin → temporary-residents</div></div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+    </ul>
+  </section>
+
+  <!-- DISCLAIMER -->
+  <div class="disclaimer">
+    <strong>This page is for educational and navigational purposes only.</strong><br>
+    It does not constitute legal or immigration advice. All steps link directly to official Government of Canada sources. Immigration rules change — always verify current requirements with <a href="https://www.canada.ca/en/immigration-refugees-citizenship.html" target="_blank" rel="noopener">IRCC directly</a> before submitting any application. For advice specific to your situation, consult a <a href="https://college-ic.ca/protecting-the-public/find-an-immigration-consultant" target="_blank" rel="noopener">Regulated Canadian Immigration Consultant (RCIC)</a> or licensed immigration lawyer.
+  </div>
+
+</main>
+</body>
+</html>

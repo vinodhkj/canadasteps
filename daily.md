@@ -11,6 +11,7 @@ May 27 — Post-PGWP next steps block added between Step 11 and section 04.
 May 27 — SIN guide next session prompt written and appended to next_prompt.md.
 May 27 — SIN guide architecture produced: 10-section structure, source map, ambiguity flags, employer scenarios, PGWP-to-SIN workflow.
 May 27 — SIN update ambiguities resolved: online update confirmed, maintained status wording verified, processing times and no-fee confirmed.
+May 27 — sin.html v1 built: 9 sections, verified source facts only, pgwp.html visual language, verbatim quotes sourced.
 
 ---
 

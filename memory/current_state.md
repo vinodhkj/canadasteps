@@ -24,7 +24,7 @@ Phase 0 — Foundation
 - index.html redirects to /pgwp.html
 
 ## Last change
-May 27 — Post-PGWP next steps block added between Step 11 and section 04 (SIN update, health coverage, document safety, work authorization proof). Service Canada SIN link included.
+May 27 — sin.html v1 built. 9 sections, 946 lines. Modelled on pgwp.html. All content from verified source facts only.
 
 ## What was shipped (May 26 session)
 
@@ -44,8 +44,8 @@ May 27 — Post-PGWP next steps block added between Step 11 and section 04 (SIN 
 
 ## What is incomplete
 
-- assets/style.css does not exist — pgwp.html uses inline styles
-- No second page published yet
+- assets/style.css does not exist — both pages use inline styles
+- sin.html not yet deployed — draft only, awaiting review
 - No automated link-checking
 
 ## Immediate next action
