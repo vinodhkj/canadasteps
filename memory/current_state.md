@@ -24,7 +24,7 @@ Phase 0 — Foundation
 - index.html redirects to /pgwp.html
 
 ## Last change
-May 27 — sin.html v1 built. 9 sections, 946 lines. Modelled on pgwp.html. All content from verified source facts only.
+May 27 — Shared agent memory workflow added to CLAUDE.md and AGENTS.md.
 
 ## What was shipped (May 26 session)
 
@@ -50,7 +50,7 @@ May 27 — sin.html v1 built. 9 sections, 946 lines. Modelled on pgwp.html. All 
 
 ## Immediate next action
 
-SIN guide architecture complete. Sourcing ambiguities resolved. Ready to write HTML.
+Deploy to Netlify (drag canadasteps folder). Both guides live, homepage live, nav complete.
 
 ---
 

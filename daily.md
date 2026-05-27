@@ -6,12 +6,14 @@ One entry per working session. Most recent first.
 
 ## 2026-05-27
 
+May 27 — Shared agent memory workflow added to CLAUDE.md and AGENTS.md; memory handoff updated.
 May 27 — Travel URL corrected, mobile topbar restored, founder block added, reality-check tone improved.
 May 27 — Post-PGWP next steps block added between Step 11 and section 04.
 May 27 — SIN guide next session prompt written and appended to next_prompt.md.
 May 27 — SIN guide architecture produced: 10-section structure, source map, ambiguity flags, employer scenarios, PGWP-to-SIN workflow.
 May 27 — SIN update ambiguities resolved: online update confirmed, maintained status wording verified, processing times and no-fee confirmed.
 May 27 — sin.html v1 built: 9 sections, verified source facts only, pgwp.html visual language, verbatim quotes sourced.
+May 27 — Navigation added to pgwp.html and sin.html. index.html replaced with two-card guides homepage.
 
 ---
 

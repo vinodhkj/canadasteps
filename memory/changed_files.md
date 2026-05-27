@@ -4,6 +4,18 @@ _Tracks files created or modified each session._
 
 ---
 
+## 2026-05-27 — Shared agent workflow
+
+**Modified:**
+- `canadasteps/CLAUDE.md`
+- `canadasteps/AGENTS.md`
+- `canadasteps/memory/current_state.md`
+- `canadasteps/memory/next_prompt.md`
+- `canadasteps/memory/changed_files.md`
+- `canadasteps/daily.md`
+
+---
+
 ## 2026-05-25 — Initial scaffold
 
 **Created:**

@@ -99,6 +99,43 @@ Boring, maintainable technology. Minimum operational surface. Zero servers to pa
 | `memory/next_prompt.md` | Handover prompt for next session |
 | `memory/rejected_approaches.md` | Settled decisions — do not relitigate |
 
+## Shared Memory Workflow
+
+Before starting work:
+1. Read:
+   - memory/current_state.md
+   - memory/next_prompt.md
+   - memory/risks.md
+   - memory/changed_files.md
+   - daily.md
+
+After completing work:
+1. Update:
+   - memory/current_state.md
+   - memory/next_prompt.md
+   - memory/changed_files.md
+2. Append one concise line to daily.md
+3. Update memory/risks.md only if a new risk or ambiguity is found
+4. Create one clear commit only
+
+## Project Rules
+
+- CanadaSteps is an operational immigrant guidance site
+- Official-source-first
+- No speculative legal advice
+- Minimal diff only
+- Prefer small commits
+- Do not redesign unrelated pages
+- PGWP page is frozen unless explicitly reopened
+- If a source ambiguity exists, stop and log it in memory/risks.md before proceeding
+
+## Agent Coordination
+
+- Claude Code and Codex share the same memory files
+- Never overwrite another agent's handoff notes
+- Preserve append-only history in daily.md
+- Record changed files in memory/changed_files.md
+
 ## When working with Claude on this project
 
 - Before drafting content: ask "What is the official IRCC URL for this claim?"
