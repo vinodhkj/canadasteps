@@ -8,6 +8,7 @@ One entry per working session. Most recent first.
 
 May 27 — Travel URL corrected, mobile topbar restored, founder block added, reality-check tone improved.
 May 27 — Post-PGWP next steps block added between Step 11 and section 04.
+May 27 — SIN guide next session prompt written and appended to next_prompt.md.
 
 ---
 
