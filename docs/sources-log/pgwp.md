@@ -79,3 +79,11 @@ Claims supported:
   - Multiple programs can be combined for longer PGWP
   - Each program must be at least 8 months long
   - Higher language requirement applies if programs differ
+
+SOURCE 11
+Title: Travel outside Canada while your work permit application is in progress — IRCC
+URL: https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/extend/travel-outside-canada.html
+Date accessed: May 27, 2026
+Claims supported:
+  - Travel while PGWP application pending may affect maintained status and re-entry
+  - Leaving Canada during a pending application has consequences (travel miss item)

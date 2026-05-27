@@ -4,6 +4,12 @@ One entry per working session. Most recent first.
 
 ---
 
+## 2026-05-27
+
+May 27 — Travel URL corrected, mobile topbar restored, founder block added, reality-check tone improved.
+
+---
+
 ## 2026-05-26
 
 May 26 — Three user-feedback improvements live, netlify.toml fixed deployment, PGWP page complete.

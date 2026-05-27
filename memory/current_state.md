@@ -24,7 +24,7 @@ Phase 0 — Foundation
 - index.html redirects to /pgwp.html
 
 ## Last change
-Added sourced multi-program combination rule to "Things people commonly miss." SOURCE 10 logged in pgwp.md.
+Four fixes applied May 27: travel URL corrected (SOURCE 11 added), mobile topbar display:none removed, founder block inserted between nav and main, tone of first reality-check bullet improved.
 
 ## What was shipped (May 26 session)
 
