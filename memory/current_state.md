@@ -50,4 +50,4 @@ May 27 — Post-PGWP next steps block added between Step 11 and section 04 (SIN 
 
 ## Immediate next action
 
-Push repo to GitHub for backup. Plan Phase 1 content based on Round 1 user feedback signals.
+SIN guide architecture in progress. Full structure, source map, and ambiguity flags produced. Next step: verify 7 sourcing gaps directly on canada.ca sub-pages before writing any HTML.
