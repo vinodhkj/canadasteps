@@ -21,6 +21,10 @@ Phase 0 — Foundation
 
 ## Last change
 
+May 27 — 090af0e — sin.html founder note updated to match pgwp.html and index.html.
+
+## Previous change
+
 May 27 — f373ebb — Guides connected as workflow system:
 - pgwp.html: "Next step" card added before disclaimer → links to /sin.html
 - sin.html: "More guides coming" card added before disclaimer

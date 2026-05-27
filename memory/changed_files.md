@@ -4,6 +4,13 @@ _Tracks files created or modified each session._
 
 ---
 
+## 2026-05-27 — Founder note fix (090af0e)
+
+**Modified:**
+- `sin.html` — founder note updated to match pgwp.html and index.html (was missed in earlier pass)
+
+---
+
 ## 2026-05-27 — Guide workflow connections (f373ebb)
 
 **Modified:**
