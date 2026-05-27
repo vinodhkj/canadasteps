@@ -7,6 +7,7 @@ One entry per working session. Most recent first.
 ## 2026-05-27
 
 May 27 — Travel URL corrected, mobile topbar restored, founder block added, reality-check tone improved.
+May 27 — Post-PGWP next steps block added between Step 11 and section 04.
 
 ---
 

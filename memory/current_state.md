@@ -1,6 +1,6 @@
 # Current State
 
-_Updated: 2026-05-26_
+_Updated: 2026-05-27_
 
 ## Phase
 
@@ -24,7 +24,7 @@ Phase 0 — Foundation
 - index.html redirects to /pgwp.html
 
 ## Last change
-Four fixes applied May 27: travel URL corrected (SOURCE 11 added), mobile topbar display:none removed, founder block inserted between nav and main, tone of first reality-check bullet improved.
+May 27 — Post-PGWP next steps block added between Step 11 and section 04 (SIN update, health coverage, document safety, work authorization proof). Service Canada SIN link included.
 
 ## What was shipped (May 26 session)
 
