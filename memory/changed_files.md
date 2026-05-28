@@ -3,6 +3,20 @@
 _Tracks files created or modified each session._
 
 ---
+## 2026-05-28 - CRA My Account guide added
+
+**Created:**
+- `cra-account.html` - new CRA My Account guide for international students using existing guide layout and official Canada.ca/CRA links
+
+**Modified:**
+- `index.html` - added CRA My Account Guide card under Money & Taxes
+- `taxes.html` - added related CRA My Account guide transition card before disclaimer
+- `memory/current_state.md` - recorded new CRA My Account page and Cloudflare Pages workflow status
+- `memory/changed_files.md` - recorded files changed in this task
+- `daily.md` - appended concise session log line
+
+---
+
 ## 2026-05-28 - Deployment workflow update
 
 **Modified:**

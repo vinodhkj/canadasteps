@@ -12,6 +12,7 @@ Phase 0 - Foundation
 - `pgwp.html` - PGWP guide, live at canadasteps.ca/pgwp.html
 - `sin.html` - SIN guide, live at canadasteps.ca/sin.html
 - `taxes.html` - tax filing guide, built but NOT YET DEPLOYED
+- `cra-account.html` - CRA My Account guide, built but NOT YET DEPLOYED
 
 ## What works
 
@@ -24,7 +25,7 @@ Phase 0 - Foundation
 
 ## Last change
 
-May 28 - CRA certified software link corrected in taxes.html. taxes.html still needs deploy with the rest of the guide update.
+May 28 - CRA My Account guide added. Homepage includes the new guide card and taxes.html links to it from related guides. Production workflow remains Local -> GitHub -> Cloudflare Pages -> canadasteps.ca.
 
 ## Previous change
 
@@ -43,7 +44,7 @@ May 27 - Editorial trust pass: nav anchored with 2px navy border, logo enlarged,
 
 ## Immediate next action
 
-Review final proportional polish on desktop and mobile, then deploy if approved.
+Push main to GitHub; Cloudflare Pages should auto-deploy taxes.html and cra-account.html to canadasteps.ca.
 
 ## File structure note
 

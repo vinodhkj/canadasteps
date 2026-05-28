@@ -1,0 +1,649 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CRA My Account Guide for International Students | CanadaSteps</title>
+<meta name="description" content="Practical CRA My Account guide for international students in Canada. Learn what it is, when students may need it, and how to register safely using official CRA links.">
+<style>
+  :root {
+    --bg: #f7f5f0;
+    --bg-card: #ffffff;
+    --bg-soft: #f0ede6;
+    --navy: #1a2640;
+    --navy-mid: #243352;
+    --red: #b91c1c;
+    --teal: #166b61;
+    --teal-light: #e7f1ef;
+    --amber: #d97706;
+    --amber-light: #fef9c3;
+    --green: #166534;
+    --green-light: #dcfce7;
+    --gray: #6b7280;
+    --gray-light: #e5e7eb;
+    --text: #1f2937;
+    --text-soft: #4b5563;
+    --border: #e2ddd4;
+    --step-line: #d4c9b0;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    font-size: 17px;
+  }
+
+  /* TOP BAR */
+  .topbar {
+    background: var(--navy);
+    color: rgba(255,255,255,0.65);
+    font-size: 0.74rem;
+    padding: 0.45rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .topbar a { color: #f0c76a; text-decoration: none; }
+  .topbar a:hover { text-decoration: underline; }
+
+  /* NAV */
+  nav {
+    background: var(--bg-card);
+    border-bottom: 2px solid var(--navy);
+    padding: 0.9rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }
+
+  .nav-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--navy);
+    text-decoration: none;
+    letter-spacing: -0.3px;
+  }
+  .logo span { color: var(--teal); }
+
+  .nav-crumb {
+    font-size: 0.75rem;
+    color: var(--gray);
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  .nav-crumb strong { color: var(--text-soft); font-weight: 600; }
+
+  .nav-links {
+    display: flex;
+    gap: 1.25rem;
+  }
+  .nav-links a {
+    font-size: 0.86rem;
+    color: var(--gray);
+    text-decoration: none;
+  }
+  .nav-links a:hover { color: var(--teal); }
+  .nav-links a.current { color: var(--teal); font-weight: 500; }
+
+  /* PAGE LAYOUT */
+  .page-wrap {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 2.25rem 2.25rem 4.5rem;
+  }
+
+  /* HEADER */
+  .page-header {
+    margin-bottom: 1.45rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .track-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: var(--teal-light);
+    color: var(--teal);
+    border: 1px solid rgba(22,107,97,0.2);
+    padding: 0.25rem 0.75rem;
+    border-radius: 100px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 0.85rem;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  }
+
+  h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.6rem, 4vw, 2.2rem);
+    font-weight: 700;
+    color: var(--navy);
+    line-height: 1.25;
+    margin-bottom: 0.6rem;
+    letter-spacing: -0.2px;
+  }
+
+  .page-desc {
+    font-size: 1rem;
+    color: var(--text-soft);
+    line-height: 1.7;
+    max-width: 620px;
+  }
+
+  .meta-row {
+    display: flex;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+    margin-top: 1.1rem;
+  }
+
+  .meta-item {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.75rem;
+    color: var(--gray);
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  }
+
+  .meta-dot {
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    background: var(--teal);
+    flex-shrink: 0;
+  }
+  .meta-dot.amber { background: var(--amber); }
+  .meta-dot.green { background: #16a34a; }
+
+  /* REALITY CHECK */
+  .reality-check {
+    background: var(--amber-light);
+    border: 1px solid rgba(217,119,6,0.25);
+    border-left: 4px solid var(--amber);
+    border-radius: 8px;
+    padding: 1rem 1.1rem;
+    margin-bottom: 1.45rem;
+    font-size: 0.84rem;
+    color: #78350f;
+    line-height: 1.6;
+  }
+  .reality-check strong {
+    display: block;
+    font-weight: 700;
+    font-size: 0.82rem;
+    color: #92400e;
+    margin-bottom: 0.55rem;
+  }
+  .reality-check ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-left: 0;
+  }
+  .reality-check ul li {
+    display: flex;
+    gap: 0.5rem;
+    line-height: 1.55;
+  }
+  .reality-check ul li::before {
+    content: 'â†’';
+    flex-shrink: 0;
+    color: var(--amber);
+    font-weight: 600;
+  }
+  .reality-check a { color: #92400e; font-weight: 600; }
+
+  /* SECTION */
+  .section { margin-bottom: 1.65rem; }
+
+  h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 0.85rem;
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+  }
+
+  .h2-num {
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    font-size: 0.65rem;
+    background: var(--navy);
+    color: white;
+    padding: 0.18rem 0.45rem;
+    border-radius: 4px;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+  }
+
+  .divider {
+    height: 1px;
+    background: var(--border);
+    margin: 1.4rem 0;
+  }
+
+  /* CHECKLIST */
+  .checklist { list-style: none; display: flex; flex-direction: column; gap: 0.55rem; }
+  .checklist li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    font-size: 0.875rem;
+    color: var(--text-soft);
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    line-height: 1.55;
+  }
+  .check-box {
+    width: 16px; height: 16px;
+    border: 1.5px solid var(--gray-light);
+    border-radius: 3px;
+    flex-shrink: 0;
+    margin-top: 2px;
+    background: var(--bg);
+  }
+  .checklist li strong { color: var(--text); font-weight: 600; }
+
+  /* STEPS */
+  .steps-list { list-style: none; position: relative; }
+  .steps-list::before {
+    content: '';
+    position: absolute;
+    left: 20px; top: 26px; bottom: 26px;
+    width: 1px;
+    background: var(--step-line);
+  }
+
+  .step { display: flex; gap: 1.1rem; margin-bottom: 0.85rem; position: relative; }
+
+  .step-num {
+    width: 42px; height: 42px;
+    border-radius: 50%;
+    background: var(--navy);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    font-size: 0.75rem;
+    font-weight: 500;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1;
+    border: 3px solid var(--bg);
+    box-shadow: 0 0 0 1px var(--step-line);
+  }
+
+  .step-body {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.2rem;
+    flex: 1;
+  }
+
+  .step-title {
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: var(--navy);
+    margin-bottom: 0.3rem;
+  }
+
+  .step-desc {
+    font-size: 0.83rem;
+    color: var(--text-soft);
+    line-height: 1.6;
+    margin-bottom: 0.6rem;
+  }
+
+  .step-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--teal);
+    text-decoration: none;
+    border: 1px solid rgba(22,107,97,0.25);
+    background: var(--teal-light);
+    padding: 0.28rem 0.65rem;
+    border-radius: 5px;
+    transition: all 0.2s;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    margin-right: 0.4rem;
+    margin-bottom: 0.3rem;
+  }
+  .step-link:hover { background: rgba(22,107,97,0.12); border-color: var(--teal); }
+  .step-link::after { content: ' â†—'; }
+
+  .step-note {
+    margin-top: 0.5rem;
+    font-size: 0.77rem;
+    color: #78350f;
+    background: var(--amber-light);
+    border: 1px solid rgba(217,119,6,0.18);
+    border-radius: 6px;
+    padding: 0.4rem 0.7rem;
+    line-height: 1.5;
+  }
+
+  .step-safe {
+    margin-top: 0.5rem;
+    font-size: 0.77rem;
+    color: #1e3a5f;
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
+    border-radius: 6px;
+    padding: 0.4rem 0.7rem;
+    line-height: 1.5;
+  }
+
+  /* MISSES */
+  .misses-list { list-style: none; display: flex; flex-direction: column; gap: 0.65rem; }
+  .miss-item {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--red);
+    border-radius: 8px;
+    padding: 0.9rem 1.1rem;
+  }
+  .miss-title {
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: var(--red);
+    margin-bottom: 0.25rem;
+  }
+  .miss-item p { font-size: 0.82rem; color: var(--text-soft); line-height: 1.55; }
+
+  /* OFFICIAL LINKS */
+  .links-list { list-style: none; display: flex; flex-direction: column; gap: 0.55rem; }
+  .gov-link {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 9px;
+    padding: 0.85rem 1.1rem;
+    text-decoration: none;
+    transition: all 0.2s;
+    color: inherit;
+  }
+  .gov-link:hover { border-color: var(--teal); background: var(--teal-light); transform: translateX(2px); }
+
+  .gov-icon {
+    width: 32px; height: 32px;
+    border-radius: 5px;
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    color: var(--navy);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.82rem;
+    flex-shrink: 0;
+  }
+
+  .gov-text { flex: 1; }
+  .gov-title { font-weight: 600; font-size: 0.85rem; color: var(--navy); line-height: 1.3; }
+  .gov-url { font-size: 0.68rem; color: var(--gray); font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; margin-top: 0.1rem; }
+  .gov-arrow { color: var(--teal); font-size: 0.9rem; flex-shrink: 0; }
+
+  /* DISCLAIMER */
+  .disclaimer {
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.2rem;
+    font-size: 0.78rem;
+    color: var(--gray);
+    line-height: 1.65;
+    margin-top: 2.5rem;
+    text-align: center;
+  }
+  .disclaimer a { color: var(--teal); }
+  .disclaimer strong { color: var(--text-soft); }
+
+  .site-footer {
+    margin: 0;
+    padding: 1.35rem 0 2rem;
+    background: var(--bg-soft);
+    border-top: 1px solid var(--border);
+    color: var(--gray);
+    font-size: 0.72rem;
+    line-height: 1.6;
+  }
+  .site-footer-inner {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 0 2.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+  .site-footer a { color: var(--teal); text-decoration: none; }
+  .site-footer a:hover { text-decoration: underline; }
+  .footer-links { display: flex; flex-wrap: wrap; gap: 0.8rem; }
+
+  @media (max-width: 600px) {
+    body { font-size: 16px; }
+    .page-wrap { padding: 1.5rem 1.1rem 4rem; }
+    .site-footer { padding: 1.2rem 0 2rem; }
+    .site-footer-inner { padding: 0 1.1rem; }
+    h1 { font-size: 1.55rem; }
+    .nav-crumb { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <span>Canada Immigration Guides â€” Educational &amp; Navigational Resource Only</span>
+  <a href="https://www.canada.ca/en/revenue-agency.html" target="_blank" rel="noopener">Official CRA â†—</a>
+</div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-row">
+    <a class="logo" href="/index.html">Canada<span>Steps</span></a>
+    <div class="nav-crumb">Money &amp; Taxes &rarr; <strong>CRA My Account</strong></div>
+  </div>
+  <div class="nav-links">
+    <a href="/index.html">All Guides</a>
+    <a href="/pgwp.html">PGWP Guide</a>
+    <a href="/sin.html">SIN Guide</a>
+    <a href="/taxes.html">Tax Guide</a>
+  </div>
+</nav>
+
+<!-- FOUNDER NOTE -->
+<div style="border-bottom:1px solid var(--border);padding:0.5rem 2rem;font-size:0.75rem;color:var(--gray);line-height:1.55;">
+  Built by a newcomer to Canada who spent too many hours trying to piece together immigration steps from scattered government pages. Everything here links directly to official sources. No legal advice. No guesswork.
+  <span style="display:block;margin-top:0.25rem;font-size:0.68rem;opacity:0.75;">Not affiliated with IRCC or the Government of Canada.</span>
+</div>
+
+<main class="page-wrap">
+
+  <!-- 01 HEADER -->
+  <header class="page-header">
+    <div class="track-tag">Money &amp; Taxes</div>
+    <h1>CRA My Account Guide for International Students</h1>
+    <p class="page-desc">Learn what CRA My Account is, when international students may need it, and how to avoid common setup mistakes.</p>
+    <p style="font-size:0.78rem;color:var(--gray);margin-top:0.65rem;line-height:1.55;">Always use the official CRA website when signing in or registering.</p>
+    <div class="meta-row">
+      <div class="meta-item"><div class="meta-dot"></div>Last reviewed: May 2026</div>
+      <div class="meta-item"><div class="meta-dot"></div>Source: Canada Revenue Agency</div>
+    </div>
+  </header>
+
+  <!-- 02 REALITY CHECK BOX -->
+  <div class="reality-check">
+    <strong>Before you register</strong>
+    <ul>
+      <li>CRA My Account is for tax and benefit information.</li>
+      <li>It is different from your IRCC account and My Service Canada Account.</li>
+      <li>Some students may not be able to register until they have filed a tax return.</li>
+      <li>Never sign in from random links in emails or messages.</li>
+    </ul>
+  </div>
+
+  <!-- 03 WHAT CRA MY ACCOUNT IS -->
+  <section class="section" id="what-it-is">
+    <h2><span class="h2-num">01</span> What CRA My Account is</h2>
+    <div class="step-body">
+      <p class="step-desc">CRA My Account is online access to personal tax and benefit information held by the Canada Revenue Agency.</p>
+      <p class="step-desc">Students may use it to view a Notice of Assessment, check filed tax returns, manage direct deposit, update an address, and read CRA mail.</p>
+      <p class="step-desc" style="margin-bottom:0;">It is not the same as an immigration account. It does not replace your IRCC account, study permit records, or work permit records.</p>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 04 WHEN STUDENTS MAY NEED IT -->
+  <section class="section" id="when-needed">
+    <h2><span class="h2-num">02</span> When students may need it</h2>
+    <div class="step-body" style="margin-bottom:0.65rem;">
+      <div class="step-title">After filing a tax return</div>
+      <div class="step-desc" style="margin-bottom:0;">CRA My Account can help you check records after CRA has processed your return.</div>
+    </div>
+    <div class="step-body" style="margin-bottom:0.65rem;">
+      <div class="step-title">To view a Notice of Assessment</div>
+      <div class="step-desc" style="margin-bottom:0;">Your Notice of Assessment is CRA's summary after a return is assessed.</div>
+    </div>
+    <div class="step-body" style="margin-bottom:0.65rem;">
+      <div class="step-title">To update address or direct deposit</div>
+      <div class="step-desc" style="margin-bottom:0;">Keep contact and banking details current if CRA asks you to manage them online.</div>
+    </div>
+    <div class="step-body" style="margin-bottom:0.65rem;">
+      <div class="step-title">To check CRA mail</div>
+      <div class="step-desc" style="margin-bottom:0;">CRA may send notices, requests, or account updates through your online account.</div>
+    </div>
+    <div class="step-body">
+      <div class="step-title">To manage personal tax information</div>
+      <div class="step-desc" style="margin-bottom:0;">Use the account for tax records and benefit information, not immigration applications.</div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 05 BEFORE YOU REGISTER -->
+  <section class="section" id="before-register">
+    <h2><span class="h2-num">03</span> Before you register</h2>
+    <ul class="checklist">
+      <li><div class="check-box"></div><div><strong>SIN</strong> — your Social Insurance Number is used to identify your CRA tax record.</div></li>
+      <li><div class="check-box"></div><div><strong>Date of birth</strong> — use the same personal details that CRA has on file.</div></li>
+      <li><div class="check-box"></div><div><strong>Current Canadian mailing address</strong> — CRA may use your address during registration or for mailed security codes.</div></li>
+      <li><div class="check-box"></div><div><strong>Information from your most recent assessed tax return</strong> — if CRA asks for it, use details from a return that has already been assessed.</div></li>
+      <li><div class="check-box"></div><div><strong>Access to phone or email for multi-factor authentication</strong> — plan for the device or inbox you can reliably access.</div></li>
+      <li><div class="check-box"></div><div><strong>Time to wait for a CRA security code if required</strong> — some users must wait for a mailed code before full access is active.</div></li>
+    </ul>
+    <div class="step-note">CRA says users registering with a CRA user ID and password or a Sign-In Partner generally must have filed taxes for the current or previous tax year. Check the <a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/register-cra-sign-in-services.html" target="_blank" rel="noopener">official CRA registration page</a> before you start.</div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 06 STEPS IN ORDER -->
+  <section class="section" id="steps">
+    <h2><span class="h2-num">04</span> Steps in order</h2>
+    <ol class="steps-list">
+      <li class="step"><div class="step-num">01</div><div class="step-body"><div class="step-title">Go to the official CRA sign-in page</div><div class="step-desc">Start from Canada.ca, not a search ad, email link, or message link.</div><a class="step-link" href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services.html" target="_blank" rel="noopener">CRA account sign-in page</a></div></li>
+      <li class="step"><div class="step-num">02</div><div class="step-body"><div class="step-title">Choose register or sign in</div><div class="step-desc">If you already have access, sign in. If not, follow CRA's registration option.</div></div></li>
+      <li class="step"><div class="step-num">03</div><div class="step-body"><div class="step-title">Choose CRA user ID/password or Sign-In Partner if available</div><div class="step-desc">CRA offers more than one sign-in route. Availability depends on CRA's current options and your situation.</div></div></li>
+      <li class="step"><div class="step-num">04</div><div class="step-body"><div class="step-title">Verify your identity</div><div class="step-desc">Enter the personal and tax information CRA asks for. Use details exactly as they appear in your CRA records.</div></div></li>
+      <li class="step"><div class="step-num">05</div><div class="step-body"><div class="step-title">Set up multi-factor authentication</div><div class="step-desc">Choose an MFA method you can keep access to. Losing access to the device or method can lock you out.</div></div></li>
+      <li class="step"><div class="step-num">06</div><div class="step-body"><div class="step-title">Wait for or enter the CRA security code if required</div><div class="step-desc">CRA may mail a security code before you receive full access. Watch your mail and enter the code before it expires.</div></div></li>
+      <li class="step"><div class="step-num">07</div><div class="step-body"><div class="step-title">Check My Account after access is active</div><div class="step-desc">Once access is active, review your address, direct deposit, CRA mail, and available tax documents.</div></div></li>
+    </ol>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 07 COMMON MISTAKES -->
+  <section class="section" id="mistakes">
+    <h2><span class="h2-num">05</span> Common mistakes</h2>
+    <ul class="misses-list">
+      <li class="miss-item"><div class="miss-title">Confusing CRA My Account with an IRCC account</div><p>CRA My Account is for tax and benefit records. Immigration applications and messages belong in your IRCC account.</p></li>
+      <li class="miss-item"><div class="miss-title">Trying to register before filing any tax return</div><p>Some students may not be able to register until CRA has assessed a return for the current or previous tax year.</p></li>
+      <li class="miss-item"><div class="miss-title">Using unofficial links from search ads or emails</div><p>Start from Canada.ca and check the address bar before entering personal information.</p></li>
+      <li class="miss-item"><div class="miss-title">Entering old address information</div><p>CRA may compare your answers with records it already has. Old or inconsistent address details can cause problems.</p></li>
+      <li class="miss-item"><div class="miss-title">Ignoring CRA security code mail</div><p>If CRA mails a code, full account access may depend on entering it before it expires.</p></li>
+      <li class="miss-item"><div class="miss-title">Losing access to your MFA device</div><p>Keep your multi-factor authentication method current so you do not lose account access.</p></li>
+      <li class="miss-item"><div class="miss-title">Sharing your CRA login with someone else</div><p>Your CRA account contains sensitive tax and identity information. Do not share your login details.</p></li>
+    </ul>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 08 OFFICIAL LINKS -->
+  <section class="section" id="links">
+    <h2><span class="h2-num">06</span> Official links</h2>
+    <ul class="links-list">
+      <li><a class="gov-link" href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services.html" target="_blank" rel="noopener"><div class="gov-icon">CA</div><div class="gov-text"><div class="gov-title">CRA account sign-in page</div><div class="gov-url">canada.ca → revenue-agency → cra-login-services</div></div><div class="gov-arrow">↗</div></a></li>
+      <li><a class="gov-link" href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/register-cra-sign-in-services.html" target="_blank" rel="noopener"><div class="gov-icon">CA</div><div class="gov-text"><div class="gov-title">Register for a CRA account</div><div class="gov-url">canada.ca → revenue-agency → register-cra-sign-in-services</div></div><div class="gov-arrow">↗</div></a></li>
+      <li><a class="gov-link" href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services.html" target="_blank" rel="noopener"><div class="gov-icon">CA</div><div class="gov-text"><div class="gov-title">CRA account help</div><div class="gov-url">canada.ca → revenue-agency → help-cra-sign-in-services</div></div><div class="gov-arrow">↗</div></a></li>
+      <li><a class="gov-link" href="https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-individuals/account-individuals/about-account.html" target="_blank" rel="noopener"><div class="gov-icon">CA</div><div class="gov-text"><div class="gov-title">About My Account</div><div class="gov-url">canada.ca → revenue-agency → account-individuals → about-account</div></div><div class="gov-arrow">↗</div></a></li>
+      <li><a class="gov-link" href="https://www.canada.ca/en/government/sign-in-online-account.html" target="_blank" rel="noopener"><div class="gov-icon">CA</div><div class="gov-text"><div class="gov-title">Government of Canada online accounts</div><div class="gov-url">canada.ca → government → sign-in-online-account</div></div><div class="gov-arrow">↗</div></a></li>
+    </ul>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 09 WHAT COMES NEXT -->
+  <section class="section" id="next-steps">
+    <h2><span class="h2-num">07</span> What comes next</h2>
+    <div style="background:var(--teal-light);border:1px solid rgba(22,107,97,0.2);border-radius:10px;padding:1.25rem 1.5rem;margin-bottom:0.85rem;">
+      <div style="font-size:0.65rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--teal);font-family:&quot;SFMono-Regular&quot;,Consolas,&quot;Liberation Mono&quot;,monospace;margin-bottom:0.5rem;">Related guide</div>
+      <p style="font-size:0.875rem;color:var(--text-soft);line-height:1.65;margin-bottom:0.75rem;">Need to file your first Canadian tax return as an international student? Start with the tax filing guide.</p>
+      <a href="/taxes.html" style="font-size:0.78rem;font-weight:600;color:var(--teal);font-family:&quot;SFMono-Regular&quot;,Consolas,&quot;Liberation Mono&quot;,monospace;text-decoration:none;">Tax Filing Guide →</a>
+    </div>
+    <div style="background:var(--teal-light);border:1px solid rgba(22,107,97,0.2);border-radius:10px;padding:1.25rem 1.5rem;margin-bottom:1.5rem;">
+      <div style="font-size:0.65rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--teal);font-family:&quot;SFMono-Regular&quot;,Consolas,&quot;Liberation Mono&quot;,monospace;margin-bottom:0.5rem;">Related guide</div>
+      <p style="font-size:0.875rem;color:var(--text-soft);line-height:1.65;margin-bottom:0.75rem;">Need a SIN before filing taxes or working in Canada? Review the SIN guide.</p>
+      <a href="/sin.html" style="font-size:0.78rem;font-weight:600;color:var(--teal);font-family:&quot;SFMono-Regular&quot;,Consolas,&quot;Liberation Mono&quot;,monospace;text-decoration:none;">SIN Guide →</a>
+    </div>
+  </section>
+
+  <!-- 10 DISCLAIMER -->
+  <div class="disclaimer">
+    <strong>This page is for educational and navigational purposes only.</strong><br>
+    It does not constitute legal, tax, or immigration advice. All steps link directly to official Government of Canada sources. Tax and account access rules change — always verify current requirements with <a href="https://www.canada.ca/en/revenue-agency.html" target="_blank" rel="noopener">CRA directly</a> before taking action. For advice specific to your situation, consult a qualified professional.
+  </div>
+
+</main>
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <div>CanadaSteps is an independent public guidance resource for newcomers to Canada.</div>
+    <div>Not affiliated with IRCC or the Government of Canada. Contact: contact not yet published.</div>
+    <div class="footer-links">
+      <a href="/pgwp.html">PGWP guide</a>
+      <a href="/sin.html">SIN guide</a>
+      <a href="/taxes.html">Tax guide</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
