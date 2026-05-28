@@ -3,6 +3,21 @@
 _Tracks files created or modified each session._
 
 ---
+## 2026-05-28 - Navigation category cleanup
+
+**Modified:**
+- `index.html` - replaced stale guide-by-guide nav with category nav, added homepage anchors, and grouped Bank Account under Start Here
+- `pgwp.html` - updated top nav to shared category nav
+- `sin.html` - updated top nav to shared category nav with Start Here active
+- `taxes.html` - updated top nav to shared category nav with Money & Taxes active
+- `cra-account.html` - updated top nav to shared category nav with Money & Taxes active
+- `bank-account.html` - updated top nav to shared category nav with Start Here active
+- `memory/current_state.md` - recorded nav cleanup
+- `memory/changed_files.md` - recorded files changed in this task
+- `daily.md` - appended concise session log line
+
+---
+
 ## 2026-05-28 - Bank Account Guide added
 
 **Created:**

@@ -11,9 +11,9 @@ Phase 0 - Foundation
 - `index.html` - guides homepage, live at canadasteps.ca/
 - `pgwp.html` - PGWP guide, live at canadasteps.ca/pgwp.html
 - `sin.html` - SIN guide, live at canadasteps.ca/sin.html
-- `taxes.html` - tax filing guide, built but NOT YET DEPLOYED
-- `cra-account.html` - CRA My Account guide, built but NOT YET DEPLOYED
-- `bank-account.html` - bank account and GIC basics guide, built but NOT YET DEPLOYED
+- `taxes.html` - tax filing guide, live at canadasteps.ca/taxes.html
+- `cra-account.html` - CRA My Account guide, live at canadasteps.ca/cra-account.html
+- `bank-account.html` - bank account and GIC basics guide, live at canadasteps.ca/bank-account.html
 
 ## What works
 
@@ -26,7 +26,7 @@ Phase 0 - Foundation
 
 ## Last change
 
-May 28 - Bank Account Guide added. Homepage includes the new guide card; SIN, tax, and CRA My Account guides link to it where natural. Production workflow remains Local -> GitHub -> Cloudflare Pages -> canadasteps.ca.
+May 28 - Top navigation simplified to guide categories: All Guides, Start Here, Money & Taxes, and PGWP. Homepage anchors added for Start Here and Money & Taxes; guide cards grouped accordingly.
 
 ## Previous change
 
@@ -45,7 +45,7 @@ May 27 - Editorial trust pass: nav anchored with 2px navy border, logo enlarged,
 
 ## Immediate next action
 
-Push main to GitHub; Cloudflare Pages should auto-deploy taxes.html, cra-account.html, and bank-account.html to canadasteps.ca.
+Push main to GitHub; Cloudflare Pages should auto-deploy the navigation cleanup to canadasteps.ca.
 
 ## File structure note
 
