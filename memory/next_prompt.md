@@ -14,6 +14,7 @@ Current pages:
 - cra-account.html
 - bank-account.html
 - ontario-drivers-license.html
+- phone-plan.html
 
 Current state:
 - Top nav uses: All Guides, First Weeks, Money & Taxes, Study & Immigration (anchors to homepage sections)

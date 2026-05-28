@@ -3,6 +3,20 @@
 _Tracks files created or modified each session._
 
 ---
+## 2026-05-28 - Phone Plan Guide added
+
+**Created:**
+- `phone-plan.html` - new phone plan guide for newcomers and international students; 7 sections; CRTC and CCTS official links
+
+**Modified:**
+- `index.html` - added Phone Plan Guide card to First Weeks section; added phone-plan.html to footer links
+- `sin.html` - added phone plan related guide transition card before "coming soon" block
+- `bank-account.html` - added phone plan related guide transition card in What Comes Next section; fixed CRA card arrow encoding
+- `memory/current_state.md` - recorded new phone-plan.html page
+- `memory/changed_files.md` - this entry
+- `daily.md` - appended session log line
+
+---
 ## 2026-05-28 - Trust and operational clarity pass
 
 **Modified:**

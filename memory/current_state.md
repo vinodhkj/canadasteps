@@ -15,6 +15,7 @@ Phase 0 - Foundation
 - `cra-account.html` - CRA My Account guide, live at canadasteps.ca/cra-account.html
 - `bank-account.html` - bank account and GIC basics guide, live at canadasteps.ca/bank-account.html
 - `ontario-drivers-license.html` - Ontario driver's licence guide, pending deploy at canadasteps.ca/ontario-drivers-license.html
+- `phone-plan.html` - phone plan guide for newcomers, live at canadasteps.ca/phone-plan.html
 
 ## What works
 
@@ -27,7 +28,7 @@ Phase 0 - Foundation
 
 ## Last change
 
-May 28 - Trust and operational clarity pass: footer grounded across all 7 pages, topbar link softened on all inner pages, arrow encoding fixed (bank-account, cra-account), ontario-drivers-license.html realism notes added (G1 restriction, experience letters, insurance/licence distinction), "identity workflows" wording fixed, "Settlement Track" label changed to "First Weeks" in sin.html.
+May 28 - Phone Plan Guide added: phone-plan.html created (7 sections, CRTC/CCTS sources), homepage First Weeks card added, footer updated, transition cards added to sin.html and bank-account.html.
 
 ## Previous change
 
