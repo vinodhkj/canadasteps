@@ -42,12 +42,10 @@
     background: var(--navy);
     color: rgba(255,255,255,0.65);
     font-size: 0.72rem;
-    padding: 0.5rem 2rem;
+    padding: 0.45rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
-    letter-spacing: 0.03em;
   }
   .topbar a { color: #f0c76a; text-decoration: none; }
   .topbar a:hover { text-decoration: underline; }
@@ -55,15 +53,14 @@
   /* NAV */
   nav {
     background: var(--bg-card);
-    border-bottom: 1px solid var(--border);
-    padding: 0.75rem 2rem 0.6rem;
+    border-bottom: 2px solid var(--navy);
+    padding: 0.9rem 2rem;
     display: flex;
     flex-direction: column;
     gap: 0.35rem;
     position: sticky;
     top: 0;
     z-index: 50;
-    box-shadow: 0 1px 6px rgba(0,0,0,0.05);
   }
 
   .nav-row {
@@ -74,10 +71,11 @@
 
   .logo {
     font-family: Georgia, "Times New Roman", serif;
-    font-size: 1.15rem;
+    font-size: 1.3rem;
     font-weight: 700;
     color: var(--navy);
     text-decoration: none;
+    letter-spacing: -0.3px;
   }
   .logo span { color: var(--teal); }
 
@@ -95,10 +93,9 @@
     gap: 1.25rem;
   }
   .nav-links a {
-    font-size: 0.72rem;
+    font-size: 0.82rem;
     color: var(--gray);
     text-decoration: none;
-    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
   }
   .nav-links a:hover { color: var(--teal); }
   .nav-links a.current { color: var(--teal); font-weight: 500; }
@@ -392,7 +389,7 @@
 
   h2 {
     font-family: Georgia, "Times New Roman", serif;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 700;
     color: var(--navy);
     margin-bottom: 0.85rem;
@@ -608,13 +605,14 @@
 
   .gov-icon {
     width: 32px; height: 32px;
-    border-radius: 7px;
-    background: var(--navy);
-    color: white;
+    border-radius: 5px;
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    color: var(--navy);
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 0.9rem;
+    font-size: 0.82rem;
     flex-shrink: 0;
   }
 
@@ -650,7 +648,7 @@
 
 <!-- TOP BAR -->
 <div class="topbar">
-  <span>🇨🇦 Canada Immigration Guides — Educational &amp; Navigational Resource Only</span>
+  <span>Canada Immigration Guides — Educational &amp; Navigational Resource Only</span>
   <a href="https://www.canada.ca/en/immigration-refugees-citizenship.html" target="_blank">Official IRCC ↗</a>
 </div>
 
@@ -668,7 +666,7 @@
 </nav>
 
 <!-- FOUNDER NOTE -->
-<div style="background:var(--bg-soft);border-bottom:1px solid var(--border);padding:0.6rem 2rem;font-size:0.75rem;color:var(--gray);line-height:1.55;text-align:center;">
+<div style="border-bottom:1px solid var(--border);padding:0.5rem 2rem;font-size:0.75rem;color:var(--gray);line-height:1.55;">
   Built by a newcomer to Canada who spent too many hours trying to piece together immigration steps from scattered government pages. Everything here links directly to official sources. No legal advice. No guesswork.
   <span style="display:block;margin-top:0.25rem;font-size:0.68rem;opacity:0.75;">Not affiliated with IRCC or the Government of Canada.</span>
 </div>
@@ -677,7 +675,7 @@
 
   <!-- HEADER -->
   <header class="page-header">
-    <div class="track-tag">📋 Applicant Track</div>
+    <div class="track-tag">Applicant Track</div>
     <div class="pgwp-warning">
       <strong>⚠️ One important thing before you start</strong>
       You can only receive one Post-Graduation Work Permit in your lifetime. If it is issued for less time than expected — for example because your passport expires soon — you cannot get a second one to make up the difference. Check your passport expiry date before applying.

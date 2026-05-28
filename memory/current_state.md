@@ -21,7 +21,11 @@ Phase 0 — Foundation
 
 ## Last change
 
-May 27 � Trust-polish pass: local/system font stacks, Google Fonts removed, teal slightly muted.
+May 27 — Editorial trust pass: nav anchored with 2px navy border, logo enlarged, nav-links moved to sans-serif, topbar emoji removed, founder note bar removed (now transparent attribution line), h2 enlarged, gov-icon boxes muted. All 3 pages.
+
+## Previous change (pre-trust-pass)
+
+May 27 � Trust-polish pass: local/system font stacks, Google Fonts removed, teal slightly muted.
 
 ## Previous change
 
