@@ -1,35 +1,39 @@
-# Next Session Prompt
-
-Paste this at the start of the next working session.
-
 ---
+CanadaSteps — Session Handoff
+Current commit: 6b1403a
 
-We are building CanadaSteps, primary domain canadasteps.ca, with canadasteps.org as alias.
+What changed last session:
+- Added taxes.html — tax filing guide for 
+  international students
+- Added Tax Filing Guide card to homepage 
+  under Money & Taxes
+- Added SIN → Tax Filing transition card
+- Added Tax Guide link to PGWP and SIN nav
+- Updated all memory files
 
-Static HTML site. No backend. Editorial-first newcomer guidance.
+Deployment status:
+- Redeploy needed — drag canadasteps folder 
+  to Netlify deploy area
+- Verify after deploy:
+  1. canadasteps.ca — three guide cards visible
+  2. canadasteps.ca/taxes.html — loads correctly
+  3. canadasteps.ca/sin.html — tax transition card visible
+  4. canadasteps.ca/pgwp.html — Tax Guide in nav
 
-Current state:
-- taxes.html has been built and committed but NOT YET DEPLOYED.
-- All four pages (index, pgwp, sin, taxes) have nav and footer updated to include Tax Guide.
-- sin.html has a new transition card linking to taxes.html.
+Infrastructure note:
+- canadasteps.ca moved to Cloudflare nameservers
+- duke.ns.cloudflare.com / sue.ns.cloudflare.com
+- SSL active and trusted via Cloudflare
+- Do NOT work on CSP, HSTS, DMARC, DKIM, 
+  DNSSEC, analytics, forms, or backend today
 
-Immediate next action: deploy.
+Current priority: content expansion and 
+real-user validation only
 
-Deploy manually:
-- Drag C:\Projects\SG\CanadaSteps.ca\canadasteps into Netlify deploy drop zone.
+Frozen: nav architecture, agent rules, 
+CLAUDE.md, memory file format
 
-After deploy, verify:
-- https://canadasteps.ca/
-- https://canadasteps.ca/taxes.html
-- https://canadasteps.ca/sin.html
-- https://canadasteps.ca/pgwp.html
-- Nav "Tax Guide" link works on all pages
-- sin.html transition card links correctly to /taxes.html
-- Index "Money & Taxes" card is visible
-- Mobile view looks clean
-
-Do not edit content on any page.
-pgwp.html content is still frozen.
-
-Files allowed to read: memory/current_state.md only.
-Files allowed to edit: none until deploy is verified.
+Next task after deploy verification:
+Show site to real users. Collect reactions.
+Guide 4 determined by user feedback only.
+---
