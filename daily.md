@@ -4,7 +4,7 @@ One entry per working session. Most recent first.
 
 ---
 ## 2026-05-28
-May 28 - taxes.html built: Money & Taxes track, 7 sections, CRA-only sources, nav/footer/transition cards integrated across all pages. Pending deploy.
+May 28 - taxes.html built: Money & Taxes track, 7 sections, CRA-only sources, nav/footer/transition cards integrated across all pages. Pending deploy. | 6b1403a
 May 28 - Final proportional polish: wider desktop content, slightly larger desktop type, and grounded footer band.
 May 28 - Site legitimacy pass: simple footer added across three pages; homepage last-reviewed line added.
 May 28 - Layout-density polish: wider desktop container and tighter section rhythm across three pages.
