@@ -256,6 +256,55 @@
     .site-footer-inner { padding: 0 1.1rem; }
     h1 { font-size: 1.55rem; }
   }
+
+  /* === Visual identity === */
+  .section-cat {
+    display: block;
+    font-size: 0.64rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    margin-bottom: 0.4rem;
+  }
+  #first-weeks .section-cat   { color: var(--teal); }
+  #money-taxes .section-cat   { color: var(--amber); }
+  #study-immigration .section-cat { color: var(--navy-mid); }
+
+  #first-weeks .guide-section-header,
+  #money-taxes .guide-section-header,
+  #study-immigration .guide-section-header {
+    padding-left: 1rem;
+    border-bottom: none;
+    margin-bottom: 1.25rem;
+  }
+  #first-weeks .guide-section-header     { border-left: 3px solid var(--teal); }
+  #money-taxes .guide-section-header     { border-left: 3px solid var(--amber); }
+  #study-immigration .guide-section-header { border-left: 3px solid var(--navy-mid); }
+
+  #first-weeks .guide-card     { border-left: 3px solid rgba(22,107,97,0.18); }
+  #money-taxes .guide-card     { border-left: 3px solid rgba(217,119,6,0.25); }
+  #study-immigration .guide-card { border-left: 3px solid rgba(36,51,82,0.18); }
+
+  #money-taxes .guide-card-status     { background: var(--amber-light); color: var(--amber); }
+  #study-immigration .guide-card-status { background: #e8edf4; color: var(--navy-mid); }
+
+  #money-taxes .guide-card:hover     { border-color: var(--amber); }
+  #study-immigration .guide-card:hover { border-color: var(--navy-mid); }
+
+  .founder-note {
+    border-bottom: 1px solid var(--border);
+    padding: 0.5rem 2rem;
+    font-size: 0.75rem;
+    color: var(--gray);
+    line-height: 1.55;
+  }
+  .founder-note small {
+    display: block;
+    margin-top: 0.25rem;
+    font-size: 0.68rem;
+    opacity: 0.75;
+  }
 </style>
 </head>
 <body>
@@ -280,9 +329,9 @@
 </nav>
 
 <!-- FOUNDER NOTE -->
-<div style="border-bottom:1px solid var(--border);padding:0.5rem 2rem;font-size:0.75rem;color:var(--gray);line-height:1.55;">
+<div class="founder-note">
   Built by a newcomer to Canada who spent too many hours trying to piece together immigration steps from scattered government pages. Everything here links directly to official sources. No legal advice. No guesswork.
-  <span style="display:block;margin-top:0.25rem;font-size:0.68rem;opacity:0.75;">Not affiliated with IRCC or the Government of Canada.</span>
+  <small>Not affiliated with IRCC or the Government of Canada.</small>
 </div>
 
 <main class="page-wrap">
@@ -296,6 +345,7 @@
   <!-- SECTION 1: FIRST WEEKS -->
   <section class="guide-section" id="first-weeks">
     <div class="guide-section-header">
+      <div class="section-cat">First Weeks</div>
       <h2>First Weeks in Canada</h2>
       <p>If you recently arrived in Canada, these are the setup steps most international students and newcomers usually deal with first.</p>
     </div>
@@ -336,6 +386,7 @@
   <!-- SECTION 2: MONEY & TAXES -->
   <section class="guide-section" id="money-taxes">
     <div class="guide-section-header">
+      <div class="section-cat">Money &amp; Taxes</div>
       <h2>Money &amp; Taxes</h2>
       <p>Basic tax and CRA setup information students commonly need later.</p>
     </div>
@@ -358,6 +409,7 @@
   <!-- SECTION 3: STUDY & IMMIGRATION -->
   <section class="guide-section" id="study-immigration">
     <div class="guide-section-header">
+      <div class="section-cat">Study &amp; Immigration</div>
       <h2>Study &amp; Immigration</h2>
       <p>Longer-term study and post-graduation guidance.</p>
     </div>
