@@ -3,6 +3,16 @@
 _Tracks files created or modified each session._
 
 ---
+## 2026-05-28 - Homepage Start Here flow
+
+**Modified:**
+- `index.html` - added lightweight Start Here flow before guide cards and moved the `#start-here` anchor to the new section
+- `memory/current_state.md` - recorded homepage Start Here flow
+- `memory/next_prompt.md` - refreshed current homepage state
+- `memory/changed_files.md` - recorded files changed in this task
+- `daily.md` - appended concise session log line
+
+---
 ## 2026-05-28 - Visual comfort polish
 
 **Modified:**

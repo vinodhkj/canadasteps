@@ -16,6 +16,7 @@ Current pages:
 
 Current state:
 - Top nav uses category links: All Guides, Start Here, Money & Taxes, PGWP
+- Homepage has a lightweight Start Here flow before guide cards for SIN, bank account, CRA My Account, taxes, and PGWP
 - Homepage groups guides by Start Here, Money & Taxes, and Study & Graduation
 - Subtle maple-leaf SVG is part of the CanadaSteps logo
 - Visual comfort pass uses warmer neutrals, softer cards, and subtle category accents

@@ -131,6 +131,49 @@
     max-width: 620px;
   }
 
+  .start-flow {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 1px 0 rgba(26, 38, 64, 0.04);
+  }
+
+  .start-flow h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.18rem;
+    color: var(--navy);
+    margin-bottom: 0.35rem;
+  }
+
+  .start-flow p {
+    font-size: 0.88rem;
+    color: var(--text-soft);
+    line-height: 1.6;
+    margin-bottom: 0.9rem;
+  }
+
+  .start-flow ol {
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+  }
+
+  .start-flow li {
+    font-size: 0.88rem;
+    color: var(--text-soft);
+  }
+
+  .start-flow a {
+    color: var(--teal);
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .start-flow a:hover { text-decoration: underline; }
+
   /* GUIDE CARDS */
   .guide-cards {
     display: grid;
@@ -282,6 +325,18 @@
     <p style="font-size:0.75rem;color:var(--gray);margin-top:0.75rem;">Last reviewed: May 28, 2026</p>
   </div>
 
+  <section class="start-flow" id="start-here">
+    <h2>Start with these steps</h2>
+    <p>If you are already in Canada, these guides cover the practical setup steps students usually ask about first.</p>
+    <ol>
+      <li><a href="/sin.html">Get or update your SIN &rarr;</a></li>
+      <li><a href="/bank-account.html">Open a bank account &rarr;</a></li>
+      <li><a href="/cra-account.html">Set up CRA My Account &rarr;</a></li>
+      <li><a href="/taxes.html">File taxes when needed &rarr;</a></li>
+      <li><a href="/pgwp.html">Plan PGWP later &rarr;</a></li>
+    </ol>
+  </section>
+
   <div class="guide-cards">
 
     <div class="guide-group-study" id="study-graduation">
@@ -294,7 +349,7 @@
       </a>
     </div>
 
-    <div class="guide-group-start" id="start-here">
+    <div class="guide-group-start">
       <div class="guide-label">Start Here</div>
       <a class="guide-card" href="/sin.html">
         <span class="guide-card-status">Live</span>

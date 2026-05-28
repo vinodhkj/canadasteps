@@ -26,7 +26,7 @@ Phase 0 - Foundation
 
 ## Last change
 
-May 28 - Visual comfort pass added warmer neutrals, softer card surfaces/borders, gentler card depth, clearer section hierarchy, and subtle homepage category label accents.
+May 28 - Homepage Start Here flow added before guide cards; Start Here nav now anchors to the practical step-by-step flow.
 
 ## Previous change
 
@@ -45,7 +45,7 @@ May 27 - Editorial trust pass: nav anchored with 2px navy border, logo enlarged,
 
 ## Immediate next action
 
-Push main to GitHub; Cloudflare Pages should auto-deploy the navigation cleanup and visual comfort pass to canadasteps.ca.
+Push main to GitHub; Cloudflare Pages should auto-deploy the homepage Start Here flow and recent visual/navigation polish to canadasteps.ca.
 
 ## File structure note
 
