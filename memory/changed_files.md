@@ -3,6 +3,19 @@
 _Tracks files created or modified each session._
 
 ---
+## 2026-05-28 - Final proportional polish
+
+**Modified:**
+- `index.html` - widened desktop content, slightly increased desktop text/nav sizing, and strengthened footer grounding
+- `pgwp.html` - widened desktop content, slightly increased desktop text/nav sizing, and strengthened footer grounding
+- `sin.html` - widened desktop content, slightly increased desktop text/nav sizing, and strengthened footer grounding
+- `memory/current_state.md` - recorded latest proportional polish pass
+- `memory/next_prompt.md` - updated next-session handoff
+- `memory/changed_files.md` - recorded files changed in this task
+- `daily.md` - appended concise session log line
+
+---
+
 ## 2026-05-28 - Site legitimacy pass
 
 **Modified:**

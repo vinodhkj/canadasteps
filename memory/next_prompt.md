@@ -14,14 +14,14 @@ Current state:
 - SIN guide exists at sin.html.
 - Navigation/homepage workflow structure is complete.
 - Shared Claude/Codex agent memory workflow exists.
-- Latest local work: site legitimacy pass across index.html, pgwp.html, and sin.html.
+- Latest local work: final proportional polish across index.html, pgwp.html, and sin.html.
 - Changes may be uncommitted or not yet deployed, so verify git status first.
 
 Start by running:
 git status
 git log --oneline -5
 
-Then verify whether the latest site legitimacy commit exists.
+Then verify whether the latest final proportional polish commit exists.
 
 If changes are uncommitted:
 1. Review diff.
@@ -31,7 +31,7 @@ If changes are uncommitted:
    - memory/changed_files.md
    - daily.md
 3. Commit:
-   style: add footer and legitimacy cues
+   style: improve readability and site grounding
 
 Then deploy manually:
 - Drag C:\Projects\SG\CanadaSteps.ca\canadasteps into Netlify deploy drop zone.

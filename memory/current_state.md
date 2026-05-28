@@ -21,7 +21,7 @@ Phase 0 - Foundation
 
 ## Last change
 
-May 28 - Site legitimacy pass: simple footer added across index.html, pgwp.html, and sin.html; homepage review date added.
+May 28 - Final proportional polish: desktop content width increased, desktop type slightly enlarged, and footer grounding strengthened across index.html, pgwp.html, and sin.html.
 
 ## Previous change
 
@@ -40,7 +40,7 @@ May 27 - Editorial trust pass: nav anchored with 2px navy border, logo enlarged,
 
 ## Immediate next action
 
-Review footer legitimacy pass on desktop and mobile, then deploy if approved.
+Review final proportional polish on desktop and mobile, then deploy if approved.
 
 ## File structure note
 
