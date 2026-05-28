@@ -3,6 +3,18 @@
 _Tracks files created or modified each session._
 
 ---
+## 2026-05-28 - Ontario Photo Card Guide added
+
+**Created:**
+- `ontario-photo-card.html` - new Ontario Photo Card guide for international students and newcomers; 7 sections; ServiceOntario and Ontario.ca official links
+
+**Modified:**
+- `index.html` - added Ontario Photo Card Guide card to First Weeks section; added ontario-photo-card.html to footer links
+- `memory/current_state.md` - recorded new ontario-photo-card.html page
+- `memory/changed_files.md` - this entry
+- `daily.md` - appended session log line
+
+---
 ## 2026-05-28 - Phone Plan Guide added
 
 **Created:**

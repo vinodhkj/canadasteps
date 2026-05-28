@@ -16,6 +16,7 @@ Phase 0 - Foundation
 - `bank-account.html` - bank account and GIC basics guide, live at canadasteps.ca/bank-account.html
 - `ontario-drivers-license.html` - Ontario driver's licence guide, pending deploy at canadasteps.ca/ontario-drivers-license.html
 - `phone-plan.html` - phone plan guide for newcomers, live at canadasteps.ca/phone-plan.html
+- `ontario-photo-card.html` - Ontario Photo Card guide, live at canadasteps.ca/ontario-photo-card.html
 
 ## What works
 
@@ -27,6 +28,10 @@ Phase 0 - Foundation
 - SSL certificate active
 
 ## Last change
+
+May 28 - Ontario Photo Card Guide added: ontario-photo-card.html created (7 sections, ServiceOntario/Ontario.ca sources), homepage First Weeks card added, footer updated across index.html and the new page.
+
+## Previous change
 
 May 28 - Phone Plan Guide added: phone-plan.html created (7 sections, CRTC/CCTS sources), homepage First Weeks card added, footer updated, transition cards added to sin.html and bank-account.html.
 

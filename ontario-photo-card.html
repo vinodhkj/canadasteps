@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ontario Photo Card Guide for Students and Newcomers | CanadaSteps</title>
+<meta name="description" content="Practical Ontario Photo Card guide for international students and newcomers. Learn what the card is, who may be eligible, and what documents are commonly required.">
+<style>
+  :root {
+    --bg: #f8f5ee;
+    --bg-card: #fffdf8;
+    --bg-soft: #f1ebe1;
+    --navy: #1a2640;
+    --navy-mid: #243352;
+    --red: #b91c1c;
+    --teal: #166b61;
+    --teal-light: #e8f0ec;
+    --amber: #d97706;
+    --amber-light: #fef9c3;
+    --green: #166534;
+    --green-light: #dcfce7;
+    --gray: #6b7280;
+    --gray-light: #e5e7eb;
+    --text: #1f2937;
+    --text-soft: #465264;
+    --border: #ded6ca;
+    --step-line: #d0c3ab;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    font-size: 17px;
+  }
+
+  .topbar {
+    background: var(--navy);
+    color: rgba(255,255,255,0.65);
+    font-size: 0.74rem;
+    padding: 0.45rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .topbar a { color: rgba(255,255,255,0.72); text-decoration: none; }
+  .topbar a:hover { text-decoration: underline; }
+
+  nav {
+    background: var(--bg-card);
+    border-bottom: 2px solid var(--navy);
+    padding: 0.9rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }
+
+  .nav-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--navy);
+    text-decoration: none;
+    letter-spacing: -0.3px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+  .logo span { color: var(--teal); }
+  .logo-mark {
+    width: 0.72em;
+    height: 0.72em;
+    color: var(--red);
+    opacity: 0.78;
+    flex-shrink: 0;
+  }
+
+  .nav-crumb {
+    font-size: 0.75rem;
+    color: var(--gray);
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  .nav-crumb strong { color: var(--text-soft); font-weight: 600; }
+
+  .nav-links {
+    display: flex;
+    gap: 1.25rem;
+  }
+  .nav-links a {
+    font-size: 0.86rem;
+    color: var(--gray);
+    text-decoration: none;
+  }
+  .nav-links a:hover { color: var(--teal); }
+  .nav-links a.current { color: var(--teal); font-weight: 500; }
+
+  .page-wrap {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 2.25rem 2.25rem 4.5rem;
+  }
+
+  .page-header {
+    margin-bottom: 1.45rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .track-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: var(--teal-light);
+    color: var(--teal);
+    border: 1px solid rgba(22,107,97,0.2);
+    padding: 0.25rem 0.75rem;
+    border-radius: 100px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 0.9rem;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  }
+
+  h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.6rem, 4vw, 2.2rem);
+    font-weight: 700;
+    color: var(--navy);
+    line-height: 1.25;
+    margin-bottom: 0.6rem;
+    letter-spacing: -0.2px;
+  }
+
+  .page-desc {
+    font-size: 1rem;
+    color: var(--text-soft);
+    line-height: 1.7;
+    max-width: 620px;
+  }
+
+  .meta-row {
+    display: flex;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+    margin-top: 1.1rem;
+  }
+
+  .meta-item {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.75rem;
+    color: var(--gray);
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  }
+
+  .meta-dot {
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    background: var(--teal);
+    flex-shrink: 0;
+  }
+
+  .reality-check {
+    background: var(--amber-light);
+    border: 1px solid rgba(217,119,6,0.25);
+    border-left: 4px solid var(--amber);
+    border-radius: 8px;
+    padding: 1rem 1.1rem;
+    margin-bottom: 1.45rem;
+    font-size: 0.84rem;
+    color: #78350f;
+    line-height: 1.6;
+  }
+  .reality-check strong {
+    display: block;
+    font-weight: 700;
+    font-size: 0.82rem;
+    color: #92400e;
+    margin-bottom: 0.55rem;
+  }
+  .reality-check ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-left: 0;
+  }
+  .reality-check ul li {
+    display: flex;
+    gap: 0.5rem;
+    line-height: 1.55;
+  }
+  .reality-check ul li::before {
+    content: '→';
+    flex-shrink: 0;
+    color: var(--amber);
+    font-weight: 600;
+  }
+
+  .section { margin-bottom: 1.65rem; }
+
+  h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.24rem;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+  }
+
+  .h2-num {
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    font-size: 0.65rem;
+    background: var(--navy);
+    color: white;
+    padding: 0.18rem 0.45rem;
+    border-radius: 4px;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+  }
+
+  .divider {
+    height: 1px;
+    background: var(--border);
+    margin: 1.55rem 0;
+  }
+
+  .checklist { list-style: none; display: flex; flex-direction: column; gap: 0.55rem; }
+  .checklist li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    font-size: 0.875rem;
+    color: var(--text-soft);
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    box-shadow: 0 1px 0 rgba(26,38,64,0.03);
+    line-height: 1.55;
+  }
+  .check-box {
+    width: 16px; height: 16px;
+    border: 1.5px solid var(--gray-light);
+    border-radius: 3px;
+    flex-shrink: 0;
+    margin-top: 2px;
+    background: var(--bg);
+  }
+  .checklist li strong { color: var(--text); font-weight: 600; }
+
+  .steps-list { list-style: none; position: relative; }
+  .steps-list::before {
+    content: '';
+    position: absolute;
+    left: 20px; top: 26px; bottom: 26px;
+    width: 1px;
+    background: var(--step-line);
+  }
+
+  .step { display: flex; gap: 1.1rem; margin-bottom: 0.9rem; position: relative; }
+
+  .step-num {
+    width: 42px; height: 42px;
+    border-radius: 50%;
+    background: var(--navy);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    font-size: 0.75rem;
+    font-weight: 500;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1;
+    border: 3px solid var(--bg);
+    box-shadow: 0 0 0 1px var(--step-line);
+  }
+
+  .step-body {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.2rem;
+    box-shadow: 0 1px 0 rgba(26,38,64,0.04);
+    flex: 1;
+  }
+
+  .step-title {
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: var(--navy);
+    margin-bottom: 0.3rem;
+  }
+
+  .step-desc {
+    font-size: 0.83rem;
+    color: var(--text-soft);
+    line-height: 1.6;
+    margin-bottom: 0.6rem;
+  }
+
+  .step-note {
+    margin-top: 0.5rem;
+    font-size: 0.77rem;
+    color: #78350f;
+    background: var(--amber-light);
+    border: 1px solid rgba(217,119,6,0.18);
+    border-radius: 6px;
+    padding: 0.4rem 0.7rem;
+    line-height: 1.5;
+  }
+
+  .misses-list { list-style: none; display: flex; flex-direction: column; gap: 0.65rem; }
+  .miss-item {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--red);
+    border-radius: 8px;
+    padding: 0.9rem 1.1rem;
+  }
+  .miss-title {
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: var(--red);
+    margin-bottom: 0.25rem;
+  }
+  .miss-item p { font-size: 0.82rem; color: var(--text-soft); line-height: 1.55; }
+
+  .cards-grid { display: flex; flex-direction: column; gap: 0.65rem; }
+  .info-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.85rem 1.1rem;
+    box-shadow: 0 1px 0 rgba(26,38,64,0.03);
+  }
+  .info-card-title {
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: var(--navy);
+    margin-bottom: 0.2rem;
+  }
+  .info-card p { font-size: 0.82rem; color: var(--text-soft); line-height: 1.55; }
+
+  .links-list { list-style: none; display: flex; flex-direction: column; gap: 0.55rem; }
+  .gov-link {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 9px;
+    padding: 0.85rem 1.1rem;
+    box-shadow: 0 1px 0 rgba(26,38,64,0.035);
+    text-decoration: none;
+    color: inherit;
+  }
+  .gov-link:hover { border-color: rgba(22,107,97,0.45); background: var(--teal-light); }
+
+  .gov-icon {
+    width: 32px; height: 32px;
+    border-radius: 5px;
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    color: var(--navy);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.82rem;
+    flex-shrink: 0;
+  }
+
+  .gov-text { flex: 1; }
+  .gov-title { font-weight: 600; font-size: 0.85rem; color: var(--navy); line-height: 1.3; }
+  .gov-url { font-size: 0.68rem; color: var(--gray); font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; margin-top: 0.1rem; }
+  .gov-arrow { color: var(--teal); font-size: 0.9rem; flex-shrink: 0; }
+
+  .disclaimer {
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.2rem;
+    font-size: 0.78rem;
+    color: var(--gray);
+    line-height: 1.65;
+    margin-top: 2.5rem;
+    text-align: center;
+  }
+  .disclaimer a { color: var(--teal); }
+  .disclaimer strong { color: var(--text-soft); }
+
+  .site-footer {
+    margin: 0;
+    padding: 1.35rem 0 2rem;
+    background: var(--bg-soft);
+    border-top: 1px solid var(--border);
+    color: var(--gray);
+    font-size: 0.72rem;
+    line-height: 1.6;
+  }
+  .site-footer-inner {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 0 2.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+  .site-footer a { color: var(--teal); text-decoration: none; }
+  .site-footer a:hover { text-decoration: underline; }
+  .footer-links { display: flex; flex-wrap: wrap; gap: 0.8rem; }
+
+  @media (max-width: 600px) {
+    body { font-size: 16px; }
+    .page-wrap { padding: 1.5rem 1.1rem 4rem; }
+    .site-footer { padding: 1.2rem 0 2rem; }
+    .site-footer-inner { padding: 0 1.1rem; }
+    h1 { font-size: 1.55rem; }
+    .nav-crumb { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <span>Canada Immigration Guides &mdash; Educational &amp; Navigational Resource Only</span>
+  <a href="https://www.ontario.ca/page/ontario-photo-card" target="_blank" rel="noopener">Official Ontario source ↗</a>
+</div>
+
+<nav>
+  <div class="nav-row">
+    <a class="logo" href="/index.html"><svg class="logo-mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 2.4l1.2 4 3.7-1.6-1.1 4 3.9 1.1-3.5 2.1 2.2 3.4-4.2-.5-.6 4.3h-3.2l-.6-4.3-4.2.5L7.8 12 4.3 9.9l3.9-1.1-1.1-4 3.7 1.6L12 2.4z"/></svg>Canada<span>Steps</span></a>
+    <div class="nav-crumb">Daily Life &rarr; <strong>Ontario Photo Card</strong></div>
+  </div>
+  <div class="nav-links">
+    <a href="/index.html">All Guides</a>
+    <a class="current" href="/index.html#first-weeks">First Weeks</a>
+    <a href="/index.html#money-taxes">Money &amp; Taxes</a>
+    <a href="/index.html#study-immigration">Study &amp; Immigration</a>
+  </div>
+</nav>
+
+<div style="border-bottom:1px solid var(--border);padding:0.5rem 2rem;font-size:0.75rem;color:var(--gray);line-height:1.55;">
+  Built by a newcomer to Canada who spent too many hours trying to piece together immigration steps from scattered government pages. Everything here links directly to official sources. No legal advice. No guesswork.
+  <span style="display:block;margin-top:0.25rem;font-size:0.68rem;opacity:0.75;">Not affiliated with IRCC or the Government of Canada.</span>
+</div>
+
+<main class="page-wrap">
+
+  <header class="page-header">
+    <div class="track-tag">Daily Life</div>
+    <h1>Ontario Photo Card Guide for Students and Newcomers</h1>
+    <p class="page-desc">Learn what the Ontario Photo Card is, who can apply, and what documents are commonly required.</p>
+    <p style="font-size:0.78rem;color:var(--gray);margin-top:0.65rem;line-height:1.55;">Always verify current eligibility and document requirements directly with ServiceOntario before applying.</p>
+    <div class="meta-row">
+      <div class="meta-item"><div class="meta-dot"></div>Last reviewed: May 2026</div>
+      <div class="meta-item"><div class="meta-dot"></div>Source: ServiceOntario and Ontario.ca</div>
+    </div>
+  </header>
+
+  <div class="reality-check">
+    <strong>Before you apply</strong>
+    <ul>
+      <li>Many newcomers prefer not to carry passports for everyday identification.</li>
+      <li>The Ontario Photo Card is government-issued photo identification.</li>
+      <li>Eligibility rules can vary depending on licence status and residency.</li>
+      <li>You generally cannot hold both an Ontario driver's licence and an Ontario Photo Card at the same time.</li>
+      <li>Original identity and immigration documents are commonly required at the time of application.</li>
+    </ul>
+  </div>
+
+  <section class="section" id="why">
+    <h2><span class="h2-num">01</span> Why people get one</h2>
+    <div class="cards-grid">
+      <div class="info-card"><div class="info-card-title">Avoid carrying a passport daily</div><p>A passport is not practical for everyday situations. The Photo Card provides local photo ID without risking your travel document.</p></div>
+      <div class="info-card"><div class="info-card-title">Local photo identification for day-to-day use</div><p>Accepted for many situations where government-issued photo ID is required in Ontario.</p></div>
+      <div class="info-card"><div class="info-card-title">Banking and identity verification</div><p>Banks and financial institutions often require photo ID for account setup, verification, and transactions.</p></div>
+      <div class="info-card"><div class="info-card-title">Rentals and age verification</div><p>Landlords and businesses accepting age-gated services commonly ask for government-issued photo ID.</p></div>
+      <div class="info-card"><div class="info-card-title">Backup identification document</div><p>Provides a secondary ID option while your passport or immigration documents are stored safely.</p></div>
+      <div class="info-card"><div class="info-card-title">Easier daily carry than immigration documents</div><p>A wallet-sized card is more practical to carry than a full passport for routine daily activities.</p></div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section" id="eligibility">
+    <h2><span class="h2-num">02</span> Who may be eligible</h2>
+    <div class="cards-grid">
+      <div class="info-card"><div class="info-card-title">Ontario residents without a valid Ontario driver's licence</div><p>The Photo Card is generally for people who do not hold an Ontario driver's licence. If you have one, you cannot also hold a Photo Card.</p></div>
+      <div class="info-card"><div class="info-card-title">International students</div><p>Students living in Ontario who do not have an Ontario driver's licence may be eligible to apply.</p></div>
+      <div class="info-card"><div class="info-card-title">PGWP holders</div><p>Post-Graduation Work Permit holders living in Ontario without a driver's licence may apply.</p></div>
+      <div class="info-card"><div class="info-card-title">People using passports as their primary ID</div><p>Anyone currently relying on their passport for everyday identification in Ontario may benefit from applying.</p></div>
+    </div>
+    <div class="step-note" style="margin-top:0.85rem;">Eligibility must be verified directly with ServiceOntario before applying. Rules can vary and are subject to change. This guide does not confirm eligibility for any individual situation.</div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section" id="documents">
+    <h2><span class="h2-num">03</span> Documents you may need</h2>
+    <ul class="checklist">
+      <li><div class="check-box"></div><div><strong>Passport</strong> — your current valid passport is commonly required as a primary identity document.</div></li>
+      <li><div class="check-box"></div><div><strong>Study permit or work permit</strong> — ServiceOntario may need to see your current immigration document.</div></li>
+      <li><div class="check-box"></div><div><strong>Proof of Ontario address</strong> — a recent utility bill, lease agreement, or other address document is commonly required.</div></li>
+      <li><div class="check-box"></div><div><strong>Supporting immigration documents if requested</strong> — bring any additional permit or status documents in case they are needed.</div></li>
+      <li><div class="check-box"></div><div><strong>Existing Ontario identification if applicable</strong> — bring any existing Ontario ID you hold, as it may affect what documents are required.</div></li>
+    </ul>
+    <div class="step-note" style="margin-top:0.85rem;">ServiceOntario may require original physical documents rather than copies or screenshots. Confirm document requirements directly with ServiceOntario before your visit.</div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section" id="steps">
+    <h2><span class="h2-num">04</span> Steps in order</h2>
+    <ol class="steps-list">
+      <li class="step"><div class="step-num">01</div><div class="step-body"><div class="step-title">Confirm eligibility before visiting ServiceOntario</div><div class="step-desc">Check the official Ontario.ca page and contact ServiceOntario to confirm you are eligible to apply before gathering documents or travelling to a location.</div></div></li>
+      <li class="step"><div class="step-num">02</div><div class="step-body"><div class="step-title">Gather original identity and immigration documents</div><div class="step-desc">Collect your passport, current immigration permit, and any other identity documents ServiceOntario may require. Bring originals — not copies.</div></div></li>
+      <li class="step"><div class="step-num">03</div><div class="step-body"><div class="step-title">Confirm proof-of-address requirements</div><div class="step-desc">Check what address documents ServiceOntario accepts. Requirements can vary and the official page lists acceptable formats.</div></div></li>
+      <li class="step"><div class="step-num">04</div><div class="step-body"><div class="step-title">Visit a participating ServiceOntario location</div><div class="step-desc">Not all ServiceOntario locations offer the Photo Card. Confirm your chosen location provides this service before travelling.</div></div></li>
+      <li class="step"><div class="step-num">05</div><div class="step-body"><div class="step-title">Complete photo and identity verification</div><div class="step-desc">ServiceOntario staff will take your photo and verify your documents at the location. A fee applies — confirm the current amount on the official page before your visit.</div></div></li>
+      <li class="step"><div class="step-num">06</div><div class="step-body"><div class="step-title">Keep temporary paperwork safely until the card arrives</div><div class="step-desc">You will receive a temporary document after applying. Keep it safely as your card is mailed to your Ontario address.</div></div></li>
+      <li class="step"><div class="step-num">07</div><div class="step-body"><div class="step-title">Update records if your address changes later</div><div class="step-desc">If you move, update your address with ServiceOntario. Your card is linked to your registered Ontario address.</div></div></li>
+    </ol>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section" id="mistakes">
+    <h2><span class="h2-num">05</span> Common mistakes</h2>
+    <ul class="misses-list">
+      <li class="miss-item"><div class="miss-title">Assuming the card replaces immigration status documents</div><p>The Ontario Photo Card is local identification only. It does not replace your study permit, work permit, passport, or any immigration document.</p></li>
+      <li class="miss-item"><div class="miss-title">Bringing photocopies instead of originals</div><p>ServiceOntario typically requires original physical documents. Copies, screenshots, and digital files are commonly not accepted.</p></li>
+      <li class="miss-item"><div class="miss-title">Forgetting proof of address</div><p>Address verification is a standard part of the application. Confirm what documents ServiceOntario accepts before your visit.</p></li>
+      <li class="miss-item"><div class="miss-title">Confusing the Photo Card with a driver's licence</div><p>The Photo Card is identification only. It does not permit you to drive. If you want to drive, see the Ontario Driver's License guide.</p></li>
+      <li class="miss-item"><div class="miss-title">Assuming all ServiceOntario locations offer the same services</div><p>Not every ServiceOntario location provides Photo Card applications. Confirm your chosen location offers this service before travelling.</p></li>
+      <li class="miss-item"><div class="miss-title">Carrying expired immigration documents</div><p>ServiceOntario will review your current immigration status documents. Expired documents may affect your application.</p></li>
+      <li class="miss-item"><div class="miss-title">Applying without checking eligibility first</div><p>If you hold an Ontario driver's licence, you are generally not eligible for a Photo Card. Check current eligibility rules before visiting ServiceOntario.</p></li>
+    </ul>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section" id="links">
+    <h2><span class="h2-num">06</span> Official links</h2>
+    <ul class="links-list">
+      <li><a class="gov-link" href="https://www.ontario.ca/page/ontario-photo-card" target="_blank" rel="noopener"><div class="gov-icon">ON</div><div class="gov-text"><div class="gov-title">Ontario Photo Card overview</div><div class="gov-url">ontario.ca/page/ontario-photo-card — Official Ontario.ca page ↗</div></div><div class="gov-arrow">↗</div></a></li>
+      <li><a class="gov-link" href="https://www.ontario.ca/locations/serviceontario" target="_blank" rel="noopener"><div class="gov-icon">ON</div><div class="gov-text"><div class="gov-title">Find a ServiceOntario location</div><div class="gov-url">ontario.ca/locations/serviceontario — Official Ontario.ca page ↗</div></div><div class="gov-arrow">↗</div></a></li>
+      <li><a class="gov-link" href="https://www.ontario.ca/page/acceptable-identity-documents" target="_blank" rel="noopener"><div class="gov-icon">ON</div><div class="gov-text"><div class="gov-title">Ontario acceptable identity documents</div><div class="gov-url">ontario.ca/page/acceptable-identity-documents — Official Ontario.ca page ↗</div></div><div class="gov-arrow">↗</div></a></li>
+    </ul>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section" id="next-steps">
+    <h2><span class="h2-num">07</span> What comes next</h2>
+    <div style="background:var(--teal-light);border:1px solid rgba(22,107,97,0.2);border-radius:10px;padding:1.25rem 1.5rem;margin-bottom:0.85rem;">
+      <div style="font-size:0.65rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--teal);font-family:&quot;SFMono-Regular&quot;,Consolas,&quot;Liberation Mono&quot;,monospace;margin-bottom:0.5rem;">Related guide</div>
+      <p style="font-size:0.875rem;color:var(--text-soft);line-height:1.65;margin-bottom:0.75rem;">Need to set up a Canadian phone number? Read the phone plan guide for newcomers.</p>
+      <a href="/phone-plan.html" style="font-size:0.78rem;font-weight:600;color:var(--teal);font-family:&quot;SFMono-Regular&quot;,Consolas,&quot;Liberation Mono&quot;,monospace;text-decoration:none;">Phone Plan Guide →</a>
+    </div>
+    <div style="background:var(--teal-light);border:1px solid rgba(22,107,97,0.2);border-radius:10px;padding:1.25rem 1.5rem;margin-bottom:0.85rem;">
+      <div style="font-size:0.65rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--teal);font-family:&quot;SFMono-Regular&quot;,Consolas,&quot;Liberation Mono&quot;,monospace;margin-bottom:0.5rem;">Related guide</div>
+      <p style="font-size:0.875rem;color:var(--text-soft);line-height:1.65;margin-bottom:0.75rem;">Need a bank account for rent payments, direct deposit, or debit? Read the bank account guide.</p>
+      <a href="/bank-account.html" style="font-size:0.78rem;font-weight:600;color:var(--teal);font-family:&quot;SFMono-Regular&quot;,Consolas,&quot;Liberation Mono&quot;,monospace;text-decoration:none;">Bank Account Guide →</a>
+    </div>
+    <div style="background:var(--teal-light);border:1px solid rgba(22,107,97,0.2);border-radius:10px;padding:1.25rem 1.5rem;margin-bottom:1.5rem;">
+      <div style="font-size:0.65rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--teal);font-family:&quot;SFMono-Regular&quot;,Consolas,&quot;Liberation Mono&quot;,monospace;margin-bottom:0.5rem;">Related guide</div>
+      <p style="font-size:0.875rem;color:var(--text-soft);line-height:1.65;margin-bottom:0.75rem;">Want to get an Ontario driver's licence instead? Read the Ontario Driver's License guide.</p>
+      <a href="/ontario-drivers-license.html" style="font-size:0.78rem;font-weight:600;color:var(--teal);font-family:&quot;SFMono-Regular&quot;,Consolas,&quot;Liberation Mono&quot;,monospace;text-decoration:none;">Ontario Driver's License Guide →</a>
+    </div>
+  </section>
+
+  <div class="disclaimer">
+    <strong>This page is for educational and navigational purposes only.</strong><br>
+    It does not constitute legal, immigration, or identification advice. All steps link directly to official Ontario and ServiceOntario sources where possible. Eligibility rules, document requirements, and fees change — always verify current requirements directly with ServiceOntario before applying. For advice specific to your situation, consult the appropriate licensed professional or official agency.
+  </div>
+
+</main>
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <div>Independent newcomer resource for Canada. Links directly to official government and institutional sources.</div>
+    <div>Not affiliated with IRCC or the Government of Canada. Educational and navigational use only.</div>
+    <div class="footer-links">
+      <a href="/index.html">All guides</a>
+      <a href="/pgwp.html">PGWP</a>
+      <a href="/sin.html">SIN</a>
+      <a href="/taxes.html">Taxes</a>
+      <a href="/bank-account.html">Banking</a>
+      <a href="/cra-account.html">CRA Account</a>
+      <a href="/ontario-drivers-license.html">Driver's License</a>
+      <a href="/phone-plan.html">Phone Plan</a>
+      <a href="/ontario-photo-card.html">Photo Card</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
