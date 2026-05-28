@@ -3,6 +3,22 @@
 _Tracks files created or modified each session._
 
 ---
+## 2026-05-28 - Bank Account Guide added
+
+**Created:**
+- `bank-account.html` - new bank account and GIC basics guide for international students using existing guide layout and official FCAC/CDIC links
+
+**Modified:**
+- `index.html` - added Bank Account Guide card under Money & Taxes
+- `sin.html` - added related bank account guide transition card before disclaimer
+- `taxes.html` - added related bank account/direct deposit guide transition card before disclaimer
+- `cra-account.html` - added related bank account guide transition card where direct deposit setup is relevant
+- `memory/current_state.md` - recorded new Bank Account Guide
+- `memory/changed_files.md` - recorded files changed in this task
+- `daily.md` - appended concise session log line
+
+---
+
 ## 2026-05-28 - CRA My Account guide added
 
 **Created:**

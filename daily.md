@@ -4,6 +4,7 @@ One entry per working session. Most recent first.
 
 ---
 ## 2026-05-28
+May 28 - COMMIT_HASH_PENDING - Bank Account Guide added; homepage, SIN, tax, and CRA Account integrations updated.
 May 28 - COMMIT_HASH_PENDING - CRA My Account guide added; homepage and tax guide integrations updated.
 May 28 - Cloudflare Pages auto-deploy confirmed; Netlify removed from active workflow.
 May 28 - ba33986 - CRA certified software link corrected in taxes.html.

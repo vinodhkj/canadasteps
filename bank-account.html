@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Opening a Bank Account in Canada as an International Student | CanadaSteps</title>
+<meta name="description" content="Practical banking guide for international students in Canada. Learn what documents to bring, what account types mean, and how to avoid common first-bank-visit mistakes.">
+<style>
+  :root {
+    --bg: #f7f5f0;
+    --bg-card: #ffffff;
+    --bg-soft: #f0ede6;
+    --navy: #1a2640;
+    --navy-mid: #243352;
+    --red: #b91c1c;
+    --teal: #166b61;
+    --teal-light: #e7f1ef;
+    --amber: #d97706;
+    --amber-light: #fef9c3;
+    --green: #166534;
+    --green-light: #dcfce7;
+    --gray: #6b7280;
+    --gray-light: #e5e7eb;
+    --text: #1f2937;
+    --text-soft: #4b5563;
+    --border: #e2ddd4;
+    --step-line: #d4c9b0;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    font-size: 17px;
+  }
+
+  /* TOP BAR */
+  .topbar {
+    background: var(--navy);
+    color: rgba(255,255,255,0.65);
+    font-size: 0.74rem;
+    padding: 0.45rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .topbar a { color: #f0c76a; text-decoration: none; }
+  .topbar a:hover { text-decoration: underline; }
+
+  /* NAV */
+  nav {
+    background: var(--bg-card);
+    border-bottom: 2px solid var(--navy);
+    padding: 0.9rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }
+
+  .nav-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--navy);
+    text-decoration: none;
+    letter-spacing: -0.3px;
+  }
+  .logo span { color: var(--teal); }
+
+  .nav-crumb {
+    font-size: 0.75rem;
+    color: var(--gray);
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  .nav-crumb strong { color: var(--text-soft); font-weight: 600; }
+
+  .nav-links {
+    display: flex;
+    gap: 1.25rem;
+  }
+  .nav-links a {
+    font-size: 0.86rem;
+    color: var(--gray);
+    text-decoration: none;
+  }
+  .nav-links a:hover { color: var(--teal); }
+  .nav-links a.current { color: var(--teal); font-weight: 500; }
+
+  /* PAGE LAYOUT */
+  .page-wrap {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 2.25rem 2.25rem 4.5rem;
+  }
+
+  /* HEADER */
+  .page-header {
+    margin-bottom: 1.45rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .track-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: var(--teal-light);
+    color: var(--teal);
+    border: 1px solid rgba(22,107,97,0.2);
+    padding: 0.25rem 0.75rem;
+    border-radius: 100px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 0.85rem;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  }
+
+  h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.6rem, 4vw, 2.2rem);
+    font-weight: 700;
+    color: var(--navy);
+    line-height: 1.25;
+    margin-bottom: 0.6rem;
+    letter-spacing: -0.2px;
+  }
+
+  .page-desc {
+    font-size: 1rem;
+    color: var(--text-soft);
+    line-height: 1.7;
+    max-width: 620px;
+  }
+
+  .meta-row {
+    display: flex;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+    margin-top: 1.1rem;
+  }
+
+  .meta-item {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.75rem;
+    color: var(--gray);
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  }
+
+  .meta-dot {
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    background: var(--teal);
+    flex-shrink: 0;
+  }
+  .meta-dot.amber { background: var(--amber); }
+  .meta-dot.green { background: #16a34a; }
+
+  /* REALITY CHECK */
+  .reality-check {
+    background: var(--amber-light);
+    border: 1px solid rgba(217,119,6,0.25);
+    border-left: 4px solid var(--amber);
+    border-radius: 8px;
+    padding: 1rem 1.1rem;
+    margin-bottom: 1.45rem;
+    font-size: 0.84rem;
+    color: #78350f;
+    line-height: 1.6;
+  }
+  .reality-check strong {
+    display: block;
+    font-weight: 700;
+    font-size: 0.82rem;
+    color: #92400e;
+    margin-bottom: 0.55rem;
+  }
+  .reality-check ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-left: 0;
+  }
+  .reality-check ul li {
+    display: flex;
+    gap: 0.5rem;
+    line-height: 1.55;
+  }
+  .reality-check ul li::before {
+    content: 'â†’';
+    flex-shrink: 0;
+    color: var(--amber);
+    font-weight: 600;
+  }
+  .reality-check a { color: #92400e; font-weight: 600; }
+
+  /* SECTION */
+  .section { margin-bottom: 1.65rem; }
+
+  h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 0.85rem;
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+  }
+
+  .h2-num {
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    font-size: 0.65rem;
+    background: var(--navy);
+    color: white;
+    padding: 0.18rem 0.45rem;
+    border-radius: 4px;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+  }
+
+  .divider {
+    height: 1px;
+    background: var(--border);
+    margin: 1.4rem 0;
+  }
+
+  /* CHECKLIST */
+  .checklist { list-style: none; display: flex; flex-direction: column; gap: 0.55rem; }
+  .checklist li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    font-size: 0.875rem;
+    color: var(--text-soft);
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    line-height: 1.55;
+  }
+  .check-box {
+    width: 16px; height: 16px;
+    border: 1.5px solid var(--gray-light);
+    border-radius: 3px;
+    flex-shrink: 0;
+    margin-top: 2px;
+    background: var(--bg);
+  }
+  .checklist li strong { color: var(--text); font-weight: 600; }
+
+  /* STEPS */
+  .steps-list { list-style: none; position: relative; }
+  .steps-list::before {
+    content: '';
+    position: absolute;
+    left: 20px; top: 26px; bottom: 26px;
+    width: 1px;
+    background: var(--step-line);
+  }
+
+  .step { display: flex; gap: 1.1rem; margin-bottom: 0.85rem; position: relative; }
+
+  .step-num {
+    width: 42px; height: 42px;
+    border-radius: 50%;
+    background: var(--navy);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    font-size: 0.75rem;
+    font-weight: 500;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1;
+    border: 3px solid var(--bg);
+    box-shadow: 0 0 0 1px var(--step-line);
+  }
+
+  .step-body {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.2rem;
+    flex: 1;
+  }
+
+  .step-title {
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: var(--navy);
+    margin-bottom: 0.3rem;
+  }
+
+  .step-desc {
+    font-size: 0.83rem;
+    color: var(--text-soft);
+    line-height: 1.6;
+    margin-bottom: 0.6rem;
+  }
+
+  .step-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--teal);
+    text-decoration: none;
+    border: 1px solid rgba(22,107,97,0.25);
+    background: var(--teal-light);
+    padding: 0.28rem 0.65rem;
+    border-radius: 5px;
+    transition: all 0.2s;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    margin-right: 0.4rem;
+    margin-bottom: 0.3rem;
+  }
+  .step-link:hover { background: rgba(22,107,97,0.12); border-color: var(--teal); }
+  .step-link::after { content: ' â†—'; }
+
+  .step-note {
+    margin-top: 0.5rem;
+    font-size: 0.77rem;
+    color: #78350f;
+    background: var(--amber-light);
+    border: 1px solid rgba(217,119,6,0.18);
+    border-radius: 6px;
+    padding: 0.4rem 0.7rem;
+    line-height: 1.5;
+  }
+
+  .step-safe {
+    margin-top: 0.5rem;
+    font-size: 0.77rem;
+    color: #1e3a5f;
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
+    border-radius: 6px;
+    padding: 0.4rem 0.7rem;
+    line-height: 1.5;
+  }
+
+  /* MISSES */
+  .misses-list { list-style: none; display: flex; flex-direction: column; gap: 0.65rem; }
+  .miss-item {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--red);
+    border-radius: 8px;
+    padding: 0.9rem 1.1rem;
+  }
+  .miss-title {
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: var(--red);
+    margin-bottom: 0.25rem;
+  }
+  .miss-item p { font-size: 0.82rem; color: var(--text-soft); line-height: 1.55; }
+
+  /* OFFICIAL LINKS */
+  .links-list { list-style: none; display: flex; flex-direction: column; gap: 0.55rem; }
+  .gov-link {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 9px;
+    padding: 0.85rem 1.1rem;
+    text-decoration: none;
+    transition: all 0.2s;
+    color: inherit;
+  }
+  .gov-link:hover { border-color: var(--teal); background: var(--teal-light); transform: translateX(2px); }
+
+  .gov-icon {
+    width: 32px; height: 32px;
+    border-radius: 5px;
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    color: var(--navy);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.82rem;
+    flex-shrink: 0;
+  }
+
+  .gov-text { flex: 1; }
+  .gov-title { font-weight: 600; font-size: 0.85rem; color: var(--navy); line-height: 1.3; }
+  .gov-url { font-size: 0.68rem; color: var(--gray); font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; margin-top: 0.1rem; }
+  .gov-arrow { color: var(--teal); font-size: 0.9rem; flex-shrink: 0; }
+
+  /* DISCLAIMER */
+  .disclaimer {
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.2rem;
+    font-size: 0.78rem;
+    color: var(--gray);
+    line-height: 1.65;
+    margin-top: 2.5rem;
+    text-align: center;
+  }
+  .disclaimer a { color: var(--teal); }
+  .disclaimer strong { color: var(--text-soft); }
+
+  .site-footer {
+    margin: 0;
+    padding: 1.35rem 0 2rem;
+    background: var(--bg-soft);
+    border-top: 1px solid var(--border);
+    color: var(--gray);
+    font-size: 0.72rem;
+    line-height: 1.6;
+  }
+  .site-footer-inner {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 0 2.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+  .site-footer a { color: var(--teal); text-decoration: none; }
+  .site-footer a:hover { text-decoration: underline; }
+  .footer-links { display: flex; flex-wrap: wrap; gap: 0.8rem; }
+
+  @media (max-width: 600px) {
+    body { font-size: 16px; }
+    .page-wrap { padding: 1.5rem 1.1rem 4rem; }
+    .site-footer { padding: 1.2rem 0 2rem; }
+    .site-footer-inner { padding: 0 1.1rem; }
+    h1 { font-size: 1.55rem; }
+    .nav-crumb { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <span>Canada Immigration Guides â€” Educational &amp; Navigational Resource Only</span>
+  <a href="https://www.canada.ca/en/financial-consumer-agency/services/banking.html" target="_blank" rel="noopener">Official FCAC â†—</a>
+</div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-row">
+    <a class="logo" href="/index.html">Canada<span>Steps</span></a>
+    <div class="nav-crumb">Money &amp; Taxes &rarr; <strong>Bank Account</strong></div>
+  </div>
+  <div class="nav-links">
+    <a href="/index.html">All Guides</a>
+    <a href="/pgwp.html">PGWP Guide</a>
+    <a href="/sin.html">SIN Guide</a>
+    <a href="/taxes.html">Tax Guide</a>
+  </div>
+</nav>
+
+<!-- FOUNDER NOTE -->
+<div style="border-bottom:1px solid var(--border);padding:0.5rem 2rem;font-size:0.75rem;color:var(--gray);line-height:1.55;">
+  Built by a newcomer to Canada who spent too many hours trying to piece together immigration steps from scattered government pages. Everything here links directly to official sources. No legal advice. No guesswork.
+  <span style="display:block;margin-top:0.25rem;font-size:0.68rem;opacity:0.75;">Not affiliated with IRCC or the Government of Canada.</span>
+</div>
+
+<main class="page-wrap">
+
+  <!-- 01 HEADER -->
+  <header class="page-header">
+    <div class="track-tag">Money &amp; Taxes</div>
+    <h1>Opening a Bank Account in Canada as an International Student</h1>
+    <p class="page-desc">Learn what documents to bring, what account types mean, and how to avoid common first-bank-visit mistakes.</p>
+    <p style="font-size:0.78rem;color:var(--gray);margin-top:0.65rem;line-height:1.55;">Always confirm account requirements and fees directly with the bank before opening an account.</p>
+    <div class="meta-row">
+      <div class="meta-item"><div class="meta-dot"></div>Last reviewed: May 2026</div>
+      <div class="meta-item"><div class="meta-dot"></div>Source: FCAC and CDIC</div>
+    </div>
+  </header>
+
+  <!-- 02 REALITY CHECK BOX -->
+  <div class="reality-check">
+    <strong>Before your first bank visit</strong>
+    <ul>
+      <li>Opening a bank account is usually one of the first practical steps after arrival.</li>
+      <li>A chequing account, savings account, credit card, and GIC are not the same thing.</li>
+      <li>Fees, offers, ID requirements, and GIC release processes can vary by bank.</li>
+      <li>Do not choose a bank only because someone online said it is &quot;best&quot;.</li>
+    </ul>
+  </div>
+
+  <!-- 03 WHAT A BANK ACCOUNT IS FOR -->
+  <section class="section" id="what-it-is-for">
+    <h2><span class="h2-num">01</span> What a bank account is for</h2>
+    <div class="step-body">
+      <ul style="list-style:none;display:flex;flex-direction:column;gap:0.5rem;padding-left:0;">
+        <li style="display:flex;gap:0.5rem;font-size:0.83rem;color:var(--text-soft);line-height:1.55;align-items:flex-start;"><span style="color:var(--teal);flex-shrink:0;font-weight:600;">→</span>Receive money or GIC payments</li>
+        <li style="display:flex;gap:0.5rem;font-size:0.83rem;color:var(--text-soft);line-height:1.55;align-items:flex-start;"><span style="color:var(--teal);flex-shrink:0;font-weight:600;">→</span>Pay rent and bills</li>
+        <li style="display:flex;gap:0.5rem;font-size:0.83rem;color:var(--text-soft);line-height:1.55;align-items:flex-start;"><span style="color:var(--teal);flex-shrink:0;font-weight:600;">→</span>Use a debit card for everyday payments</li>
+        <li style="display:flex;gap:0.5rem;font-size:0.83rem;color:var(--text-soft);line-height:1.55;align-items:flex-start;"><span style="color:var(--teal);flex-shrink:0;font-weight:600;">→</span>Receive payroll direct deposit</li>
+        <li style="display:flex;gap:0.5rem;font-size:0.83rem;color:var(--text-soft);line-height:1.55;align-items:flex-start;"><span style="color:var(--teal);flex-shrink:0;font-weight:600;">→</span>Send e-transfers</li>
+        <li style="display:flex;gap:0.5rem;font-size:0.83rem;color:var(--text-soft);line-height:1.55;align-items:flex-start;"><span style="color:var(--teal);flex-shrink:0;font-weight:600;">→</span>Build basic financial records in Canada</li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 04 COMMON ACCOUNT TYPES -->
+  <section class="section" id="account-types">
+    <h2><span class="h2-num">02</span> Common account types</h2>
+    <div class="step-body" style="margin-bottom:0.65rem;"><div class="step-title">Chequing account</div><div class="step-desc" style="margin-bottom:0;">Used for daily spending, debit card payments, rent, bills, and regular transactions.</div></div>
+    <div class="step-body" style="margin-bottom:0.65rem;"><div class="step-title">Savings account</div><div class="step-desc" style="margin-bottom:0;">Used to hold money separately from daily spending. Fees and interest rules vary by bank.</div></div>
+    <div class="step-body" style="margin-bottom:0.65rem;"><div class="step-title">Credit card</div><div class="step-desc" style="margin-bottom:0;">A credit card is borrowed money that must be repaid. It is not free money.</div></div>
+    <div class="step-body"><div class="step-title">GIC</div><div class="step-desc" style="margin-bottom:0;">A Guaranteed Investment Certificate may be locked or released on a schedule. International students often use GICs as proof of funds or arrival funds, but release rules depend on the bank and account setup.</div></div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 05 DOCUMENTS YOU MAY NEED -->
+  <section class="section" id="documents">
+    <h2><span class="h2-num">03</span> Documents you may need</h2>
+    <ul class="checklist">
+      <li><div class="check-box"></div><div><strong>Passport</strong> — bring your original passport for identity verification.</div></li>
+      <li><div class="check-box"></div><div><strong>Study permit</strong> — banks may ask to confirm your status in Canada.</div></li>
+      <li><div class="check-box"></div><div><strong>Letter of acceptance or school enrolment proof</strong> — bring it if the bank requests student proof.</div></li>
+      <li><div class="check-box"></div><div><strong>SIN if you have one</strong> — especially for interest-bearing accounts or tax reporting.</div></li>
+      <li><div class="check-box"></div><div><strong>Canadian address</strong> — use the address where you can reliably receive mail.</div></li>
+      <li><div class="check-box"></div><div><strong>Phone number and email</strong> — needed for account setup, alerts, and online banking access.</div></li>
+      <li><div class="check-box"></div><div><strong>GIC confirmation or welcome letter if applicable</strong> — bring bank-issued GIC documents if you have them.</div></li>
+      <li><div class="check-box"></div><div><strong>Appointment confirmation if booked</strong> — keep the confirmation handy for branch check-in.</div></li>
+    </ul>
+    <div class="step-note">Official rules allow people to open a bank account if they meet identification requirements, but banks still need to verify identity and may ask for specific documents. Review the <a href="https://www.canada.ca/en/financial-consumer-agency/services/banking/opening-bank-account.html" target="_blank" rel="noopener">official FCAC bank account page</a> before your visit.</div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 06 IF YOU HAVE A GIC -->
+  <section class="section" id="gic">
+    <h2><span class="h2-num">04</span> If you have a GIC</h2>
+    <div class="step-body">
+      <ul style="list-style:none;display:flex;flex-direction:column;gap:0.5rem;padding-left:0;">
+        <li style="display:flex;gap:0.5rem;font-size:0.83rem;color:var(--text-soft);line-height:1.55;align-items:flex-start;"><span style="color:var(--teal);flex-shrink:0;font-weight:600;">→</span>Bring your GIC confirmation or welcome letter.</li>
+        <li style="display:flex;gap:0.5rem;font-size:0.83rem;color:var(--text-soft);line-height:1.55;align-items:flex-start;"><span style="color:var(--teal);flex-shrink:0;font-weight:600;">→</span>Ask the bank how the initial release and future payments work.</li>
+        <li style="display:flex;gap:0.5rem;font-size:0.83rem;color:var(--text-soft);line-height:1.55;align-items:flex-start;"><span style="color:var(--teal);flex-shrink:0;font-weight:600;">→</span>Ask when funds will be available.</li>
+        <li style="display:flex;gap:0.5rem;font-size:0.83rem;color:var(--text-soft);line-height:1.55;align-items:flex-start;"><span style="color:var(--teal);flex-shrink:0;font-weight:600;">→</span>Confirm which account the payments go into.</li>
+        <li style="display:flex;gap:0.5rem;font-size:0.83rem;color:var(--text-soft);line-height:1.55;align-items:flex-start;"><span style="color:var(--teal);flex-shrink:0;font-weight:600;">→</span>Ask about fees and minimum balances.</li>
+        <li style="display:flex;gap:0.5rem;font-size:0.83rem;color:var(--text-soft);line-height:1.55;align-items:flex-start;"><span style="color:var(--teal);flex-shrink:0;font-weight:600;">→</span>Save all documents and receipts.</li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 07 STEPS IN ORDER -->
+  <section class="section" id="steps">
+    <h2><span class="h2-num">05</span> Steps in order</h2>
+    <ol class="steps-list">
+      <li class="step"><div class="step-num">01</div><div class="step-body"><div class="step-title">Choose a bank or branch near your school or home</div><div class="step-desc">Compare practical access, branch hours, account fees, and whether the bank can handle your GIC if you have one.</div></div></li>
+      <li class="step"><div class="step-num">02</div><div class="step-body"><div class="step-title">Book an appointment if needed</div><div class="step-desc">Some branches accept walk-ins, but appointments can make first account setup easier.</div></div></li>
+      <li class="step"><div class="step-num">03</div><div class="step-body"><div class="step-title">Bring passport, study permit, and supporting documents</div><div class="step-desc">Bring originals where possible and any student, address, or GIC documents the bank requested.</div></div></li>
+      <li class="step"><div class="step-num">04</div><div class="step-body"><div class="step-title">Ask about monthly fees, student offers, and debit card limits</div><div class="step-desc">Confirm what is free, what has a fee, when any student offer ends, and how transaction limits work.</div></div></li>
+      <li class="step"><div class="step-num">05</div><div class="step-body"><div class="step-title">Confirm how direct deposit and e-transfer work</div><div class="step-desc">Ask how to receive payroll deposits, send e-transfers, and find your account details safely.</div></div></li>
+      <li class="step"><div class="step-num">06</div><div class="step-body"><div class="step-title">If you have a GIC, confirm release process and payment schedule</div><div class="step-desc">Ask the bank to explain the process for your specific GIC documents and account setup.</div></div></li>
+      <li class="step"><div class="step-num">07</div><div class="step-body"><div class="step-title">Set up online and mobile banking safely</div><div class="step-desc">Use strong passwords, secure your device, and do not sign in from links in random messages.</div></div></li>
+      <li class="step"><div class="step-num">08</div><div class="step-body"><div class="step-title">Save account documents and branch contact details</div><div class="step-desc">Keep account agreements, receipts, GIC release information, and the branch contact details in a safe place.</div></div></li>
+    </ol>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 08 COMMON MISTAKES -->
+  <section class="section" id="mistakes">
+    <h2><span class="h2-num">06</span> Common mistakes</h2>
+    <ul class="misses-list">
+      <li class="miss-item"><div class="miss-title">Choosing based only on a welcome bonus</div><p>A bonus can be useful, but fees, access, account rules, and GIC support may matter more.</p></li>
+      <li class="miss-item"><div class="miss-title">Not asking about monthly fees after a student offer ends</div><p>Ask what the account costs later and what conditions must be met to avoid fees.</p></li>
+      <li class="miss-item"><div class="miss-title">Confusing debit card and credit card</div><p>A debit card uses money in your account. A credit card is borrowed money that must be repaid.</p></li>
+      <li class="miss-item"><div class="miss-title">Not asking how GIC payments are released</div><p>GIC release processes vary. Ask the bank to explain your own release steps and timing.</p></li>
+      <li class="miss-item"><div class="miss-title">Forgetting to update address or phone number</div><p>Keep contact information current so you receive account notices and security messages.</p></li>
+      <li class="miss-item"><div class="miss-title">Sharing online banking login</div><p>Do not share your password, card PIN, verification codes, or online banking access.</p></li>
+      <li class="miss-item"><div class="miss-title">Ignoring minimum balance or transaction limits</div><p>Some accounts have fee conditions, transaction limits, or debit limits. Ask before you rely on the account.</p></li>
+      <li class="miss-item"><div class="miss-title">Opening too many accounts too quickly</div><p>Start with what you need and keep your setup simple enough to manage safely.</p></li>
+    </ul>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 09 OFFICIAL LINKS -->
+  <section class="section" id="links">
+    <h2><span class="h2-num">07</span> Official links</h2>
+    <ul class="links-list">
+      <li><a class="gov-link" href="https://www.canada.ca/en/financial-consumer-agency/services/banking/opening-bank-account.html" target="_blank" rel="noopener"><div class="gov-icon">CA</div><div class="gov-text"><div class="gov-title">FCAC — Opening a bank account</div><div class="gov-url">canada.ca → financial-consumer-agency → opening-bank-account</div></div><div class="gov-arrow">↗</div></a></li>
+      <li><a class="gov-link" href="https://www.canada.ca/en/financial-consumer-agency/services/banking/deposit-insurance.html" target="_blank" rel="noopener"><div class="gov-icon">CA</div><div class="gov-text"><div class="gov-title">FCAC — Deposit insurance</div><div class="gov-url">canada.ca → financial-consumer-agency → deposit-insurance</div></div><div class="gov-arrow">↗</div></a></li>
+      <li><a class="gov-link" href="https://www.cdic.ca/depositors/list-of-members/" target="_blank" rel="noopener"><div class="gov-icon">CA</div><div class="gov-text"><div class="gov-title">CDIC — List of member institutions</div><div class="gov-url">cdic.ca → depositors → list-of-members</div></div><div class="gov-arrow">↗</div></a></li>
+      <li><a class="gov-link" href="https://www.canada.ca/en/financial-consumer-agency/services/rights-responsibilities/rights-investing/rights-guaranteed-investment-certificates.html" target="_blank" rel="noopener"><div class="gov-icon">CA</div><div class="gov-text"><div class="gov-title">FCAC — Guaranteed Investment Certificates and term deposits</div><div class="gov-url">canada.ca → financial-consumer-agency → rights-guaranteed-investment-certificates</div></div><div class="gov-arrow">↗</div></a></li>
+      <li><a class="gov-link" href="https://www.canada.ca/en/financial-consumer-agency/services/banking.html" target="_blank" rel="noopener"><div class="gov-icon">CA</div><div class="gov-text"><div class="gov-title">FCAC — Banking</div><div class="gov-url">canada.ca → financial-consumer-agency → banking</div></div><div class="gov-arrow">↗</div></a></li>
+    </ul>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 10 WHAT COMES NEXT -->
+  <section class="section" id="next-steps">
+    <h2><span class="h2-num">08</span> What comes next</h2>
+    <div style="background:var(--teal-light);border:1px solid rgba(22,107,97,0.2);border-radius:10px;padding:1.25rem 1.5rem;margin-bottom:0.85rem;">
+      <div style="font-size:0.65rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--teal);font-family:&quot;SFMono-Regular&quot;,Consolas,&quot;Liberation Mono&quot;,monospace;margin-bottom:0.5rem;">Related guide</div>
+      <p style="font-size:0.875rem;color:var(--text-soft);line-height:1.65;margin-bottom:0.75rem;">Need a SIN for payroll, tax reporting, or interest-bearing accounts? Review the SIN guide.</p>
+      <a href="/sin.html" style="font-size:0.78rem;font-weight:600;color:var(--teal);font-family:&quot;SFMono-Regular&quot;,Consolas,&quot;Liberation Mono&quot;,monospace;text-decoration:none;">SIN Guide →</a>
+    </div>
+    <div style="background:var(--teal-light);border:1px solid rgba(22,107,97,0.2);border-radius:10px;padding:1.25rem 1.5rem;margin-bottom:0.85rem;">
+      <div style="font-size:0.65rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--teal);font-family:&quot;SFMono-Regular&quot;,Consolas,&quot;Liberation Mono&quot;,monospace;margin-bottom:0.5rem;">Related guide</div>
+      <p style="font-size:0.875rem;color:var(--text-soft);line-height:1.65;margin-bottom:0.75rem;">Need to file your first Canadian tax return as an international student? Start with the tax filing guide.</p>
+      <a href="/taxes.html" style="font-size:0.78rem;font-weight:600;color:var(--teal);font-family:&quot;SFMono-Regular&quot;,Consolas,&quot;Liberation Mono&quot;,monospace;text-decoration:none;">Tax Filing Guide →</a>
+    </div>
+    <div style="background:var(--teal-light);border:1px solid rgba(22,107,97,0.2);border-radius:10px;padding:1.25rem 1.5rem;margin-bottom:1.5rem;">
+      <div style="font-size:0.65rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--teal);font-family:&quot;SFMono-Regular&quot;,Consolas,&quot;Liberation Mono&quot;,monospace;margin-bottom:0.5rem;">Related guide</div>
+      <p style="font-size:0.875rem;color:var(--text-soft);line-height:1.65;margin-bottom:0.75rem;">Need to manage CRA mail, direct deposit, or your Notice of Assessment online? Read the CRA My Account guide.</p>
+      <a href="/cra-account.html" style="font-size:0.78rem;font-weight:600;color:var(--teal);font-family:&quot;SFMono-Regular&quot;,Consolas,&quot;Liberation Mono&quot;,monospace;text-decoration:none;">CRA My Account Guide →</a>
+    </div>
+  </section>
+
+  <!-- 11 DISCLAIMER -->
+  <div class="disclaimer">
+    <strong>This page is for educational and navigational purposes only.</strong><br>
+    It does not constitute financial, legal, tax, or immigration advice. All steps link directly to official government or consumer protection sources where possible. Banking rules, fees, and account requirements change — always verify current requirements directly with the bank and official consumer protection sources before opening an account. For advice specific to your situation, consult a qualified professional.
+  </div>
+
+</main>
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <div>CanadaSteps is an independent public guidance resource for newcomers to Canada.</div>
+    <div>Not affiliated with IRCC or the Government of Canada. Contact: contact not yet published.</div>
+    <div class="footer-links">
+      <a href="/pgwp.html">PGWP guide</a>
+      <a href="/sin.html">SIN guide</a>
+      <a href="/taxes.html">Tax guide</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
