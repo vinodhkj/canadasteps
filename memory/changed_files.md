@@ -3,6 +3,21 @@
 _Tracks files created or modified each session._
 
 ---
+## 2026-05-28 - Trust and operational clarity pass
+
+**Modified:**
+- `index.html` - footer grounded: clearer institutional position, expanded guide links
+- `pgwp.html` - footer grounded, topbar link softened (#f0c76a → rgba)
+- `sin.html` - footer grounded, topbar link softened, "Settlement Track" → "First Weeks"
+- `taxes.html` - footer grounded, topbar link softened
+- `bank-account.html` - footer grounded, topbar softened, encoding fixed (→, ↗, —)
+- `cra-account.html` - footer grounded, topbar softened, encoding fixed (→, ↗, —)
+- `ontario-drivers-license.html` - footer grounded, topbar softened, all `->` fixed to `↗`/`→`, G1 caution note added, 2 new miss-items (experience letters, insurance/licence), "identity workflows" wording fixed
+- `memory/current_state.md` - updated last change
+- `memory/changed_files.md` - this entry
+- `daily.md` - appended session log line
+
+---
 ## 2026-05-28 - Homepage IA refactor: newcomer journey structure
 
 **Modified:**

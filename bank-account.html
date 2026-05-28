@@ -47,7 +47,7 @@
     justify-content: space-between;
     align-items: center;
   }
-  .topbar a { color: #f0c76a; text-decoration: none; }
+  .topbar a { color: rgba(255,255,255,0.72); text-decoration: none; }
   .topbar a:hover { text-decoration: underline; }
 
   /* NAV */
@@ -215,7 +215,7 @@
     line-height: 1.55;
   }
   .reality-check ul li::before {
-    content: 'â†’';
+    content: ‘→’;
     flex-shrink: 0;
     color: var(--amber);
     font-weight: 600;
@@ -349,7 +349,7 @@
     margin-bottom: 0.3rem;
   }
   .step-link:hover { background: rgba(22,107,97,0.12); border-color: var(--teal); }
-  .step-link::after { content: ' â†—'; }
+  .step-link::after { content: ' ↗'; }
 
   .step-note {
     margin-top: 0.5rem;
@@ -475,8 +475,8 @@
 
 <!-- TOP BAR -->
 <div class="topbar">
-  <span>Canada Immigration Guides â€” Educational &amp; Navigational Resource Only</span>
-  <a href="https://www.canada.ca/en/financial-consumer-agency/services/banking.html" target="_blank" rel="noopener">Official FCAC â†—</a>
+  <span>Canada Immigration Guides — Educational &amp; Navigational Resource Only</span>
+  <a href=”https://www.canada.ca/en/financial-consumer-agency/services/banking.html” target=”_blank” rel=”noopener”>Official FCAC ↗</a>
 </div>
 
 <!-- NAV -->
@@ -664,12 +664,16 @@
 </main>
 <footer class="site-footer">
   <div class="site-footer-inner">
-    <div>CanadaSteps is an independent public guidance resource for newcomers to Canada.</div>
-    <div>Not affiliated with IRCC or the Government of Canada. Contact: contact not yet published.</div>
+    <div>Independent newcomer resource for Canada. Links directly to official government and institutional sources.</div>
+    <div>Not affiliated with IRCC or the Government of Canada. Educational and navigational use only.</div>
     <div class="footer-links">
-      <a href="/pgwp.html">PGWP guide</a>
-      <a href="/sin.html">SIN guide</a>
-      <a href="/taxes.html">Tax guide</a>
+      <a href="/index.html">All guides</a>
+      <a href="/pgwp.html">PGWP</a>
+      <a href="/sin.html">SIN</a>
+      <a href="/taxes.html">Taxes</a>
+      <a href="/bank-account.html">Banking</a>
+      <a href="/cra-account.html">CRA Account</a>
+      <a href="/ontario-drivers-license.html">Driver's License</a>
     </div>
   </div>
 </footer>

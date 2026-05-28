@@ -27,7 +27,7 @@ Phase 0 - Foundation
 
 ## Last change
 
-May 28 - Homepage restructured into 3 sections (First Weeks / Money & Taxes / Study & Immigration); nav updated across all 7 pages; top copy simplified; IRCC topbar link softened.
+May 28 - Trust and operational clarity pass: footer grounded across all 7 pages, topbar link softened on all inner pages, arrow encoding fixed (bank-account, cra-account), ontario-drivers-license.html realism notes added (G1 restriction, experience letters, insurance/licence distinction), "identity workflows" wording fixed, "Settlement Track" label changed to "First Weeks" in sin.html.
 
 ## Previous change
 

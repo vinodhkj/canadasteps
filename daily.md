@@ -4,6 +4,7 @@ One entry per working session. Most recent first.
 
 ---
 ## 2026-05-28
+May 28 - COMMIT_HASH_PENDING - Trust and operational clarity pass: footer grounded across all 7 pages, topbar softened, arrow encoding fixed, driver's license realism notes added.
 May 28 - COMMIT_HASH_PENDING - Homepage IA refactor: 3-section journey structure (First Weeks / Money & Taxes / Study & Immigration), nav updated across all 7 pages.
 May 28 - COMMIT_HASH_PENDING - Ontario Driver's License Guide added with homepage Daily Life card.
 May 28 - COMMIT_HASH_PENDING - Homepage Start Here flow added before guide cards.
