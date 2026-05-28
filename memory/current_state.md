@@ -21,7 +21,7 @@ Phase 0 - Foundation
 
 ## Last change
 
-May 28 - Layout-density polish: desktop content width increased and major vertical spacing tightened across index.html, pgwp.html, and sin.html.
+May 28 - Site legitimacy pass: simple footer added across index.html, pgwp.html, and sin.html; homepage review date added.
 
 ## Previous change
 
@@ -40,7 +40,7 @@ May 27 - Editorial trust pass: nav anchored with 2px navy border, logo enlarged,
 
 ## Immediate next action
 
-Review density polish on desktop and mobile screenshots, then deploy if approved.
+Review footer legitimacy pass on desktop and mobile, then deploy if approved.
 
 ## File structure note
 

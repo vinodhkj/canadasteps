@@ -3,6 +3,19 @@
 _Tracks files created or modified each session._
 
 ---
+## 2026-05-28 - Site legitimacy pass
+
+**Modified:**
+- `index.html` - added simple site footer and homepage last-reviewed line
+- `pgwp.html` - added simple site footer
+- `sin.html` - added simple site footer
+- `memory/current_state.md` - recorded latest legitimacy pass
+- `memory/next_prompt.md` - updated next-session handoff
+- `memory/changed_files.md` - recorded files changed in this task
+- `daily.md` - appended concise session log line
+
+---
+
 ## 2026-05-28 - Layout-density polish
 
 **Modified:**

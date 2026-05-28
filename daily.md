@@ -4,6 +4,7 @@ One entry per working session. Most recent first.
 
 ---
 ## 2026-05-28
+May 28 - Site legitimacy pass: simple footer added across three pages; homepage last-reviewed line added.
 May 28 - Layout-density polish: wider desktop container and tighter section rhythm across three pages.
 
 
