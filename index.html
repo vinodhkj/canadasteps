@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CanadaSteps — Guides for Newcomers to Canada</title>
-<meta name="description" content="Step-by-step operational guides for newcomers to Canada. Every claim links to an official source.">
+<meta name="description" content="Practical setup guides for newcomers and international students in Canada. Every step links to an official source.">
 <style>
   :root {
     --bg: #f8f5ee;
@@ -47,7 +47,7 @@
     justify-content: space-between;
     align-items: center;
   }
-  .topbar a { color: #f0c76a; text-decoration: none; }
+  .topbar a { color: rgba(255,255,255,0.72); text-decoration: none; }
   .topbar a:hover { text-decoration: underline; }
 
   /* NAV */
@@ -131,48 +131,29 @@
     max-width: 620px;
   }
 
-  .start-flow {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    padding: 1.25rem 1.5rem;
-    margin-bottom: 1.5rem;
-    box-shadow: 0 1px 0 rgba(26, 38, 64, 0.04);
+  .guide-section {
+    margin-bottom: 2.75rem;
   }
 
-  .start-flow h2 {
+  .guide-section-header {
+    margin-bottom: 1.1rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .guide-section-header h2 {
     font-family: Georgia, "Times New Roman", serif;
-    font-size: 1.18rem;
+    font-size: 1.2rem;
     color: var(--navy);
     margin-bottom: 0.35rem;
   }
 
-  .start-flow p {
+  .guide-section-header p {
     font-size: 0.88rem;
     color: var(--text-soft);
     line-height: 1.6;
-    margin-bottom: 0.9rem;
+    max-width: 600px;
   }
-
-  .start-flow ol {
-    list-style-position: inside;
-    display: flex;
-    flex-direction: column;
-    gap: 0.45rem;
-  }
-
-  .start-flow li {
-    font-size: 0.88rem;
-    color: var(--text-soft);
-  }
-
-  .start-flow a {
-    color: var(--teal);
-    font-weight: 600;
-    text-decoration: none;
-  }
-
-  .start-flow a:hover { text-decoration: underline; }
 
   /* GUIDE CARDS */
   .guide-cards {
@@ -233,20 +214,6 @@
     font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
   }
 
-  .guide-label {
-    font-size: 0.65rem;
-    font-weight: 600;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--gray);
-    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
-    margin-bottom: 0.5rem;
-  }
-  .guide-group-start .guide-label { color: var(--teal); }
-  .guide-group-money .guide-label { color: var(--amber); }
-  .guide-group-study .guide-label { color: var(--navy-mid); }
-  .guide-group-life .guide-label { color: var(--navy-mid); }
-
   /* DISCLAIMER */
   .disclaimer {
     margin-top: 3rem;
@@ -306,9 +273,9 @@
   </div>
   <div class="nav-links">
     <a class="current" href="/index.html">All Guides</a>
-    <a href="/index.html#start-here">Start Here</a>
+    <a href="/index.html#first-weeks">First Weeks</a>
     <a href="/index.html#money-taxes">Money &amp; Taxes</a>
-    <a href="/pgwp.html">PGWP</a>
+    <a href="/index.html#study-immigration">Study &amp; Immigration</a>
   </div>
 </nav>
 
@@ -322,66 +289,51 @@
 
   <div class="page-header">
     <h1>Guides for newcomers to Canada</h1>
-    <p class="page-desc">Step-by-step operational guides. Every claim links to an official source.</p>
+    <p class="page-desc">Practical guides for newcomers and international students in Canada. Every step links to an official source.</p>
     <p style="font-size:0.75rem;color:var(--gray);margin-top:0.75rem;">Last reviewed: May 28, 2026</p>
   </div>
 
-  <section class="start-flow" id="start-here">
-    <h2>Start with these steps</h2>
-    <p>If you are already in Canada, these guides cover the practical setup steps students usually ask about first.</p>
-    <ol>
-      <li><a href="/sin.html">Get or update your SIN &rarr;</a></li>
-      <li><a href="/bank-account.html">Open a bank account &rarr;</a></li>
-      <li><a href="/cra-account.html">Set up CRA My Account &rarr;</a></li>
-      <li><a href="/taxes.html">File taxes when needed &rarr;</a></li>
-      <li><a href="/pgwp.html">Plan PGWP later &rarr;</a></li>
-    </ol>
-  </section>
-
-  <div class="guide-cards">
-
-    <div class="guide-group-study" id="study-graduation">
-      <div class="guide-label">Study &amp; Graduation</div>
-      <a class="guide-card" href="/pgwp.html">
-        <span class="guide-card-status">Live</span>
-        <div class="guide-card-title">PGWP Guide</div>
-        <div class="guide-card-desc">Post-Graduation Work Permit — how to apply, timelines, and what comes next</div>
-        <span class="guide-card-link">Read guide →</span>
-      </a>
+  <!-- SECTION 1: FIRST WEEKS -->
+  <section class="guide-section" id="first-weeks">
+    <div class="guide-section-header">
+      <h2>First Weeks in Canada</h2>
+      <p>If you recently arrived in Canada, these are the setup steps most international students and newcomers usually deal with first.</p>
     </div>
-
-    <div class="guide-group-start">
-      <div class="guide-label">Start Here</div>
+    <div class="guide-cards">
       <a class="guide-card" href="/sin.html">
         <span class="guide-card-status">Live</span>
         <div class="guide-card-title">SIN Guide</div>
         <div class="guide-card-desc">Social Insurance Number — apply, update after PGWP, employer situations</div>
         <span class="guide-card-link">Read guide →</span>
       </a>
-    </div>
-
-    <div class="guide-group-start">
-      <div class="guide-label">Start Here</div>
       <a class="guide-card" href="/bank-account.html">
         <span class="guide-card-status">Live</span>
         <div class="guide-card-title">Bank Account Guide</div>
         <div class="guide-card-desc">How to open a bank account, understand basic account types, and avoid common student banking mistakes.</div>
         <span class="guide-card-link">Read guide →</span>
       </a>
+      <a class="guide-card" href="/ontario-drivers-license.html">
+        <span class="guide-card-status">Live</span>
+        <div class="guide-card-title">Ontario Driver’s License Guide</div>
+        <div class="guide-card-desc">How Ontario licensing works for international students and newcomers.</div>
+        <span class="guide-card-link">Read guide →</span>
+      </a>
     </div>
+  </section>
 
-    <div class="guide-group-money" id="money-taxes">
-      <div class="guide-label">Money &amp; Taxes</div>
+  <!-- SECTION 2: MONEY & TAXES -->
+  <section class="guide-section" id="money-taxes">
+    <div class="guide-section-header">
+      <h2>Money &amp; Taxes</h2>
+      <p>Basic tax and CRA setup information students commonly need later.</p>
+    </div>
+    <div class="guide-cards">
       <a class="guide-card" href="/taxes.html">
         <span class="guide-card-status">Live</span>
         <div class="guide-card-title">Tax Filing Guide</div>
         <div class="guide-card-desc">Tax filing for international students — what to file, when, and what documents you need</div>
         <span class="guide-card-link">Read guide →</span>
       </a>
-    </div>
-
-    <div class="guide-group-money">
-      <div class="guide-label">Money &amp; Taxes</div>
       <a class="guide-card" href="/cra-account.html">
         <span class="guide-card-status">Live</span>
         <div class="guide-card-title">CRA My Account Guide</div>
@@ -389,18 +341,23 @@
         <span class="guide-card-link">Read guide →</span>
       </a>
     </div>
+  </section>
 
-    <div class="guide-group-life">
-      <div class="guide-label">Daily Life</div>
-      <a class="guide-card" href="/ontario-drivers-license.html">
+  <!-- SECTION 3: STUDY & IMMIGRATION -->
+  <section class="guide-section" id="study-immigration">
+    <div class="guide-section-header">
+      <h2>Study &amp; Immigration</h2>
+      <p>Longer-term study and post-graduation guidance.</p>
+    </div>
+    <div class="guide-cards">
+      <a class="guide-card" href="/pgwp.html">
         <span class="guide-card-status">Live</span>
-        <div class="guide-card-title">Ontario Driver's License Guide</div>
-        <div class="guide-card-desc">How Ontario licensing works for international students and newcomers.</div>
-        <span class="guide-card-link">Read guide â†’</span>
+        <div class="guide-card-title">PGWP Guide</div>
+        <div class="guide-card-desc">Post-Graduation Work Permit — how to apply, timelines, and what comes next</div>
+        <span class="guide-card-link">Read guide →</span>
       </a>
     </div>
-
-  </div>
+  </section>
 
   <!-- DISCLAIMER -->
   <div class="disclaimer">

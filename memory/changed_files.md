@@ -3,6 +3,22 @@
 _Tracks files created or modified each session._
 
 ---
+## 2026-05-28 - Homepage IA refactor: newcomer journey structure
+
+**Modified:**
+- `index.html` - restructured into 3 sections (First Weeks / Money & Taxes / Study & Immigration), updated nav, simplified top copy, softened IRCC topbar link, removed start-flow and guide-group CSS
+- `sin.html` - nav updated: Start Here → First Weeks, PGWP → Study & Immigration
+- `bank-account.html` - nav updated: Start Here → First Weeks, PGWP → Study & Immigration
+- `taxes.html` - nav updated: Start Here → First Weeks, PGWP → Study & Immigration
+- `cra-account.html` - nav updated: Start Here → First Weeks, PGWP → Study & Immigration
+- `pgwp.html` - nav updated: Start Here → First Weeks, PGWP (current) → Study & Immigration (current)
+- `ontario-drivers-license.html` - nav updated: current moved from All Guides to First Weeks; PGWP → Study & Immigration
+- `memory/current_state.md` - recorded homepage IA refactor
+- `memory/next_prompt.md` - updated nav and section structure
+- `memory/changed_files.md` - recorded files changed in this task
+- `daily.md` - appended concise session log line
+
+---
 ## 2026-05-28 - Ontario Driver's License Guide added
 
 **Created:**

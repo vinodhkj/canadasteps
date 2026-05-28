@@ -16,10 +16,12 @@ Current pages:
 - ontario-drivers-license.html
 
 Current state:
-- Top nav uses category links: All Guides, Start Here, Money & Taxes, PGWP
-- Homepage has a lightweight Start Here flow before guide cards for SIN, bank account, CRA My Account, taxes, and PGWP
-- Homepage groups guides by Start Here, Money & Taxes, Study & Graduation, and Daily Life
-- Ontario Driver's License Guide exists as a Daily Life page using DriveTest/Ontario official sources
+- Top nav uses: All Guides, First Weeks, Money & Taxes, Study & Immigration (anchors to homepage sections)
+- Homepage structured into 3 sections: First Weeks in Canada / Money & Taxes / Study & Immigration
+- First Weeks: SIN, Bank Account, Ontario Driver's License
+- Money & Taxes: Tax Filing, CRA My Account
+- Study & Immigration: PGWP
+- Ontario Driver's License is in First Weeks section (not Daily Life)
 - Subtle maple-leaf SVG is part of the CanadaSteps logo
 - Visual comfort pass uses warmer neutrals, softer cards, and subtle category accents
 

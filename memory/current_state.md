@@ -27,11 +27,11 @@ Phase 0 - Foundation
 
 ## Last change
 
-May 28 - Ontario Driver's License Guide added as a Daily Life page; homepage now includes a live guide card for it.
+May 28 - Homepage restructured into 3 sections (First Weeks / Money & Taxes / Study & Immigration); nav updated across all 7 pages; top copy simplified; IRCC topbar link softened.
 
 ## Previous change
 
-May 27 - Editorial trust pass: nav anchored with 2px navy border, logo enlarged, nav-links moved to sans-serif, topbar emoji removed, founder note bar removed (now transparent attribution line), h2 enlarged, gov-icon boxes muted. All 3 pages.
+May 28 - Ontario Driver's License Guide added as a Daily Life page; homepage now includes a live guide card for it.
 
 ## Frozen files
 
@@ -46,7 +46,7 @@ May 27 - Editorial trust pass: nav anchored with 2px navy border, logo enlarged,
 
 ## Immediate next action
 
-Push main to GitHub; Cloudflare Pages should auto-deploy the Ontario Driver's License Guide and recent homepage updates to canadasteps.ca.
+Push main to GitHub; Cloudflare Pages should auto-deploy the homepage IA refactor and nav updates to canadasteps.ca.
 
 ## File structure note
 
