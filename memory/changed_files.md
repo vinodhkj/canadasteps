@@ -3,6 +3,19 @@
 _Tracks files created or modified each session._
 
 ---
+## 2026-05-28 - Layout-density polish
+
+**Modified:**
+- `index.html` - widened desktop content container and tightened homepage header rhythm
+- `pgwp.html` - widened desktop content container and tightened major section/callout spacing
+- `sin.html` - widened desktop content container and tightened major section/callout spacing
+- `memory/current_state.md` - recorded live domain and latest density pass
+- `memory/next_prompt.md` - updated next-session handoff
+- `memory/changed_files.md` - recorded files changed in this task
+- `daily.md` - appended concise session log line
+
+---
+
 ## 2026-05-27 — Trust polish
 
 **Modified:**

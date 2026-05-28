@@ -1,55 +1,46 @@
 # Current State
 
-_Updated: 2026-05-27_
+_Updated: 2026-05-28_
 
 ## Phase
 
-Phase 0 — Foundation
+Phase 0 - Foundation
 
 ## Live pages
 
-- `pgwp.html` — PGWP guide, live at canadasteps.org/pgwp.html
-- `sin.html` — SIN guide, built but NOT YET DEPLOYED
-- `index.html` — guides homepage, built but NOT YET DEPLOYED
+- `index.html` - guides homepage, live at canadasteps.ca/
+- `pgwp.html` - PGWP guide, live at canadasteps.ca/pgwp.html
+- `sin.html` - SIN guide, live at canadasteps.ca/sin.html
 
 ## What works
 
-- Site is LIVE at canadasteps.org/pgwp.html
+- Site is LIVE at canadasteps.ca
 - Deployed via Netlify manual drag-and-drop
 - DNS connected and verified May 26, 2026
 - SSL certificate active
 
 ## Last change
 
-May 27 — Editorial trust pass: nav anchored with 2px navy border, logo enlarged, nav-links moved to sans-serif, topbar emoji removed, founder note bar removed (now transparent attribution line), h2 enlarged, gov-icon boxes muted. All 3 pages.
-
-## Previous change (pre-trust-pass)
-
-May 27 � Trust-polish pass: local/system font stacks, Google Fonts removed, teal slightly muted.
+May 28 - Layout-density polish: desktop content width increased and major vertical spacing tightened across index.html, pgwp.html, and sin.html.
 
 ## Previous change
 
-May 27 — f373ebb — Guides connected as workflow system:
-- pgwp.html: "Next step" card added before disclaimer → links to /sin.html
-- sin.html: "More guides coming" card added before disclaimer
-- index.html: category labels added above each guide card (Study & Graduation / Working in Canada)
+May 27 - Editorial trust pass: nav anchored with 2px navy border, logo enlarged, nav-links moved to sans-serif, topbar emoji removed, founder note bar removed (now transparent attribution line), h2 enlarged, gov-icon boxes muted. All 3 pages.
 
 ## Frozen files
 
-- pgwp.html content is frozen — no edits until second user feedback received
-  (nav and transition card additions in this session are exempt as structural, not content)
+- pgwp.html content is frozen - no edits until second user feedback received
+  (nav and transition card additions are exempt as structural, not content)
 
 ## What is incomplete
 
-- assets/style.css does not exist — all pages use inline styles
-- sin.html not yet deployed
-- index.html not yet deployed
+- assets/style.css does not exist - all pages use inline styles
 - docs/sources-log/sin.md not yet created
 - No automated link-checking
 
 ## Immediate next action
 
-Deploy to Netlify: drag canadasteps folder. Deploys pgwp.html, sin.html, index.html, and nav in one push.
+Review density polish on desktop and mobile screenshots, then deploy if approved.
 
 ## File structure note
 
@@ -59,7 +50,7 @@ Deploy to Netlify: drag canadasteps folder. Deploys pgwp.html, sin.html, index.h
 
 ---
 
-## SIN guide — verified source facts
+## SIN guide - verified source facts
 
 Source: canada.ca/en/employment-social-development/services/sin/update.html
 Verified: May 26, 2026
@@ -78,10 +69,10 @@ Verified: May 26, 2026
 - EXPIRY DATE MATCHING (verbatim): "The expiry date on both your SIN record and your
   immigration document must match." Safe to include.
 
-- PROCESSING TIMES: Online — about 5 business days. By mail — about 20 business days.
-  Do not state as fixed — link to official source.
+- PROCESSING TIMES: Online - about 5 business days. By mail - about 20 business days.
+  Do not state as fixed - link to official source.
 
 - NO FEE (verbatim): "There is no fee to apply for a SIN." Safe to state.
 
-- REQUIRED DOCUMENT — temporary resident: Primary document is work permit issued by IRCC.
+- REQUIRED DOCUMENT - temporary resident: Primary document is work permit issued by IRCC.
   Study permit must state "may accept employment" or "may work" in Canada.

@@ -3,6 +3,9 @@
 One entry per working session. Most recent first.
 
 ---
+## 2026-05-28
+May 28 - Layout-density polish: wider desktop container and tighter section rhythm across three pages.
+
 
 ## 2026-05-27
 May 27 — Trust-polish pass: local/system fonts, Google Fonts removed, teal muted; static sanity check passed.

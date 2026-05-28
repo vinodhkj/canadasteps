@@ -14,14 +14,14 @@ Current state:
 - SIN guide exists at sin.html.
 - Navigation/homepage workflow structure is complete.
 - Shared Claude/Codex agent memory workflow exists.
-- Latest local work: editorial trust polish across index.html, pgwp.html, and sin.html.
+- Latest local work: layout-density polish across index.html, pgwp.html, and sin.html.
 - Changes may be uncommitted or not yet deployed, so verify git status first.
 
 Start by running:
 git status
 git log --oneline -5
 
-Then verify whether the latest editorial polish commit exists.
+Then verify whether the latest layout-density polish commit exists.
 
 If changes are uncommitted:
 1. Review diff.
@@ -31,7 +31,7 @@ If changes are uncommitted:
    - memory/changed_files.md
    - daily.md
 3. Commit:
-   style: editorial trust polish and navigation refinement
+   style: tighten layout density and content rhythm
 
 Then deploy manually:
 - Drag C:\Projects\SG\CanadaSteps.ca\canadasteps into Netlify deploy drop zone.
