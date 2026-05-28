@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tax Filing in Canada for International Students | CanadaSteps</title>
+<meta name="description" content="Step-by-step tax filing guide for international students in Canada. What to file, when, and what documents you need. Every step links to official CRA sources.">
+<style>
+  :root {
+    --bg: #f7f5f0;
+    --bg-card: #ffffff;
+    --bg-soft: #f0ede6;
+    --navy: #1a2640;
+    --navy-mid: #243352;
+    --red: #b91c1c;
+    --teal: #166b61;
+    --teal-light: #e7f1ef;
+    --amber: #d97706;
+    --amber-light: #fef9c3;
+    --green: #166534;
+    --green-light: #dcfce7;
+    --gray: #6b7280;
+    --gray-light: #e5e7eb;
+    --text: #1f2937;
+    --text-soft: #4b5563;
+    --border: #e2ddd4;
+    --step-line: #d4c9b0;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    font-size: 17px;
+  }
+
+  /* TOP BAR */
+  .topbar {
+    background: var(--navy);
+    color: rgba(255,255,255,0.65);
+    font-size: 0.74rem;
+    padding: 0.45rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .topbar a { color: #f0c76a; text-decoration: none; }
+  .topbar a:hover { text-decoration: underline; }
+
+  /* NAV */
+  nav {
+    background: var(--bg-card);
+    border-bottom: 2px solid var(--navy);
+    padding: 0.9rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }
+
+  .nav-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--navy);
+    text-decoration: none;
+    letter-spacing: -0.3px;
+  }
+  .logo span { color: var(--teal); }
+
+  .nav-crumb {
+    font-size: 0.75rem;
+    color: var(--gray);
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  .nav-crumb strong { color: var(--text-soft); font-weight: 600; }
+
+  .nav-links {
+    display: flex;
+    gap: 1.25rem;
+  }
+  .nav-links a {
+    font-size: 0.86rem;
+    color: var(--gray);
+    text-decoration: none;
+  }
+  .nav-links a:hover { color: var(--teal); }
+  .nav-links a.current { color: var(--teal); font-weight: 500; }
+
+  /* PAGE LAYOUT */
+  .page-wrap {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 2.25rem 2.25rem 4.5rem;
+  }
+
+  /* HEADER */
+  .page-header {
+    margin-bottom: 1.45rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .track-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: var(--teal-light);
+    color: var(--teal);
+    border: 1px solid rgba(22,107,97,0.2);
+    padding: 0.25rem 0.75rem;
+    border-radius: 100px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 0.85rem;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  }
+
+  h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.6rem, 4vw, 2.2rem);
+    font-weight: 700;
+    color: var(--navy);
+    line-height: 1.25;
+    margin-bottom: 0.6rem;
+    letter-spacing: -0.2px;
+  }
+
+  .page-desc {
+    font-size: 1rem;
+    color: var(--text-soft);
+    line-height: 1.7;
+    max-width: 620px;
+  }
+
+  .meta-row {
+    display: flex;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+    margin-top: 1.1rem;
+  }
+
+  .meta-item {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.75rem;
+    color: var(--gray);
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  }
+
+  .meta-dot {
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    background: var(--teal);
+    flex-shrink: 0;
+  }
+  .meta-dot.amber { background: var(--amber); }
+  .meta-dot.green { background: #16a34a; }
+
+  /* REALITY CHECK */
+  .reality-check {
+    background: var(--amber-light);
+    border: 1px solid rgba(217,119,6,0.25);
+    border-left: 4px solid var(--amber);
+    border-radius: 8px;
+    padding: 1rem 1.1rem;
+    margin-bottom: 1.45rem;
+    font-size: 0.84rem;
+    color: #78350f;
+    line-height: 1.6;
+  }
+  .reality-check strong {
+    display: block;
+    font-weight: 700;
+    font-size: 0.82rem;
+    color: #92400e;
+    margin-bottom: 0.55rem;
+  }
+  .reality-check ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-left: 0;
+  }
+  .reality-check ul li {
+    display: flex;
+    gap: 0.5rem;
+    line-height: 1.55;
+  }
+  .reality-check ul li::before {
+    content: '→';
+    flex-shrink: 0;
+    color: var(--amber);
+    font-weight: 600;
+  }
+  .reality-check a { color: #92400e; font-weight: 600; }
+
+  /* SECTION */
+  .section { margin-bottom: 1.65rem; }
+
+  h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 0.85rem;
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+  }
+
+  .h2-num {
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    font-size: 0.65rem;
+    background: var(--navy);
+    color: white;
+    padding: 0.18rem 0.45rem;
+    border-radius: 4px;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+  }
+
+  .divider {
+    height: 1px;
+    background: var(--border);
+    margin: 1.4rem 0;
+  }
+
+  /* CHECKLIST */
+  .checklist { list-style: none; display: flex; flex-direction: column; gap: 0.55rem; }
+  .checklist li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    font-size: 0.875rem;
+    color: var(--text-soft);
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    line-height: 1.55;
+  }
+  .check-box {
+    width: 16px; height: 16px;
+    border: 1.5px solid var(--gray-light);
+    border-radius: 3px;
+    flex-shrink: 0;
+    margin-top: 2px;
+    background: var(--bg);
+  }
+  .checklist li strong { color: var(--text); font-weight: 600; }
+
+  /* STEPS */
+  .steps-list { list-style: none; position: relative; }
+  .steps-list::before {
+    content: '';
+    position: absolute;
+    left: 20px; top: 26px; bottom: 26px;
+    width: 1px;
+    background: var(--step-line);
+  }
+
+  .step { display: flex; gap: 1.1rem; margin-bottom: 0.85rem; position: relative; }
+
+  .step-num {
+    width: 42px; height: 42px;
+    border-radius: 50%;
+    background: var(--navy);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    font-size: 0.75rem;
+    font-weight: 500;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1;
+    border: 3px solid var(--bg);
+    box-shadow: 0 0 0 1px var(--step-line);
+  }
+
+  .step-body {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.2rem;
+    flex: 1;
+  }
+
+  .step-title {
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: var(--navy);
+    margin-bottom: 0.3rem;
+  }
+
+  .step-desc {
+    font-size: 0.83rem;
+    color: var(--text-soft);
+    line-height: 1.6;
+    margin-bottom: 0.6rem;
+  }
+
+  .step-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--teal);
+    text-decoration: none;
+    border: 1px solid rgba(22,107,97,0.25);
+    background: var(--teal-light);
+    padding: 0.28rem 0.65rem;
+    border-radius: 5px;
+    transition: all 0.2s;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    margin-right: 0.4rem;
+    margin-bottom: 0.3rem;
+  }
+  .step-link:hover { background: rgba(22,107,97,0.12); border-color: var(--teal); }
+  .step-link::after { content: ' ↗'; }
+
+  .step-note {
+    margin-top: 0.5rem;
+    font-size: 0.77rem;
+    color: #78350f;
+    background: var(--amber-light);
+    border: 1px solid rgba(217,119,6,0.18);
+    border-radius: 6px;
+    padding: 0.4rem 0.7rem;
+    line-height: 1.5;
+  }
+
+  .step-safe {
+    margin-top: 0.5rem;
+    font-size: 0.77rem;
+    color: #1e3a5f;
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
+    border-radius: 6px;
+    padding: 0.4rem 0.7rem;
+    line-height: 1.5;
+  }
+
+  /* MISSES */
+  .misses-list { list-style: none; display: flex; flex-direction: column; gap: 0.65rem; }
+  .miss-item {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--red);
+    border-radius: 8px;
+    padding: 0.9rem 1.1rem;
+  }
+  .miss-title {
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: var(--red);
+    margin-bottom: 0.25rem;
+  }
+  .miss-item p { font-size: 0.82rem; color: var(--text-soft); line-height: 1.55; }
+
+  /* OFFICIAL LINKS */
+  .links-list { list-style: none; display: flex; flex-direction: column; gap: 0.55rem; }
+  .gov-link {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 9px;
+    padding: 0.85rem 1.1rem;
+    text-decoration: none;
+    transition: all 0.2s;
+    color: inherit;
+  }
+  .gov-link:hover { border-color: var(--teal); background: var(--teal-light); transform: translateX(2px); }
+
+  .gov-icon {
+    width: 32px; height: 32px;
+    border-radius: 5px;
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    color: var(--navy);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.82rem;
+    flex-shrink: 0;
+  }
+
+  .gov-text { flex: 1; }
+  .gov-title { font-weight: 600; font-size: 0.85rem; color: var(--navy); line-height: 1.3; }
+  .gov-url { font-size: 0.68rem; color: var(--gray); font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; margin-top: 0.1rem; }
+  .gov-arrow { color: var(--teal); font-size: 0.9rem; flex-shrink: 0; }
+
+  /* DISCLAIMER */
+  .disclaimer {
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.2rem;
+    font-size: 0.78rem;
+    color: var(--gray);
+    line-height: 1.65;
+    margin-top: 2.5rem;
+    text-align: center;
+  }
+  .disclaimer a { color: var(--teal); }
+  .disclaimer strong { color: var(--text-soft); }
+
+  .site-footer {
+    margin: 0;
+    padding: 1.35rem 0 2rem;
+    background: var(--bg-soft);
+    border-top: 1px solid var(--border);
+    color: var(--gray);
+    font-size: 0.72rem;
+    line-height: 1.6;
+  }
+  .site-footer-inner {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 0 2.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+  .site-footer a { color: var(--teal); text-decoration: none; }
+  .site-footer a:hover { text-decoration: underline; }
+  .footer-links { display: flex; flex-wrap: wrap; gap: 0.8rem; }
+
+  @media (max-width: 600px) {
+    body { font-size: 16px; }
+    .page-wrap { padding: 1.5rem 1.1rem 4rem; }
+    .site-footer { padding: 1.2rem 0 2rem; }
+    .site-footer-inner { padding: 0 1.1rem; }
+    h1 { font-size: 1.55rem; }
+    .nav-crumb { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <span>Canada Immigration Guides — Educational &amp; Navigational Resource Only</span>
+  <a href="https://www.canada.ca/en/immigration-refugees-citizenship.html" target="_blank" rel="noopener">Official IRCC ↗</a>
+</div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-row">
+    <a class="logo" href="/index.html">Canada<span>Steps</span></a>
+    <div class="nav-crumb">Money &amp; Taxes &rarr; <strong>Tax Filing</strong></div>
+  </div>
+  <div class="nav-links">
+    <a href="/index.html">All Guides</a>
+    <a href="/pgwp.html">PGWP Guide</a>
+    <a href="/sin.html">SIN Guide</a>
+    <a class="current" href="/taxes.html">Tax Guide</a>
+  </div>
+</nav>
+
+<!-- FOUNDER NOTE -->
+<div style="border-bottom:1px solid var(--border);padding:0.5rem 2rem;font-size:0.75rem;color:var(--gray);line-height:1.55;">
+  Built by a newcomer to Canada who spent too many hours trying to piece together immigration steps from scattered government pages. Everything here links directly to official sources. No legal advice. No guesswork.
+  <span style="display:block;margin-top:0.25rem;font-size:0.68rem;opacity:0.75;">Not affiliated with IRCC or the Government of Canada.</span>
+</div>
+
+<main class="page-wrap">
+
+  <!-- 01 HEADER -->
+  <header class="page-header">
+    <div class="track-tag">Money &amp; Taxes</div>
+    <h1>Tax Filing in Canada for International Students</h1>
+    <p class="page-desc">A step-by-step overview of tax filing for international students in Canada. Every step links to an official CRA source. This page organizes the process — it does not interpret your tax situation.</p>
+    <p style="font-size:0.78rem;color:var(--gray);margin-top:0.65rem;line-height:1.55;">Always verify deadlines and eligibility directly with CRA.</p>
+    <div class="meta-row">
+      <div class="meta-item"><div class="meta-dot"></div>Last verified against CRA: May 2026</div>
+      <div class="meta-item"><div class="meta-dot"></div>Source: Canada Revenue Agency</div>
+    </div>
+  </header>
+
+  <!-- 02 REALITY CHECK BOX -->
+  <div class="reality-check">
+    <strong>Before you read further</strong>
+    <ul>
+      <li>Filing a tax return and owing tax are not the same thing. You can file and owe nothing — or receive a benefit.</li>
+      <li>Students with little or no income may still benefit from filing. Filing establishes your CRA record and may affect eligibility for credits and benefits in current and future years.</li>
+      <li>Always verify your specific situation with CRA. This page cannot determine your tax obligations.</li>
+    </ul>
+  </div>
+
+  <!-- 03 WHY FILE -->
+  <section class="section" id="why-file">
+    <h2><span class="h2-num">01</span> Why file a tax return</h2>
+    <div class="step-body">
+      <ul style="list-style:none;display:flex;flex-direction:column;gap:0.5rem;padding-left:0;">
+        <li style="display:flex;gap:0.5rem;font-size:0.83rem;color:var(--text-soft);line-height:1.55;align-items:flex-start;"><span style="color:var(--teal);flex-shrink:0;font-weight:600;">→</span>To report income if you worked in Canada during the tax year</li>
+        <li style="display:flex;gap:0.5rem;font-size:0.83rem;color:var(--text-soft);line-height:1.55;align-items:flex-start;"><span style="color:var(--teal);flex-shrink:0;font-weight:600;">→</span>To claim tuition amounts using your T2202 tuition slip</li>
+        <li style="display:flex;gap:0.5rem;font-size:0.83rem;color:var(--text-soft);line-height:1.55;align-items:flex-start;"><span style="color:var(--teal);flex-shrink:0;font-weight:600;">→</span>To receive a Notice of Assessment from CRA</li>
+        <li style="display:flex;gap:0.5rem;font-size:0.83rem;color:var(--text-soft);line-height:1.55;align-items:flex-start;"><span style="color:var(--teal);flex-shrink:0;font-weight:600;">→</span>To keep your CRA records and tax history up to date</li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 04 DO YOU NEED TO FILE WITH NO INCOME -->
+  <section class="section" id="no-income">
+    <h2><span class="h2-num">02</span> Do you need to file with no income?</h2>
+    <div class="step-body">
+      <p class="step-desc">Whether you are required to file a return when you have little or no income depends on your specific situation. There is no single rule that applies to all international students.</p>
+      <p class="step-desc">Even when filing is not required, there can be reasons to file — such as establishing your tax history with CRA or becoming eligible for certain credits in future years.</p>
+      <p class="step-desc" style="margin-bottom:0.75rem;">Review the official CRA guidance on who has to file a return to determine whether this applies to you.</p>
+      <a class="step-link" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/you-have-to-file-return.html" target="_blank" rel="noopener">Who has to file a return — CRA</a>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 05 DOCUMENTS CHECKLIST -->
+  <section class="section" id="documents">
+    <h2><span class="h2-num">03</span> Documents to collect before you file</h2>
+    <ul class="checklist">
+      <li>
+        <div class="check-box"></div>
+        <div><strong>Social Insurance Number (SIN)</strong> — required to file. Apply for or confirm your SIN through Service Canada before starting your return.</div>
+      </li>
+      <li>
+        <div class="check-box"></div>
+        <div><strong>T4 slip from your employer</strong> — issued if you worked in Canada during the tax year. Shows employment income and taxes deducted. Your employer is required to issue this by the last day of February for the prior tax year.</div>
+      </li>
+      <li>
+        <div class="check-box"></div>
+        <div><strong>T2202 tuition slip from your school</strong> — issued by your educational institution. Used to claim the tuition tax credit. Log in to your school's student portal to download it — usually available by the end of February.</div>
+      </li>
+      <li>
+        <div class="check-box"></div>
+        <div><strong>Rent receipts (if applicable)</strong> — some provinces offer a renter's credit or benefit. Keep receipts from your landlord for the full calendar year. Check your province's rules.</div>
+      </li>
+      <li>
+        <div class="check-box"></div>
+        <div><strong>Bank information for direct deposit</strong> — your financial institution name, transit number, and account number. CRA uses this to deposit any refund or benefit amounts directly.</div>
+      </li>
+      <li>
+        <div class="check-box"></div>
+        <div><strong>Current Canadian mailing address</strong> — the address on your return must be current. CRA mails your Notice of Assessment and other correspondence to this address.</div>
+      </li>
+      <li>
+        <div class="check-box"></div>
+        <div><strong>Previous Notice of Assessment (if filed before)</strong> — your most recent Notice of Assessment contains your NETFILE access code, which some tax software requires to confirm your identity.</div>
+      </li>
+    </ul>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 06 STEPS IN ORDER -->
+  <section class="section" id="steps">
+    <h2><span class="h2-num">04</span> Filing steps — in order</h2>
+    <ol class="steps-list">
+
+      <li class="step">
+        <div class="step-num">01</div>
+        <div class="step-body">
+          <div class="step-title">Collect all slips from your school and employer</div>
+          <div class="step-desc">Gather your T4 from your employer and your T2202 from your school. Both are typically available by the end of February for the prior tax year. Log in to your employer's payroll portal and your school's student portal to download them.</div>
+        </div>
+      </li>
+
+      <li class="step">
+        <div class="step-num">02</div>
+        <div class="step-body">
+          <div class="step-title">Confirm your address and SIN are current</div>
+          <div class="step-desc">Your SIN and mailing address must be accurate on your return. If your address has changed since your last filing — or if you recently updated your SIN after receiving a new work permit — confirm your records are current before starting.</div>
+        </div>
+      </li>
+
+      <li class="step">
+        <div class="step-num">03</div>
+        <div class="step-body">
+          <div class="step-title">Choose certified tax software or a tax preparer</div>
+          <div class="step-desc">CRA certifies free and paid tax software for online filing (NETFILE). Most international students can file using free certified software. If your situation is complex — for example, questions about residency status for tax purposes, or foreign income — a tax preparer can help.</div>
+          <a class="step-link" href="https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-individuals/netfile-overview/certified-tax-software.html" target="_blank" rel="noopener">CRA certified software list</a>
+        </div>
+      </li>
+
+      <li class="step">
+        <div class="step-num">04</div>
+        <div class="step-body">
+          <div class="step-title">File your return before the deadline</div>
+          <div class="step-desc">The general deadline for filing a personal income tax return in Canada is April 30. File on time even if you owe nothing — late filing can result in penalties and may delay any benefits you are entitled to receive. Verify the current deadline directly with CRA.</div>
+          <a class="step-link" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/important-dates-individuals.html" target="_blank" rel="noopener">CRA filing deadlines</a>
+        </div>
+      </li>
+
+      <li class="step">
+        <div class="step-num">05</div>
+        <div class="step-body">
+          <div class="step-title">Save your confirmation number</div>
+          <div class="step-desc">After submitting online, your software will display a NETFILE confirmation number. Save or screenshot this immediately — it confirms your return was received by CRA and is your only record of successful submission.</div>
+        </div>
+      </li>
+
+      <li class="step">
+        <div class="step-num">06</div>
+        <div class="step-body">
+          <div class="step-title">Check CRA My Account for your Notice of Assessment</div>
+          <div class="step-desc">CRA will issue a Notice of Assessment (NOA) after processing your return. The NOA confirms what CRA has on record and is often required for student loans, rental applications, and some immigration processes. Access it through CRA My Account.</div>
+          <a class="step-link" href="https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-individuals/account-individuals.html" target="_blank" rel="noopener">CRA My Account</a>
+        </div>
+      </li>
+
+    </ol>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 07 COMMON MISTAKES -->
+  <section class="section" id="mistakes">
+    <h2><span class="h2-num">05</span> Common mistakes</h2>
+    <ul class="misses-list">
+      <li class="miss-item">
+        <div class="miss-title">Thinking no refund means no reason to file</div>
+        <p>Filing builds your tax history with CRA and may affect your eligibility for credits and benefits in current and future years, even when no refund is due.</p>
+      </li>
+      <li class="miss-item">
+        <div class="miss-title">Forgetting the T2202 tuition slip</div>
+        <p>Your T2202 is issued by your school and allows you to claim the tuition tax credit. It is not automatically included in your return — download it from your school's portal and enter it manually in your tax software.</p>
+      </li>
+      <li class="miss-item">
+        <div class="miss-title">Using an old address</div>
+        <p>CRA sends your Notice of Assessment and other correspondence to the address on your return. If you moved during the year, use your current address and update your CRA My Account profile.</p>
+      </li>
+      <li class="miss-item">
+        <div class="miss-title">Ignoring CRA mail</div>
+        <p>CRA may send requests for additional information or notices about your account. Ignoring these can result in account holds or delayed processing. Respond promptly to any CRA correspondence.</p>
+      </li>
+      <li class="miss-item">
+        <div class="miss-title">Missing an employer T4</div>
+        <p>If you worked at more than one employer, you will receive a T4 from each one. All T4s must be included in your return. Contact each employer if you have not received a slip by the end of February.</p>
+      </li>
+      <li class="miss-item">
+        <div class="miss-title">Not saving tax documents</div>
+        <p>Keep copies of all slips, receipts, and filed returns for at least six years. CRA may request them during a review. Store them securely — these documents contain your SIN.</p>
+      </li>
+    </ul>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 08 OFFICIAL CRA LINKS -->
+  <section class="section" id="links">
+    <h2><span class="h2-num">06</span> Official CRA links</h2>
+    <ul class="links-list">
+      <li><a class="gov-link" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return.html" target="_blank" rel="noopener">
+        <div class="gov-icon">🏛️</div>
+        <div class="gov-text"><div class="gov-title">Filing your return — CRA</div><div class="gov-url">canada.ca → revenue-agency → tax → individuals → about-your-tax-return</div></div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+      <li><a class="gov-link" href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/students.html" target="_blank" rel="noopener">
+        <div class="gov-icon">🎓</div>
+        <div class="gov-text"><div class="gov-title">Students and income tax — CRA</div><div class="gov-url">canada.ca → revenue-agency → tax → individuals → students</div></div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+      <li><a class="gov-link" href="https://www.canada.ca/en/revenue-agency/services/forms-publications/forms/t2202.html" target="_blank" rel="noopener">
+        <div class="gov-icon">📄</div>
+        <div class="gov-text"><div class="gov-title">T2202 tuition slip — CRA</div><div class="gov-url">canada.ca → revenue-agency → forms-publications → forms → t2202</div></div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+      <li><a class="gov-link" href="https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-individuals/netfile-overview/certified-tax-software.html" target="_blank" rel="noopener">
+        <div class="gov-icon">💻</div>
+        <div class="gov-text"><div class="gov-title">Certified tax software — CRA</div><div class="gov-url">canada.ca → revenue-agency → netfile-overview → certified-tax-software</div></div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+      <li><a class="gov-link" href="https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-individuals/account-individuals.html" target="_blank" rel="noopener">
+        <div class="gov-icon">🔐</div>
+        <div class="gov-text"><div class="gov-title">My Account — CRA</div><div class="gov-url">canada.ca → revenue-agency → e-services → account-individuals</div></div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+    </ul>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 09 WHAT COMES NEXT -->
+  <section class="section" id="next-steps">
+    <h2><span class="h2-num">07</span> Related guides</h2>
+
+    <div style="background:var(--teal-light);border:1px solid rgba(22,107,97,0.2);border-radius:10px;padding:1.25rem 1.5rem;margin-bottom:0.85rem;">
+      <div style="font-size:0.65rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--teal);font-family:&quot;SFMono-Regular&quot;,Consolas,&quot;Liberation Mono&quot;,monospace;margin-bottom:0.5rem;">Related guide</div>
+      <p style="font-size:0.875rem;color:var(--text-soft);line-height:1.65;margin-bottom:0.75rem;">Your SIN is required to file taxes in Canada. If you need to apply for a SIN or update it after receiving your PGWP, visit the SIN guide.</p>
+      <a href="/sin.html" style="font-size:0.78rem;font-weight:600;color:var(--teal);font-family:&quot;SFMono-Regular&quot;,Consolas,&quot;Liberation Mono&quot;,monospace;text-decoration:none;">Read the SIN Guide →</a>
+    </div>
+
+    <div style="background:var(--teal-light);border:1px solid rgba(22,107,97,0.2);border-radius:10px;padding:1.25rem 1.5rem;margin-bottom:1.5rem;">
+      <div style="font-size:0.65rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--teal);font-family:&quot;SFMono-Regular&quot;,Consolas,&quot;Liberation Mono&quot;,monospace;margin-bottom:0.5rem;">Related guide</div>
+      <p style="font-size:0.875rem;color:var(--text-soft);line-height:1.65;margin-bottom:0.75rem;">If you have recently graduated and are working through your Post-Graduation Work Permit application, visit the PGWP guide for the full process.</p>
+      <a href="/pgwp.html" style="font-size:0.78rem;font-weight:600;color:var(--teal);font-family:&quot;SFMono-Regular&quot;,Consolas,&quot;Liberation Mono&quot;,monospace;text-decoration:none;">Read the PGWP Guide →</a>
+    </div>
+  </section>
+
+  <!-- 10 DISCLAIMER -->
+  <div class="disclaimer">
+    <strong>This page is for educational and navigational purposes only.</strong><br>
+    It does not constitute legal or immigration advice. All steps link directly to official Government of Canada sources. Immigration rules change — always verify current requirements with <a href="https://www.canada.ca/en/immigration-refugees-citizenship.html" target="_blank" rel="noopener">IRCC directly</a> before submitting any application. For advice specific to your situation, consult a <a href="https://college-ic.ca/protecting-the-public/find-an-immigration-consultant" target="_blank" rel="noopener">Regulated Canadian Immigration Consultant (RCIC)</a> or licensed immigration lawyer.
+  </div>
+
+</main>
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <div>CanadaSteps is an independent public guidance resource for newcomers to Canada.</div>
+    <div>Not affiliated with IRCC or the Government of Canada. Contact: contact not yet published.</div>
+    <div class="footer-links">
+      <a href="/pgwp.html">PGWP guide</a>
+      <a href="/sin.html">SIN guide</a>
+      <a href="/taxes.html">Tax guide</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

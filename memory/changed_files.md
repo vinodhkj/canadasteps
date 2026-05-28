@@ -3,6 +3,22 @@
 _Tracks files created or modified each session._
 
 ---
+## 2026-05-28 - Tax filing guide added
+
+**Created:**
+- `taxes.html` - new tax filing guide, Money & Taxes track, 7 sections, CRA sources only
+
+**Modified:**
+- `index.html` - added "Money & Taxes" guide card + Tax Guide nav link + footer link
+- `pgwp.html` - added Tax Guide nav link + footer link (structural only, content frozen)
+- `sin.html` - added Tax Guide nav link + footer link + taxes transition card before disclaimer
+- `memory/current_state.md` - updated to reflect taxes.html added, not yet deployed
+- `memory/next_prompt.md` - updated handoff to deploy next
+- `memory/changed_files.md` - this file
+- `daily.md` - appended session log line
+
+---
+
 ## 2026-05-28 - Final proportional polish
 
 **Modified:**
@@ -42,16 +58,16 @@ _Tracks files created or modified each session._
 
 ---
 
-## 2026-05-27 — Trust polish
+## 2026-05-27 ï¿½ Trust polish
 
 **Modified:**
-- `index.html` — removed Google Fonts link, switched to local/system font stack, muted teal values
-- `pgwp.html` — removed Google Fonts link, switched to local/system font stack, muted teal values
-- `sin.html` — removed Google Fonts link, switched to local/system font stack, muted teal values
-- `memory/current_state.md` — recorded trust-polish pass
-- `memory/next_prompt.md` — added latest handoff note
-- `memory/changed_files.md` — recorded files changed in this task
-- `daily.md` — appended concise session log line
+- `index.html` ï¿½ removed Google Fonts link, switched to local/system font stack, muted teal values
+- `pgwp.html` ï¿½ removed Google Fonts link, switched to local/system font stack, muted teal values
+- `sin.html` ï¿½ removed Google Fonts link, switched to local/system font stack, muted teal values
+- `memory/current_state.md` ï¿½ recorded trust-polish pass
+- `memory/next_prompt.md` ï¿½ added latest handoff note
+- `memory/changed_files.md` ï¿½ recorded files changed in this task
+- `daily.md` ï¿½ appended concise session log line
 
 ---
 

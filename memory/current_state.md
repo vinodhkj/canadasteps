@@ -11,6 +11,7 @@ Phase 0 - Foundation
 - `index.html` - guides homepage, live at canadasteps.ca/
 - `pgwp.html` - PGWP guide, live at canadasteps.ca/pgwp.html
 - `sin.html` - SIN guide, live at canadasteps.ca/sin.html
+- `taxes.html` - tax filing guide, built but NOT YET DEPLOYED
 
 ## What works
 
@@ -21,7 +22,7 @@ Phase 0 - Foundation
 
 ## Last change
 
-May 28 - Final proportional polish: desktop content width increased, desktop type slightly enlarged, and footer grounding strengthened across index.html, pgwp.html, and sin.html.
+May 28 - taxes.html added (Money & Taxes track, 7 sections, CRA sources only). Nav, footer, and transition cards updated across all three existing pages. Needs deploy.
 
 ## Previous change
 

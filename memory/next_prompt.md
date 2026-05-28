@@ -9,47 +9,27 @@ We are building CanadaSteps, primary domain canadasteps.ca, with canadasteps.org
 Static HTML site. No backend. Editorial-first newcomer guidance.
 
 Current state:
-- Homepage exists at index.html.
-- PGWP guide exists at pgwp.html.
-- SIN guide exists at sin.html.
-- Navigation/homepage workflow structure is complete.
-- Shared Claude/Codex agent memory workflow exists.
-- Latest local work: final proportional polish across index.html, pgwp.html, and sin.html.
-- Changes may be uncommitted or not yet deployed, so verify git status first.
+- taxes.html has been built and committed but NOT YET DEPLOYED.
+- All four pages (index, pgwp, sin, taxes) have nav and footer updated to include Tax Guide.
+- sin.html has a new transition card linking to taxes.html.
 
-Start by running:
-git status
-git log --oneline -5
+Immediate next action: deploy.
 
-Then verify whether the latest final proportional polish commit exists.
-
-If changes are uncommitted:
-1. Review diff.
-2. Update memory files if needed:
-   - memory/current_state.md
-   - memory/next_prompt.md
-   - memory/changed_files.md
-   - daily.md
-3. Commit:
-   style: improve readability and site grounding
-
-Then deploy manually:
+Deploy manually:
 - Drag C:\Projects\SG\CanadaSteps.ca\canadasteps into Netlify deploy drop zone.
 
 After deploy, verify:
 - https://canadasteps.ca/
-- https://canadasteps.ca/pgwp.html
+- https://canadasteps.ca/taxes.html
 - https://canadasteps.ca/sin.html
-- navigation links work
-- founder note exists on all pages
-- mobile view looks clean
+- https://canadasteps.ca/pgwp.html
+- Nav "Tax Guide" link works on all pages
+- sin.html transition card links correctly to /taxes.html
+- Index "Money & Taxes" card is visible
+- Mobile view looks clean
 
-Do not edit content, architecture, navigation, agent workflow, or memory format.
+Do not edit content on any page.
+pgwp.html content is still frozen.
 
-If deploy is clean:
-- update memory/current_state.md
-- update daily.md
-- commit:
-  ops: post-deploy state update
-
-Then stop building.
+Files allowed to read: memory/current_state.md only.
+Files allowed to edit: none until deploy is verified.
