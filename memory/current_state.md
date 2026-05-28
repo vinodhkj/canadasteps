@@ -29,7 +29,7 @@ Phase 0 - Foundation
 
 ## Last change
 
-May 28 - Ontario Photo Card Guide added: ontario-photo-card.html created (7 sections, ServiceOntario/Ontario.ca sources), homepage First Weeks card added, footer updated across index.html and the new page.
+May 28 - Phase 1 homepage editorial redesign: page-banner zone (full-width bg-soft header), guide cards replaced with editorial list entries (rule-separated title + desc), h1 enlarged, "Live" badges removed, section spacing increased. index.html only.
 
 ## Previous change
 

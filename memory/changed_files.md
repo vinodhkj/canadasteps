@@ -3,6 +3,24 @@
 _Tracks files created or modified each session._
 
 ---
+## 2026-05-28 - Phase 1 homepage editorial redesign
+
+**Modified:**
+- `index.html` - page-banner zone, editorial list entries (guide-entries/guide-entry), larger h1, removed guide-card grid and Live badges, increased section spacing
+- `.gitignore` - added .claude/ exclusion
+
+---
+## 2026-05-28 - Visual identity refresh (commit 5f307ca)
+
+**Modified:**
+- `index.html` - section accent CSS (teal/amber/navy borders), section-cat labels, founder-note class
+- `bank-account.html` - track-tag amber variant CSS + HTML class
+- `cra-account.html` - track-tag amber variant CSS + HTML class
+- `taxes.html` - track-tag amber variant CSS + HTML class
+- `ontario-drivers-license.html` - track-tag daily/navy variant CSS + HTML class
+- `ontario-photo-card.html` - track-tag daily/navy variant CSS + HTML class
+
+---
 ## 2026-05-28 - Ontario Photo Card Guide added
 
 **Created:**

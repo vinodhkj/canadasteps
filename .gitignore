@@ -6,6 +6,7 @@ desktop.ini
 # Editor artifacts
 .vscode/
 .idea/
+.claude/
 *.swp
 *.swo
 *~
