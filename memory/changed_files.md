@@ -3,6 +3,25 @@
 _Tracks files created or modified each session._
 
 ---
+## 2026-05-28 - Deployment workflow update
+
+**Modified:**
+- `memory/current_state.md` - documented Cloudflare Pages deployment workflow and removed Netlify from active workflow
+- `memory/changed_files.md` - recorded Cloudflare Pages deployment workflow update
+- `daily.md` - appended concise Cloudflare Pages auto-deploy note
+
+---
+
+## 2026-05-28 - CRA certified software link correction
+
+**Modified:**
+- `taxes.html` - corrected CRA certified software URL
+- `memory/current_state.md` - noted CRA certified software link corrected
+- `memory/changed_files.md` - recorded files changed in this task
+- `daily.md` - appended concise session log line with commit hash
+
+---
+
 ## 2026-05-28 - Tax filing guide added
 
 **Created:**

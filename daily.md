@@ -4,6 +4,8 @@ One entry per working session. Most recent first.
 
 ---
 ## 2026-05-28
+May 28 - Cloudflare Pages auto-deploy confirmed; Netlify removed from active workflow.
+May 28 - ba33986 - CRA certified software link corrected in taxes.html.
 May 28 - taxes.html built: Money & Taxes track, 7 sections, CRA-only sources, nav/footer/transition cards integrated across all pages. Pending deploy. | 6b1403a
 May 28 - Handoff note updated to 6b1403a with Cloudflare infra note and user validation priority.
 May 28 - Final proportional polish: wider desktop content, slightly larger desktop type, and grounded footer band.

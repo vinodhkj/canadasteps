@@ -16,13 +16,15 @@ Phase 0 - Foundation
 ## What works
 
 - Site is LIVE at canadasteps.ca
-- Deployed via Netlify manual drag-and-drop
+- Production deployment pipeline is Local -> GitHub -> Cloudflare Pages -> canadasteps.ca
+- Cloudflare Pages auto-deploys on git push to main
+- Netlify removed from active deployment workflow; no more manual drag/drop deployments
 - DNS connected and verified May 26, 2026
 - SSL certificate active
 
 ## Last change
 
-May 28 - taxes.html added (Money & Taxes track, 7 sections, CRA sources only). Nav, footer, and transition cards updated across all three existing pages. Needs deploy.
+May 28 - CRA certified software link corrected in taxes.html. taxes.html still needs deploy with the rest of the guide update.
 
 ## Previous change
 
