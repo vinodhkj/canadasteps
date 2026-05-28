@@ -1,39 +1,32 @@
 ---
-CanadaSteps — Session Handoff
-Current commit: 6b1403a
+CanadaSteps session handoff
 
-What changed last session:
-- Added taxes.html — tax filing guide for 
-  international students
-- Added Tax Filing Guide card to homepage 
-  under Money & Taxes
-- Added SIN → Tax Filing transition card
-- Added Tax Guide link to PGWP and SIN nav
-- Updated all memory files
+Current workflow:
+- Local -> GitHub -> Cloudflare Pages -> canadasteps.ca
+- Cloudflare Pages auto-deploys after git push to main
+- Netlify is not part of the active workflow
 
-Deployment status:
-- Redeploy needed — drag canadasteps folder 
-  to Netlify deploy area
-- Verify after deploy:
-  1. canadasteps.ca — three guide cards visible
-  2. canadasteps.ca/taxes.html — loads correctly
-  3. canadasteps.ca/sin.html — tax transition card visible
-  4. canadasteps.ca/pgwp.html — Tax Guide in nav
+Current pages:
+- index.html
+- pgwp.html
+- sin.html
+- taxes.html
+- cra-account.html
+- bank-account.html
 
-Infrastructure note:
-- canadasteps.ca moved to Cloudflare nameservers
-- duke.ns.cloudflare.com / sue.ns.cloudflare.com
-- SSL active and trusted via Cloudflare
-- Do NOT work on CSP, HSTS, DMARC, DKIM, 
-  DNSSEC, analytics, forms, or backend today
+Current state:
+- Top nav uses category links: All Guides, Start Here, Money & Taxes, PGWP
+- Homepage groups guides by Start Here, Money & Taxes, and Study & Graduation
+- Subtle maple-leaf SVG is part of the CanadaSteps logo
+- Visual comfort pass uses warmer neutrals, softer cards, and subtle category accents
 
-Current priority: content expansion and 
-real-user validation only
+Do not touch unless explicitly requested:
+- CSP, HSTS, DMARC, DKIM, DNSSEC, security.txt
+- analytics, forms, backend setup
+- PGWP guide content
+- agent workflow/memory format
 
-Frozen: nav architecture, agent rules, 
-CLAUDE.md, memory file format
-
-Next task after deploy verification:
-Show site to real users. Collect reactions.
-Guide 4 determined by user feedback only.
+Next priority:
+- Push local commits to GitHub and verify Cloudflare Pages deployment.
+- Then continue content expansion only from user-validated priorities.
 ---

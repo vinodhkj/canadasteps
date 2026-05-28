@@ -26,7 +26,7 @@ Phase 0 - Foundation
 
 ## Last change
 
-May 28 - Top navigation simplified to guide categories: All Guides, Start Here, Money & Taxes, and PGWP. Homepage anchors added for Start Here and Money & Taxes; guide cards grouped accordingly.
+May 28 - Visual comfort pass added warmer neutrals, softer card surfaces/borders, gentler card depth, clearer section hierarchy, and subtle homepage category label accents.
 
 ## Previous change
 
@@ -45,7 +45,7 @@ May 27 - Editorial trust pass: nav anchored with 2px navy border, logo enlarged,
 
 ## Immediate next action
 
-Push main to GitHub; Cloudflare Pages should auto-deploy the navigation cleanup to canadasteps.ca.
+Push main to GitHub; Cloudflare Pages should auto-deploy the navigation cleanup and visual comfort pass to canadasteps.ca.
 
 ## File structure note
 

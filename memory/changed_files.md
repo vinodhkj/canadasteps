@@ -3,6 +3,22 @@
 _Tracks files created or modified each session._
 
 ---
+## 2026-05-28 - Visual comfort polish
+
+**Modified:**
+- `index.html` - warmed base palette, softened cards, and added subtle category label accents
+- `pgwp.html` - warmed base palette and softened repeated guide surfaces
+- `sin.html` - warmed base palette and softened repeated guide surfaces
+- `taxes.html` - warmed base palette and softened repeated guide surfaces
+- `cra-account.html` - warmed base palette and softened repeated guide surfaces
+- `bank-account.html` - warmed base palette and softened repeated guide surfaces
+- `memory/current_state.md` - recorded visual comfort polish
+- `memory/next_prompt.md` - refreshed stale Cloudflare/current-pages handoff
+- `memory/changed_files.md` - recorded files changed in this task
+- `daily.md` - appended concise session log line
+
+---
+
 ## 2026-05-28 - Navigation category cleanup
 
 **Modified:**

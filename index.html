@@ -7,14 +7,14 @@
 <meta name="description" content="Step-by-step operational guides for newcomers to Canada. Every claim links to an official source.">
 <style>
   :root {
-    --bg: #f7f5f0;
-    --bg-card: #ffffff;
-    --bg-soft: #f0ede6;
+    --bg: #f8f5ee;
+    --bg-card: #fffdf8;
+    --bg-soft: #f1ebe1;
     --navy: #1a2640;
     --navy-mid: #243352;
     --red: #b91c1c;
     --teal: #166b61;
-    --teal-light: #e7f1ef;
+    --teal-light: #e8f0ec;
     --amber: #d97706;
     --amber-light: #fef9c3;
     --green: #166534;
@@ -22,9 +22,9 @@
     --gray: #6b7280;
     --gray-light: #e5e7eb;
     --text: #1f2937;
-    --text-soft: #4b5563;
-    --border: #e2ddd4;
-    --step-line: #d4c9b0;
+    --text-soft: #465264;
+    --border: #ded6ca;
+    --step-line: #d0c3ab;
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -146,10 +146,11 @@
     padding: 1.5rem;
     text-decoration: none;
     color: inherit;
+    box-shadow: 0 1px 0 rgba(26,38,64,0.04);
     transition: box-shadow 0.15s, border-color 0.15s;
   }
   .guide-card:hover {
-    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    box-shadow: 0 4px 12px rgba(26,38,64,0.07);
     border-color: var(--teal);
   }
 
@@ -198,6 +199,9 @@
     font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
     margin-bottom: 0.5rem;
   }
+  .guide-group-start .guide-label { color: var(--teal); }
+  .guide-group-money .guide-label { color: var(--amber); }
+  .guide-group-study .guide-label { color: var(--navy-mid); }
 
   /* DISCLAIMER */
   .disclaimer {
@@ -280,7 +284,7 @@
 
   <div class="guide-cards">
 
-    <div id="study-graduation">
+    <div class="guide-group-study" id="study-graduation">
       <div class="guide-label">Study &amp; Graduation</div>
       <a class="guide-card" href="/pgwp.html">
         <span class="guide-card-status">Live</span>
@@ -290,7 +294,7 @@
       </a>
     </div>
 
-    <div id="start-here">
+    <div class="guide-group-start" id="start-here">
       <div class="guide-label">Start Here</div>
       <a class="guide-card" href="/sin.html">
         <span class="guide-card-status">Live</span>
@@ -300,7 +304,7 @@
       </a>
     </div>
 
-    <div>
+    <div class="guide-group-start">
       <div class="guide-label">Start Here</div>
       <a class="guide-card" href="/bank-account.html">
         <span class="guide-card-status">Live</span>
@@ -310,7 +314,7 @@
       </a>
     </div>
 
-    <div id="money-taxes">
+    <div class="guide-group-money" id="money-taxes">
       <div class="guide-label">Money &amp; Taxes</div>
       <a class="guide-card" href="/taxes.html">
         <span class="guide-card-status">Live</span>
@@ -320,7 +324,7 @@
       </a>
     </div>
 
-    <div>
+    <div class="guide-group-money">
       <div class="guide-label">Money &amp; Taxes</div>
       <a class="guide-card" href="/cra-account.html">
         <span class="guide-card-status">Live</span>
