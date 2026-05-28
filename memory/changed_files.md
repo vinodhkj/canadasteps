@@ -3,6 +3,19 @@
 _Tracks files created or modified each session._
 
 ---
+## 2026-05-28 - Ontario Driver's License Guide added
+
+**Created:**
+- `ontario-drivers-license.html` - new Ontario driver's licence guide for international students and newcomers using existing guide layout and official DriveTest/Ontario links
+
+**Modified:**
+- `index.html` - added Daily Life guide card for Ontario Driver's License Guide
+- `memory/current_state.md` - recorded new Ontario Driver's License Guide
+- `memory/next_prompt.md` - refreshed current pages and homepage state
+- `memory/changed_files.md` - recorded files changed in this task
+- `daily.md` - appended concise session log line
+
+---
 ## 2026-05-28 - Homepage Start Here flow
 
 **Modified:**

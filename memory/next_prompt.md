@@ -13,11 +13,13 @@ Current pages:
 - taxes.html
 - cra-account.html
 - bank-account.html
+- ontario-drivers-license.html
 
 Current state:
 - Top nav uses category links: All Guides, Start Here, Money & Taxes, PGWP
 - Homepage has a lightweight Start Here flow before guide cards for SIN, bank account, CRA My Account, taxes, and PGWP
-- Homepage groups guides by Start Here, Money & Taxes, and Study & Graduation
+- Homepage groups guides by Start Here, Money & Taxes, Study & Graduation, and Daily Life
+- Ontario Driver's License Guide exists as a Daily Life page using DriveTest/Ontario official sources
 - Subtle maple-leaf SVG is part of the CanadaSteps logo
 - Visual comfort pass uses warmer neutrals, softer cards, and subtle category accents
 

@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ontario Driver's License Guide for International Students | CanadaSteps</title>
+<meta name="description" content="Practical Ontario driver's license guide for international students and newcomers. Learn how licensing works, when foreign licences may be usable, and what documents are commonly requested.">
+<style>
+  :root {
+    --bg: #f8f5ee;
+    --bg-card: #fffdf8;
+    --bg-soft: #f1ebe1;
+    --navy: #1a2640;
+    --navy-mid: #243352;
+    --red: #b91c1c;
+    --teal: #166b61;
+    --teal-light: #e8f0ec;
+    --amber: #d97706;
+    --amber-light: #fef9c3;
+    --green: #166534;
+    --green-light: #dcfce7;
+    --gray: #6b7280;
+    --gray-light: #e5e7eb;
+    --text: #1f2937;
+    --text-soft: #465264;
+    --border: #ded6ca;
+    --step-line: #d0c3ab;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    font-size: 17px;
+  }
+
+  .topbar {
+    background: var(--navy);
+    color: rgba(255,255,255,0.65);
+    font-size: 0.74rem;
+    padding: 0.45rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .topbar a { color: #f0c76a; text-decoration: none; }
+  .topbar a:hover { text-decoration: underline; }
+
+  nav {
+    background: var(--bg-card);
+    border-bottom: 2px solid var(--navy);
+    padding: 0.9rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }
+
+  .nav-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--navy);
+    text-decoration: none;
+    letter-spacing: -0.3px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+  .logo span { color: var(--teal); }
+  .logo-mark {
+    width: 0.72em;
+    height: 0.72em;
+    color: var(--red);
+    opacity: 0.78;
+    flex-shrink: 0;
+  }
+
+  .nav-crumb {
+    font-size: 0.75rem;
+    color: var(--gray);
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  .nav-crumb strong { color: var(--text-soft); font-weight: 600; }
+
+  .nav-links {
+    display: flex;
+    gap: 1.25rem;
+  }
+  .nav-links a {
+    font-size: 0.86rem;
+    color: var(--gray);
+    text-decoration: none;
+  }
+  .nav-links a:hover { color: var(--teal); }
+  .nav-links a.current { color: var(--teal); font-weight: 500; }
+
+  .page-wrap {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 2.25rem 2.25rem 4.5rem;
+  }
+
+  .page-header {
+    margin-bottom: 1.45rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .track-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: var(--teal-light);
+    color: var(--teal);
+    border: 1px solid rgba(22,107,97,0.2);
+    padding: 0.25rem 0.75rem;
+    border-radius: 100px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 0.9rem;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  }
+
+  h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.6rem, 4vw, 2.2rem);
+    font-weight: 700;
+    color: var(--navy);
+    line-height: 1.25;
+    margin-bottom: 0.6rem;
+    letter-spacing: -0.2px;
+  }
+
+  .page-desc {
+    font-size: 1rem;
+    color: var(--text-soft);
+    line-height: 1.7;
+    max-width: 620px;
+  }
+
+  .meta-row {
+    display: flex;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+    margin-top: 1.1rem;
+  }
+
+  .meta-item {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.75rem;
+    color: var(--gray);
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  }
+
+  .meta-dot {
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    background: var(--teal);
+    flex-shrink: 0;
+  }
+
+  .reality-check {
+    background: var(--amber-light);
+    border: 1px solid rgba(217,119,6,0.25);
+    border-left: 4px solid var(--amber);
+    border-radius: 8px;
+    padding: 1rem 1.1rem;
+    margin-bottom: 1.45rem;
+    font-size: 0.84rem;
+    color: #78350f;
+    line-height: 1.6;
+  }
+  .reality-check strong {
+    display: block;
+    font-weight: 700;
+    font-size: 0.82rem;
+    color: #92400e;
+    margin-bottom: 0.55rem;
+  }
+  .reality-check ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-left: 0;
+  }
+  .reality-check ul li {
+    display: flex;
+    gap: 0.5rem;
+    line-height: 1.55;
+  }
+  .reality-check ul li::before {
+    content: '->';
+    flex-shrink: 0;
+    color: var(--amber);
+    font-weight: 600;
+  }
+
+  .section { margin-bottom: 1.65rem; }
+
+  h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.24rem;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+  }
+
+  .h2-num {
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    font-size: 0.65rem;
+    background: var(--navy);
+    color: white;
+    padding: 0.18rem 0.45rem;
+    border-radius: 4px;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+  }
+
+  .divider {
+    height: 1px;
+    background: var(--border);
+    margin: 1.55rem 0;
+  }
+
+  .checklist { list-style: none; display: flex; flex-direction: column; gap: 0.55rem; }
+  .checklist li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    font-size: 0.875rem;
+    color: var(--text-soft);
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    box-shadow: 0 1px 0 rgba(26,38,64,0.03);
+    line-height: 1.55;
+  }
+  .check-box {
+    width: 16px; height: 16px;
+    border: 1.5px solid var(--gray-light);
+    border-radius: 3px;
+    flex-shrink: 0;
+    margin-top: 2px;
+    background: var(--bg);
+  }
+  .checklist li strong { color: var(--text); font-weight: 600; }
+
+  .steps-list { list-style: none; position: relative; }
+  .steps-list::before {
+    content: '';
+    position: absolute;
+    left: 20px; top: 26px; bottom: 26px;
+    width: 1px;
+    background: var(--step-line);
+  }
+
+  .step { display: flex; gap: 1.1rem; margin-bottom: 0.9rem; position: relative; }
+
+  .step-num {
+    width: 42px; height: 42px;
+    border-radius: 50%;
+    background: var(--navy);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    font-size: 0.75rem;
+    font-weight: 500;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1;
+    border: 3px solid var(--bg);
+    box-shadow: 0 0 0 1px var(--step-line);
+  }
+
+  .step-body {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.2rem;
+    box-shadow: 0 1px 0 rgba(26,38,64,0.04);
+    flex: 1;
+  }
+
+  .step-title {
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: var(--navy);
+    margin-bottom: 0.3rem;
+  }
+
+  .step-desc {
+    font-size: 0.83rem;
+    color: var(--text-soft);
+    line-height: 1.6;
+    margin-bottom: 0.6rem;
+  }
+
+  .step-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--teal);
+    text-decoration: none;
+    border: 1px solid rgba(22,107,97,0.25);
+    background: var(--teal-light);
+    padding: 0.28rem 0.65rem;
+    border-radius: 5px;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    margin-right: 0.4rem;
+    margin-bottom: 0.3rem;
+  }
+  .step-link:hover { background: rgba(22,107,97,0.12); border-color: var(--teal); }
+  .step-link::after { content: ' ->'; }
+
+  .step-note {
+    margin-top: 0.5rem;
+    font-size: 0.77rem;
+    color: #78350f;
+    background: var(--amber-light);
+    border: 1px solid rgba(217,119,6,0.18);
+    border-radius: 6px;
+    padding: 0.4rem 0.7rem;
+    line-height: 1.5;
+  }
+
+  .misses-list { list-style: none; display: flex; flex-direction: column; gap: 0.65rem; }
+  .miss-item {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--red);
+    border-radius: 8px;
+    padding: 0.9rem 1.1rem;
+  }
+  .miss-title {
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: var(--red);
+    margin-bottom: 0.25rem;
+  }
+  .miss-item p { font-size: 0.82rem; color: var(--text-soft); line-height: 1.55; }
+
+  .links-list { list-style: none; display: flex; flex-direction: column; gap: 0.55rem; }
+  .gov-link {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 9px;
+    padding: 0.85rem 1.1rem;
+    box-shadow: 0 1px 0 rgba(26,38,64,0.035);
+    text-decoration: none;
+    color: inherit;
+  }
+  .gov-link:hover { border-color: rgba(22,107,97,0.45); background: var(--teal-light); }
+
+  .gov-icon {
+    width: 32px; height: 32px;
+    border-radius: 5px;
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    color: var(--navy);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.82rem;
+    flex-shrink: 0;
+  }
+
+  .gov-text { flex: 1; }
+  .gov-title { font-weight: 600; font-size: 0.85rem; color: var(--navy); line-height: 1.3; }
+  .gov-url { font-size: 0.68rem; color: var(--gray); font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; margin-top: 0.1rem; }
+  .gov-arrow { color: var(--teal); font-size: 0.9rem; flex-shrink: 0; }
+
+  .disclaimer {
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.2rem;
+    font-size: 0.78rem;
+    color: var(--gray);
+    line-height: 1.65;
+    margin-top: 2.5rem;
+    text-align: center;
+  }
+  .disclaimer a { color: var(--teal); }
+  .disclaimer strong { color: var(--text-soft); }
+
+  .site-footer {
+    margin: 0;
+    padding: 1.35rem 0 2rem;
+    background: var(--bg-soft);
+    border-top: 1px solid var(--border);
+    color: var(--gray);
+    font-size: 0.72rem;
+    line-height: 1.6;
+  }
+  .site-footer-inner {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 0 2.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+  .site-footer a { color: var(--teal); text-decoration: none; }
+  .site-footer a:hover { text-decoration: underline; }
+  .footer-links { display: flex; flex-wrap: wrap; gap: 0.8rem; }
+
+  @media (max-width: 600px) {
+    body { font-size: 16px; }
+    .page-wrap { padding: 1.5rem 1.1rem 4rem; }
+    .site-footer { padding: 1.2rem 0 2rem; }
+    .site-footer-inner { padding: 0 1.1rem; }
+    h1 { font-size: 1.55rem; }
+    .nav-crumb { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <span>Canada Immigration Guides &mdash; Educational &amp; Navigational Resource Only</span>
+  <a href="https://www.ontario.ca/page/exchange-out-province-drivers-licence" target="_blank" rel="noopener">Official Ontario source &rarr;</a>
+</div>
+
+<nav>
+  <div class="nav-row">
+    <a class="logo" href="/index.html"><svg class="logo-mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 2.4l1.2 4 3.7-1.6-1.1 4 3.9 1.1-3.5 2.1 2.2 3.4-4.2-.5-.6 4.3h-3.2l-.6-4.3-4.2.5L7.8 12 4.3 9.9l3.9-1.1-1.1-4 3.7 1.6L12 2.4z"/></svg>Canada<span>Steps</span></a>
+    <div class="nav-crumb">Daily Life &rarr; <strong>Ontario Driver's License</strong></div>
+  </div>
+  <div class="nav-links">
+    <a class="current" href="/index.html">All Guides</a>
+    <a href="/index.html#start-here">Start Here</a>
+    <a href="/index.html#money-taxes">Money &amp; Taxes</a>
+    <a href="/pgwp.html">PGWP</a>
+  </div>
+</nav>
+
+<div style="border-bottom:1px solid var(--border);padding:0.5rem 2rem;font-size:0.75rem;color:var(--gray);line-height:1.55;">
+  Built by a newcomer to Canada who spent too many hours trying to piece together immigration steps from scattered government pages. Everything here links directly to official sources. No legal advice. No guesswork.
+  <span style="display:block;margin-top:0.25rem;font-size:0.68rem;opacity:0.75;">Not affiliated with IRCC or the Government of Canada.</span>
+</div>
+
+<main class="page-wrap">
+
+  <header class="page-header">
+    <div class="track-tag">Daily Life</div>
+    <h1>Ontario Driver's License Guide for International Students</h1>
+    <p class="page-desc">Learn how Ontario licensing works, when foreign licences may be usable, and what documents newcomers are commonly asked for.</p>
+    <p style="font-size:0.78rem;color:var(--gray);margin-top:0.65rem;line-height:1.55;">Always verify current rules directly with DriveTest and the Ontario government.</p>
+    <div class="meta-row">
+      <div class="meta-item"><div class="meta-dot"></div>Last reviewed: May 2026</div>
+      <div class="meta-item"><div class="meta-dot"></div>Source: DriveTest and Ontario</div>
+    </div>
+  </header>
+
+  <div class="reality-check">
+    <strong>Before you make driving plans</strong>
+    <ul>
+      <li>Ontario uses a graduated licensing system.</li>
+      <li>Rules differ depending on your driving experience and country.</li>
+      <li>Some countries have exchange agreements with Ontario.</li>
+      <li>Insurance, testing, and eligibility rules can vary.</li>
+      <li>Do not rely only on social media advice for licensing rules.</li>
+    </ul>
+  </div>
+
+  <section class="section" id="current-licence">
+    <h2><span class="h2-num">01</span> Can you drive with your current licence?</h2>
+    <div class="step-body">
+      <p class="step-desc">New Ontario residents can generally use a valid foreign licence for a limited period after moving to the province. Ontario commonly references 60 days for new residents.</p>
+      <p class="step-desc">For longer stays, you may need an International Driving Permit (IDP) alongside the foreign licence, depending on your situation and the rules that apply to your licence.</p>
+      <p class="step-desc" style="margin-bottom:0.75rem;">Always verify directly with DriveTest or Ontario before driving, booking tests, or relying on a foreign licence.</p>
+      <a class="step-link" href="https://drivetest.ca/licences/exchanges-foreign-licences/" target="_blank" rel="noopener">DriveTest foreign licence overview</a>
+      <a class="step-link" href="https://www.ontario.ca/page/exchange-out-province-drivers-licence" target="_blank" rel="noopener">Ontario licence exchange</a>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section" id="g-system">
+    <h2><span class="h2-num">02</span> Understanding G1, G2, and G</h2>
+    <div class="step-body" style="margin-bottom:0.65rem;"><div class="step-title">G1</div><div class="step-desc" style="margin-bottom:0;">A beginner licence with restrictions. It is usually the first stage in Ontario's graduated licensing system.</div></div>
+    <div class="step-body" style="margin-bottom:0.65rem;"><div class="step-title">G2</div><div class="step-desc" style="margin-bottom:0;">An intermediate licence with fewer restrictions than G1, but it is still not the full licence stage.</div></div>
+    <div class="step-body"><div class="step-title">G</div><div class="step-desc" style="margin-bottom:0;">The full licence stage for standard passenger vehicles.</div></div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section" id="exchange">
+    <h2><span class="h2-num">03</span> Licence exchange vs starting from scratch</h2>
+    <div class="step-body">
+      <p class="step-desc">Some countries have licence exchange agreements with Ontario. Others may not qualify for direct exchange, but your driving experience may still affect what tests or waiting periods apply.</p>
+      <p class="step-desc">Some people still need written tests, road tests, or both. DriveTest may ask for proof of driving experience or authentication documents.</p>
+      <p class="step-desc" style="margin-bottom:0.75rem;">Do not assume your country qualifies for direct exchange until you check the official DriveTest and Ontario pages.</p>
+      <a class="step-link" href="https://drivetest.ca/licences/exchanges-foreign-licences/licence-exchanges-cars-trucks-vans/" target="_blank" rel="noopener">DriveTest exchange details</a>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section" id="documents">
+    <h2><span class="h2-num">04</span> Documents you may need</h2>
+    <ul class="checklist">
+      <li><div class="check-box"></div><div><strong>Passport</strong> - bring original identity documents where required.</div></li>
+      <li><div class="check-box"></div><div><strong>Study permit or immigration document</strong> - DriveTest may need to confirm your identity and status documents.</div></li>
+      <li><div class="check-box"></div><div><strong>Existing foreign licence</strong> - bring the original licence you want assessed or exchanged.</div></li>
+      <li><div class="check-box"></div><div><strong>Certified translation if licence is not English or French</strong> - check DriveTest translation requirements before your appointment.</div></li>
+      <li><div class="check-box"></div><div><strong>Proof of driving experience if applicable</strong> - experience letters or records may be needed depending on your situation.</div></li>
+      <li><div class="check-box"></div><div><strong>Ontario address</strong> - use an address where you can reliably receive mail.</div></li>
+      <li><div class="check-box"></div><div><strong>Supporting authentication letter if required</strong> - some applicants may need official confirmation from the licensing authority that issued the licence.</div></li>
+    </ul>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section" id="steps">
+    <h2><span class="h2-num">05</span> Steps in order</h2>
+    <ol class="steps-list">
+      <li class="step"><div class="step-num">01</div><div class="step-body"><div class="step-title">Check if your country has an exchange agreement</div><div class="step-desc">Start with the official DriveTest and Ontario pages before assuming your licence can be exchanged.</div></div></li>
+      <li class="step"><div class="step-num">02</div><div class="step-body"><div class="step-title">Gather original licence and identity documents</div><div class="step-desc">Bring original identity documents, your foreign licence, and any immigration or address documents requested.</div></div></li>
+      <li class="step"><div class="step-num">03</div><div class="step-body"><div class="step-title">Obtain translation if required</div><div class="step-desc">If your licence is not in English or French, check DriveTest rules for acceptable translations.</div></div></li>
+      <li class="step"><div class="step-num">04</div><div class="step-body"><div class="step-title">Book DriveTest appointment if needed</div><div class="step-desc">Use DriveTest for licensing steps, testing, and foreign licence exchange processes.</div></div></li>
+      <li class="step"><div class="step-num">05</div><div class="step-body"><div class="step-title">Complete vision, written, or road tests if required</div><div class="step-desc">Testing requirements depend on your licence, experience, exchange eligibility, and DriveTest assessment.</div></div></li>
+      <li class="step"><div class="step-num">06</div><div class="step-body"><div class="step-title">Keep copies of all supporting documents</div><div class="step-desc">Save appointment records, receipts, translations, and experience documentation.</div></div></li>
+      <li class="step"><div class="step-num">07</div><div class="step-body"><div class="step-title">Verify insurance implications separately</div><div class="step-desc">Licensing and insurance are connected, but insurance rules, costs, and requirements are separate from this guide.</div></div></li>
+    </ol>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section" id="mistakes">
+    <h2><span class="h2-num">06</span> Common mistakes</h2>
+    <ul class="misses-list">
+      <li class="miss-item"><div class="miss-title">Assuming all countries qualify for direct exchange</div><p>Exchange rules depend on Ontario's agreements and DriveTest requirements.</p></li>
+      <li class="miss-item"><div class="miss-title">Arriving without driving experience documentation</div><p>Experience letters or authentication documents may affect what you can receive credit for.</p></li>
+      <li class="miss-item"><div class="miss-title">Using unofficial translations</div><p>If translation is required, check DriveTest rules for acceptable translators before paying for one.</p></li>
+      <li class="miss-item"><div class="miss-title">Ignoring licence expiry dates</div><p>Expired documents can complicate exchange, testing, and insurance steps.</p></li>
+      <li class="miss-item"><div class="miss-title">Believing social-media shortcuts</div><p>Rules can change, and shortcuts may not match your licence, country, or experience.</p></li>
+      <li class="miss-item"><div class="miss-title">Not checking insurance requirements</div><p>A licence does not automatically solve insurance eligibility, pricing, or documentation questions.</p></li>
+      <li class="miss-item"><div class="miss-title">Confusing G1, G2, and G stages</div><p>Ontario's graduated licensing stages are different, and each stage can affect how and when you drive.</p></li>
+    </ul>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section" id="links">
+    <h2><span class="h2-num">07</span> Official links</h2>
+    <ul class="links-list">
+      <li><a class="gov-link" href="https://drivetest.ca/licences/exchanges-foreign-licences/" target="_blank" rel="noopener"><div class="gov-icon">ON</div><div class="gov-text"><div class="gov-title">DriveTest foreign licence overview</div><div class="gov-url">drivetest.ca -> licences -> exchanges-foreign-licences</div></div><div class="gov-arrow">-></div></a></li>
+      <li><a class="gov-link" href="https://www.ontario.ca/page/exchange-out-province-drivers-licence" target="_blank" rel="noopener"><div class="gov-icon">ON</div><div class="gov-text"><div class="gov-title">Ontario licence exchange</div><div class="gov-url">ontario.ca -> exchange-out-province-drivers-licence</div></div><div class="gov-arrow">-></div></a></li>
+      <li><a class="gov-link" href="https://drivetest.ca/licences/exchanges-foreign-licences/licence-exchanges-cars-trucks-vans/" target="_blank" rel="noopener"><div class="gov-icon">ON</div><div class="gov-text"><div class="gov-title">DriveTest exchange details</div><div class="gov-url">drivetest.ca -> licence-exchanges-cars-trucks-vans</div></div><div class="gov-arrow">-></div></a></li>
+      <li><a class="gov-link" href="https://drivetest.ca/licences/acceptable-id-documents/" target="_blank" rel="noopener"><div class="gov-icon">ON</div><div class="gov-text"><div class="gov-title">Acceptable ID documents</div><div class="gov-url">drivetest.ca -> acceptable-id-documents</div></div><div class="gov-arrow">-></div></a></li>
+      <li><a class="gov-link" href="https://drivetest.ca/" target="_blank" rel="noopener"><div class="gov-icon">ON</div><div class="gov-text"><div class="gov-title">DriveTest homepage</div><div class="gov-url">drivetest.ca</div></div><div class="gov-arrow">-></div></a></li>
+    </ul>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section" id="next-steps">
+    <h2><span class="h2-num">08</span> What comes next</h2>
+    <div style="background:var(--teal-light);border:1px solid rgba(22,107,97,0.2);border-radius:10px;padding:1.25rem 1.5rem;margin-bottom:0.85rem;">
+      <div style="font-size:0.65rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--teal);font-family:&quot;SFMono-Regular&quot;,Consolas,&quot;Liberation Mono&quot;,monospace;margin-bottom:0.5rem;">Related guide</div>
+      <p style="font-size:0.875rem;color:var(--text-soft);line-height:1.65;margin-bottom:0.75rem;">Need your SIN for work, payroll, or identity workflows in Canada? Start with the SIN guide.</p>
+      <a href="/sin.html" style="font-size:0.78rem;font-weight:600;color:var(--teal);font-family:&quot;SFMono-Regular&quot;,Consolas,&quot;Liberation Mono&quot;,monospace;text-decoration:none;">SIN Guide -></a>
+    </div>
+    <div style="background:var(--teal-light);border:1px solid rgba(22,107,97,0.2);border-radius:10px;padding:1.25rem 1.5rem;margin-bottom:0.85rem;">
+      <div style="font-size:0.65rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--teal);font-family:&quot;SFMono-Regular&quot;,Consolas,&quot;Liberation Mono&quot;,monospace;margin-bottom:0.5rem;">Related guide</div>
+      <p style="font-size:0.875rem;color:var(--text-soft);line-height:1.65;margin-bottom:0.75rem;">Need basic banking for rent, debit payments, or direct deposit? Read the bank account guide.</p>
+      <a href="/bank-account.html" style="font-size:0.78rem;font-weight:600;color:var(--teal);font-family:&quot;SFMono-Regular&quot;,Consolas,&quot;Liberation Mono&quot;,monospace;text-decoration:none;">Bank Account Guide -></a>
+    </div>
+    <div style="background:var(--teal-light);border:1px solid rgba(22,107,97,0.2);border-radius:10px;padding:1.25rem 1.5rem;margin-bottom:1.5rem;">
+      <div style="font-size:0.65rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--teal);font-family:&quot;SFMono-Regular&quot;,Consolas,&quot;Liberation Mono&quot;,monospace;margin-bottom:0.5rem;">Related guide</div>
+      <p style="font-size:0.875rem;color:var(--text-soft);line-height:1.65;margin-bottom:0.75rem;">Need to understand tax filing after working or studying in Canada? Review the tax filing guide.</p>
+      <a href="/taxes.html" style="font-size:0.78rem;font-weight:600;color:var(--teal);font-family:&quot;SFMono-Regular&quot;,Consolas,&quot;Liberation Mono&quot;,monospace;text-decoration:none;">Tax Filing Guide -></a>
+    </div>
+  </section>
+
+  <div class="disclaimer">
+    <strong>This page is for educational and navigational purposes only.</strong><br>
+    It does not constitute legal, insurance, immigration, or driving advice. All steps link directly to official Ontario or DriveTest sources where possible. Licensing, testing, and insurance rules change - always verify current requirements directly with DriveTest and the Ontario government before driving, testing, or exchanging a licence. For advice specific to your situation, consult the appropriate licensed professional or official agency.
+  </div>
+
+</main>
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <div>CanadaSteps is an independent public guidance resource for newcomers to Canada.</div>
+    <div>Not affiliated with IRCC or the Government of Canada. Contact: contact not yet published.</div>
+    <div class="footer-links">
+      <a href="/pgwp.html">PGWP guide</a>
+      <a href="/sin.html">SIN guide</a>
+      <a href="/taxes.html">Tax guide</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

@@ -14,6 +14,7 @@ Phase 0 - Foundation
 - `taxes.html` - tax filing guide, live at canadasteps.ca/taxes.html
 - `cra-account.html` - CRA My Account guide, live at canadasteps.ca/cra-account.html
 - `bank-account.html` - bank account and GIC basics guide, live at canadasteps.ca/bank-account.html
+- `ontario-drivers-license.html` - Ontario driver's licence guide, pending deploy at canadasteps.ca/ontario-drivers-license.html
 
 ## What works
 
@@ -26,7 +27,7 @@ Phase 0 - Foundation
 
 ## Last change
 
-May 28 - Homepage Start Here flow added before guide cards; Start Here nav now anchors to the practical step-by-step flow.
+May 28 - Ontario Driver's License Guide added as a Daily Life page; homepage now includes a live guide card for it.
 
 ## Previous change
 
@@ -45,7 +46,7 @@ May 27 - Editorial trust pass: nav anchored with 2px navy border, logo enlarged,
 
 ## Immediate next action
 
-Push main to GitHub; Cloudflare Pages should auto-deploy the homepage Start Here flow and recent visual/navigation polish to canadasteps.ca.
+Push main to GitHub; Cloudflare Pages should auto-deploy the Ontario Driver's License Guide and recent homepage updates to canadasteps.ca.
 
 ## File structure note
 
