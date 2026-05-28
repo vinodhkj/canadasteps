@@ -4,7 +4,7 @@ _Updated: 2026-05-28_
 
 ## Phase
 
-Phase 0 - Foundation
+Phase 1 - Editorial redesign refinement
 
 ## Live pages
 
@@ -29,6 +29,10 @@ Phase 0 - Foundation
 
 ## Last change
 
+May 28 - Phase 1 refinement polish: homepage editorial guide entries gained subtle metadata, hover hierarchy, wider editorial measure, improved anchor scroll breathing, and calmer institutional trust-strip copy. PGWP visual language was softened through reusable CSS to reduce stacked-box repetition without rewriting content.
+
+## Previous change
+
 May 28 - Phase 1 homepage editorial redesign: page-banner zone (full-width bg-soft header), guide cards replaced with editorial list entries (rule-separated title + desc), h1 enlarged, "Live" badges removed, section spacing increased. index.html only.
 
 ## Previous change
@@ -52,13 +56,13 @@ May 28 - Ontario Driver's License Guide added as a Daily Life page; homepage now
 
 ## Immediate next action
 
-Push main to GitHub; Cloudflare Pages should auto-deploy the homepage IA refactor and nav updates to canadasteps.ca.
+Review the Phase 1 polish in browser after deployment, especially homepage anchor landing, mobile guide-entry rhythm, and PGWP section density.
 
 ## File structure note
 
-- Canonical pgwp.html is in the PROJECT ROOT
-- pages/pgwp.html has been removed (was a duplicate)
-- Do not recreate pages/pgwp.html
+- Canonical site files are in `canadasteps/`
+- `pages/pgwp.html` has been removed (was a duplicate)
+- Do not recreate `pages/pgwp.html`
 
 ---
 

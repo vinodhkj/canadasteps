@@ -4,6 +4,7 @@ One entry per working session. Most recent first.
 
 ---
 ## 2026-05-28
+May 28 - COMMIT_HASH_PENDING - Phase 1 editorial refinement polish: homepage list hierarchy/anchors/measure/trust strip refined; PGWP surface rhythm softened without content rewrite.
 May 28 - 5f307ca - Visual identity refresh: homepage section accent colors, section-cat labels, founder-note class; track-tag color variants across 5 guide pages (amber/navy/teal by category).
 May 28 - cfe34f8 - Phase 1 homepage redesign: page-banner zone, editorial list entries replacing card grid, h1 enlarged, section spacing increased.
 May 28 - COMMIT_HASH_PENDING - Ontario Photo Card Guide added: ontario-photo-card.html (7 sections, ServiceOntario/Ontario.ca), homepage First Weeks card, footer link.

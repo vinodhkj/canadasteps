@@ -3,6 +3,17 @@
 _Tracks files created or modified each session._
 
 ---
+## 2026-05-28 - Phase 1 editorial refinement polish
+
+**Modified:**
+- `index.html` - widened editorial layout, added scroll-margin breathing for homepage anchors, refined trust strip copy, strengthened guide-entry hover/title hierarchy, and added small entry metadata
+- `pgwp.html` - aligned visual language with homepage by widening layout, replacing inline trust strip with reusable class, softening repeated boxed surfaces, increasing section rhythm, and converting the next-step block to reusable CSS
+- `memory/current_state.md` - recorded Phase 1 refinement polish and corrected current file-structure note
+- `memory/changed_files.md` - this entry
+- `memory/next_prompt.md` - refreshed stale homepage guide list and next-priority handoff
+- `daily.md` - appended concise session log line
+
+---
 ## 2026-05-28 - Phase 1 homepage editorial redesign
 
 **Modified:**

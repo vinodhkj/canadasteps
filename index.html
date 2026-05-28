@@ -102,10 +102,11 @@
 
   /* FOUNDER NOTE */
   .founder-note {
+    background: var(--bg-card);
     border-bottom: 1px solid var(--border);
-    padding: 0.5rem 2rem;
+    padding: 0.55rem 2rem;
     font-size: 0.75rem;
-    color: var(--gray);
+    color: var(--text-soft);
     line-height: 1.55;
   }
   .founder-note small {
@@ -122,7 +123,7 @@
     padding: 2.75rem 0 2.25rem;
   }
   .page-banner-inner {
-    max-width: 920px;
+    max-width: 980px;
     margin: 0 auto;
     padding: 0 2.25rem;
   }
@@ -150,14 +151,15 @@
 
   /* PAGE LAYOUT */
   .page-wrap {
-    max-width: 920px;
+    max-width: 980px;
     margin: 0 auto;
     padding: 2.75rem 2.25rem 5rem;
   }
 
   /* GUIDE SECTIONS */
   .guide-section {
-    margin-bottom: 3.5rem;
+    margin-bottom: 3.75rem;
+    scroll-margin-top: 8.5rem;
   }
 
   .guide-section-header {
@@ -207,19 +209,26 @@
   }
 
   .guide-entry {
-    padding: 1.1rem 0;
+    padding: 1.15rem 0.85rem 1.2rem;
+    margin: 0 -0.85rem;
     border-top: 1px solid var(--border);
+    transition: background 0.16s ease, border-color 0.16s ease, transform 0.16s ease;
+  }
+  .guide-entry:hover {
+    background: rgba(255,253,248,0.68);
+    transform: translateX(4px);
+    border-top-color: rgba(26,38,64,0.22);
   }
   .guide-entry:last-child { border-bottom: 1px solid var(--border); }
 
   .guide-entry-title {
-    display: block;
+    display: inline-block;
     font-family: Georgia, "Times New Roman", serif;
-    font-size: 1.05rem;
+    font-size: 1.1rem;
     font-weight: 700;
     color: var(--navy);
     text-decoration: none;
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.25rem;
     transition: color 0.15s;
   }
   #first-weeks .guide-entry-title:hover     { color: var(--teal); }
@@ -230,6 +239,17 @@
     font-size: 0.875rem;
     color: var(--text-soft);
     line-height: 1.6;
+    max-width: 690px;
+  }
+  .guide-entry-meta {
+    display: block;
+    margin-bottom: 0.25rem;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    font-size: 0.66rem;
+    font-weight: 600;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: var(--gray);
   }
 
   /* DISCLAIMER */
@@ -257,7 +277,7 @@
     line-height: 1.6;
   }
   .site-footer-inner {
-    max-width: 920px;
+    max-width: 980px;
     margin: 0 auto;
     padding: 0 2.25rem;
     display: flex;
@@ -273,6 +293,13 @@
     .page-wrap { padding: 1.75rem 1.1rem 4rem; }
     .page-banner { padding: 1.75rem 0 1.5rem; }
     .page-banner-inner { padding: 0 1.1rem; }
+    .guide-section { scroll-margin-top: 7.5rem; }
+    .guide-entry {
+      margin: 0 -0.35rem;
+      padding-left: 0.35rem;
+      padding-right: 0.35rem;
+    }
+    .guide-entry:hover { transform: none; }
     .site-footer { padding: 1.2rem 0 2rem; }
     .site-footer-inner { padding: 0 1.1rem; }
     .founder-note { padding: 0.5rem 1.1rem; }
@@ -302,7 +329,7 @@
 
 <!-- FOUNDER NOTE -->
 <div class="founder-note">
-  Built by a newcomer to Canada who spent too many hours trying to piece together immigration steps from scattered government pages. Everything here links directly to official sources. No legal advice. No guesswork.
+  Independent educational guide for newcomers and international students in Canada. Links point directly to official government and institutional sources.
   <small>Not affiliated with IRCC or the Government of Canada.</small>
 </div>
 
@@ -326,22 +353,27 @@
     </div>
     <div class="guide-entries">
       <div class="guide-entry">
+        <span class="guide-entry-meta">First setup</span>
         <a class="guide-entry-title" href="/sin.html">SIN Guide</a>
         <p class="guide-entry-desc">Social Insurance Number — apply, update after PGWP, employer situations</p>
       </div>
       <div class="guide-entry">
+        <span class="guide-entry-meta">Banking</span>
         <a class="guide-entry-title" href="/bank-account.html">Bank Account Guide</a>
         <p class="guide-entry-desc">How to open a bank account, understand basic account types, and avoid common student banking mistakes.</p>
       </div>
       <div class="guide-entry">
+        <span class="guide-entry-meta">Ontario ID</span>
         <a class="guide-entry-title" href="/ontario-drivers-license.html">Ontario Driver's License Guide</a>
         <p class="guide-entry-desc">How Ontario licensing works for international students and newcomers.</p>
       </div>
       <div class="guide-entry">
+        <span class="guide-entry-meta">Phone setup</span>
         <a class="guide-entry-title" href="/phone-plan.html">Phone Plan Guide</a>
         <p class="guide-entry-desc">How Canadian phone plans, prepaid/postpaid, and eSIM setup work for newcomers.</p>
       </div>
       <div class="guide-entry">
+        <span class="guide-entry-meta">Ontario ID</span>
         <a class="guide-entry-title" href="/ontario-photo-card.html">Ontario Photo Card Guide</a>
         <p class="guide-entry-desc">How Ontario Photo Cards work for students and newcomers who need local photo identification.</p>
       </div>
@@ -357,10 +389,12 @@
     </div>
     <div class="guide-entries">
       <div class="guide-entry">
+        <span class="guide-entry-meta">Tax filing</span>
         <a class="guide-entry-title" href="/taxes.html">Tax Filing Guide</a>
         <p class="guide-entry-desc">Tax filing for international students — what to file, when, and what documents you need.</p>
       </div>
       <div class="guide-entry">
+        <span class="guide-entry-meta">CRA access</span>
         <a class="guide-entry-title" href="/cra-account.html">CRA My Account Guide</a>
         <p class="guide-entry-desc">What CRA My Account is, when students may need it, and how to register safely.</p>
       </div>
@@ -376,6 +410,7 @@
     </div>
     <div class="guide-entries">
       <div class="guide-entry">
+        <span class="guide-entry-meta">Work permit</span>
         <a class="guide-entry-title" href="/pgwp.html">PGWP Guide</a>
         <p class="guide-entry-desc">Post-Graduation Work Permit — how to apply, timelines, and what comes next.</p>
       </div>
