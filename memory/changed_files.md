@@ -3,6 +3,19 @@
 _Tracks files created or modified each session._
 
 ---
+## 2026-05-27 — Trust polish
+
+**Modified:**
+- `index.html` — removed Google Fonts link, switched to local/system font stack, muted teal values
+- `pgwp.html` — removed Google Fonts link, switched to local/system font stack, muted teal values
+- `sin.html` — removed Google Fonts link, switched to local/system font stack, muted teal values
+- `memory/current_state.md` — recorded trust-polish pass
+- `memory/next_prompt.md` — added latest handoff note
+- `memory/changed_files.md` — recorded files changed in this task
+- `daily.md` — appended concise session log line
+
+---
+
 
 ## 2026-05-27 â€” Founder note fix (090af0e)
 

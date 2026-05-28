@@ -21,7 +21,7 @@ Phase 0 — Foundation
 
 ## Last change
 
-May 27 — 090af0e — sin.html founder note updated to match pgwp.html and index.html.
+May 27 � Trust-polish pass: local/system font stacks, Google Fonts removed, teal slightly muted.
 
 ## Previous change
 
