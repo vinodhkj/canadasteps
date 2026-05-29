@@ -3,6 +3,15 @@
 _Tracks files created or modified each session._
 
 ---
+## 2026-05-29 - Left-anchor homepage editorial column
+
+**Modified:**
+- `index.html` - .page-banner-inner and .page-wrap margin changed from 0 auto to clamp left-anchor; mobile breakpoint resets added
+- `memory/current_state.md` - recorded this change
+- `memory/changed_files.md` - this entry
+- `daily.md` - appended session log line
+
+---
 ## 2026-05-29 - Phase 1 editorial authenticity pass
 
 **Modified:**

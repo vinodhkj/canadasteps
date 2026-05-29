@@ -124,7 +124,8 @@
   }
   .page-banner-inner {
     max-width: 980px;
-    margin: 0 auto;
+    margin-left: clamp(1.5rem, 8vw, 8rem);
+    margin-right: auto;
     padding: 0 2.25rem;
   }
   .page-banner h1 {
@@ -151,7 +152,8 @@
   /* PAGE LAYOUT */
   .page-wrap {
     max-width: 980px;
-    margin: 0 auto;
+    margin-left: clamp(1.5rem, 8vw, 8rem);
+    margin-right: auto;
     padding: 2.75rem 2.25rem 5rem;
   }
 
@@ -287,9 +289,9 @@
 
   @media (max-width: 600px) {
     body { font-size: 16px; }
-    .page-wrap { padding: 1.75rem 1.1rem 4rem; }
+    .page-wrap { padding: 1.75rem 1.1rem 4rem; margin-left: 0; }
     .page-banner { padding: 1.75rem 0 1.5rem; }
-    .page-banner-inner { padding: 0 1.1rem; }
+    .page-banner-inner { padding: 0 1.1rem; margin-left: 0; }
     .guide-section { scroll-margin-top: 7.5rem; }
     .guide-entry {
       margin: 0 -0.35rem;

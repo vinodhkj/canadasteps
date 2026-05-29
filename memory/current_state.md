@@ -29,6 +29,10 @@ Phase 1 - Editorial redesign refinement
 
 ## Last change
 
+May 29 - Left-anchor homepage column: .page-banner-inner and .page-wrap changed from margin: 0 auto to clamp(1.5rem, 8vw, 8rem) left margin. Mobile resets in breakpoint. index.html only.
+
+## Previous change
+
 May 29 - Phase 1 editorial authenticity pass: removed Inter from font stack (system fonts only), removed hover slide transform from guide entries, removed border-radius from disclaimer, promoted "Last reviewed" date visibility, added newcomer orientation line before first section. index.html only.
 
 ## Previous change

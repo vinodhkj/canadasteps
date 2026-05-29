@@ -4,6 +4,7 @@ One entry per working session. Most recent first.
 
 ---
 ## 2026-05-29
+May 29 - COMMIT_HASH_PENDING - Left-anchor homepage column: clamp(1.5rem, 8vw, 8rem) left margin on page-wrap and page-banner-inner; mobile resets added. index.html only.
 May 29 - COMMIT_HASH_PENDING - Phase 1 editorial authenticity pass: Inter removed, hover slide removed, disclaimer border-radius removed, "Last reviewed" promoted, newcomer orientation line added. index.html only.
 
 ## 2026-05-28
