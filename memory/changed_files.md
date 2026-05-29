@@ -3,6 +3,23 @@
 _Tracks files created or modified each session._
 
 ---
+## 2026-05-29 - Unified editorial rail layout
+
+**Modified:**
+- `index.html` - homepage left margin reduced to clamp(1.5rem, 5vw, 6rem) on .page-banner-inner and .page-wrap
+- `sin.html` - .page-wrap margin: 0 auto → clamp(1.5rem, 4vw, 5rem) left rail; mobile reset added
+- `pgwp.html` - same
+- `taxes.html` - same
+- `cra-account.html` - same
+- `bank-account.html` - same
+- `ontario-drivers-license.html` - same
+- `phone-plan.html` - same
+- `ontario-photo-card.html` - same
+- `memory/current_state.md` - recorded this change
+- `memory/changed_files.md` - this entry
+- `daily.md` - appended session log line
+
+---
 ## 2026-05-29 - Left-anchor homepage editorial column
 
 **Modified:**

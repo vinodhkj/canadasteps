@@ -29,7 +29,7 @@ Phase 1 - Editorial redesign refinement
 
 ## Last change
 
-May 29 - Left-anchor homepage column: .page-banner-inner and .page-wrap changed from margin: 0 auto to clamp(1.5rem, 8vw, 8rem) left margin. Mobile resets in breakpoint. index.html only.
+May 29 - Unified editorial rail: homepage reduced to clamp(1.5rem, 5vw, 6rem); all 8 guide pages now use clamp(1.5rem, 4vw, 5rem); mobile margin-left: 0 reset added to all guide pages. 9 files touched, layout only.
 
 ## Previous change
 
