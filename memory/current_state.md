@@ -29,7 +29,7 @@ Phase 1 - Editorial redesign refinement
 
 ## Last change
 
-May 29 - Layout rebalance: removed asymmetric clamp-based left rail from all pages. Restored margin: 0 auto (centered frame, left-aligned content). Increased max-width to 1100px (homepage) and 1000px (guide pages). 9 HTML files, layout containers only.
+May 29 - Trust/QA pass: fixed broken CRA "Who has to file a return" URL in taxes.html (slug typo: you-have-to-file-return → you-have-file-a-return). Added missing rel="noopener" to all 25+ target="_blank" links in pgwp.html. taxes.html and pgwp.html only.
 
 ## Layout system — settled (May 29)
 

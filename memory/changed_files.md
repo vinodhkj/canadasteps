@@ -3,6 +3,21 @@
 _Tracks files created or modified each session._
 
 ---
+## 2026-05-29 - Trust/QA pass: broken link fix + rel=noopener audit
+
+**Modified:**
+- `taxes.html` - fixed broken CRA URL slug: you-have-to-file-return.html → you-have-file-a-return.html (line 549). Correct URL confirmed via CRA site search.
+- `pgwp.html` - added rel="noopener" to all 28 target="_blank" links that were missing it. No content changes.
+- `memory/current_state.md` - recorded this change
+- `memory/changed_files.md` - this entry
+- `daily.md` - appended session log line
+
+**Audited (no changes needed):**
+- `sin.html` - all 21 external links have rel="noopener" ✓
+- `cra-account.html` - all 8 external links have rel="noopener" ✓
+- CRA login, register, My Account URLs confirmed valid via search ✓
+
+---
 ## 2026-05-29 - Layout rebalance: remove asymmetric rail, restore centered frame
 
 **Modified:**
