@@ -4,6 +4,7 @@ One entry per working session. Most recent first.
 
 ---
 ## 2026-05-29
+May 29 - COMMIT_HASH_PENDING - Editorial rail documentation: memory files updated with full before/after rationale, layout strategy, affected containers, rollback notes.
 May 29 - COMMIT_HASH_PENDING - Unified editorial rail: homepage 5vw/6rem, guide pages 4vw/5rem, mobile resets on all 9 files. Layout only.
 May 29 - COMMIT_HASH_PENDING - Left-anchor homepage column: clamp(1.5rem, 8vw, 8rem) left margin on page-wrap and page-banner-inner; mobile resets added. index.html only.
 May 29 - COMMIT_HASH_PENDING - Phase 1 editorial authenticity pass: Inter removed, hover slide removed, disclaimer border-radius removed, "Last reviewed" promoted, newcomer orientation line added. index.html only.

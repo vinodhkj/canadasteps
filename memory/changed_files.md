@@ -3,6 +3,15 @@
 _Tracks files created or modified each session._
 
 ---
+## 2026-05-29 - Editorial rail documentation pass
+
+**Modified:**
+- `memory/current_state.md` - documented rail strategy, before/after, affected containers
+- `memory/changed_files.md` - this entry
+- `memory/next_prompt.md` - refreshed to reflect unified rail and current layout state
+- `daily.md` - appended session log line
+
+---
 ## 2026-05-29 - Unified editorial rail layout
 
 **Modified:**

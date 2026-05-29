@@ -29,7 +29,16 @@ Phase 1 - Editorial redesign refinement
 
 ## Last change
 
-May 29 - Unified editorial rail: homepage reduced to clamp(1.5rem, 5vw, 6rem); all 8 guide pages now use clamp(1.5rem, 4vw, 5rem); mobile margin-left: 0 reset added to all guide pages. 9 files touched, layout only.
+May 29 - Editorial rail documentation pass: memory files updated with full before/after layout strategy, rail rationale, affected containers, rollback notes, and remaining consistency considerations. No HTML touched.
+
+## Previous change (implementation)
+
+May 29 - Unified editorial rail across all 9 pages:
+  - Homepage (.page-banner-inner + .page-wrap): margin-left: clamp(1.5rem, 5vw, 6rem); margin-right: auto
+  - Guide pages (.page-wrap, all 8 files): margin-left: clamp(1.5rem, 4vw, 5rem); margin-right: auto
+  - Mobile breakpoints on all guide pages: margin-left: 0 explicitly added
+  - .site-footer-inner remains margin: 0 auto on all pages (footer stays centered)
+  Layout only — no content, color, or typography changes.
 
 ## Previous change
 

@@ -17,24 +17,32 @@ Current pages:
 - phone-plan.html
 - ontario-photo-card.html
 
-Current state:
-- Top nav uses: All Guides, First Weeks, Money & Taxes, Study & Immigration (anchors to homepage sections)
-- Homepage structured into 3 sections: First Weeks in Canada / Money & Taxes / Study & Immigration
-- First Weeks: SIN, Bank Account, Ontario Driver's License, Phone Plan, Ontario Photo Card
-- Money & Taxes: Tax Filing, CRA My Account
-- Study & Immigration: PGWP
-- Ontario Driver's License is in First Weeks section (not Daily Life)
-- Subtle maple-leaf SVG is part of the CanadaSteps logo
-- Visual comfort pass uses warmer neutrals, softer cards, and subtle category accents
-- Phase 1 refinement polish is in place: homepage editorial entries have metadata and subtle hover hierarchy; homepage anchors use scroll-margin-top; homepage and PGWP desktop measure is slightly wider; PGWP visual surfaces are softened through reusable CSS without content rewrites.
+Current layout state (as of May 29):
+- All pages use a left-anchored editorial rail on desktop, not centered auto margins
+- Homepage (.page-banner-inner + .page-wrap): margin-left: clamp(1.5rem, 5vw, 6rem); margin-right: auto
+- Guide pages (.page-wrap): margin-left: clamp(1.5rem, 4vw, 5rem); margin-right: auto
+- Mobile (≤600px): margin-left: 0 on all content containers; padding handles edge spacing
+- .site-footer-inner: margin: 0 auto on all pages (footer intentionally stays centered)
+- Nav and topbar remain full-width on all pages
+
+Current editorial system:
+- Design philosophy: "GOV.UK, not Stripe" — quiet public-reference handbook
+- Font stack: system fonts only (no Inter, no web fonts)
+- Hover on guide entries: background + border shift only, no slide transform
+- Disclaimer block: no border-radius (flush editorial notice)
+- "Last reviewed" date: body color, no monospace, month/year only
+- Newcomer orientation line above first section on homepage
+- Section accent borders: teal (First Weeks), amber (Money & Taxes), navy (Study & Immigration)
 
 Do not touch unless explicitly requested:
 - CSP, HSTS, DMARC, DKIM, DNSSEC, security.txt
 - analytics, forms, backend setup
-- PGWP guide content
+- PGWP guide content (frozen)
 - agent workflow/memory format
+- .site-footer-inner margin (stays centered)
 
 Next priority:
-- Review the Phase 1 polish after deployment, especially homepage anchor landing, mobile guide-entry rhythm, and PGWP section density.
-- Continue content expansion only from user-validated priorities.
+- User to review rail on live site after push
+- Remaining consistency concern: guide pages do not have a .page-banner-inner equivalent (their page header lives inside .page-wrap). This is consistent enough — no action needed unless user raises it.
+- Content expansion only from user-validated priorities.
 ---
