@@ -14,7 +14,8 @@ Phase 1 - Editorial redesign refinement
 - `taxes.html` - tax filing guide, live at canadasteps.ca/taxes.html
 - `cra-account.html` - CRA My Account guide, live at canadasteps.ca/cra-account.html
 - `bank-account.html` - bank account and GIC basics guide, live at canadasteps.ca/bank-account.html
-- `ontario-drivers-license.html` - Ontario driver's licence guide, pending deploy at canadasteps.ca/ontario-drivers-license.html
+- `gic-unlock.html` - GIC unlock guide for international students, pending deploy at canadasteps.ca/gic-unlock.html
+- `ontario-drivers-license.html` - Ontario driver's licence guide, live at canadasteps.ca/ontario-drivers-license.html
 - `phone-plan.html` - phone plan guide for newcomers, live at canadasteps.ca/phone-plan.html
 - `ontario-photo-card.html` - Ontario Photo Card guide, live at canadasteps.ca/ontario-photo-card.html
 
@@ -29,7 +30,7 @@ Phase 1 - Editorial redesign refinement
 
 ## Last change
 
-May 29 - Mobile readability pass: nav links now wrap on mobile (flex-wrap + smaller font) across all 9 pages; topbar and nav horizontal padding reduced from 2rem to 1.1rem on mobile; 7 guide pages converted founder-note from inline style to .founder-note class so mobile padding override works. CSS-only, no content or desktop changes.
+May 29 - GIC Unlock Guide added: gic-unlock.html created (8 sections, IRCC sources); index.html updated with guide entry under Just Arrived; bank-account.html updated with GIC Unlock transition card; GIC Unlock added to footer on all 10 pages.
 
 ## Layout system — settled (May 29)
 

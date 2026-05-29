@@ -3,6 +3,27 @@
 _Tracks files created or modified each session._
 
 ---
+## 2026-05-29 - GIC Unlock Guide added
+
+**Created:**
+- `gic-unlock.html` — new GIC activation guide for international students; 8 sections; IRCC sources; includes question cards, checklist, steps, miss-items
+
+**Modified:**
+- `index.html` — added GIC Unlock Guide entry under Just Arrived (between Bank Account and Phone Plan); added GIC Unlock to footer
+- `bank-account.html` — added GIC Unlock transition card in What Comes Next section; added GIC Unlock to footer
+- `sin.html` — added GIC Unlock to footer
+- `taxes.html` — added GIC Unlock to footer
+- `cra-account.html` — added GIC Unlock to footer
+- `pgwp.html` — added GIC Unlock to footer
+- `phone-plan.html` — added GIC Unlock to footer
+- `ontario-drivers-license.html` — added GIC Unlock to footer
+- `ontario-photo-card.html` — added GIC Unlock to footer
+- `memory/current_state.md` — recorded this change
+- `memory/next_prompt.md` — added gic-unlock.html to current pages list
+- `memory/changed_files.md` — this entry
+- `daily.md` — appended session log line
+
+---
 ## 2026-05-29 - Mobile readability pass
 
 **Modified (all 9 pages):**

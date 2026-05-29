@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unlocking Your GIC Funds in Canada | CanadaSteps</title>
+<meta name="description" content="Learn how GIC activation usually works after arrival, what documents to bring to the bank, and what to ask before relying on the funds. Practical guide for international students in Canada.">
+<style>
+  :root {
+    --bg: #f8f5ee;
+    --bg-card: #fffdf8;
+    --bg-soft: #f1ebe1;
+    --navy: #1a2640;
+    --navy-mid: #243352;
+    --red: #b91c1c;
+    --teal: #166b61;
+    --teal-light: #e8f0ec;
+    --amber: #d97706;
+    --amber-light: #fef9c3;
+    --green: #166534;
+    --green-light: #dcfce7;
+    --gray: #6b7280;
+    --gray-light: #e5e7eb;
+    --text: #1f2937;
+    --text-soft: #465264;
+    --border: #ded6ca;
+    --step-line: #d0c3ab;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    font-size: 17px;
+  }
+
+  /* TOP BAR */
+  .topbar {
+    background: var(--navy);
+    color: rgba(255,255,255,0.65);
+    font-size: 0.74rem;
+    padding: 0.45rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .topbar a { color: rgba(255,255,255,0.72); text-decoration: none; }
+  .topbar a:hover { text-decoration: underline; }
+
+  .founder-note {
+    border-bottom: 1px solid var(--border);
+    padding: 0.5rem 2rem;
+    font-size: 0.75rem;
+    color: var(--gray);
+    line-height: 1.55;
+  }
+
+  /* NAV */
+  nav {
+    background: var(--bg-card);
+    border-bottom: 2px solid var(--navy);
+    padding: 0.9rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }
+
+  .nav-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--navy);
+    text-decoration: none;
+    letter-spacing: -0.3px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+  .logo span { color: var(--teal); }
+  .logo-mark {
+    width: 0.72em;
+    height: 0.72em;
+    color: var(--red);
+    opacity: 0.78;
+    flex-shrink: 0;
+  }
+
+  .nav-crumb {
+    font-size: 0.75rem;
+    color: var(--gray);
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  .nav-crumb strong { color: var(--text-soft); font-weight: 600; }
+
+  .nav-links {
+    display: flex;
+    gap: 1.25rem;
+  }
+  .nav-links a {
+    font-size: 0.86rem;
+    color: var(--gray);
+    text-decoration: none;
+  }
+  .nav-links a:hover { color: var(--teal); }
+  .nav-links a.current { color: var(--teal); font-weight: 500; }
+
+  /* PAGE LAYOUT */
+  .page-wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2.25rem 2.25rem 4.5rem;
+  }
+
+  /* HEADER */
+  .page-header {
+    margin-bottom: 1.45rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .track-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: var(--teal-light);
+    color: var(--teal);
+    border: 1px solid rgba(22,107,97,0.2);
+    padding: 0.25rem 0.75rem;
+    border-radius: 100px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 0.9rem;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  }
+
+  h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.6rem, 4vw, 2.2rem);
+    font-weight: 700;
+    color: var(--navy);
+    line-height: 1.25;
+    margin-bottom: 0.6rem;
+    letter-spacing: -0.2px;
+  }
+
+  .page-desc {
+    font-size: 1rem;
+    color: var(--text-soft);
+    line-height: 1.7;
+    max-width: 620px;
+  }
+
+  .meta-row {
+    display: flex;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+    margin-top: 1.1rem;
+  }
+
+  .meta-item {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.75rem;
+    color: var(--gray);
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  }
+
+  .meta-dot {
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    background: var(--teal);
+    flex-shrink: 0;
+  }
+
+  /* REALITY CHECK */
+  .reality-check {
+    background: var(--amber-light);
+    border: 1px solid rgba(217,119,6,0.25);
+    border-left: 4px solid var(--amber);
+    border-radius: 8px;
+    padding: 1rem 1.1rem;
+    margin-bottom: 1.45rem;
+    font-size: 0.84rem;
+    color: #78350f;
+    line-height: 1.6;
+  }
+  .reality-check strong {
+    display: block;
+    font-weight: 700;
+    font-size: 0.82rem;
+    color: #92400e;
+    margin-bottom: 0.55rem;
+  }
+  .reality-check ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-left: 0;
+  }
+  .reality-check ul li {
+    display: flex;
+    gap: 0.5rem;
+    line-height: 1.55;
+  }
+  .reality-check ul li::before {
+    content: '→';
+    flex-shrink: 0;
+    color: var(--amber);
+    font-weight: 600;
+  }
+
+  /* SECTION */
+  .section { margin-bottom: 1.65rem; }
+
+  h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.24rem;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+  }
+
+  .h2-num {
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    font-size: 0.65rem;
+    background: var(--navy);
+    color: white;
+    padding: 0.18rem 0.45rem;
+    border-radius: 4px;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+  }
+
+  .divider {
+    height: 1px;
+    background: var(--border);
+    margin: 1.55rem 0;
+  }
+
+  /* CHECKLIST */
+  .checklist { list-style: none; display: flex; flex-direction: column; gap: 0.55rem; }
+  .checklist li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    font-size: 0.875rem;
+    color: var(--text-soft);
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    box-shadow: 0 1px 0 rgba(26,38,64,0.03);
+    line-height: 1.55;
+  }
+  .check-box {
+    width: 16px; height: 16px;
+    border: 1.5px solid var(--gray-light);
+    border-radius: 3px;
+    flex-shrink: 0;
+    margin-top: 2px;
+    background: var(--bg);
+  }
+  .checklist li strong { color: var(--text); font-weight: 600; }
+
+  /* STEPS */
+  .steps-list { list-style: none; position: relative; }
+  .steps-list::before {
+    content: '';
+    position: absolute;
+    left: 20px; top: 26px; bottom: 26px;
+    width: 1px;
+    background: var(--step-line);
+  }
+
+  .step { display: flex; gap: 1.1rem; margin-bottom: 0.9rem; position: relative; }
+
+  .step-num {
+    width: 42px; height: 42px;
+    border-radius: 50%;
+    background: var(--navy);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    font-size: 0.75rem;
+    font-weight: 500;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1;
+    border: 3px solid var(--bg);
+    box-shadow: 0 0 0 1px var(--step-line);
+  }
+
+  .step-body {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.2rem;
+    box-shadow: 0 1px 0 rgba(26,38,64,0.04);
+    flex: 1;
+  }
+
+  .step-title {
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: var(--navy);
+    margin-bottom: 0.3rem;
+  }
+
+  .step-desc {
+    font-size: 0.83rem;
+    color: var(--text-soft);
+    line-height: 1.6;
+    margin-bottom: 0.6rem;
+  }
+
+  .step-note {
+    margin-top: 0.5rem;
+    font-size: 0.77rem;
+    color: #78350f;
+    background: var(--amber-light);
+    border: 1px solid rgba(217,119,6,0.18);
+    border-radius: 6px;
+    padding: 0.4rem 0.7rem;
+    line-height: 1.5;
+  }
+
+  /* QUESTION CARDS */
+  .questions-list { list-style: none; display: flex; flex-direction: column; gap: 0.55rem; }
+  .question-item {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.85rem 1.1rem;
+    font-size: 0.875rem;
+    color: var(--text-soft);
+    line-height: 1.55;
+    display: flex;
+    gap: 0.6rem;
+    align-items: flex-start;
+  }
+  .question-item::before {
+    content: '?';
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: var(--teal);
+    background: var(--teal-light);
+    border: 1px solid rgba(22,107,97,0.2);
+    border-radius: 4px;
+    padding: 0.15rem 0.4rem;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  /* MISSES */
+  .misses-list { list-style: none; display: flex; flex-direction: column; gap: 0.65rem; }
+  .miss-item {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--red);
+    border-radius: 8px;
+    padding: 0.9rem 1.1rem;
+  }
+  .miss-title {
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: var(--red);
+    margin-bottom: 0.25rem;
+  }
+  .miss-item p { font-size: 0.82rem; color: var(--text-soft); line-height: 1.55; }
+
+  /* OFFICIAL LINKS */
+  .links-list { list-style: none; display: flex; flex-direction: column; gap: 0.55rem; }
+  .gov-link {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 9px;
+    padding: 0.85rem 1.1rem;
+    box-shadow: 0 1px 0 rgba(26,38,64,0.035);
+    text-decoration: none;
+    transition: all 0.2s;
+    color: inherit;
+  }
+  .gov-link:hover { border-color: rgba(22,107,97,0.45); background: var(--teal-light); }
+
+  .gov-icon {
+    width: 32px; height: 32px;
+    border-radius: 5px;
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    color: var(--navy);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.82rem;
+    flex-shrink: 0;
+  }
+
+  .gov-text { flex: 1; }
+  .gov-title { font-weight: 600; font-size: 0.85rem; color: var(--navy); line-height: 1.3; }
+  .gov-url { font-size: 0.68rem; color: var(--gray); font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; margin-top: 0.1rem; }
+  .gov-arrow { color: var(--teal); font-size: 0.9rem; flex-shrink: 0; }
+
+  /* DISCLAIMER */
+  .disclaimer {
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.2rem;
+    font-size: 0.78rem;
+    color: var(--gray);
+    line-height: 1.65;
+    margin-top: 2.5rem;
+    text-align: center;
+  }
+  .disclaimer a { color: var(--teal); }
+  .disclaimer strong { color: var(--text-soft); }
+
+  .site-footer {
+    margin: 0;
+    padding: 1.35rem 0 2rem;
+    background: var(--bg-soft);
+    border-top: 1px solid var(--border);
+    color: var(--gray);
+    font-size: 0.72rem;
+    line-height: 1.6;
+  }
+  .site-footer-inner {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 0 2.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+  .site-footer a { color: var(--teal); text-decoration: none; }
+  .site-footer a:hover { text-decoration: underline; }
+  .footer-links { display: flex; flex-wrap: wrap; gap: 0.8rem; }
+
+  @media (max-width: 600px) {
+    body { font-size: 16px; }
+    .page-wrap { padding: 1.5rem 1.1rem 4rem; }
+    .site-footer { padding: 1.2rem 0 2rem; }
+    .site-footer-inner { padding: 0 1.1rem; }
+    h1 { font-size: 1.55rem; }
+    .nav-crumb { display: none; }
+    .topbar { padding: 0.35rem 1.1rem; }
+    nav { padding: 0.75rem 1.1rem; }
+    .nav-links { flex-wrap: wrap; gap: 0.45rem 0.75rem; }
+    .nav-links a { font-size: 0.78rem; }
+    .founder-note { padding: 0.5rem 1.1rem; }
+  }
+</style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <span>Independent guide. Official sources linked on each page.</span>
+</div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-row">
+    <a class="logo" href="/index.html"><svg class="logo-mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 2.4l1.2 4 3.7-1.6-1.1 4 3.9 1.1-3.5 2.1 2.2 3.4-4.2-.5-.6 4.3h-3.2l-.6-4.3-4.2.5L7.8 12 4.3 9.9l3.9-1.1-1.1-4 3.7 1.6L12 2.4z"/></svg>Canada<span>Steps</span></a>
+    <div class="nav-crumb">Just Arrived &rarr; <strong>GIC Unlock</strong></div>
+  </div>
+  <div class="nav-links">
+    <a href="/index.html">All Guides</a>
+    <a class="current" href="/index.html#just-arrived">Just Arrived</a>
+    <a href="/index.html#working-daily-life">Working &amp; Daily Life</a>
+    <a href="/index.html#graduation-immigration">Graduation &amp; Immigration</a>
+  </div>
+</nav>
+
+<!-- FOUNDER NOTE -->
+<div class="founder-note">
+  Built by a newcomer to Canada who spent too many hours trying to piece together immigration steps from scattered government pages. Everything here links directly to official sources. No legal advice. No guesswork.
+  <span style="display:block;margin-top:0.25rem;font-size:0.68rem;opacity:0.75;">Not affiliated with IRCC or the Government of Canada.</span>
+</div>
+
+<main class="page-wrap">
+
+  <!-- 01 HEADER -->
+  <header class="page-header">
+    <div class="track-tag">Just Arrived</div>
+    <h1>Unlocking Your GIC Funds in Canada</h1>
+    <p class="page-desc">Learn how GIC activation usually works after arrival, what documents to bring to the bank, and what not to assume about access to funds.</p>
+    <p style="font-size:0.78rem;color:var(--gray);margin-top:0.65rem;line-height:1.55;">Always confirm your bank's exact appointment, document, and payout requirements directly with the bank.</p>
+    <div class="meta-row">
+      <div class="meta-item"><div class="meta-dot"></div>Last reviewed: May 2026</div>
+      <div class="meta-item"><div class="meta-dot"></div>Sources: IRCC</div>
+    </div>
+  </header>
+
+  <!-- 02 REALITY CHECK BOX -->
+  <div class="reality-check">
+    <strong>Before your bank appointment</strong>
+    <ul>
+      <li>A GIC is not the same as a regular chequing account — they work differently.</li>
+      <li>Your funds may not be available immediately after landing.</li>
+      <li>Most students need an in-person identity verification appointment to activate their GIC.</li>
+      <li>Payout timing and schedule depend on your bank's specific GIC program.</li>
+      <li>Do not plan rent or large payments assuming GIC funds will be accessible on your first day.</li>
+    </ul>
+  </div>
+
+  <!-- 03 WHAT A GIC IS -->
+  <section class="section" id="what-it-is">
+    <h2><span class="h2-num">01</span> What a GIC is</h2>
+    <div class="step-body">
+      <ul style="list-style:none;display:flex;flex-direction:column;gap:0.5rem;padding-left:0;">
+        <li style="display:flex;gap:0.5rem;font-size:0.83rem;color:var(--text-soft);line-height:1.55;align-items:flex-start;"><span style="color:var(--teal);flex-shrink:0;font-weight:600;">→</span>GIC stands for Guaranteed Investment Certificate.</li>
+        <li style="display:flex;gap:0.5rem;font-size:0.83rem;color:var(--text-soft);line-height:1.55;align-items:flex-start;"><span style="color:var(--teal);flex-shrink:0;font-weight:600;">→</span>Many international students use a GIC to show proof of funds when applying for a study permit through programs such as the Student Direct Stream.</li>
+        <li style="display:flex;gap:0.5rem;font-size:0.83rem;color:var(--text-soft);line-height:1.55;align-items:flex-start;"><span style="color:var(--teal);flex-shrink:0;font-weight:600;">→</span>The GIC is usually held by a Canadian bank before you arrive in Canada.</li>
+        <li style="display:flex;gap:0.5rem;font-size:0.83rem;color:var(--text-soft);line-height:1.55;align-items:flex-start;"><span style="color:var(--teal);flex-shrink:0;font-weight:600;">→</span>After arrival, the GIC is activated through an identity verification process at the bank.</li>
+        <li style="display:flex;gap:0.5rem;font-size:0.83rem;color:var(--text-soft);line-height:1.55;align-items:flex-start;"><span style="color:var(--teal);flex-shrink:0;font-weight:600;">→</span>Funds are then released according to the bank's program schedule — not all at once in most cases.</li>
+      </ul>
+      <p style="font-size:0.77rem;color:var(--text-soft);margin-top:0.75rem;line-height:1.55;">This page covers the activation and access process. It is not investment advice or financial guidance.</p>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 04 WHY FUNDS ARE NOT AVAILABLE IMMEDIATELY -->
+  <section class="section" id="why-not-immediate">
+    <h2><span class="h2-num">02</span> Why funds may not be available right away</h2>
+    <div class="step-body" style="margin-bottom:0.65rem;"><div class="step-title">Identity verification must be completed first</div><div class="step-desc" style="margin-bottom:0;">The bank needs to confirm your identity in person before releasing any funds. This usually requires original documents.</div></div>
+    <div class="step-body" style="margin-bottom:0.65rem;"><div class="step-title">Your bank account may need to be opened or activated</div><div class="step-desc" style="margin-bottom:0;">GIC funds are typically paid into a student chequing account. If that account is not yet active, payments cannot arrive.</div></div>
+    <div class="step-body" style="margin-bottom:0.65rem;"><div class="step-title">The GIC may need to be linked to your account</div><div class="step-desc" style="margin-bottom:0;">Depending on the bank, your GIC certificate may need to be formally connected to your new Canadian account during your appointment.</div></div>
+    <div class="step-body" style="margin-bottom:0.65rem;"><div class="step-title">Internal processing may take additional time</div><div class="step-desc" style="margin-bottom:0;">Even after your appointment, the bank may require additional processing time before the first payment appears.</div></div>
+    <div class="step-body"><div class="step-title">Payout schedule depends on the bank's program rules</div><div class="step-desc" style="margin-bottom:0;">Banks structure their GIC programs differently. The timing and frequency of payments varies — confirm this directly with your bank.</div></div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 05 BEFORE YOU VISIT THE BANK -->
+  <section class="section" id="documents">
+    <h2><span class="h2-num">03</span> Before you visit the bank</h2>
+    <ul class="checklist">
+      <li><div class="check-box"></div><div><strong>Passport</strong> — bring your original passport for identity verification.</div></li>
+      <li><div class="check-box"></div><div><strong>Study permit</strong> — bring the original document showing your status in Canada.</div></li>
+      <li><div class="check-box"></div><div><strong>GIC certificate or welcome letter</strong> — bring the original bank-issued GIC document you received before arrival.</div></li>
+      <li><div class="check-box"></div><div><strong>Bank appointment confirmation</strong> — keep the confirmation handy for branch check-in.</div></li>
+      <li><div class="check-box"></div><div><strong>Canadian phone number if available</strong> — may be needed for account setup and online banking access.</div></li>
+      <li><div class="check-box"></div><div><strong>Canadian address or temporary address</strong> — even a temporary address is usually acceptable for initial account setup.</div></li>
+      <li><div class="check-box"></div><div><strong>School admission or enrolment document if requested</strong> — some banks may ask for student confirmation.</div></li>
+    </ul>
+    <div class="step-note" style="margin-top:0.85rem;">Bring original documents where possible. Banks may not accept screenshots or unclear photocopies.</div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 06 STEPS IN ORDER -->
+  <section class="section" id="steps">
+    <h2><span class="h2-num">04</span> Steps in order</h2>
+    <ol class="steps-list">
+      <li class="step"><div class="step-num">01</div><div class="step-body"><div class="step-title">Read your bank's GIC welcome letter carefully</div><div class="step-desc">The welcome letter usually explains what documents to bring, how to book an appointment, and what to expect at your first visit.</div></div></li>
+      <li class="step"><div class="step-num">02</div><div class="step-body"><div class="step-title">Book a branch appointment if required</div><div class="step-desc">Many banks require a scheduled appointment for GIC activation. Book as early as possible after arrival — appointments may not be available immediately.</div></div></li>
+      <li class="step"><div class="step-num">03</div><div class="step-body"><div class="step-title">Set up a Canadian phone number if you can</div><div class="step-desc">A Canadian phone number may be needed for account alerts, online banking, and security verification. Getting one before your bank visit may simplify setup.</div></div></li>
+      <li class="step"><div class="step-num">04</div><div class="step-body"><div class="step-title">Bring original identity and immigration documents</div><div class="step-desc">Bring your passport, study permit, and GIC certificate in original form. Do not rely on photos or screenshots.</div></div></li>
+      <li class="step"><div class="step-num">05</div><div class="step-body"><div class="step-title">Open or activate your student chequing account</div><div class="step-desc">If you do not already have an active chequing account at this bank, the appointment will usually include opening one. GIC payments typically deposit into this account.</div></div></li>
+      <li class="step"><div class="step-num">06</div><div class="step-body"><div class="step-title">Ask the bank how and when the first GIC payment will arrive</div><div class="step-desc">Ask specifically about the first payment — when to expect it and what account it will go into. Do not assume it will appear the same day.</div></div></li>
+      <li class="step"><div class="step-num">07</div><div class="step-body"><div class="step-title">Confirm whether monthly payments are automatic</div><div class="step-desc">Some programs release payments automatically on a set schedule. Others may require action on your part. Confirm this at your appointment.</div></div></li>
+      <li class="step"><div class="step-num">08</div><div class="step-body"><div class="step-title">Save copies of bank agreements and account details</div><div class="step-desc">Keep the account agreement, GIC release terms, and branch contact information in a safe place.</div></div></li>
+    </ol>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 07 QUESTIONS TO ASK BANK STAFF -->
+  <section class="section" id="questions">
+    <h2><span class="h2-num">05</span> Questions to ask bank staff</h2>
+    <ul class="questions-list">
+      <li class="question-item">Is my student account fully active now?</li>
+      <li class="question-item">When should I expect the first GIC payment?</li>
+      <li class="question-item">Will future payments arrive monthly or on another schedule?</li>
+      <li class="question-item">Are there any monthly account fees I should know about?</li>
+      <li class="question-item">Are there fees or limits for Interac e-Transfer?</li>
+      <li class="question-item">Do I need to update my phone number or address if they change?</li>
+      <li class="question-item">Who should I contact if the first payment does not arrive?</li>
+    </ul>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 08 COMMON MISTAKES -->
+  <section class="section" id="mistakes">
+    <h2><span class="h2-num">06</span> Common mistakes</h2>
+    <ul class="misses-list">
+      <li class="miss-item"><div class="miss-title">Assuming all GIC funds are available immediately</div><p>Funds are usually released on a schedule, not all at once. Confirm the payout terms with your bank before making plans.</p></li>
+      <li class="miss-item"><div class="miss-title">Confusing debit card activation with GIC payout</div><p>Your debit card may work right away, but that does not mean GIC funds have arrived. These are separate things.</p></li>
+      <li class="miss-item"><div class="miss-title">Forgetting to bring the GIC welcome letter</div><p>The bank may need the original GIC document to process your activation. A screenshot is often not sufficient.</p></li>
+      <li class="miss-item"><div class="miss-title">Bringing only screenshots instead of originals</div><p>Bring original documents for identity and immigration verification where possible.</p></li>
+      <li class="miss-item"><div class="miss-title">Waiting too long to book a branch appointment</div><p>Appointments may fill up, especially at the start of a semester when many students are arriving at the same time.</p></li>
+      <li class="miss-item"><div class="miss-title">Not asking about monthly fees or transfer limits</div><p>Student accounts often have conditions. Ask what fees apply and what transaction limits exist before you rely on the account.</p></li>
+      <li class="miss-item"><div class="miss-title">Planning urgent payments before confirming payout timing</div><p>Do not commit to rent or large payments on a date before you have confirmed that GIC funds will actually be available.</p></li>
+      <li class="miss-item"><div class="miss-title">Ignoring bank emails or appointment instructions</div><p>Banks often send preparation instructions before the appointment. Read them carefully — missing a required document can delay activation.</p></li>
+    </ul>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 09 OFFICIAL LINKS -->
+  <section class="section" id="links">
+    <h2><span class="h2-num">07</span> Official links</h2>
+    <ul class="links-list">
+      <li><a class="gov-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/proof-financial-support.html" target="_blank" rel="noopener"><div class="gov-icon">CA</div><div class="gov-text"><div class="gov-title">IRCC — Proof of financial support for study permit</div><div class="gov-url">canada.ca → ircc → study-canada → proof-financial-support</div></div><div class="gov-arrow">↗</div></a></li>
+      <li><a class="gov-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/student-direct-stream.html" target="_blank" rel="noopener"><div class="gov-icon">CA</div><div class="gov-text"><div class="gov-title">IRCC — Student Direct Stream</div><div class="gov-url">canada.ca → ircc → study-canada → student-direct-stream</div></div><div class="gov-arrow">↗</div></a></li>
+    </ul>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 10 WHAT COMES NEXT -->
+  <section class="section" id="next-steps">
+    <h2><span class="h2-num">08</span> What comes next</h2>
+    <div style="background:var(--teal-light);border:1px solid rgba(22,107,97,0.2);border-radius:10px;padding:1.25rem 1.5rem;margin-bottom:0.85rem;">
+      <div style="font-size:0.65rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--teal);font-family:&quot;SFMono-Regular&quot;,Consolas,&quot;Liberation Mono&quot;,monospace;margin-bottom:0.5rem;">Related guide</div>
+      <p style="font-size:0.875rem;color:var(--text-soft);line-height:1.65;margin-bottom:0.75rem;">Opening a bank account covers account types, fees, and everyday banking setup for international students.</p>
+      <a href="/bank-account.html" style="font-size:0.78rem;font-weight:600;color:var(--teal);font-family:&quot;SFMono-Regular&quot;,Consolas,&quot;Liberation Mono&quot;,monospace;text-decoration:none;">Bank Account Guide &#8594;</a>
+    </div>
+    <div style="background:var(--teal-light);border:1px solid rgba(22,107,97,0.2);border-radius:10px;padding:1.25rem 1.5rem;margin-bottom:0.85rem;">
+      <div style="font-size:0.65rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--teal);font-family:&quot;SFMono-Regular&quot;,Consolas,&quot;Liberation Mono&quot;,monospace;margin-bottom:0.5rem;">Related guide</div>
+      <p style="font-size:0.875rem;color:var(--text-soft);line-height:1.65;margin-bottom:0.75rem;">A Canadian phone number may be needed for bank account setup, online banking verification, and security alerts.</p>
+      <a href="/phone-plan.html" style="font-size:0.78rem;font-weight:600;color:var(--teal);font-family:&quot;SFMono-Regular&quot;,Consolas,&quot;Liberation Mono&quot;,monospace;text-decoration:none;">Phone Plan Guide &#8594;</a>
+    </div>
+    <div style="background:var(--teal-light);border:1px solid rgba(22,107,97,0.2);border-radius:10px;padding:1.25rem 1.5rem;margin-bottom:1.5rem;">
+      <div style="font-size:0.65rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--teal);font-family:&quot;SFMono-Regular&quot;,Consolas,&quot;Liberation Mono&quot;,monospace;margin-bottom:0.5rem;">Related guide</div>
+      <p style="font-size:0.875rem;color:var(--text-soft);line-height:1.65;margin-bottom:0.75rem;">Once you have income in Canada, you may need to file a tax return. The tax filing guide covers what international students need to know.</p>
+      <a href="/taxes.html" style="font-size:0.78rem;font-weight:600;color:var(--teal);font-family:&quot;SFMono-Regular&quot;,Consolas,&quot;Liberation Mono&quot;,monospace;text-decoration:none;">Tax Filing Guide &#8594;</a>
+    </div>
+  </section>
+
+  <!-- 11 DISCLAIMER -->
+  <div class="disclaimer">
+    <strong>This page is for educational and navigational purposes only.</strong><br>
+    It does not constitute financial, legal, tax, or immigration advice. GIC program rules, payout schedules, and document requirements vary by bank — always confirm the current requirements directly with your bank before your appointment. All official links point to Government of Canada sources. For advice specific to your situation, consult a qualified professional.
+  </div>
+
+</main>
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <div>Independent newcomer resource for Canada. Links directly to official government and institutional sources.</div>
+    <div>Not affiliated with IRCC or the Government of Canada. Educational and navigational use only.</div>
+    <div class="footer-links">
+      <a href="/index.html">All guides</a>
+      <a href="/pgwp.html">PGWP</a>
+      <a href="/sin.html">SIN</a>
+      <a href="/taxes.html">Taxes</a>
+      <a href="/bank-account.html">Banking</a>
+      <a href="/gic-unlock.html">GIC Unlock</a>
+      <a href="/cra-account.html">CRA Account</a>
+      <a href="/ontario-drivers-license.html">Driver's License</a>
+      <a href="/phone-plan.html">Phone Plan</a>
+      <a href="/ontario-photo-card.html">Photo Card</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

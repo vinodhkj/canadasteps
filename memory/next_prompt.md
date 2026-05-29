@@ -13,6 +13,7 @@ Current pages:
 - taxes.html
 - cra-account.html
 - bank-account.html
+- gic-unlock.html
 - ontario-drivers-license.html
 - phone-plan.html
 - ontario-photo-card.html
