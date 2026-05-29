@@ -3,6 +3,24 @@
 _Tracks files created or modified each session._
 
 ---
+## 2026-05-29 - Layout rebalance: remove asymmetric rail, restore centered frame
+
+**Modified:**
+- `index.html` - .page-banner-inner + .page-wrap: clamp rail removed, margin: 0 auto restored, max-width 980px → 1100px; mobile margin-left: 0 overrides removed
+- `sin.html` - .page-wrap: clamp rail removed, margin: 0 auto, max-width 920px → 1000px; mobile margin-left: 0 removed
+- `pgwp.html` - same (was 980px → 1000px)
+- `taxes.html` - same (920px → 1000px)
+- `cra-account.html` - same
+- `bank-account.html` - same
+- `ontario-drivers-license.html` - same
+- `phone-plan.html` - same
+- `ontario-photo-card.html` - same
+- `memory/current_state.md` - recorded layout system decision and rationale
+- `memory/changed_files.md` - this entry
+- `memory/next_prompt.md` - updated layout state
+- `daily.md` - appended session log line
+
+---
 ## 2026-05-29 - Editorial rail documentation pass
 
 **Modified:**

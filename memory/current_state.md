@@ -29,7 +29,22 @@ Phase 1 - Editorial redesign refinement
 
 ## Last change
 
-May 29 - Editorial rail documentation pass: memory files updated with full before/after layout strategy, rail rationale, affected containers, rollback notes, and remaining consistency considerations. No HTML touched.
+May 29 - Layout rebalance: removed asymmetric clamp-based left rail from all pages. Restored margin: 0 auto (centered frame, left-aligned content). Increased max-width to 1100px (homepage) and 1000px (guide pages). 9 HTML files, layout containers only.
+
+## Layout system — settled (May 29)
+
+Approach: centered outer frame, left-aligned content inside. This matches Apple Support / GOV.UK / modern public-reference sites.
+- Homepage .page-banner-inner + .page-wrap: max-width 1100px, margin: 0 auto
+- Guide pages .page-wrap: max-width 1000px, margin: 0 auto
+- Mobile (≤600px): full-width via padding, no margin overrides needed
+- .site-footer-inner: margin: 0 auto on all pages (unchanged)
+- All content inside containers remains left-aligned — text, headings, rows
+
+Why the left-rail was reverted:
+- clamp(1.5rem, 5vw/4vw, 6rem/5rem) created visible dead space on right at 1200–1600px
+- Document/PDF feel replaced balanced website feel
+- Inconsistency between homepage and guide pages read as a layout error
+- Centered frame with wider max-width achieves the same editorial weight without the imbalance
 
 ## Previous change (implementation)
 

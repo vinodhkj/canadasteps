@@ -18,12 +18,13 @@ Current pages:
 - ontario-photo-card.html
 
 Current layout state (as of May 29):
-- All pages use a left-anchored editorial rail on desktop, not centered auto margins
-- Homepage (.page-banner-inner + .page-wrap): margin-left: clamp(1.5rem, 5vw, 6rem); margin-right: auto
-- Guide pages (.page-wrap): margin-left: clamp(1.5rem, 4vw, 5rem); margin-right: auto
-- Mobile (≤600px): margin-left: 0 on all content containers; padding handles edge spacing
-- .site-footer-inner: margin: 0 auto on all pages (footer intentionally stays centered)
+- All pages use centered outer frame (margin: 0 auto) with left-aligned content inside
+- Homepage (.page-banner-inner + .page-wrap): max-width 1100px, margin: 0 auto
+- Guide pages (.page-wrap): max-width 1000px, margin: 0 auto
+- Mobile (≤600px): full-width naturally; padding handles edge spacing; no margin overrides needed
+- .site-footer-inner: margin: 0 auto on all pages (unchanged)
 - Nav and topbar remain full-width on all pages
+- Left-rail clamp system was tried and reverted — do not reintroduce without explicit request
 
 Current editorial system:
 - Design philosophy: "GOV.UK, not Stripe" — quiet public-reference handbook
