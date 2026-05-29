@@ -29,7 +29,7 @@ Phase 1 - Editorial redesign refinement
 
 ## Last change
 
-May 29 - Trust clarity pass: topbar simplified to "Independent guide. Official sources linked on each page." across all 9 pages (removed per-page "Official X ↗" links that created tension with non-affiliation disclaimer in founder-note). CRA My Account sequencing strengthened in cra-account.html (reality-check box) and taxes.html (NOA step now explains registration requires an assessed return). "Official CRA My Account" label on taxes.html step-link.
+May 29 - Mobile readability pass: nav links now wrap on mobile (flex-wrap + smaller font) across all 9 pages; topbar and nav horizontal padding reduced from 2rem to 1.1rem on mobile; 7 guide pages converted founder-note from inline style to .founder-note class so mobile padding override works. CSS-only, no content or desktop changes.
 
 ## Layout system — settled (May 29)
 

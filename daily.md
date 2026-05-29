@@ -4,6 +4,7 @@ One entry per working session. Most recent first.
 
 ---
 ## 2026-05-29
+May 29 - Mobile readability pass: nav links now wrap on mobile; topbar/nav padding reduced to 1.1rem on mobile; founder-note converted from inline style to class across 7 guide pages. All 9 pages, CSS only.
 May 29 - Trust clarity pass: topbar simplified to "Independent guide. Official sources linked on each page." across all 9 pages; CRA My Account sequencing strengthened in cra-account.html and taxes.html.
 May 29 - Guide nav anchor fix: stale #first-weeks/#money-taxes/#study-immigration anchors and link text updated across all 8 guide pages to match renamed homepage sections.
 May 29 - Newcomer journey sequencing: homepage sections renamed to Just Arrived / Working & Daily Life / Graduation & Immigration; entry order and orientation descriptions updated. index.html only.

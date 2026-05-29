@@ -3,6 +3,23 @@
 _Tracks files created or modified each session._
 
 ---
+## 2026-05-29 - Mobile readability pass
+
+**Modified (all 9 pages):**
+- `index.html` — mobile breakpoint: nav wrapping, topbar/nav padding reduced
+- `pgwp.html` — same
+- `sin.html` — same; added .founder-note CSS; converted inline founder-note div to class
+- `bank-account.html` — same as sin.html
+- `taxes.html` — same as sin.html
+- `cra-account.html` — same as sin.html
+- `ontario-drivers-license.html` — same as sin.html
+- `ontario-photo-card.html` — same as sin.html
+- `phone-plan.html` — same as sin.html
+- `memory/current_state.md` — recorded this change
+- `memory/changed_files.md` — this entry
+- `daily.md` — appended session log line
+
+---
 ## 2026-05-29 - Trust clarity: topbar cleanup + CRA sequencing
 
 **Modified:**
