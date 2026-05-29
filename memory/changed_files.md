@@ -3,6 +3,15 @@
 _Tracks files created or modified each session._
 
 ---
+## 2026-05-29 - Phase 1 editorial authenticity pass
+
+**Modified:**
+- `index.html` - removed Inter from font stack, removed hover slide transform, removed disclaimer border-radius, promoted "Last reviewed" date, added newcomer orientation line
+- `memory/current_state.md` - recorded this change
+- `memory/changed_files.md` - this entry
+- `daily.md` - appended session log line
+
+---
 ## 2026-05-28 - Phase 1 editorial refinement polish
 
 **Modified:**

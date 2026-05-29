@@ -29,6 +29,10 @@ Phase 1 - Editorial redesign refinement
 
 ## Last change
 
+May 29 - Phase 1 editorial authenticity pass: removed Inter from font stack (system fonts only), removed hover slide transform from guide entries, removed border-radius from disclaimer, promoted "Last reviewed" date visibility, added newcomer orientation line before first section. index.html only.
+
+## Previous change
+
 May 28 - Phase 1 refinement polish: homepage editorial guide entries gained subtle metadata, hover hierarchy, wider editorial measure, improved anchor scroll breathing, and calmer institutional trust-strip copy. PGWP visual language was softened through reusable CSS to reduce stacked-box repetition without rewriting content.
 
 ## Previous change
