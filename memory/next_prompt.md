@@ -43,7 +43,7 @@ Do not touch unless explicitly requested:
 - .site-footer-inner margin (stays centered)
 
 Next priority:
-- User to review rail on live site after push
-- Remaining consistency concern: guide pages do not have a .page-banner-inner equivalent (their page header lives inside .page-wrap). This is consistent enough — no action needed unless user raises it.
+- User to review newcomer journey sequencing on live site after push
+- Homepage section IDs changed: #first-weeks→#just-arrived, #money-taxes→#working-daily-life, #study-immigration→#graduation-immigration — guide page nav links still point to old anchors (e.g. href="/index.html#first-weeks") — update if nav anchors are ever used from guide pages
 - Content expansion only from user-validated priorities.
 ---

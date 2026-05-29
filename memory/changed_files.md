@@ -3,6 +3,17 @@
 _Tracks files created or modified each session._
 
 ---
+## 2026-05-29 - Newcomer journey sequencing
+
+**Modified:**
+- `index.html` — sections renamed (Just Arrived / Working & Daily Life / Graduation & Immigration); IDs, CSS selectors, nav links, section-cat labels, h2 text, and orientation descriptions updated; Just Arrived entry order updated (Phone Plan before Photo Card, Driver's License last); removed duplicate orientation paragraph above sections
+- `memory/current_state.md` — recorded this change
+- `memory/changed_files.md` — this entry
+- `memory/next_prompt.md` — noted anchor ID change risk for guide page nav links
+- `daily.md` — appended session log line
+
+---
+
 ## 2026-05-29 - Reference audit: footer nav, nav crumbs, track-tags, link text
 
 **Modified:**

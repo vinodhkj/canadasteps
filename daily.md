@@ -4,6 +4,7 @@ One entry per working session. Most recent first.
 
 ---
 ## 2026-05-29
+May 29 - Newcomer journey sequencing: homepage sections renamed to Just Arrived / Working & Daily Life / Graduation & Immigration; entry order and orientation descriptions updated. index.html only.
 May 29 - Reference audit pass: footer nav completed to all 9 guides (6 pages fixed); nav crumbs and track-tags corrected to match homepage sections; related guide link text standardized. 7 HTML files. No content changes.
 
 

@@ -29,7 +29,7 @@ Phase 1 - Editorial redesign refinement
 
 ## Last change
 
-May 29 - Reference audit pass: footer nav completed to 9 guides across 6 pages; nav crumbs corrected (sin: Settlement Track→First Weeks; bank-account, driver's-license, photo-card: Daily Life/Money&Taxes→First Weeks); track-tags corrected to match homepage section; related guide link text standardized across sin.html and taxes.html. 7 files changed.
+May 29 - Newcomer journey sequencing: homepage sections renamed (First Weeks→Just Arrived, Money & Taxes→Working & Daily Life, Study & Immigration→Graduation & Immigration); entry order in Just Arrived updated (Phone Plan before Photo Card, Driver's License last); orientation descriptions updated for each stage. index.html only.
 
 ## Layout system — settled (May 29)
 
