@@ -3,6 +3,22 @@
 _Tracks files created or modified each session._
 
 ---
+## 2026-05-29 - Reference audit: footer nav, nav crumbs, track-tags, link text
+
+**Modified:**
+- `sin.html` — nav crumb "Settlement Track" → "First Weeks"; related guide link text standardized (Tax Filing Guide, Bank Account Guide); footer: added Phone Plan, Photo Card links
+- `bank-account.html` — nav crumb "Money & Taxes" → "First Weeks"; track-tag "Money & Taxes" → "First Weeks" (class and text); footer: added Phone Plan, Photo Card links
+- `taxes.html` — related guide link text standardized (CRA My Account Guide, Bank Account Guide, SIN Guide, PGWP Guide); footer: added Phone Plan, Photo Card links
+- `cra-account.html` — footer: added Phone Plan, Photo Card links
+- `ontario-drivers-license.html` — nav crumb "Daily Life" → "First Weeks"; track-tag "Daily Life" → "First Weeks"; footer: added Phone Plan, Photo Card links
+- `ontario-photo-card.html` — nav crumb "Daily Life" → "First Weeks"; track-tag "Daily Life" → "First Weeks"
+- `phone-plan.html` — footer: added Photo Card link
+- `memory/current_state.md` — recorded this change
+- `memory/changed_files.md` — this entry
+- `daily.md` — appended session log line
+
+---
+
 ## 2026-05-29 - Trust/QA pass: broken link fix + rel=noopener audit
 
 **Modified:**

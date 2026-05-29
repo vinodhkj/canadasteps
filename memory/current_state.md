@@ -29,7 +29,7 @@ Phase 1 - Editorial redesign refinement
 
 ## Last change
 
-May 29 - Trust/QA pass: fixed broken CRA "Who has to file a return" URL in taxes.html (slug typo: you-have-to-file-return → you-have-file-a-return). Added missing rel="noopener" to all 25+ target="_blank" links in pgwp.html. taxes.html and pgwp.html only.
+May 29 - Reference audit pass: footer nav completed to 9 guides across 6 pages; nav crumbs corrected (sin: Settlement Track→First Weeks; bank-account, driver's-license, photo-card: Daily Life/Money&Taxes→First Weeks); track-tags corrected to match homepage section; related guide link text standardized across sin.html and taxes.html. 7 files changed.
 
 ## Layout system — settled (May 29)
 

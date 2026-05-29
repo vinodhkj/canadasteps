@@ -4,6 +4,9 @@ One entry per working session. Most recent first.
 
 ---
 ## 2026-05-29
+May 29 - Reference audit pass: footer nav completed to all 9 guides (6 pages fixed); nav crumbs and track-tags corrected to match homepage sections; related guide link text standardized. 7 HTML files. No content changes.
+
+
 May 29 - COMMIT_HASH_PENDING - Trust/QA pass: broken CRA link fixed in taxes.html (slug typo); rel=noopener added to all 28 bare target=_blank links in pgwp.html.
 May 29 - COMMIT_HASH_PENDING - Layout rebalance: clamp rail removed, margin: 0 auto restored, max-width widened to 1100px/1000px. 9 HTML files. Memory updated with settled layout system.
 May 29 - COMMIT_HASH_PENDING - Editorial rail documentation: memory files updated with full before/after rationale, layout strategy, affected containers, rollback notes.
