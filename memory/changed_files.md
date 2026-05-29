@@ -3,6 +3,23 @@
 _Tracks files created or modified each session._
 
 ---
+## 2026-05-29 - Trust clarity: topbar cleanup + CRA sequencing
+
+**Modified:**
+- `index.html` — topbar: replaced "Canada Immigration Guides — Educational Resource Only | Official IRCC ↗" with "Independent guide. Official sources linked on each page."
+- `pgwp.html` — topbar: same
+- `sin.html` — topbar: same
+- `taxes.html` — topbar: same; NOA step updated to note CRA My Account requires assessed return; step-link → "Official CRA My Account"
+- `cra-account.html` — topbar: same; reality-check box: sequencing bullet strengthened to clarify not a first-arrival task
+- `bank-account.html` — topbar: same
+- `phone-plan.html` — topbar: same
+- `ontario-drivers-license.html` — topbar: same
+- `ontario-photo-card.html` — topbar: same
+- `memory/current_state.md` — recorded this change
+- `memory/changed_files.md` — this entry
+- `daily.md` — appended session log line
+
+---
 ## 2026-05-29 - Guide nav anchor fix
 
 **Modified:**

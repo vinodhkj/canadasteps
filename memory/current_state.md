@@ -1,6 +1,6 @@
 # Current State
 
-_Updated: 2026-05-28_
+_Updated: 2026-05-29_
 
 ## Phase
 
@@ -29,7 +29,7 @@ Phase 1 - Editorial redesign refinement
 
 ## Last change
 
-May 29 - Guide nav anchor fix: updated stale homepage anchors (#first-weeks, #money-taxes, #study-immigration) and link text across all 8 guide pages to match renamed sections (#just-arrived, #working-daily-life, #graduation-immigration). Links-only change, no content or layout edits.
+May 29 - Trust clarity pass: topbar simplified to "Independent guide. Official sources linked on each page." across all 9 pages (removed per-page "Official X ↗" links that created tension with non-affiliation disclaimer in founder-note). CRA My Account sequencing strengthened in cra-account.html (reality-check box) and taxes.html (NOA step now explains registration requires an assessed return). "Official CRA My Account" label on taxes.html step-link.
 
 ## Layout system — settled (May 29)
 
