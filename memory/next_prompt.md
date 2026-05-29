@@ -44,6 +44,6 @@ Do not touch unless explicitly requested:
 
 Next priority:
 - User to review newcomer journey sequencing on live site after push
-- Homepage section IDs changed: #first-weeks→#just-arrived, #money-taxes→#working-daily-life, #study-immigration→#graduation-immigration — guide page nav links still point to old anchors (e.g. href="/index.html#first-weeks") — update if nav anchors are ever used from guide pages
+- All guide page nav anchors are now consistent with renamed homepage sections
 - Content expansion only from user-validated priorities.
 ---

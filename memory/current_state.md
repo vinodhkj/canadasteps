@@ -29,7 +29,7 @@ Phase 1 - Editorial redesign refinement
 
 ## Last change
 
-May 29 - Newcomer journey sequencing: homepage sections renamed (First Weeks→Just Arrived, Money & Taxes→Working & Daily Life, Study & Immigration→Graduation & Immigration); entry order in Just Arrived updated (Phone Plan before Photo Card, Driver's License last); orientation descriptions updated for each stage. index.html only.
+May 29 - Guide nav anchor fix: updated stale homepage anchors (#first-weeks, #money-taxes, #study-immigration) and link text across all 8 guide pages to match renamed sections (#just-arrived, #working-daily-life, #graduation-immigration). Links-only change, no content or layout edits.
 
 ## Layout system — settled (May 29)
 

@@ -3,6 +3,24 @@
 _Tracks files created or modified each session._
 
 ---
+## 2026-05-29 - Guide nav anchor fix
+
+**Modified:**
+- `sin.html` — nav anchors and link text updated (#first-weeks→#just-arrived, #money-taxes→#working-daily-life, #study-immigration→#graduation-immigration)
+- `bank-account.html` — same
+- `phone-plan.html` — same
+- `taxes.html` — same
+- `cra-account.html` — same
+- `ontario-drivers-license.html` — same
+- `ontario-photo-card.html` — same
+- `pgwp.html` — same
+- `memory/current_state.md` — recorded this change
+- `memory/changed_files.md` — this entry
+- `memory/next_prompt.md` — removed stale risk note
+- `daily.md` — appended session log line
+
+---
+
 ## 2026-05-29 - Newcomer journey sequencing
 
 **Modified:**
