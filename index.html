@@ -59,6 +59,27 @@
   .topbar a { color: rgba(255,255,255,0.72); text-decoration: none; }
   .topbar a:hover { text-decoration: underline; }
 
+  /* PAGE STATUS BAR */
+  .page-status-bar {
+    background: var(--teal-light);
+    color: var(--teal);
+    border-bottom: 1px solid var(--border);
+    padding: 0.45rem 2rem;
+    font-size: 0.74rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  }
+  .page-status-bar.verified .status-indicator {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--green);
+    display: inline-block;
+  }
+
   /* NAV */
   nav {
     background: var(--bg-card);
@@ -105,9 +126,19 @@
     font-size: 0.86rem;
     color: var(--gray);
     text-decoration: none;
+    padding: 0.35rem 0.55rem;
+    border-radius: 4px;
+    transition: all 0.15s;
   }
-  .nav-links a:hover { color: var(--teal); }
-  .nav-links a.current { color: var(--teal); font-weight: 500; }
+  .nav-links a:hover {
+    color: var(--teal);
+    background: rgba(22, 107, 97, 0.05);
+  }
+  .nav-links a.current {
+    color: var(--teal);
+    font-weight: 500;
+    background: rgba(22, 107, 97, 0.08);
+  }
 
   /* FOUNDER NOTE */
   .founder-note {
@@ -294,9 +325,24 @@
     flex-direction: column;
     gap: 0.35rem;
   }
-  .site-footer a { color: var(--teal); text-decoration: none; }
-  .site-footer a:hover { text-decoration: underline; }
-  .footer-links { display: flex; flex-wrap: wrap; gap: 0.8rem; }
+  .site-footer a {
+    color: var(--teal);
+    text-decoration: none;
+    padding: 0.35rem 0.55rem;
+    border-radius: 4px;
+    display: inline-block;
+    transition: all 0.15s;
+  }
+  .site-footer a:hover {
+    background: rgba(22, 107, 97, 0.05);
+    text-decoration: none;
+  }
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 0.8rem;
+    margin-top: 0.5rem;
+  }
 
   @media (max-width: 600px) {
     body { font-size: 16px; }
@@ -314,9 +360,34 @@
     .site-footer-inner { padding: 0 1.1rem; }
     .founder-note { padding: 0.5rem 1.1rem; }
     .topbar { padding: 0.35rem 1.1rem; }
-    nav { padding: 0.75rem 1.1rem; }
-    .nav-links { flex-wrap: wrap; gap: 0.45rem 0.75rem; }
-    .nav-links a { font-size: 0.78rem; }
+    .page-status-bar { padding: 0.35rem 1.1rem; }
+    nav {
+      padding: 0.65rem 1.1rem;
+      gap: 0.45rem;
+    }
+    .nav-links {
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      gap: 0.4rem;
+      margin: 0 -1.1rem;
+      padding: 0.15rem 1.1rem 0.35rem;
+      scrollbar-width: none;
+    }
+    .nav-links::-webkit-scrollbar {
+      display: none;
+    }
+    .nav-links a {
+      font-size: 0.8rem;
+      padding: 0.35rem 0.65rem;
+      white-space: nowrap;
+      border-radius: 4px;
+      background: rgba(22, 107, 97, 0.04);
+      flex-shrink: 0;
+    }
+    .nav-links a.current {
+      background: rgba(22, 107, 97, 0.1);
+    }
   }
 </style>
 </head>
@@ -325,6 +396,11 @@
 <!-- TOP BAR -->
 <div class="topbar">
   <span>Independent guide. Official sources linked on each page.</span>
+</div>
+
+<!-- PAGE STATUS BAR -->
+<div class="page-status-bar verified">
+  <span class="status-indicator"></span> Source status: Official-source links maintained and reviewed periodically
 </div>
 
 <!-- NAV -->

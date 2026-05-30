@@ -20,11 +20,12 @@ Current pages:
 - phone-plan.html
 - ontario-photo-card.html
 
-Current layout state (as of May 29):
+Current layout state (as of May 30):
 - All pages use centered outer frame (margin: 0 auto) with left-aligned content inside
 - Homepage (.page-banner-inner + .page-wrap): max-width 1100px, margin: 0 auto
 - Guide pages (.page-wrap): max-width 1000px, margin: 0 auto
-- Mobile (≤600px): full-width naturally; padding handles edge spacing; no margin overrides needed
+- Mobile (≤600px): full-width naturally; padding handles edge spacing. Sticky nav bar utilizes horizontal scrolling badges (`overflow-x: auto`) for compact, single-row height, preventing vertical layout clogging.
+- Tables (like the cost table in pgwp.html) support horizontal scrolling (`overflow-x: auto`) on narrow viewports instead of clipping.
 - .site-footer-inner: margin: 0 auto on all pages (unchanged)
 - Nav and topbar remain full-width on all pages
 - Left-rail clamp system was tried and reverted — do not reintroduce without explicit request

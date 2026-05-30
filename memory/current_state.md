@@ -1,6 +1,6 @@
 # Current State
 
-_Updated: 2026-05-29_
+_Updated: 2026-05-30_
 
 ## Phase
 
@@ -31,6 +31,10 @@ Phase 1 - Editorial redesign refinement
 - SSL certificate active
 
 ## Last change
+
+May 30 - Must Fix Before Deploy: PGWP form accuracy corrected (IMM 5710 default, IMM 1295 alternative); SettleWise rulebook compliance added (Page Status Bar, "What SettleWise Does Not Answer" safety block); mobile usability improved (horizontal-scroll nav, table scrolling, and expanded touch targets on nav/footer links). index.html and pgwp.html only.
+
+## Previous change
 
 May 30 - GA4 added: Google Analytics 4 tag (G-4M1LTVRG81) inserted immediately after <head> on all 12 public HTML pages. Draft/internal files skipped. Next: deploy to Cloudflare Pages, verify in GA4 Realtime, monitor Cloudflare Core Web Vitals for regressions. UI redesign with Claude Design is separate — do not mix with this commit.
 

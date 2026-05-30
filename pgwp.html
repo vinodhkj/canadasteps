@@ -59,6 +59,27 @@
   .topbar a { color: rgba(255,255,255,0.72); text-decoration: none; }
   .topbar a:hover { text-decoration: underline; }
 
+  /* PAGE STATUS BAR */
+  .page-status-bar {
+    background: var(--teal-light);
+    color: var(--teal);
+    border-bottom: 1px solid var(--border);
+    padding: 0.45rem 2rem;
+    font-size: 0.74rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  }
+  .page-status-bar.verified .status-indicator {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--green);
+    display: inline-block;
+  }
+
   /* NAV */
   nav {
     background: var(--bg-card);
@@ -115,9 +136,19 @@
     font-size: 0.86rem;
     color: var(--gray);
     text-decoration: none;
+    padding: 0.35rem 0.55rem;
+    border-radius: 4px;
+    transition: all 0.15s;
   }
-  .nav-links a:hover { color: var(--teal); }
-  .nav-links a.current { color: var(--teal); font-weight: 500; }
+  .nav-links a:hover {
+    color: var(--teal);
+    background: rgba(22, 107, 97, 0.05);
+  }
+  .nav-links a.current {
+    color: var(--teal);
+    font-weight: 500;
+    background: rgba(22, 107, 97, 0.08);
+  }
 
   /* TRUST STRIP */
   .founder-note {
@@ -364,7 +395,8 @@
     background: rgba(255,253,248,0.55);
     border: 1px solid var(--border);
     border-radius: 8px;
-    overflow: hidden;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
   }
   .cost-table-title {
     font-family: Georgia, "Times New Roman", serif;
@@ -724,9 +756,24 @@
     flex-direction: column;
     gap: 0.35rem;
   }
-  .site-footer a { color: var(--teal); text-decoration: none; }
-  .site-footer a:hover { text-decoration: underline; }
-  .footer-links { display: flex; flex-wrap: wrap; gap: 0.8rem; }
+  .site-footer a {
+    color: var(--teal);
+    text-decoration: none;
+    padding: 0.35rem 0.55rem;
+    border-radius: 4px;
+    display: inline-block;
+    transition: all 0.15s;
+  }
+  .site-footer a:hover {
+    background: rgba(22, 107, 97, 0.05);
+    text-decoration: none;
+  }
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 0.8rem;
+    margin-top: 0.5rem;
+  }
 
   @media (max-width: 600px) {
     body { font-size: 16px; }
@@ -739,9 +786,34 @@
     h1 { font-size: 1.55rem; }
     .nav-crumb { display: none; }
     .topbar { padding: 0.35rem 1.1rem; }
-    nav { padding: 0.75rem 1.1rem; }
-    .nav-links { flex-wrap: wrap; gap: 0.45rem 0.75rem; }
-    .nav-links a { font-size: 0.78rem; }
+    .page-status-bar { padding: 0.35rem 1.1rem; }
+    nav {
+      padding: 0.65rem 1.1rem;
+      gap: 0.45rem;
+    }
+    .nav-links {
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      gap: 0.4rem;
+      margin: 0 -1.1rem;
+      padding: 0.15rem 1.1rem 0.35rem;
+      scrollbar-width: none;
+    }
+    .nav-links::-webkit-scrollbar {
+      display: none;
+    }
+    .nav-links a {
+      font-size: 0.8rem;
+      padding: 0.35rem 0.65rem;
+      white-space: nowrap;
+      border-radius: 4px;
+      background: rgba(22, 107, 97, 0.04);
+      flex-shrink: 0;
+    }
+    .nav-links a.current {
+      background: rgba(22, 107, 97, 0.1);
+    }
   }
 </style>
 </head>
@@ -750,6 +822,11 @@
 <!-- TOP BAR -->
 <div class="topbar">
   <span>Independent guide. Official sources linked on each page.</span>
+</div>
+
+<!-- PAGE STATUS BAR -->
+<div class="page-status-bar verified">
+  <span class="status-indicator"></span> Verified: Page recently reviewed against official IRCC sources (May 2026)
 </div>
 
 <!-- NAV -->
@@ -788,9 +865,27 @@
     <div class="meta-row">
       <div class="meta-item"><div class="meta-dot"></div>Last verified against IRCC: May 26, 2026</div>
       <div class="meta-item"><div class="meta-dot amber"></div>Fee: CAD $255</div>
-      <div class="meta-item"><div class="meta-dot"></div>Processing times: see official IRCC source</div>
+      <div class="meta-item"><div class="meta-dot"></div>Processing times: <a href="https://www.ircc.canada.ca/english/information/times/index.asp" target="_blank" rel="noopener" style="color:var(--teal); text-decoration:underline;">see official IRCC source ↗</a></div>
     </div>
   </header>
+
+  <!-- WHAT THIS PAGE DOES NOT ANSWER -->
+  <section class="section-does-not-answer" style="background: rgba(185,28,28,0.03); border: 1px solid rgba(185,28,28,0.15); border-left: 4px solid var(--red); border-radius: 8px; padding: 1.15rem 1.35rem; margin-bottom: 1.5rem;">
+    <h3 style="font-family: Georgia, serif; font-size: 0.95rem; font-weight: 700; color: var(--red); margin-bottom: 0.65rem; display: flex; align-items: center; gap: 0.45rem;">
+      🛡️ What SettleWise does not determine on this page
+    </h3>
+    <ul style="font-size: 0.83rem; color: var(--text-soft); line-height: 1.6; margin-left: 1.1rem; padding-left: 0; display: flex; flex-direction: column; gap: 0.35rem; list-style: disc;">
+      <li>Whether you are eligible for a PGWP under the new November 2024 DLI rules</li>
+      <li>Whether you are authorized to work while your application is pending (maintained status details vary)</li>
+      <li>Whether travel outside Canada affects your application or your entry right</li>
+      <li>What to do if your specific academic or study permit situation differs from the standard process</li>
+    </ul>
+    <p style="font-size: 0.78rem; color: var(--gray); margin-top: 0.75rem; line-height: 1.5;">
+      For individual eligibility and legal questions, verify requirements directly with 
+      <a href="https://www.canada.ca/en/immigration-refugees-citizenship.html" target="_blank" rel="noopener" style="color:var(--teal); font-weight:600; text-decoration:none;">IRCC ↗</a> 
+      or consult a <a href="https://college-ic.ca/protecting-the-public/find-an-immigration-consultant" target="_blank" rel="noopener" style="color:var(--teal); font-weight:600; text-decoration:none;">Regulated Canadian Immigration Consultant (RCIC) ↗</a> or licensed immigration lawyer.
+    </p>
+  </section>
 
   <!-- CHANGELOG -->
   <div class="changelog">
@@ -981,11 +1076,26 @@
       <li class="step">
         <div class="step-num">05</div>
         <div class="step-body">
-          <div class="step-title">Complete Form IMM 1295</div>
-          <div class="step-desc">Fill in your personal information, study history, and passport details. Key fields include your DLI number, study permit number, and program completion date. Your name must match your passport exactly.</div>
-          <div class="step-note" style="margin-bottom:0.5rem;">The IRCC online application does not have a clearly labeled upload slot for language test results. For exact upload instructions and field locations, refer to the official <a href="https://www.ircc.canada.ca/english/information/applications/guides/5487ETOC.asp" target="_blank" rel="noopener" style="color:#78350f;font-weight:600;">IRCC Application Guide IMM 5487 ↗</a>.</div>
-          <a class="step-link" href="https://www.ircc.canada.ca/english/information/applications/guides/5487ETOC.asp" target="_blank" rel="noopener">Application Guide IMM 5487 — IRCC</a>
-          <div class="step-note">⚠️ Follow the instructions on the IRCC form carefully for each field. Some fields may require "Not Applicable" — follow the form's own guidance on how to handle fields that do not apply to you.</div>
+          <div class="step-title">Complete your application form (IMM 5710 or IMM 1295)</div>
+          <div class="step-desc">The form you must fill out depends on where you are located when you submit your application:</div>
+          
+          <div style="margin: 0.85rem 0; padding: 0.85rem; background: rgba(26,38,64,0.03); border-left: 3px solid var(--navy); border-radius: 4px;">
+            <strong style="display:block; font-size:0.85rem; color:var(--navy); margin-bottom:0.25rem;">🇨🇦 Applying from INSIDE Canada (Default Route)</strong>
+            <span style="font-size:0.8rem; color:var(--text-soft); display:block; line-height:1.5; margin-bottom:0.5rem;">
+              Use <strong>Form IMM 5710</strong> (<em>Application to Change Conditions, Extend my Stay or Remain in Canada as a Worker</em>). Complete and validate this form as generated in your IRCC secure account checklist.
+            </span>
+            <a class="step-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/application/application-forms-guides/guide-5580-apply-work-permit-student-online.html" target="_blank" rel="noopener">In-Canada Application Guide 5580 — IRCC</a>
+          </div>
+
+          <div style="margin: 0.85rem 0; padding: 0.85rem; background: rgba(70,82,100,0.03); border-left: 3px solid var(--gray); border-radius: 4px;">
+            <strong style="display:block; font-size:0.85rem; color:var(--text-soft); margin-bottom:0.25rem;">✈️ Applying from OUTSIDE Canada (Alternative Route)</strong>
+            <span style="font-size:0.8rem; color:var(--text-soft); display:block; line-height:1.5; margin-bottom:0.5rem;">
+              Use <strong>Form IMM 1295</strong> (<em>Application for Work Permit Made Outside of Canada</em>). If you are applying from outside Canada, IRCC’s outside-Canada work permit package lists IMM 1295. Always follow the document checklist generated in your IRCC account.
+            </span>
+            <a class="step-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/application/application-forms-guides/guide-5487-applying-work-permit-outside-canada.html" target="_blank" rel="noopener">Outside-Canada Application Guide 5487 — IRCC</a>
+          </div>
+
+          <div class="step-note">⚠️ <strong>Form validation note:</strong> Download the correct form directly from your IRCC secure online checklist. Open and validate the form using the latest version of Adobe Acrobat Reader. Do not attempt to open it directly in your web browser.</div>
         </div>
       </li>
 

@@ -1,6 +1,16 @@
 # Changed Files
 
 ---
+## 2026-05-30 - Must Fix Before Deploy: UI, Accessibility & Form Accuracy
+
+**Modified:**
+- `index.html` — added Page Status Bar; increased navigation and footer tap targets; implemented responsive horizontally-scrollable navigation bar for mobile viewports to prevent screen clogging.
+- `pgwp.html` — corrected PGWP form guidance to IMM 5710 (in-Canada) as the primary default and IMM 1295 (outside-Canada) as the alternative; added mandatory "What SettleWise Does Not Answer" safety block; added Page Status Bar; hyperlinked processing times in meta row to official IRCC source; fixed horizontal scrolling for the cost table; brought horizontal-scroll nav bar and padding improvements to match index.html.
+
+**Also modified:**
+- `memory/current_state.md`, `memory/next_prompt.md`, `memory/changed_files.md`, `daily.md`
+
+---
 ## 2026-05-30 - GA4 analytics added
 
 **Modified (all 12 public pages):**

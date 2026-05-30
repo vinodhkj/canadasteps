@@ -4,6 +4,7 @@ One entry per working session. Most recent first.
 
 ---
 ## 2026-05-30
+May 30 - Must Fix Before Deploy: corrected PGWP form guidance (IMM 5710 inside Canada as default, IMM 1295 outside Canada as alternative); added SettleWise page status bar and safety section ("What SettleWise Does Not Answer"); resolved mobile usability (horizontal-scroll nav, table scroll, and expanded link tap targets). index.html and pgwp.html only.
 May 30 - GA4 added: tag G-4M1LTVRG81 inserted after <head> on all 12 public HTML pages; draft/internal files skipped; pending deploy and Realtime verification.
 May 30 - SEO setup: sitemap.xml + robots.txt created at site root; Google Search Console domain verified via DNS; pending deploy and Search Console sitemap submission.
 
