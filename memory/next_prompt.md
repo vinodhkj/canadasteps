@@ -7,6 +7,7 @@ Current workflow:
 - Netlify is not part of the active workflow
 
 Current pages:
+- pr-pathways.html
 - index.html
 - pgwp.html
 - spouse-work-permit.html

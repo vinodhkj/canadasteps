@@ -1,5 +1,31 @@
 # Changed Files
 
+---
+## 2026-05-29 - PR Pathways Guide added
+
+**Created:**
+- `pr-pathways.html` — new PR pathways navigation guide; 9 sections; IRCC-only sources; strict process-navigation framing with no eligibility claims, no CRS commentary, no draw predictions; higher-risk immigration topic guardrails applied throughout
+
+**Modified:**
+- `index.html` — added PR Pathways nav link; added CSS accent rules for #pr-pathways section; added new #pr-pathways section with guide entry; added PR Pathways to footer
+- `pgwp.html` — added PR Pathways nav link; added PR Pathways related-guide transition card; added Phone Plan, Photo Card, PR Pathways to footer (footer was incomplete)
+- `spouse-work-permit.html` — added PR Pathways nav link; added PR Pathways related-guide transition in next-guides section; added PR Pathways to footer
+- `sin.html` — added PR Pathways nav link; added PR Pathways to footer
+- `taxes.html` — added PR Pathways nav link; added PR Pathways to footer
+- `cra-account.html` — added PR Pathways nav link; added PR Pathways to footer
+- `bank-account.html` — added PR Pathways nav link; added PR Pathways to footer
+- `gic-unlock.html` — added PR Pathways nav link; added PR Pathways to footer
+- `ontario-drivers-license.html` — added PR Pathways nav link; added PR Pathways to footer
+- `phone-plan.html` — added PR Pathways nav link; added PR Pathways to footer
+- `ontario-photo-card.html` — added PR Pathways nav link; added PR Pathways to footer
+- `memory/current_state.md` — recorded this change; added pr-pathways.html to live pages
+- `memory/next_prompt.md` — added pr-pathways.html to current pages list
+- `memory/changed_files.md` — this entry
+- `memory/risks.md` — added R10 for PR pathways content-rot and immigration-advice risk
+- `daily.md` — appended session log line
+
+
+
 _Tracks files created or modified each session._
 
 ---

@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Understanding PR Pathways in Canada | CanadaSteps</title>
+<meta name="description" content="A plain-English map of major official PR starting points for students, PGWP holders, workers, spouses, and families researching permanent residence in Canada.">
+<style>
+  :root {
+    --bg: #f8f5ee;
+    --bg-card: #fffdf8;
+    --bg-soft: #f1ebe1;
+    --navy: #1a2640;
+    --navy-mid: #243352;
+    --red: #b91c1c;
+    --teal: #166b61;
+    --teal-light: #e8f0ec;
+    --amber: #d97706;
+    --amber-light: #fef9c3;
+    --green: #166534;
+    --green-light: #dcfce7;
+    --gray: #6b7280;
+    --gray-light: #e5e7eb;
+    --text: #1f2937;
+    --text-soft: #465264;
+    --border: #ded6ca;
+    --step-line: #d0c3ab;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    font-size: 17px;
+  }
+
+  /* TOP BAR */
+  .topbar {
+    background: var(--navy);
+    color: rgba(255,255,255,0.65);
+    font-size: 0.74rem;
+    padding: 0.45rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .topbar a { color: rgba(255,255,255,0.72); text-decoration: none; }
+  .topbar a:hover { text-decoration: underline; }
+
+  /* NAV */
+  nav {
+    background: var(--bg-card);
+    border-bottom: 2px solid var(--navy);
+    padding: 0.9rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }
+
+  .nav-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--navy);
+    text-decoration: none;
+    letter-spacing: -0.3px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+  .logo span { color: var(--teal); }
+  .logo-mark {
+    width: 0.72em;
+    height: 0.72em;
+    color: var(--red);
+    opacity: 0.78;
+    flex-shrink: 0;
+  }
+
+  .nav-crumb {
+    font-size: 0.75rem;
+    color: var(--gray);
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  .nav-crumb strong { color: var(--text-soft); font-weight: 600; }
+
+  .nav-links {
+    display: flex;
+    gap: 1.25rem;
+  }
+  .nav-links a {
+    font-size: 0.86rem;
+    color: var(--gray);
+    text-decoration: none;
+  }
+  .nav-links a:hover { color: var(--teal); }
+  .nav-links a.current { color: var(--navy-mid); font-weight: 500; }
+
+  /* TRUST STRIP */
+  .founder-note {
+    background: var(--bg-card);
+    border-bottom: 1px solid var(--border);
+    padding: 0.55rem 2rem;
+    font-size: 0.75rem;
+    color: var(--text-soft);
+    line-height: 1.55;
+  }
+  .founder-note small {
+    display: block;
+    margin-top: 0.25rem;
+    font-size: 0.68rem;
+    color: var(--gray);
+  }
+
+  /* PAGE LAYOUT */
+  .page-wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2.55rem 2.25rem 4.75rem;
+  }
+
+  /* HEADER */
+  .page-header {
+    margin-bottom: 1.45rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .track-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: rgba(36,51,82,0.08);
+    color: var(--navy-mid);
+    border: 1px solid rgba(36,51,82,0.18);
+    padding: 0.25rem 0.75rem;
+    border-radius: 100px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 0.9rem;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  }
+
+  h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.6rem, 4vw, 2.2rem);
+    font-weight: 700;
+    color: var(--navy);
+    line-height: 1.25;
+    margin-bottom: 0.6rem;
+    letter-spacing: -0.2px;
+  }
+
+  .page-desc {
+    font-size: 1rem;
+    color: var(--text-soft);
+    line-height: 1.7;
+    max-width: 620px;
+  }
+
+  .muted-note {
+    margin-top: 0.75rem;
+    font-size: 0.78rem;
+    color: var(--gray);
+    line-height: 1.55;
+    font-style: italic;
+  }
+
+  .meta-row {
+    display: flex;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+    margin-top: 1.1rem;
+  }
+
+  .meta-item {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.75rem;
+    color: var(--gray);
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  }
+
+  .meta-dot {
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    background: var(--navy-mid);
+    flex-shrink: 0;
+  }
+
+  /* REALITY CHECK */
+  .reality-check {
+    background: var(--amber-light);
+    border: 1px solid rgba(217,119,6,0.25);
+    border-left: 4px solid var(--amber);
+    border-radius: 8px;
+    padding: 1rem 1.1rem;
+    margin-bottom: 1.45rem;
+    font-size: 0.84rem;
+    color: #78350f;
+    line-height: 1.6;
+  }
+  .reality-check strong {
+    display: block;
+    font-weight: 700;
+    font-size: 0.82rem;
+    color: #92400e;
+    margin-bottom: 0.55rem;
+  }
+  .reality-check ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-left: 0;
+  }
+  .reality-check ul li {
+    display: flex;
+    gap: 0.5rem;
+    line-height: 1.55;
+  }
+  .reality-check ul li::before {
+    content: '→';
+    flex-shrink: 0;
+    color: var(--amber);
+    font-weight: 600;
+  }
+
+  /* SECTION */
+  .section {
+    margin-bottom: 2rem;
+    scroll-margin-top: 8.5rem;
+  }
+
+  h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.24rem;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+  }
+
+  .h2-num {
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    font-size: 0.65rem;
+    background: var(--navy);
+    color: white;
+    padding: 0.18rem 0.45rem;
+    border-radius: 4px;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+  }
+
+  .divider {
+    height: 1px;
+    background: var(--border);
+    margin: 2rem 0;
+  }
+
+  /* WHO GRID */
+  .who-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+  }
+
+  .who-card {
+    background: rgba(255,253,248,0.46);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 1rem 1.1rem;
+  }
+  .who-card.yes { border-left: 3px solid var(--teal); }
+  .who-card.no  { border-left: 3px solid var(--red); }
+
+  .who-label {
+    font-size: 0.65rem;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+  }
+  .who-card.yes .who-label { color: var(--teal); }
+  .who-card.no  .who-label { color: var(--red); }
+
+  .who-card ul { list-style: none; display: flex; flex-direction: column; gap: 0.45rem; }
+  .who-card ul li {
+    font-size: 0.83rem;
+    color: var(--text-soft);
+    display: flex;
+    gap: 0.45rem;
+    line-height: 1.45;
+  }
+  .who-card ul li::before { content: '—'; color: var(--gray-light); flex-shrink: 0; }
+
+  /* PATHWAY CARDS */
+  .pathway-list { list-style: none; display: flex; flex-direction: column; gap: 0.75rem; }
+  .pathway-item {
+    background: rgba(255,253,248,0.48);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--navy-mid);
+    border-radius: 6px;
+    padding: 0.9rem 1.1rem;
+  }
+  .pathway-title {
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: var(--navy);
+    margin-bottom: 0.3rem;
+  }
+  .pathway-item p {
+    font-size: 0.82rem;
+    color: var(--text-soft);
+    line-height: 1.55;
+  }
+  .pathway-item p a {
+    color: var(--teal);
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .pathway-item p a:hover { text-decoration: underline; }
+
+  /* STEPS */
+  .steps-list { list-style: none; position: relative; }
+  .steps-list::before {
+    content: '';
+    position: absolute;
+    left: 20px; top: 26px; bottom: 26px;
+    width: 1px;
+    background: var(--step-line);
+  }
+
+  .step { display: flex; gap: 1.1rem; margin-bottom: 1.05rem; position: relative; }
+
+  .step-num {
+    width: 42px; height: 42px;
+    border-radius: 50%;
+    background: var(--navy);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    font-size: 0.75rem;
+    font-weight: 500;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1;
+    border: 3px solid var(--bg);
+    box-shadow: 0 0 0 1px var(--step-line);
+  }
+
+  .step-body {
+    background: rgba(255,253,248,0.48);
+    border: 1px solid rgba(222,214,202,0.78);
+    border-left: 2px solid var(--step-line);
+    border-radius: 6px;
+    padding: 1rem 1.2rem;
+    flex: 1;
+  }
+
+  .step-title {
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: var(--navy);
+    margin-bottom: 0.3rem;
+  }
+
+  .step-desc {
+    font-size: 0.83rem;
+    color: var(--text-soft);
+    line-height: 1.6;
+  }
+
+  /* CHECKLIST */
+  .checklist { list-style: none; display: flex; flex-direction: column; gap: 0.55rem; }
+  .checklist li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    font-size: 0.875rem;
+    color: var(--text-soft);
+    background: rgba(255,253,248,0.5);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 0.75rem 1rem;
+    line-height: 1.55;
+  }
+  .check-box {
+    width: 16px; height: 16px;
+    border: 1.5px solid var(--gray-light);
+    border-radius: 3px;
+    flex-shrink: 0;
+    margin-top: 2px;
+    background: var(--bg);
+  }
+  .checklist li strong { color: var(--text); font-weight: 600; }
+  .checklist-note {
+    margin-top: 0.75rem;
+    font-size: 0.77rem;
+    color: var(--gray);
+    line-height: 1.55;
+    font-style: italic;
+  }
+
+  /* MISSES */
+  .misses-list { list-style: none; display: flex; flex-direction: column; gap: 0.65rem; }
+  .miss-item {
+    background: rgba(255,253,248,0.48);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--red);
+    border-radius: 6px;
+    padding: 0.9rem 1.1rem;
+  }
+  .miss-title {
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: var(--red);
+    margin-bottom: 0.25rem;
+  }
+  .miss-item p { font-size: 0.82rem; color: var(--text-soft); line-height: 1.55; }
+
+  /* OFFICIAL LINKS */
+  .links-list { list-style: none; display: flex; flex-direction: column; gap: 0.55rem; }
+  .gov-link {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    background: rgba(255,253,248,0.5);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 0.85rem 1.1rem;
+    text-decoration: none;
+    transition: all 0.2s;
+    color: inherit;
+  }
+  .gov-link:hover { border-color: rgba(22,107,97,0.45); background: var(--teal-light); }
+
+  .gov-icon {
+    width: 32px; height: 32px;
+    border-radius: 5px;
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    color: var(--navy);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.82rem;
+    flex-shrink: 0;
+  }
+
+  .gov-text { flex: 1; }
+  .gov-title { font-weight: 600; font-size: 0.85rem; color: var(--navy); line-height: 1.3; }
+  .gov-subtitle { font-size: 0.74rem; color: var(--text-soft); margin-top: 0.1rem; line-height: 1.4; }
+  .gov-url { font-size: 0.68rem; color: var(--gray); font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; margin-top: 0.1rem; }
+  .gov-arrow { color: var(--teal); font-size: 0.9rem; flex-shrink: 0; }
+
+  /* NEXT CARDS GRID */
+  .next-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.75rem;
+  }
+  .next-card {
+    background: rgba(255,253,248,0.48);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 0.9rem 1rem;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.2s;
+  }
+  .next-card:hover { border-color: rgba(22,107,97,0.4); background: var(--teal-light); }
+  .next-card-label {
+    font-size: 0.64rem;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--gray);
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+  }
+  .next-card-title {
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: var(--navy);
+    margin-bottom: 0.2rem;
+  }
+  .next-card-arrow {
+    font-size: 0.8rem;
+    color: var(--teal);
+    margin-top: 0.35rem;
+  }
+
+  /* DISCLAIMER */
+  .disclaimer {
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem 1.2rem;
+    font-size: 0.78rem;
+    color: var(--gray);
+    line-height: 1.65;
+    margin-top: 2.5rem;
+  }
+  .disclaimer a { color: var(--teal); }
+  .disclaimer strong { color: var(--text-soft); }
+
+  /* FOOTER */
+  .site-footer {
+    margin: 0;
+    padding: 1.35rem 0 2rem;
+    background: var(--bg-soft);
+    border-top: 1px solid var(--border);
+    color: var(--gray);
+    font-size: 0.72rem;
+    line-height: 1.6;
+  }
+  .site-footer-inner {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 2.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+  .site-footer a { color: var(--teal); text-decoration: none; }
+  .site-footer a:hover { text-decoration: underline; }
+  .footer-links { display: flex; flex-wrap: wrap; gap: 0.8rem; }
+
+  @media (max-width: 600px) {
+    body { font-size: 16px; }
+    .who-grid { grid-template-columns: 1fr; }
+    .next-grid { grid-template-columns: 1fr; }
+    .page-wrap { padding: 1.5rem 1.1rem 4rem; }
+    .founder-note { padding: 0.5rem 1.1rem; }
+    .section { scroll-margin-top: 7.5rem; }
+    .site-footer { padding: 1.2rem 0 2rem; }
+    .site-footer-inner { padding: 0 1.1rem; }
+    h1 { font-size: 1.55rem; }
+    .nav-crumb { display: none; }
+    .topbar { padding: 0.35rem 1.1rem; }
+    nav { padding: 0.75rem 1.1rem; }
+    .nav-links { flex-wrap: wrap; gap: 0.45rem 0.75rem; }
+    .nav-links a { font-size: 0.78rem; }
+  }
+</style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <span>Independent guide. Official sources linked on each page.</span>
+</div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-row">
+    <a class="logo" href="/index.html"><svg class="logo-mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 2.4l1.2 4 3.7-1.6-1.1 4 3.9 1.1-3.5 2.1 2.2 3.4-4.2-.5-.6 4.3h-3.2l-.6-4.3-4.2.5L7.8 12 4.3 9.9l3.9-1.1-1.1-4 3.7 1.6L12 2.4z"/></svg>Canada<span>Steps</span></a>
+    <div class="nav-crumb">Graduation &amp; Immigration &rarr; <strong>PR Pathways</strong></div>
+  </div>
+  <div class="nav-links">
+    <a href="/index.html">All Guides</a>
+    <a href="/index.html#just-arrived">Just Arrived</a>
+    <a href="/index.html#working-daily-life">Working &amp; Daily Life</a>
+    <a href="/index.html#graduation-immigration">Graduation &amp; Immigration</a>
+    <a class="current" href="/index.html#pr-pathways">PR Pathways</a>
+  </div>
+</nav>
+
+<!-- FOUNDER NOTE -->
+<div class="founder-note">
+  Independent educational guide for newcomers and international students in Canada. Links point directly to official government and institutional sources.
+  <small>Not affiliated with IRCC or the Government of Canada.</small>
+</div>
+
+<main class="page-wrap">
+
+  <!-- HEADER -->
+  <header class="page-header">
+    <div class="track-tag">PR Pathways</div>
+    <h1>Understanding PR Pathways in Canada</h1>
+    <p class="page-desc">Learn the main official PR starting points students, PGWP holders, workers, spouses, families, and newcomers commonly research — without guessing eligibility or CRS outcomes.</p>
+    <p class="muted-note">PR rules, draws, provincial streams, family sponsorship rules, and eligibility requirements change. Always verify your situation directly with IRCC and provincial program pages.</p>
+    <div class="meta-row">
+      <div class="meta-item"><div class="meta-dot"></div>Last verified against IRCC: May 2026</div>
+      <div class="meta-item"><div class="meta-dot"></div>Process navigation only — not immigration advice</div>
+    </div>
+  </header>
+
+  <!-- REALITY CHECK -->
+  <div class="reality-check">
+    <strong>Before you read further — keep these in mind</strong>
+    <ul>
+      <li>Permanent residence is not one single application pathway — there are several distinct programs with separate requirements.</li>
+      <li>Students and PGWP holders often research Express Entry, Canadian Experience Class, and provincial nominee programs.</li>
+      <li>Families may also research spouse, partner, child, or family sponsorship pathways.</li>
+      <li>Family sponsorship for permanent residence is a different process from temporary spouse work permits, visitor visas, or study permits.</li>
+      <li>CRS scores, invitation rounds, and provincial streams change over time — not every pathway is open at all times.</li>
+      <li>This guide explains where to start looking, not which pathway you may qualify for.</li>
+    </ul>
+  </div>
+
+  <!-- 01 WHAT THIS GUIDE IS -->
+  <section class="section" id="what-this-guide-is">
+    <h2><span class="h2-num">01</span> What this guide is and is not</h2>
+    <div class="who-grid">
+      <div class="who-card yes">
+        <div class="who-label">This guide helps you</div>
+        <ul>
+          <li>Understand the main PR pathway categories</li>
+          <li>Know which official IRCC pages to read first</li>
+          <li>Understand how study, work, province, and family situation may affect where people start researching</li>
+          <li>Distinguish temporary family status options from PR family sponsorship</li>
+          <li>Avoid relying only on social media or outdated advice</li>
+        </ul>
+      </div>
+      <div class="who-card no">
+        <div class="who-label">This guide does not</div>
+        <ul>
+          <li>Calculate CRS or predict scores</li>
+          <li>Decide if you qualify for any pathway</li>
+          <li>Recommend a pathway or PR strategy</li>
+          <li>Predict invitations, draws, or timelines</li>
+          <li>Give immigration advice of any kind</li>
+          <li>Replace IRCC, provincial program pages, or licensed professionals</li>
+        </ul>
+      </div>
+    </div>
+    <p style="font-size:0.78rem;color:var(--gray);margin-top:0.75rem;line-height:1.55;">Immigration rules change. Personal circumstances vary significantly. Always verify current requirements directly with IRCC before taking any action.</p>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 02 COMMON PATHWAYS -->
+  <section class="section" id="pathways">
+    <h2><span class="h2-num">02</span> Common pathways people research</h2>
+    <p style="font-size:0.85rem;color:var(--text-soft);line-height:1.65;margin-bottom:1rem;">These are brief, high-level descriptions only. Not every pathway applies to every person. Verify all details directly with IRCC before drawing any conclusions about your situation.</p>
+    <ul class="pathway-list">
+
+      <li class="pathway-item">
+        <div class="pathway-title">Express Entry</div>
+        <p>Express Entry is an online system IRCC uses to manage applications for several federal skilled worker programs. Candidates create a profile and may be invited to apply for permanent residence based on a Comprehensive Ranking System (CRS) score. The CRS score required for an invitation varies by draw and is not predictable. Verify current Express Entry rules directly with IRCC. <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry.html" target="_blank" rel="noopener">IRCC — Express Entry ↗</a></p>
+      </li>
+
+      <li class="pathway-item">
+        <div class="pathway-title">Canadian Experience Class (CEC)</div>
+        <p>Canadian Experience Class is one of the programs managed through Express Entry. Many PGWP holders research CEC because it relates to Canadian skilled work experience gained in Canada. Whether someone's work experience qualifies, and which NOC category it falls under, depends on the specific job and current IRCC requirements. Always verify current CEC eligibility criteria directly with IRCC before making assumptions. <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/who-can-apply/canadian-experience-class.html" target="_blank" rel="noopener">IRCC — Canadian Experience Class ↗</a></p>
+      </li>
+
+      <li class="pathway-item">
+        <div class="pathway-title">Federal Skilled Worker Program (FSW)</div>
+        <p>The Federal Skilled Worker Program is another program managed through Express Entry. Some people with skilled work experience gained outside Canada research FSW. Eligibility depends on work experience, language ability, education, and other factors. Verify current FSW requirements directly with IRCC. <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/who-can-apply/federal-skilled-workers.html" target="_blank" rel="noopener">IRCC — Federal Skilled Worker Program ↗</a></p>
+      </li>
+
+      <li class="pathway-item">
+        <div class="pathway-title">Federal Skilled Trades Program (FSTP)</div>
+        <p>The Federal Skilled Trades Program is one of the programs managed through Express Entry, intended for people with experience in certain skilled trades. Not every trade qualifies. Verify whether your specific occupation and experience meet current IRCC requirements. <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry.html" target="_blank" rel="noopener">IRCC — Express Entry ↗</a></p>
+      </li>
+
+      <li class="pathway-item">
+        <div class="pathway-title">Provincial Nominee Program (PNP)</div>
+        <p>Provinces and territories may nominate people for permanent residence through their own streams. Some PNP streams are linked to Express Entry (which can increase a CRS score), while others follow a separate non-Express Entry process. Each province and territory has its own streams, eligibility criteria, and requirements. Provincial rules vary and change independently of federal Express Entry draws. Verify directly with the relevant province or territory. <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/provincial-nominees.html" target="_blank" rel="noopener">IRCC — Provincial Nominee Program ↗</a> &nbsp; <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/provincial-nominees/express-entry.html" target="_blank" rel="noopener">IRCC — PNP Express Entry process ↗</a> &nbsp; <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/provincial-nominees/non-express-entry.html" target="_blank" rel="noopener">IRCC — PNP non-Express Entry process ↗</a></p>
+      </li>
+
+      <li class="pathway-item">
+        <div class="pathway-title">Family Sponsorship</div>
+        <p>Family sponsorship is a permanent residence pathway through which eligible Canadian citizens and permanent residents may sponsor certain family members. This is a separate application process from temporary status options like spouse work permits, visitor visas, or study permits. Sponsorship eligibility depends on the sponsor's status, income, and other factors — as well as the relationship type. Family sponsorship has its own official IRCC application process and requirements. <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/family-sponsorship.html" target="_blank" rel="noopener">IRCC — Family Sponsorship ↗</a></p>
+      </li>
+
+      <li class="pathway-item">
+        <div class="pathway-title">Spouse, Partner, and Child Sponsorship</div>
+        <p>IRCC has specific pages for sponsoring a spouse, common-law partner, conjugal partner, or dependent child for permanent residence. Not every spouse, partner, or child can be sponsored — eligibility depends on the sponsor's status and the relationship, and there are specific definition and documentation requirements. This sponsorship process is separate from temporary documents like open work permits or visitor visas. Verify who may be sponsored and how applications work directly with IRCC. <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/family-sponsorship/spouse-partner-children.html" target="_blank" rel="noopener">IRCC — Sponsor your spouse, partner, or child ↗</a> &nbsp; <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/family-sponsorship/spouse-partner-children/who-you-can-sponsor.html" target="_blank" rel="noopener">IRCC — Who you can sponsor ↗</a></p>
+      </li>
+
+      <li class="pathway-item">
+        <div class="pathway-title">Quebec and Province-Specific Programs</div>
+        <p>Quebec has its own immigration programs separate from federal Express Entry and may have different requirements. Other provinces may also have streams with specific eligibility rules. People researching PR in Quebec or a specific province should verify current requirements directly with the relevant official provincial program page, not only with IRCC federal pages.</p>
+      </li>
+
+    </ul>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 03 STUDENTS AND PGWP -->
+  <section class="section" id="students-pgwp">
+    <h2><span class="h2-num">03</span> Students and PGWP holders: how to think about the map</h2>
+    <p style="font-size:0.875rem;color:var(--text-soft);line-height:1.7;margin-bottom:1rem;">Studying in Canada or holding a PGWP does not automatically create a pathway to permanent residence. Understanding what these statuses may or may not mean for PR research can help avoid common misconceptions.</p>
+    <ul class="pathway-list">
+      <li class="pathway-item">
+        <div class="pathway-title">Study permit status itself is not PR</div>
+        <p>A study permit is a temporary document that allows someone to study in Canada. Completing a program in Canada may be one factor that matters for some PR pathways, but it does not automatically create eligibility for any PR program.</p>
+      </li>
+      <li class="pathway-item">
+        <div class="pathway-title">PGWP and Canadian work experience</div>
+        <p>A PGWP can allow some graduates to work in Canada after graduation, which may help them gain Canadian work experience. Canadian work experience may matter for some PR pathways — particularly Canadian Experience Class under Express Entry — but experience alone does not automatically qualify someone. Province, job type, language test results, NOC category, education, and other factors may all affect which official pages someone should read.</p>
+      </li>
+      <li class="pathway-item">
+        <div class="pathway-title">No universal "student to PR" route</div>
+        <p>There is no single PR pathway that applies to all international students or PGWP holders. Different situations may point toward different official starting points, and not every starting point will be relevant to every person. Verify your specific situation directly with IRCC.</p>
+      </li>
+    </ul>
+    <p style="font-size:0.78rem;color:var(--gray);margin-top:0.75rem;line-height:1.55;">Use the <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/come-canada-tool.html" target="_blank" rel="noopener" style="color:var(--teal);">IRCC Come to Canada tool ↗</a> as an official starting point to explore which pathways may be relevant to your situation.</p>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 04 FAMILY, SPOUSE, CHILDREN -->
+  <section class="section" id="family-spouse-children">
+    <h2><span class="h2-num">04</span> Family, spouse, and children: how to think about the map</h2>
+    <p style="font-size:0.875rem;color:var(--text-soft);line-height:1.7;margin-bottom:1rem;">Temporary family status and PR family sponsorship are separate processes with different documents, timelines, and outcomes. Understanding this distinction early can prevent costly assumptions.</p>
+    <ul class="pathway-list">
+      <li class="pathway-item">
+        <div class="pathway-title">Temporary status vs. PR sponsorship</div>
+        <p>A temporary spouse work permit, visitor visa, or study permit for a child is a temporary status only — it does not lead to permanent residence on its own. PR family sponsorship is a separate IRCC application process with its own requirements and timelines. These are not interchangeable paths.</p>
+      </li>
+      <li class="pathway-item">
+        <div class="pathway-title">Dependent children — verify rules directly</div>
+        <p>Dependent child rules include specific age limits and definitions that have changed in recent years. A child who qualifies as a dependent for one purpose may not automatically qualify for another. Verify current dependent child rules directly with IRCC before assuming a child is included in any application. <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/age-limit-requirements-dependent-children.html" target="_blank" rel="noopener">IRCC — Dependent children ↗</a></p>
+      </li>
+      <li class="pathway-item">
+        <div class="pathway-title">Family sponsorship has its own IRCC process</div>
+        <p>If the goal is permanent residence for a spouse, partner, or child, the official IRCC family sponsorship pages describe the application process. Do not assume a family member is included automatically without reading the correct IRCC page for the specific relationship type. <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/family-sponsorship/spouse-partner-children/apply.html" target="_blank" rel="noopener">IRCC — How to apply for spouse, partner, or child sponsorship ↗</a></p>
+      </li>
+    </ul>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 05 PROCESS MAP -->
+  <section class="section" id="process-map">
+    <h2><span class="h2-num">05</span> Process map — where to start</h2>
+    <p style="font-size:0.85rem;color:var(--text-soft);line-height:1.65;margin-bottom:1rem;">This map describes research steps, not application steps. Following this sequence may help identify which official IRCC pages are most relevant to your situation.</p>
+    <ol class="steps-list">
+
+      <li class="step">
+        <div class="step-num">01</div>
+        <div class="step-body">
+          <div class="step-title">Identify your current immigration status</div>
+          <div class="step-desc">Your starting point differs depending on whether you are a student, PGWP holder, temporary worker, family member, or other. Different statuses point toward different official IRCC pages.</div>
+        </div>
+      </li>
+
+      <li class="step">
+        <div class="step-num">02</div>
+        <div class="step-body">
+          <div class="step-title">List your Canadian and foreign work experience</div>
+          <div class="step-desc">Work experience — including job type, NOC category, and duration — may affect which PR pathways are worth researching. Gather your employment records, including letters and pay stubs, before researching specific eligibility criteria.</div>
+        </div>
+      </li>
+
+      <li class="step">
+        <div class="step-num">03</div>
+        <div class="step-body">
+          <div class="step-title">Check whether Express Entry is relevant to your situation</div>
+          <div class="step-desc">Read the official IRCC Express Entry pages to understand whether your situation may be relevant to CEC, FSW, or FSTP. Do not assume eligibility based on what worked for someone else. <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry.html" target="_blank" rel="noopener" style="color:var(--teal);font-weight:600;">IRCC — Express Entry ↗</a></div>
+        </div>
+      </li>
+
+      <li class="step">
+        <div class="step-num">04</div>
+        <div class="step-body">
+          <div class="step-title">Check whether your province has nominee streams relevant to your situation</div>
+          <div class="step-desc">Provincial nominee streams vary significantly. Some are Express Entry-linked; others follow a separate process. Research your province's current streams directly on the official provincial program page. <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/provincial-nominees.html" target="_blank" rel="noopener" style="color:var(--teal);font-weight:600;">IRCC — Provincial Nominee Program ↗</a></div>
+        </div>
+      </li>
+
+      <li class="step">
+        <div class="step-num">05</div>
+        <div class="step-body">
+          <div class="step-title">Check whether family sponsorship is relevant</div>
+          <div class="step-desc">If a family member's permanent residence is a goal, read the official IRCC family sponsorship pages to understand the process. Confirm who can be sponsored and what the eligibility conditions are. <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/family-sponsorship.html" target="_blank" rel="noopener" style="color:var(--teal);font-weight:600;">IRCC — Family Sponsorship ↗</a></div>
+        </div>
+      </li>
+
+      <li class="step">
+        <div class="step-num">06</div>
+        <div class="step-body">
+          <div class="step-title">If spouse, partner, or children are involved, separate temporary documents from PR sponsorship</div>
+          <div class="step-desc">Clearly distinguish what temporary permits cover from what PR family sponsorship covers. These are separate application processes with separate documents, timelines, and outcomes. Confusing them can lead to incorrect application choices.</div>
+        </div>
+      </li>
+
+      <li class="step">
+        <div class="step-num">07</div>
+        <div class="step-body">
+          <div class="step-title">Read the official IRCC or provincial checklist before preparing documents</div>
+          <div class="step-desc">Document requirements differ by program and individual situation. Use only the checklist from the current official IRCC or provincial program page — not social media lists or older versions of checklists.</div>
+        </div>
+      </li>
+
+      <li class="step">
+        <div class="step-num">08</div>
+        <div class="step-body">
+          <div class="step-title">Avoid relying on social media timelines, old CRS numbers, or unofficial draw predictions</div>
+          <div class="step-desc">CRS scores and draw results from past invitation rounds do not predict future results. Social media accounts, YouTube videos, and forums frequently contain outdated or incomplete information. The only reliable source for current draw results and program status is IRCC directly.</div>
+        </div>
+      </li>
+
+      <li class="step">
+        <div class="step-num">09</div>
+        <div class="step-body">
+          <div class="step-title">Save official pages and re-check them before applying</div>
+          <div class="step-desc">Bookmark the official IRCC pages relevant to your research. Before taking any application step, return to those pages to confirm the information is still current — rules change, and pages are updated without notice.</div>
+        </div>
+      </li>
+
+    </ol>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 06 DOCUMENTS -->
+  <section class="section" id="documents">
+    <h2><span class="h2-num">06</span> Documents people often start tracking</h2>
+    <p style="font-size:0.85rem;color:var(--text-soft);line-height:1.65;margin-bottom:1rem;">These are documents that commonly appear across various PR application types. Not all of these will apply to every situation. Always use the official IRCC or provincial checklist for the specific program you may be researching.</p>
+    <ul class="checklist">
+      <li><div class="check-box"></div><div><strong>Passport</strong> — Valid and up to date. Check expiry dates carefully before any application.</div></li>
+      <li><div class="check-box"></div><div><strong>Current and past permits</strong> — Study permits, work permits, PGWP, and any extensions. Keep all pages.</div></li>
+      <li><div class="check-box"></div><div><strong>Educational documents</strong> — Degree, diploma, transcripts, and completion letters from educational institutions.</div></li>
+      <li><div class="check-box"></div><div><strong>Language test results</strong> — If required by the program. Check current language requirements on the specific IRCC program page.</div></li>
+      <li><div class="check-box"></div><div><strong>Employment letters and pay records</strong> — From current and past employers, confirming job title, duties, duration, and hours worked.</div></li>
+      <li><div class="check-box"></div><div><strong>Tax documents or Notices of Assessment</strong> — If relevant to the program or sponsorship requirements.</div></li>
+      <li><div class="check-box"></div><div><strong>Proof of relationship</strong> — If researching family sponsorship. Requirements differ for spouses, common-law partners, and conjugal partners.</div></li>
+      <li><div class="check-box"></div><div><strong>Marriage certificate or common-law evidence</strong> — If applicable. Common-law relationships typically require cohabitation evidence.</div></li>
+      <li><div class="check-box"></div><div><strong>Child documents</strong> — If dependants are involved. Verify current IRCC dependent child rules before assuming inclusion.</div></li>
+      <li><div class="check-box"></div><div><strong>Provincial nomination documents</strong> — If a provincial nominee stream may be relevant to your situation.</div></li>
+      <li><div class="check-box"></div><div><strong>Official IRCC or provincial checklist for the specific program</strong> — Always use the current official checklist, not a third-party summary.</div></li>
+    </ul>
+    <p class="checklist-note">Documents depend on the program and your specific situation. This list is not a checklist for any specific application.</p>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 07 COMMON MISTAKES -->
+  <section class="section" id="mistakes">
+    <h2><span class="h2-num">07</span> Common mistakes to avoid</h2>
+    <ul class="misses-list">
+      <li class="miss-item">
+        <div class="miss-title">Thinking PGWP automatically leads to PR</div>
+        <p>A PGWP is a temporary work permit. Holding a PGWP may allow someone to gain Canadian work experience that could be relevant to some PR pathways, but it does not automatically create PR eligibility.</p>
+      </li>
+      <li class="miss-item">
+        <div class="miss-title">Assuming all students use the same pathway</div>
+        <p>There is no single PR pathway that applies to all international students. Different situations — program type, province, work experience, language, family — may point toward different official starting points.</p>
+      </li>
+      <li class="miss-item">
+        <div class="miss-title">Confusing CRS score with eligibility</div>
+        <p>A CRS score can be calculated, but a score alone does not mean someone qualifies for any program. Eligibility depends on meeting specific criteria for the program, not just having a score above a past draw cutoff.</p>
+      </li>
+      <li class="miss-item">
+        <div class="miss-title">Relying on old draw scores</div>
+        <p>Past CRS cutoffs from invitation rounds do not predict future cutoffs. Draw scores fluctuate based on the pool of candidates and the type of draw. Using old numbers to estimate chances is not reliable.</p>
+      </li>
+      <li class="miss-item">
+        <div class="miss-title">Ignoring province-specific rules</div>
+        <p>Provincial nominee programs have their own streams, requirements, and eligibility rules that may differ significantly from federal Express Entry programs. Research your province's current streams directly — do not assume federal and provincial rules are the same.</p>
+      </li>
+      <li class="miss-item">
+        <div class="miss-title">Confusing temporary spouse work permits with PR family sponsorship</div>
+        <p>A temporary spouse open work permit allows a spouse to work in Canada temporarily. Family sponsorship for permanent residence is a separate process with different documents, requirements, and outcomes. These are not interchangeable.</p>
+      </li>
+      <li class="miss-item">
+        <div class="miss-title">Treating visitor visas, work permits, and PR sponsorship as the same process</div>
+        <p>Each of these is a separate IRCC application stream with different criteria, fees, and results. Confusing them can lead to applying for the wrong document or missing the right one entirely.</p>
+      </li>
+      <li class="miss-item">
+        <div class="miss-title">Assuming children are automatically included without checking dependent-child rules</div>
+        <p>Children may need their own documentation depending on age, plans, and application type. Dependent child age limits and definitions have changed in recent years. Verify the current IRCC rules before assuming a child is included in any application.</p>
+      </li>
+      <li class="miss-item">
+        <div class="miss-title">Waiting too long to collect employment records</div>
+        <p>Employment letters, pay stubs, and records of duties can take time to gather — especially from past employers. Collect them as you go rather than waiting until an application is imminent.</p>
+      </li>
+      <li class="miss-item">
+        <div class="miss-title">Trusting social media screenshots over official pages</div>
+        <p>Screenshots of draw results, eligibility summaries, and program information circulate widely on social media. These may be outdated, incomplete, or inaccurate. Always return to the official IRCC or provincial program page to verify.</p>
+      </li>
+      <li class="miss-item">
+        <div class="miss-title">Assuming a pathway is open because a friend used it last year</div>
+        <p>PR programs can change eligibility rules, pause streams, or open new streams without much notice. What applied to someone else's situation last year may not apply to your situation today. Always verify the current status of any program before acting on someone else's experience.</p>
+      </li>
+    </ul>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 08 OFFICIAL LINKS -->
+  <section class="section" id="links">
+    <h2><span class="h2-num">08</span> Official IRCC sources to read first</h2>
+    <p style="font-size:0.85rem;color:var(--text-soft);line-height:1.65;margin-bottom:1rem;">Use these official IRCC pages to start your research. Do not rely on secondary summaries of these pages — the details matter and change.</p>
+    <ul class="links-list">
+      <li><a class="gov-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada.html" target="_blank" rel="noopener">
+        <div class="gov-icon">🍁</div>
+        <div class="gov-text">
+          <div class="gov-title">IRCC — Immigrate to Canada</div>
+          <div class="gov-subtitle">Official IRCC page ↗</div>
+          <div class="gov-url">canada.ca → immigrate-canada</div>
+        </div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+      <li><a class="gov-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry.html" target="_blank" rel="noopener">
+        <div class="gov-icon">📋</div>
+        <div class="gov-text">
+          <div class="gov-title">IRCC — Express Entry</div>
+          <div class="gov-subtitle">Official IRCC page ↗</div>
+          <div class="gov-url">canada.ca → immigrate-canada → express-entry</div>
+        </div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+      <li><a class="gov-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/who-can-apply/canadian-experience-class.html" target="_blank" rel="noopener">
+        <div class="gov-icon">🏢</div>
+        <div class="gov-text">
+          <div class="gov-title">IRCC — Canadian Experience Class</div>
+          <div class="gov-subtitle">Official IRCC page ↗</div>
+          <div class="gov-url">canada.ca → express-entry → who-can-apply → canadian-experience-class</div>
+        </div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+      <li><a class="gov-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/who-can-apply/federal-skilled-workers.html" target="_blank" rel="noopener">
+        <div class="gov-icon">💼</div>
+        <div class="gov-text">
+          <div class="gov-title">IRCC — Federal Skilled Worker Program</div>
+          <div class="gov-subtitle">Official IRCC page ↗</div>
+          <div class="gov-url">canada.ca → express-entry → who-can-apply → federal-skilled-workers</div>
+        </div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+      <li><a class="gov-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/provincial-nominees.html" target="_blank" rel="noopener">
+        <div class="gov-icon">🏛️</div>
+        <div class="gov-text">
+          <div class="gov-title">IRCC — Provincial Nominee Program</div>
+          <div class="gov-subtitle">Official IRCC page ↗</div>
+          <div class="gov-url">canada.ca → immigrate-canada → provincial-nominees</div>
+        </div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+      <li><a class="gov-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/provincial-nominees/express-entry.html" target="_blank" rel="noopener">
+        <div class="gov-icon">🔗</div>
+        <div class="gov-text">
+          <div class="gov-title">IRCC — PNP Express Entry process</div>
+          <div class="gov-subtitle">Official IRCC page ↗</div>
+          <div class="gov-url">canada.ca → provincial-nominees → express-entry</div>
+        </div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+      <li><a class="gov-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/provincial-nominees/non-express-entry.html" target="_blank" rel="noopener">
+        <div class="gov-icon">🔗</div>
+        <div class="gov-text">
+          <div class="gov-title">IRCC — PNP non-Express Entry process</div>
+          <div class="gov-subtitle">Official IRCC page ↗</div>
+          <div class="gov-url">canada.ca → provincial-nominees → non-express-entry</div>
+        </div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+      <li><a class="gov-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/family-sponsorship.html" target="_blank" rel="noopener">
+        <div class="gov-icon">👨‍👩‍👧</div>
+        <div class="gov-text">
+          <div class="gov-title">IRCC — Family Sponsorship</div>
+          <div class="gov-subtitle">Official IRCC page ↗</div>
+          <div class="gov-url">canada.ca → immigrate-canada → family-sponsorship</div>
+        </div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+      <li><a class="gov-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/family-sponsorship/spouse-partner-children.html" target="_blank" rel="noopener">
+        <div class="gov-icon">💑</div>
+        <div class="gov-text">
+          <div class="gov-title">IRCC — Sponsor your spouse, partner, or child</div>
+          <div class="gov-subtitle">Official IRCC page ↗</div>
+          <div class="gov-url">canada.ca → family-sponsorship → spouse-partner-children</div>
+        </div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+      <li><a class="gov-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/family-sponsorship/spouse-partner-children/who-you-can-sponsor.html" target="_blank" rel="noopener">
+        <div class="gov-icon">✅</div>
+        <div class="gov-text">
+          <div class="gov-title">IRCC — Who you can sponsor</div>
+          <div class="gov-subtitle">Official IRCC page ↗</div>
+          <div class="gov-url">canada.ca → spouse-partner-children → who-you-can-sponsor</div>
+        </div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+      <li><a class="gov-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/family-sponsorship/spouse-partner-children/apply.html" target="_blank" rel="noopener">
+        <div class="gov-icon">📝</div>
+        <div class="gov-text">
+          <div class="gov-title">IRCC — How to apply for spouse, partner, or child sponsorship</div>
+          <div class="gov-subtitle">Official IRCC page ↗</div>
+          <div class="gov-url">canada.ca → spouse-partner-children → apply</div>
+        </div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+      <li><a class="gov-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/age-limit-requirements-dependent-children.html" target="_blank" rel="noopener">
+        <div class="gov-icon">👶</div>
+        <div class="gov-text">
+          <div class="gov-title">IRCC — Dependent children</div>
+          <div class="gov-subtitle">Official IRCC page ↗</div>
+          <div class="gov-url">canada.ca → immigrate-canada → age-limit-requirements-dependent-children</div>
+        </div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+      <li><a class="gov-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/come-canada-tool.html" target="_blank" rel="noopener">
+        <div class="gov-icon">🧭</div>
+        <div class="gov-text">
+          <div class="gov-title">IRCC — Come to Canada tool</div>
+          <div class="gov-subtitle">Official IRCC tool ↗</div>
+          <div class="gov-url">canada.ca → come-canada-tool</div>
+        </div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+    </ul>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 09 WHAT COMES NEXT -->
+  <section class="section" id="next">
+    <h2><span class="h2-num">09</span> Related guides</h2>
+    <p style="font-size:0.85rem;color:var(--text-soft);line-height:1.65;margin-bottom:1rem;">These guides cover related immigration and settlement steps that often come before or alongside PR research.</p>
+    <div class="next-grid">
+      <a class="next-card" href="/pgwp.html">
+        <div class="next-card-label">Work permit</div>
+        <div class="next-card-title">PGWP Guide</div>
+        <div class="next-card-arrow">Post-Graduation Work Permit steps →</div>
+      </a>
+      <a class="next-card" href="/spouse-work-permit.html">
+        <div class="next-card-label">Family &amp; immigration</div>
+        <div class="next-card-title">Spouse Work Permit Guide</div>
+        <div class="next-card-arrow">Temporary spouse permit process →</div>
+      </a>
+      <a class="next-card" href="/taxes.html">
+        <div class="next-card-label">Tax filing</div>
+        <div class="next-card-title">Tax Filing Guide</div>
+        <div class="next-card-arrow">Annual tax filing for newcomers →</div>
+      </a>
+    </div>
+  </section>
+
+  <!-- DISCLAIMER -->
+  <div class="disclaimer">
+    <strong>This page is for educational and navigational purposes only.</strong><br>
+    It does not constitute legal or immigration advice. This guide does not determine PR eligibility, calculate CRS, predict draws, recommend a pathway, or confirm family sponsorship eligibility. PR rules, program streams, draws, family sponsorship rules, and eligibility requirements change — always verify your current situation directly with <a href="https://www.canada.ca/en/immigration-refugees-citizenship.html" target="_blank" rel="noopener">IRCC</a> and official provincial program pages before making any application decisions. For advice specific to your situation, consult a <a href="https://college-ic.ca/protecting-the-public/find-an-immigration-consultant" target="_blank" rel="noopener">Regulated Canadian Immigration Consultant (RCIC)</a> or licensed immigration lawyer.
+  </div>
+
+</main>
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <div>Independent newcomer resource for Canada. Links directly to official government and institutional sources.</div>
+    <div>Not affiliated with IRCC or the Government of Canada. Educational and navigational use only.</div>
+    <div class="footer-links">
+      <a href="/index.html">All guides</a>
+      <a href="/pr-pathways.html">PR Pathways</a>
+      <a href="/pgwp.html">PGWP</a>
+      <a href="/spouse-work-permit.html">Spouse Work Permit</a>
+      <a href="/sin.html">SIN</a>
+      <a href="/taxes.html">Taxes</a>
+      <a href="/bank-account.html">Banking</a>
+      <a href="/gic-unlock.html">GIC Unlock</a>
+      <a href="/cra-account.html">CRA Account</a>
+      <a href="/ontario-drivers-license.html">Driver's License</a>
+      <a href="/phone-plan.html">Phone Plan</a>
+      <a href="/ontario-photo-card.html">Photo Card</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

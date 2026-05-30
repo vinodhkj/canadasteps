@@ -8,6 +8,7 @@ Phase 1 - Editorial redesign refinement
 
 ## Live pages
 
+- `pr-pathways.html` - PR pathways navigation guide, live at canadasteps.ca/pr-pathways.html
 - `index.html` - guides homepage, live at canadasteps.ca/
 - `pgwp.html` - PGWP guide, live at canadasteps.ca/pgwp.html
 - `spouse-work-permit.html` - spouse open work permit navigation guide, live at canadasteps.ca/spouse-work-permit.html
@@ -30,6 +31,10 @@ Phase 1 - Editorial redesign refinement
 - SSL certificate active
 
 ## Last change
+
+May 29 - PR Pathways Guide added: pr-pathways.html created (9 sections, IRCC-only sources, strict no-eligibility-advice guardrails, higher-risk immigration topic); index.html updated with new PR Pathways section and nav; PR Pathways nav link and footer link added to all 12 pages; related-guide transitions added to pgwp.html and spouse-work-permit.html; R10 risk logged.
+
+## Previous change
 
 May 29 - Spouse Open Work Permit Guide added: spouse-work-permit.html created (7 sections, IRCC sources only, process-navigation framing, strict immigration-advice guardrails); index.html updated with guide entry under Graduation & Immigration; footer updated on all 11 pages.
 
