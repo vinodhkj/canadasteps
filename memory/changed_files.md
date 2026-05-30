@@ -1,6 +1,21 @@
 # Changed Files
 
 ---
+## 2026-05-30 - SEO setup: sitemap and robots
+
+**Created:**
+- `sitemap.xml` — homepage + 11 public guide pages; excludes Pages/pgwp-v01.html (draft) and all internal/memory files; lastmod 2026-05-29
+- `robots.txt` — allows all crawlers; references https://canadasteps.ca/sitemap.xml
+
+**Note:** Google Search Console domain ownership verified via DNS prior to this commit.
+
+**Modified:**
+- `memory/current_state.md` — SEO setup recorded
+- `memory/next_prompt.md` — post-deploy verification steps added
+- `memory/changed_files.md` — this entry
+- `daily.md` — appended session log line
+
+---
 ## 2026-05-29 - PR/legal-risk cleanup (post-Gemini validation)
 
 **Modified:**

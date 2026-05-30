@@ -3,6 +3,9 @@
 One entry per working session. Most recent first.
 
 ---
+## 2026-05-30
+May 30 - SEO setup: sitemap.xml + robots.txt created at site root; Google Search Console domain verified via DNS; pending deploy and Search Console sitemap submission.
+
 ## 2026-05-29
 May 29 - PR nav restored: PR link re-added as last nav item on all 12 pages; long labels shortened (Work & Life, Graduation) for mobile fit; PR section stays as long-term planning section on homepage.
 May 29 - PR nav/risk cleanup: PR removed from top nav on all 12 pages; pr-pathways.html intro made explicit (plain-English map, no eligibility/CRS/draws/recommendations); spouse-work-permit.html got bridge warning (temp status vs PR sponsorship separate). R11-R13 risks logged.

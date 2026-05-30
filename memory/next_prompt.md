@@ -45,8 +45,12 @@ Do not touch unless explicitly requested:
 - agent workflow/memory format
 - .site-footer-inner margin (stays centered)
 
-Next priority:
-- User to review newcomer journey sequencing on live site after push
-- All guide page nav anchors are now consistent with renamed homepage sections
-- Content expansion only from user-validated priorities.
+SEO next steps (after deploy):
+- Verify https://canadasteps.ca/sitemap.xml shows XML in browser
+- Verify https://canadasteps.ca/robots.txt loads correctly
+- Submit sitemap.xml in Google Search Console
+
+UI redesign work with Claude Design is ongoing — keep separate from SEO commit.
+
+Content expansion only from user-validated priorities.
 ---

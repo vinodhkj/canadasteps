@@ -32,6 +32,10 @@ Phase 1 - Editorial redesign refinement
 
 ## Last change
 
+May 30 - SEO setup: sitemap.xml and robots.txt created at site root. Sitemap includes homepage + 11 public guide pages (no drafts or internal files). Google Search Console domain ownership verified via DNS. Next: deploy, verify URLs live, then submit sitemap in Search Console. UI redesign work with Claude Design is separate and ongoing — do not mix with this commit.
+
+## Previous change
+
 May 29 - PR nav restored: PR link added back to all 12 pages as last nav item; `Working & Daily Life` shortened to `Work & Life`; `Graduation & Immigration` shortened to `Graduation` for mobile fit. PR section remains in its own homepage section (long-term planning, not day-one).
 
 May 29 - PR nav/risk cleanup: PR nav link removed from all 12 pages (footer links and page content unaffected); pr-pathways.html intro reframed to explicit plain-English map statement with negations; spouse-work-permit.html gained standalone bridge warning note (temp status vs PR sponsorship are separate IRCC processes).
