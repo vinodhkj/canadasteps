@@ -4,6 +4,7 @@ One entry per working session. Most recent first.
 
 ---
 ## 2026-05-30
+May 30 - GA4 added: tag G-4M1LTVRG81 inserted after <head> on all 12 public HTML pages; draft/internal files skipped; pending deploy and Realtime verification.
 May 30 - SEO setup: sitemap.xml + robots.txt created at site root; Google Search Console domain verified via DNS; pending deploy and Search Console sitemap submission.
 
 ## 2026-05-29

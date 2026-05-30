@@ -1,6 +1,17 @@
 # Changed Files
 
 ---
+## 2026-05-30 - GA4 analytics added
+
+**Modified (all 12 public pages):**
+- `index.html`, `sin.html`, `bank-account.html`, `cra-account.html`, `gic-unlock.html`, `ontario-drivers-license.html`, `ontario-photo-card.html`, `pgwp.html`, `phone-plan.html`, `pr-pathways.html`, `spouse-work-permit.html`, `taxes.html` — GA4 tag (G-4M1LTVRG81) inserted immediately after `<head>`; no other changes
+
+**Skipped:** `Pages/pgwp-v01.html`, all `.md`, memory, docs
+
+**Also modified:**
+- `memory/current_state.md`, `memory/next_prompt.md`, `memory/changed_files.md`, `daily.md`
+
+---
 ## 2026-05-30 - SEO setup: sitemap and robots
 
 **Created:**

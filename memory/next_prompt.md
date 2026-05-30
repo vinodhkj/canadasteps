@@ -45,6 +45,11 @@ Do not touch unless explicitly requested:
 - agent workflow/memory format
 - .site-footer-inner margin (stays centered)
 
+Analytics next steps (after deploy):
+- Open GA4 → Reports → Realtime — confirm hits are coming in
+- Check Cloudflare Web Analytics / Core Web Vitals — confirm performance remains green
+- Measurement ID: G-4M1LTVRG81
+
 SEO next steps (after deploy):
 - Verify https://canadasteps.ca/sitemap.xml shows XML in browser
 - Verify https://canadasteps.ca/robots.txt loads correctly

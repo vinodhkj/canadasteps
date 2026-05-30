@@ -32,6 +32,10 @@ Phase 1 - Editorial redesign refinement
 
 ## Last change
 
+May 30 - GA4 added: Google Analytics 4 tag (G-4M1LTVRG81) inserted immediately after <head> on all 12 public HTML pages. Draft/internal files skipped. Next: deploy to Cloudflare Pages, verify in GA4 Realtime, monitor Cloudflare Core Web Vitals for regressions. UI redesign with Claude Design is separate — do not mix with this commit.
+
+## Previous change
+
 May 30 - SEO setup: sitemap.xml and robots.txt created at site root. Sitemap includes homepage + 11 public guide pages (no drafts or internal files). Google Search Console domain ownership verified via DNS. Next: deploy, verify URLs live, then submit sitemap in Search Console. UI redesign work with Claude Design is separate and ongoing — do not mix with this commit.
 
 ## Previous change
