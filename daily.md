@@ -4,6 +4,7 @@ One entry per working session. Most recent first.
 
 ---
 ## 2026-05-29
+May 29 - PR nav/risk cleanup: PR removed from top nav on all 12 pages; pr-pathways.html intro made explicit (plain-English map, no eligibility/CRS/draws/recommendations); spouse-work-permit.html got bridge warning (temp status vs PR sponsorship separate). R11-R13 risks logged.
 May 29 - PR/legal-risk cleanup: spouse-work-permit.html reality-check tightened (temp vs PR distinction explicit); nav label "PR Pathways" → "PR" across all 12 pages. No layout changes.
 May 29 - PR Pathways Guide added: pr-pathways.html created (9 sections, IRCC sources only, no eligibility claims, no CRS commentary, no draw predictions, strict immigration-advice guardrails); index.html updated with new PR Pathways section, nav link, and footer; PR Pathways nav link and footer added to all 11 existing pages; related-guide transitions added to pgwp.html and spouse-work-permit.html; R10 risk logged.
 May 29 - Spouse Open Work Permit Guide added: spouse-work-permit.html created (7 sections, IRCC sources, process-navigation only, Jan 2025 rule change noted, strict no-eligibility-advice guardrails); index.html updated under Graduation & Immigration; footer updated on all 11 pages; R9 risk logged.

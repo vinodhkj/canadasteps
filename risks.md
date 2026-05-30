@@ -94,3 +94,26 @@ Format: **Risk** → Likelihood · Impact → Mitigation
 | R8 | Scope creep | High | Medium | Mitigated (process) |
 | R9 | Monetization pressure | Low | Critical | Deferred |
 | R10 | IRCC self-improves | Low | High | Accepted |
+
+---
+
+## Immigration-specific content risks
+
+### R11 — PR pathways page becomes de facto eligibility advice
+**Risk:** Users read the PR Pathways page as confirmation of their eligibility, particularly after social media shares misrepresent it.
+**Likelihood:** Medium
+**Impact:** High — harms user, damages credibility, potential liability
+**Mitigation:** Page intro now explicitly states what it does not do (no CRS, no draws, no pathway recommendation, no eligibility evaluation). Official-source-map framing throughout. No CRS or draw history to be added.
+
+### R12 — Spouse/family page conflates temp status with PR sponsorship
+**Risk:** A user reads the Spouse Work Permit guide and assumes filing a PR sponsorship extends their temporary status or work rights.
+**Likelihood:** Medium
+**Impact:** High — user may let status lapse or work without authorization
+**Mitigation:** Bridge warning note added explicitly stating temp status and PR sponsorship are separate IRCC processes. Links directly to official IRCC family sponsorship page.
+
+### R13 — PR and spouse/family pages require ongoing maintenance
+**Risk:** CRS, draws, PNP details, BOWP guidance, H1B pathways, refusal/PFL content are high-churn and high-risk. Adding these would require frequent updates and increase liability.
+**Likelihood:** High (for content drift if new details added)
+**Impact:** High
+**Mitigation:** These pages must remain as official-source maps only. Never add: CRS commentary, draw history, processing-time promises, spouse sponsorship strategy, dependent-child age-lock explanation, province-specific PR stream details, BOWP guidance, H1B pathway guidance, refusal/PFL/misrepresentation content.
+
