@@ -32,6 +32,8 @@ Phase 1 - Editorial redesign refinement
 
 ## Last change
 
+May 29 - PR nav restored: PR link added back to all 12 pages as last nav item; `Working & Daily Life` shortened to `Work & Life`; `Graduation & Immigration` shortened to `Graduation` for mobile fit. PR section remains in its own homepage section (long-term planning, not day-one).
+
 May 29 - PR nav/risk cleanup: PR nav link removed from all 12 pages (footer links and page content unaffected); pr-pathways.html intro reframed to explicit plain-English map statement with negations; spouse-work-permit.html gained standalone bridge warning note (temp status vs PR sponsorship are separate IRCC processes).
 
 May 29 - PR/legal-risk cleanup: spouse-work-permit.html reality-check gained two explicit bullets (Spouse Open Work Permit is temporary only; visitor visas/work permits/PR sponsorship are different processes); nav label "PR Pathways" → "PR" on all 12 pages (mobile wrapping; homepage section title unchanged). No layout, color, or content structure changes.
