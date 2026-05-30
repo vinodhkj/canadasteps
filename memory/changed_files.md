@@ -1,6 +1,27 @@
 # Changed Files
 
 ---
+## 2026-05-29 - PR/legal-risk cleanup (post-Gemini validation)
+
+**Modified:**
+- `spouse-work-permit.html` — reality-check: added two explicit bullets clarifying (1) Spouse Open Work Permit is temporary work authorization only, not PR; (2) visitor visas/work permits/PR sponsorship are separate IRCC processes
+- `pr-pathways.html` — nav label: "PR Pathways" → "PR" (mobile; section title and track-tag unchanged)
+- `index.html` — nav label: same
+- `pgwp.html` — nav label: same
+- `sin.html` — nav label: same
+- `taxes.html` — nav label: same
+- `cra-account.html` — nav label: same
+- `bank-account.html` — nav label: same
+- `gic-unlock.html` — nav label: same
+- `ontario-drivers-license.html` — nav label: same
+- `phone-plan.html` — nav label: same
+- `ontario-photo-card.html` — nav label: same
+- `memory/current_state.md` — recorded this change
+- `memory/changed_files.md` — this entry
+- `memory/risks.md` — no new risks; existing R10/R9 still active
+- `daily.md` — appended session log line
+
+---
 ## 2026-05-29 - PR Pathways Guide added
 
 **Created:**

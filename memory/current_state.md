@@ -32,6 +32,10 @@ Phase 1 - Editorial redesign refinement
 
 ## Last change
 
+May 29 - PR/legal-risk cleanup: spouse-work-permit.html reality-check gained two explicit bullets (Spouse Open Work Permit is temporary only; visitor visas/work permits/PR sponsorship are different processes); nav label "PR Pathways" → "PR" on all 12 pages (mobile wrapping; homepage section title unchanged). No layout, color, or content structure changes.
+
+## Previous change
+
 May 29 - PR Pathways Guide added: pr-pathways.html created (9 sections, IRCC-only sources, strict no-eligibility-advice guardrails, higher-risk immigration topic); index.html updated with new PR Pathways section and nav; PR Pathways nav link and footer link added to all 12 pages; related-guide transitions added to pgwp.html and spouse-work-permit.html; R10 risk logged.
 
 ## Previous change
