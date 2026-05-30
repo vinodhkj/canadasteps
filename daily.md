@@ -4,6 +4,7 @@ One entry per working session. Most recent first.
 
 ---
 ## 2026-05-29
+May 29 - Spouse Open Work Permit Guide added: spouse-work-permit.html created (7 sections, IRCC sources, process-navigation only, Jan 2025 rule change noted, strict no-eligibility-advice guardrails); index.html updated under Graduation & Immigration; footer updated on all 11 pages; R9 risk logged.
 May 29 - GIC Unlock Guide added: gic-unlock.html created (8 sections, IRCC sources, question cards pattern); index.html updated with guide entry; bank-account.html updated with transition card; GIC Unlock added to footer on all 10 pages.
 May 29 - Mobile readability pass: nav links now wrap on mobile; topbar/nav padding reduced to 1.1rem on mobile; founder-note converted from inline style to class across 7 guide pages. All 9 pages, CSS only.
 May 29 - Trust clarity pass: topbar simplified to "Independent guide. Official sources linked on each page." across all 9 pages; CRA My Account sequencing strengthened in cra-account.html and taxes.html.

@@ -5,6 +5,7 @@ _Quick-reference version. Full risk register is in `risks.md`._
 ## Watch closely
 
 - **Content rot (R1):** IRCC changes policies frequently. Every page needs a "last verified" date in the source log.
+- **Spouse work permit (R9 — higher risk):** IRCC family open work permit rules changed January 21, 2025 and may change again. spouse-work-permit.html is a process-navigation page only — no eligibility claims made. Must be re-verified against IRCC before each deployment cycle. If IRCC changes eligibility criteria, the page may create false impressions even with careful language. Review for currency whenever IRCC announces changes to temporary resident family permits.
 - **Scope creep (R8):** Features get proposed constantly. Default is "not yet." See rejected_approaches.md.
 
 ## Currently accepted (not mitigated)

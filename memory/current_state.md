@@ -10,6 +10,7 @@ Phase 1 - Editorial redesign refinement
 
 - `index.html` - guides homepage, live at canadasteps.ca/
 - `pgwp.html` - PGWP guide, live at canadasteps.ca/pgwp.html
+- `spouse-work-permit.html` - spouse open work permit navigation guide, live at canadasteps.ca/spouse-work-permit.html
 - `sin.html` - SIN guide, live at canadasteps.ca/sin.html
 - `taxes.html` - tax filing guide, live at canadasteps.ca/taxes.html
 - `cra-account.html` - CRA My Account guide, live at canadasteps.ca/cra-account.html
@@ -29,6 +30,10 @@ Phase 1 - Editorial redesign refinement
 - SSL certificate active
 
 ## Last change
+
+May 29 - Spouse Open Work Permit Guide added: spouse-work-permit.html created (7 sections, IRCC sources only, process-navigation framing, strict immigration-advice guardrails); index.html updated with guide entry under Graduation & Immigration; footer updated on all 11 pages.
+
+## Previous change
 
 May 29 - GIC Unlock Guide added: gic-unlock.html created (8 sections, IRCC sources); index.html updated with guide entry under Just Arrived; bank-account.html updated with GIC Unlock transition card; GIC Unlock added to footer on all 10 pages.
 

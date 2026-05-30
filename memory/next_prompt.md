@@ -9,6 +9,7 @@ Current workflow:
 Current pages:
 - index.html
 - pgwp.html
+- spouse-work-permit.html
 - sin.html
 - taxes.html
 - cra-account.html

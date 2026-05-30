@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spouse Open Work Permit Guide | CanadaSteps</title>
+<meta name="description" content="Where spouse and family work permit rules fit, what not to assume, and which IRCC pages to verify before applying. Process navigation only — not immigration advice.">
+<style>
+  :root {
+    --bg: #f8f5ee;
+    --bg-card: #fffdf8;
+    --bg-soft: #f1ebe1;
+    --navy: #1a2640;
+    --navy-mid: #243352;
+    --red: #b91c1c;
+    --teal: #166b61;
+    --teal-light: #e8f0ec;
+    --amber: #d97706;
+    --amber-light: #fef9c3;
+    --green: #166534;
+    --green-light: #dcfce7;
+    --gray: #6b7280;
+    --gray-light: #e5e7eb;
+    --text: #1f2937;
+    --text-soft: #465264;
+    --border: #ded6ca;
+    --step-line: #d0c3ab;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    font-size: 17px;
+  }
+
+  /* TOP BAR */
+  .topbar {
+    background: var(--navy);
+    color: rgba(255,255,255,0.65);
+    font-size: 0.74rem;
+    padding: 0.45rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .topbar a { color: rgba(255,255,255,0.72); text-decoration: none; }
+  .topbar a:hover { text-decoration: underline; }
+
+  /* NAV */
+  nav {
+    background: var(--bg-card);
+    border-bottom: 2px solid var(--navy);
+    padding: 0.9rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }
+
+  .nav-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--navy);
+    text-decoration: none;
+    letter-spacing: -0.3px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+  .logo span { color: var(--teal); }
+  .logo-mark {
+    width: 0.72em;
+    height: 0.72em;
+    color: var(--red);
+    opacity: 0.78;
+    flex-shrink: 0;
+  }
+
+  .nav-crumb {
+    font-size: 0.75rem;
+    color: var(--gray);
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  .nav-crumb strong { color: var(--text-soft); font-weight: 600; }
+
+  .nav-links {
+    display: flex;
+    gap: 1.25rem;
+  }
+  .nav-links a {
+    font-size: 0.86rem;
+    color: var(--gray);
+    text-decoration: none;
+  }
+  .nav-links a:hover { color: var(--teal); }
+  .nav-links a.current { color: var(--navy-mid); font-weight: 500; }
+
+  /* TRUST STRIP */
+  .founder-note {
+    background: var(--bg-card);
+    border-bottom: 1px solid var(--border);
+    padding: 0.55rem 2rem;
+    font-size: 0.75rem;
+    color: var(--text-soft);
+    line-height: 1.55;
+  }
+  .founder-note small {
+    display: block;
+    margin-top: 0.25rem;
+    font-size: 0.68rem;
+    color: var(--gray);
+  }
+
+  /* PAGE LAYOUT */
+  .page-wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2.55rem 2.25rem 4.75rem;
+  }
+
+  /* HEADER */
+  .page-header {
+    margin-bottom: 1.45rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .track-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: rgba(36,51,82,0.08);
+    color: var(--navy-mid);
+    border: 1px solid rgba(36,51,82,0.18);
+    padding: 0.25rem 0.75rem;
+    border-radius: 100px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 0.9rem;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  }
+
+  h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.6rem, 4vw, 2.2rem);
+    font-weight: 700;
+    color: var(--navy);
+    line-height: 1.25;
+    margin-bottom: 0.6rem;
+    letter-spacing: -0.2px;
+  }
+
+  .page-desc {
+    font-size: 1rem;
+    color: var(--text-soft);
+    line-height: 1.7;
+    max-width: 620px;
+  }
+
+  .muted-note {
+    margin-top: 0.75rem;
+    font-size: 0.78rem;
+    color: var(--gray);
+    line-height: 1.55;
+    font-style: italic;
+  }
+
+  .meta-row {
+    display: flex;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+    margin-top: 1.1rem;
+  }
+
+  .meta-item {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.75rem;
+    color: var(--gray);
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  }
+
+  .meta-dot {
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    background: var(--navy-mid);
+    flex-shrink: 0;
+  }
+  .meta-dot.amber { background: var(--amber); }
+
+  /* REALITY CHECK */
+  .reality-check {
+    background: var(--amber-light);
+    border: 1px solid rgba(217,119,6,0.25);
+    border-left: 4px solid var(--amber);
+    border-radius: 8px;
+    padding: 1rem 1.1rem;
+    margin-bottom: 1.45rem;
+    font-size: 0.84rem;
+    color: #78350f;
+    line-height: 1.6;
+  }
+  .reality-check strong {
+    display: block;
+    font-weight: 700;
+    font-size: 0.82rem;
+    color: #92400e;
+    margin-bottom: 0.55rem;
+  }
+  .reality-check ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-left: 0;
+  }
+  .reality-check ul li {
+    display: flex;
+    gap: 0.5rem;
+    line-height: 1.55;
+  }
+  .reality-check ul li::before {
+    content: '→';
+    flex-shrink: 0;
+    color: var(--amber);
+    font-weight: 600;
+  }
+
+  /* SECTION */
+  .section {
+    margin-bottom: 2rem;
+    scroll-margin-top: 8.5rem;
+  }
+
+  h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.24rem;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+  }
+
+  .h2-num {
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    font-size: 0.65rem;
+    background: var(--navy);
+    color: white;
+    padding: 0.18rem 0.45rem;
+    border-radius: 4px;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+  }
+
+  .divider {
+    height: 1px;
+    background: var(--border);
+    margin: 2rem 0;
+  }
+
+  /* WHO GRID */
+  .who-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+  }
+
+  .who-card {
+    background: rgba(255,253,248,0.46);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 1rem 1.1rem;
+  }
+  .who-card.yes { border-left: 3px solid var(--teal); }
+  .who-card.no  { border-left: 3px solid var(--red); }
+
+  .who-label {
+    font-size: 0.65rem;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+  }
+  .who-card.yes .who-label { color: var(--teal); }
+  .who-card.no  .who-label { color: var(--red); }
+
+  .who-card ul { list-style: none; display: flex; flex-direction: column; gap: 0.45rem; }
+  .who-card ul li {
+    font-size: 0.83rem;
+    color: var(--text-soft);
+    display: flex;
+    gap: 0.45rem;
+    line-height: 1.45;
+  }
+  .who-card ul li::before { content: '—'; color: var(--gray-light); flex-shrink: 0; }
+
+  /* SITUATION CARDS */
+  .situation-list { list-style: none; display: flex; flex-direction: column; gap: 0.75rem; }
+  .situation-item {
+    background: rgba(255,253,248,0.48);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--navy-mid);
+    border-radius: 6px;
+    padding: 0.9rem 1.1rem;
+  }
+  .situation-title {
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: var(--navy);
+    margin-bottom: 0.3rem;
+  }
+  .situation-item p {
+    font-size: 0.82rem;
+    color: var(--text-soft);
+    line-height: 1.55;
+  }
+  .situation-item p a {
+    color: var(--teal);
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .situation-item p a:hover { text-decoration: underline; }
+
+  /* CHECKLIST */
+  .checklist { list-style: none; display: flex; flex-direction: column; gap: 0.55rem; }
+  .checklist li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    font-size: 0.875rem;
+    color: var(--text-soft);
+    background: rgba(255,253,248,0.5);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 0.75rem 1rem;
+    line-height: 1.55;
+  }
+  .check-box {
+    width: 16px; height: 16px;
+    border: 1.5px solid var(--gray-light);
+    border-radius: 3px;
+    flex-shrink: 0;
+    margin-top: 2px;
+    background: var(--bg);
+  }
+  .checklist li strong { color: var(--text); font-weight: 600; }
+
+  /* STEPS */
+  .steps-list { list-style: none; position: relative; }
+  .steps-list::before {
+    content: '';
+    position: absolute;
+    left: 20px; top: 26px; bottom: 26px;
+    width: 1px;
+    background: var(--step-line);
+  }
+
+  .step { display: flex; gap: 1.1rem; margin-bottom: 1.05rem; position: relative; }
+
+  .step-num {
+    width: 42px; height: 42px;
+    border-radius: 50%;
+    background: var(--navy);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    font-size: 0.75rem;
+    font-weight: 500;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1;
+    border: 3px solid var(--bg);
+    box-shadow: 0 0 0 1px var(--step-line);
+  }
+
+  .step-body {
+    background: rgba(255,253,248,0.48);
+    border: 1px solid rgba(222,214,202,0.78);
+    border-left: 2px solid var(--step-line);
+    border-radius: 6px;
+    padding: 1rem 1.2rem;
+    flex: 1;
+  }
+
+  .step-title {
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: var(--navy);
+    margin-bottom: 0.3rem;
+  }
+
+  .step-desc {
+    font-size: 0.83rem;
+    color: var(--text-soft);
+    line-height: 1.6;
+    margin-bottom: 0.6rem;
+  }
+
+  .step-note {
+    margin-top: 0.5rem;
+    font-size: 0.77rem;
+    color: #78350f;
+    background: var(--amber-light);
+    border: 1px solid rgba(217,119,6,0.18);
+    border-radius: 6px;
+    padding: 0.4rem 0.7rem;
+    line-height: 1.5;
+  }
+
+  .step-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--teal);
+    text-decoration: none;
+    border: 1px solid rgba(22,107,97,0.25);
+    background: var(--teal-light);
+    padding: 0.28rem 0.65rem;
+    border-radius: 5px;
+    transition: all 0.2s;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    margin-right: 0.4rem;
+    margin-bottom: 0.3rem;
+  }
+  .step-link:hover { background: rgba(22,107,97,0.12); border-color: var(--teal); }
+  .step-link::after { content: ' ↗'; }
+
+  /* MISSES */
+  .misses-list { list-style: none; display: flex; flex-direction: column; gap: 0.65rem; }
+  .miss-item {
+    background: rgba(255,253,248,0.48);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--red);
+    border-radius: 6px;
+    padding: 0.9rem 1.1rem;
+  }
+  .miss-title {
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: var(--red);
+    margin-bottom: 0.25rem;
+  }
+  .miss-item p { font-size: 0.82rem; color: var(--text-soft); line-height: 1.55; }
+
+  /* OFFICIAL LINKS */
+  .links-list { list-style: none; display: flex; flex-direction: column; gap: 0.55rem; }
+  .gov-link {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    background: rgba(255,253,248,0.5);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 0.85rem 1.1rem;
+    text-decoration: none;
+    transition: all 0.2s;
+    color: inherit;
+  }
+  .gov-link:hover { border-color: rgba(22,107,97,0.45); background: var(--teal-light); }
+
+  .gov-icon {
+    width: 32px; height: 32px;
+    border-radius: 5px;
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    color: var(--navy);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.82rem;
+    flex-shrink: 0;
+  }
+
+  .gov-text { flex: 1; }
+  .gov-title { font-weight: 600; font-size: 0.85rem; color: var(--navy); line-height: 1.3; }
+  .gov-subtitle { font-size: 0.74rem; color: var(--text-soft); margin-top: 0.1rem; line-height: 1.4; }
+  .gov-url { font-size: 0.68rem; color: var(--gray); font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; margin-top: 0.1rem; }
+  .gov-arrow { color: var(--teal); font-size: 0.9rem; flex-shrink: 0; }
+
+  /* RELATED GUIDE */
+  .related-guide {
+    background: rgba(232,240,236,0.65);
+    border: 1px solid rgba(22,107,97,0.2);
+    border-left: 3px solid var(--teal);
+    border-radius: 6px;
+    padding: 1.15rem 1.35rem;
+    margin-bottom: 1.5rem;
+  }
+  .related-guide-label {
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--teal);
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    margin-bottom: 0.5rem;
+  }
+  .related-guide p {
+    font-size: 0.875rem;
+    color: var(--text-soft);
+    line-height: 1.65;
+    margin-bottom: 0.75rem;
+  }
+  .related-guide a {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--teal);
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    text-decoration: none;
+  }
+  .related-guide a:hover { text-decoration: underline; }
+
+  /* NEXT CARDS GRID */
+  .next-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.75rem;
+  }
+  .next-card {
+    background: rgba(255,253,248,0.48);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 0.9rem 1rem;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.2s;
+  }
+  .next-card:hover { border-color: rgba(22,107,97,0.4); background: var(--teal-light); }
+  .next-card-label {
+    font-size: 0.64rem;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--gray);
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+  }
+  .next-card-title {
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: var(--navy);
+    margin-bottom: 0.2rem;
+  }
+  .next-card-arrow {
+    font-size: 0.8rem;
+    color: var(--teal);
+    margin-top: 0.35rem;
+  }
+
+  /* DISCLAIMER */
+  .disclaimer {
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem 1.2rem;
+    font-size: 0.78rem;
+    color: var(--gray);
+    line-height: 1.65;
+    margin-top: 2.5rem;
+  }
+  .disclaimer a { color: var(--teal); }
+  .disclaimer strong { color: var(--text-soft); }
+
+  /* FOOTER */
+  .site-footer {
+    margin: 0;
+    padding: 1.35rem 0 2rem;
+    background: var(--bg-soft);
+    border-top: 1px solid var(--border);
+    color: var(--gray);
+    font-size: 0.72rem;
+    line-height: 1.6;
+  }
+  .site-footer-inner {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 2.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+  .site-footer a { color: var(--teal); text-decoration: none; }
+  .site-footer a:hover { text-decoration: underline; }
+  .footer-links { display: flex; flex-wrap: wrap; gap: 0.8rem; }
+
+  @media (max-width: 600px) {
+    body { font-size: 16px; }
+    .who-grid { grid-template-columns: 1fr; }
+    .next-grid { grid-template-columns: 1fr; }
+    .page-wrap { padding: 1.5rem 1.1rem 4rem; }
+    .founder-note { padding: 0.5rem 1.1rem; }
+    .section { scroll-margin-top: 7.5rem; }
+    .site-footer { padding: 1.2rem 0 2rem; }
+    .site-footer-inner { padding: 0 1.1rem; }
+    h1 { font-size: 1.55rem; }
+    .nav-crumb { display: none; }
+    .topbar { padding: 0.35rem 1.1rem; }
+    nav { padding: 0.75rem 1.1rem; }
+    .nav-links { flex-wrap: wrap; gap: 0.45rem 0.75rem; }
+    .nav-links a { font-size: 0.78rem; }
+  }
+</style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <span>Independent guide. Official sources linked on each page.</span>
+</div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-row">
+    <a class="logo" href="/index.html"><svg class="logo-mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 2.4l1.2 4 3.7-1.6-1.1 4 3.9 1.1-3.5 2.1 2.2 3.4-4.2-.5-.6 4.3h-3.2l-.6-4.3-4.2.5L7.8 12 4.3 9.9l3.9-1.1-1.1-4 3.7 1.6L12 2.4z"/></svg>Canada<span>Steps</span></a>
+    <div class="nav-crumb">Graduation &amp; Immigration &rarr; <strong>Spouse Open Work Permit</strong></div>
+  </div>
+  <div class="nav-links">
+    <a href="/index.html">All Guides</a>
+    <a href="/index.html#just-arrived">Just Arrived</a>
+    <a href="/index.html#working-daily-life">Working &amp; Daily Life</a>
+    <a class="current" href="/index.html#graduation-immigration">Graduation &amp; Immigration</a>
+  </div>
+</nav>
+
+<!-- FOUNDER NOTE -->
+<div class="founder-note">
+  Independent educational guide for newcomers and international students in Canada. Links point directly to official government and institutional sources.
+  <small>Not affiliated with IRCC or the Government of Canada.</small>
+</div>
+
+<main class="page-wrap">
+
+  <!-- HEADER -->
+  <header class="page-header">
+    <div class="track-tag">Graduation &amp; Immigration</div>
+    <h1>Spouse Open Work Permit Guide</h1>
+    <p class="page-desc">Understand where spouse or family work permit rules fit, what not to assume, and which official IRCC pages to verify before applying.</p>
+    <p class="muted-note">Rules for family open work permits change. Always verify your current situation directly with IRCC before applying.</p>
+    <div class="meta-row">
+      <div class="meta-item"><div class="meta-dot"></div>Last verified against IRCC: May 2026</div>
+      <div class="meta-item"><div class="meta-dot amber"></div>Process navigation only — not immigration advice</div>
+    </div>
+  </header>
+
+  <!-- REALITY CHECK -->
+  <div class="reality-check">
+    <strong>Read this before going further</strong>
+    <ul>
+      <li>A spouse or common-law partner is not automatically eligible for an open work permit — eligibility depends on the principal applicant's status and other factors.</li>
+      <li>Rules differ for spouses of international students, PGWP holders, and temporary foreign workers.</li>
+      <li>IRCC changed family open work permit rules effective January 21, 2025. Earlier information about eligibility may no longer be current.</li>
+      <li>Children may need separate documents depending on age, planned activities, and individual circumstances.</li>
+      <li>This guide explains the process map and where to look — it does not determine or calculate eligibility for any individual situation.</li>
+    </ul>
+  </div>
+
+  <!-- 01 WHAT THIS GUIDE IS -->
+  <section class="section" id="what-this-guide-is">
+    <h2><span class="h2-num">01</span> What this guide is and is not</h2>
+    <div class="who-grid">
+      <div class="who-card yes">
+        <div class="who-label">This guide helps you</div>
+        <ul>
+          <li>Understand the basic process pathway</li>
+          <li>Know which official IRCC pages to read first</li>
+          <li>Prepare questions before contacting IRCC or a licensed professional</li>
+          <li>Avoid assuming eligibility based on what worked for someone else</li>
+          <li>Identify which documents are commonly reviewed</li>
+        </ul>
+      </div>
+      <div class="who-card no">
+        <div class="who-label">This guide does not</div>
+        <ul>
+          <li>Decide if your spouse or partner qualifies for anything</li>
+          <li>Calculate or confirm eligibility</li>
+          <li>Provide immigration advice of any kind</li>
+          <li>Interpret IRCC rules for your specific situation</li>
+          <li>Replace IRCC guidance or a licensed immigration professional</li>
+        </ul>
+      </div>
+    </div>
+    <p style="font-size:0.78rem;color:var(--gray);margin-top:0.75rem;line-height:1.55;">Immigration rules change. Personal circumstances vary significantly. Always verify current requirements directly with IRCC before taking any action.</p>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 02 COMMON SITUATIONS -->
+  <section class="section" id="situations">
+    <h2><span class="h2-num">02</span> Common situations people ask about</h2>
+    <p style="font-size:0.85rem;color:var(--text-soft);line-height:1.65;margin-bottom:1rem;">The right IRCC page to read depends on the principal applicant's current immigration status. These are brief descriptions only — verify the details with IRCC for your specific situation.</p>
+    <ul class="situation-list">
+      <li class="situation-item">
+        <div class="situation-title">Spouse or common-law partner of an international student</div>
+        <p>Some spouses of international students studying at certain institutions may be eligible to apply for an open work permit. IRCC's January 2025 rule changes narrowed which students' spouses may qualify. The current eligibility rules depend on the student's level of study and institution type. Verify current requirements directly on the <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/help-your-spouse-common-law-partner-work-canada.html" target="_blank" rel="noopener">IRCC page for spouses of students ↗</a>.</p>
+      </li>
+      <li class="situation-item">
+        <div class="situation-title">Spouse or common-law partner of a PGWP holder</div>
+        <p>Spouses of PGWP holders may have options depending on the PGWP holder's specific situation and the nature of their work. The January 2025 changes may affect which situations qualify. Check the <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/special-instructions/spouses-dependent-children.html" target="_blank" rel="noopener">IRCC page for family members of foreign workers ↗</a> for current rules.</p>
+      </li>
+      <li class="situation-item">
+        <div class="situation-title">Spouse or common-law partner of a temporary foreign worker</div>
+        <p>Some spouses of temporary foreign workers may be eligible for an open work permit, depending on the worker's NOC level and permit type. Eligibility criteria vary. Verify the current rules on the <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/special-instructions/spouses-dependent-children.html" target="_blank" rel="noopener">IRCC family members page ↗</a> before drawing any conclusions.</p>
+      </li>
+      <li class="situation-item">
+        <div class="situation-title">Spouse or family member coming as a visitor</div>
+        <p>If a spouse or partner does not qualify for a work permit, they may instead be eligible to come to Canada as a visitor. A visitor cannot work in Canada unless they hold a separate work authorization. Visitor visa requirements and eligibility are separate from work permit eligibility. Review the <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/application/application-forms-guides/guide-5256-applying-visitor-visa-temporary-resident-visa.html" target="_blank" rel="noopener">IRCC visitor visa guide ↗</a> for current process.</p>
+      </li>
+      <li class="situation-item">
+        <div class="situation-title">Dependent child who may need study documents</div>
+        <p>Dependent children accompanying a parent to Canada may need their own documentation depending on their age and whether they plan to attend school. Age limits for dependent children have changed in recent years. Review the current <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/age-limit-requirements-dependent-children.html" target="_blank" rel="noopener">IRCC dependent children page ↗</a> and the study permit guide if applicable.</p>
+      </li>
+    </ul>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 03 PROCESS MAP -->
+  <section class="section" id="process-map">
+    <h2><span class="h2-num">03</span> Process map — navigating the application</h2>
+    <ol class="steps-list">
+
+      <li class="step">
+        <div class="step-num">01</div>
+        <div class="step-body">
+          <div class="step-title">Identify the principal applicant's current immigration status</div>
+          <div class="step-desc">Which IRCC page you need to read depends on whether the main permit holder is an international student, a PGWP holder, or a temporary foreign worker. Do not assume the same rules apply across all categories — they do not.</div>
+        </div>
+      </li>
+
+      <li class="step">
+        <div class="step-num">02</div>
+        <div class="step-body">
+          <div class="step-title">Check the correct IRCC spouse or family page for that status</div>
+          <div class="step-desc">IRCC maintains separate pages for spouses of students versus spouses of workers. Use the link that matches the principal applicant's permit type. Do not rely on third-party summaries or social media for eligibility details.</div>
+          <a class="step-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/help-your-spouse-common-law-partner-work-canada.html" target="_blank" rel="noopener">IRCC — Spouse of a student</a>
+          <a class="step-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/special-instructions/spouses-dependent-children.html" target="_blank" rel="noopener">IRCC — Family members of workers</a>
+          <div class="step-note">The January 21, 2025 rule changes affected which categories may qualify. Earlier information from before that date may no longer be accurate. <a href="https://www.canada.ca/en/immigration-refugees-citizenship/news/notices/changes-open-work-permits-family-members-temporary-residents.html" target="_blank" rel="noopener" style="color:#78350f;font-weight:600;">See IRCC's notice on the 2025 changes ↗</a></div>
+        </div>
+      </li>
+
+      <li class="step">
+        <div class="step-num">03</div>
+        <div class="step-body">
+          <div class="step-title">Confirm whether the route is an open work permit, visitor visa, or another application type</div>
+          <div class="step-desc">Not every spouse situation leads to an open work permit. Some situations may lead to a closed work permit, a visitor visa, or a study permit for a child. Confirming which application type applies is a step in itself — do not assume it is an open work permit before checking.</div>
+        </div>
+      </li>
+
+      <li class="step">
+        <div class="step-num">04</div>
+        <div class="step-body">
+          <div class="step-title">Review document requirements on the current IRCC checklist</div>
+          <div class="step-desc">Document checklists differ by application type and personal situation. Use the checklist provided in the current IRCC application process — not a list from social media, a forum post, or a previous application cycle.</div>
+          <a class="step-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/help-your-spouse-common-law-partner-work-canada.html" target="_blank" rel="noopener">IRCC checklist for spouses of students</a>
+        </div>
+      </li>
+
+      <li class="step">
+        <div class="step-num">05</div>
+        <div class="step-body">
+          <div class="step-title">Confirm whether children need separate documents</div>
+          <div class="step-desc">Children are not automatically covered by a parent's permit or visa. Depending on the child's age and plans, they may need a visitor record, study permit, or other documentation. Review this separately from the spouse's application.</div>
+          <a class="step-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/age-limit-requirements-dependent-children.html" target="_blank" rel="noopener">IRCC — Dependent children</a>
+        </div>
+      </li>
+
+      <li class="step">
+        <div class="step-num">06</div>
+        <div class="step-body">
+          <div class="step-title">Apply through the official IRCC portal if eligible</div>
+          <div class="step-desc">Applications are submitted through the official IRCC online portal. Applying through unofficial third-party sites may result in fraud or unnecessary fees. Use only the official IRCC account portal.</div>
+          <a class="step-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/application/account.html" target="_blank" rel="noopener">IRCC Secure Account</a>
+          <div class="step-note">Whether someone is eligible to apply is a determination IRCC makes based on the application — this guide does not make that determination.</div>
+        </div>
+      </li>
+
+      <li class="step">
+        <div class="step-num">07</div>
+        <div class="step-body">
+          <div class="step-title">Save submission confirmations and all IRCC correspondence</div>
+          <div class="step-desc">After submitting, save the acknowledgment of receipt and any application numbers immediately. You will need these to track status or respond to IRCC requests. Do not delete IRCC emails.</div>
+        </div>
+      </li>
+
+      <li class="step">
+        <div class="step-num">08</div>
+        <div class="step-body">
+          <div class="step-title">Track application status only through official IRCC tools</div>
+          <div class="step-desc">Check application status through your IRCC online account. Processing times vary and change frequently — verify current estimates directly on the IRCC processing times page, not through third-party trackers.</div>
+          <a class="step-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/application/check-status.html" target="_blank" rel="noopener">IRCC — Check application status</a>
+          <a class="step-link" href="https://www.ircc.canada.ca/english/information/times/index.asp" target="_blank" rel="noopener">IRCC — Processing times</a>
+        </div>
+      </li>
+
+    </ol>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 04 DOCUMENTS -->
+  <section class="section" id="documents">
+    <h2><span class="h2-num">04</span> Documents people often review</h2>
+    <p style="font-size:0.85rem;color:var(--text-soft);line-height:1.65;margin-bottom:1rem;">Document requirements depend on application type and individual circumstances. Use the current IRCC checklist for your specific application — not social media lists or what worked for someone else.</p>
+    <ul class="checklist">
+      <li>
+        <div class="check-box"></div>
+        <div><strong>Passport</strong> — Valid passport for the spouse or partner applying. Check that it will remain valid throughout the expected permit period.</div>
+      </li>
+      <li>
+        <div class="check-box"></div>
+        <div><strong>Marriage certificate or proof of common-law relationship</strong> — Official documentation showing the relationship between the applicant and the principal permit holder. Common-law partnerships typically require additional evidence of cohabitation.</div>
+      </li>
+      <li>
+        <div class="check-box"></div>
+        <div><strong>Principal applicant's current study permit, work permit, or PGWP</strong> — Including all pages and any extensions. The permit type determines which IRCC page applies.</div>
+      </li>
+      <li>
+        <div class="check-box"></div>
+        <div><strong>Proof of enrollment or employment (if requested by IRCC)</strong> — May include a letter from a Designated Learning Institution or an employer. Check the current IRCC checklist to confirm whether this applies.</div>
+      </li>
+      <li>
+        <div class="check-box"></div>
+        <div><strong>Proof of funds (if requested)</strong> — IRCC may request evidence that the applicant can support themselves financially. Requirements vary by application type.</div>
+      </li>
+      <li>
+        <div class="check-box"></div>
+        <div><strong>Child documents (if dependants are included)</strong> — Children may need separate documentation. Review the IRCC dependent children page for current requirements.</div>
+      </li>
+      <li>
+        <div class="check-box"></div>
+        <div><strong>Biometrics or medical exam instructions (if requested by IRCC)</strong> — IRCC may send a Biometric Instruction Letter or request a medical exam. Follow the instructions in any IRCC correspondence.</div>
+      </li>
+      <li>
+        <div class="check-box"></div>
+        <div><strong>Current IRCC document checklist for the specific application type</strong> — Always use the checklist from the IRCC page that matches your application. Earlier versions of checklists may be outdated.</div>
+      </li>
+    </ul>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 05 COMMON MISTAKES -->
+  <section class="section" id="mistakes">
+    <h2><span class="h2-num">05</span> Common mistakes to avoid</h2>
+    <ul class="misses-list">
+      <li class="miss-item">
+        <div class="miss-title">Assuming spouse eligibility is automatic</div>
+        <p>Eligibility for a spouse open work permit is not automatic. It depends on the principal applicant's permit type, level of study or work, and other factors. Do not proceed based on an assumption — verify with IRCC.</p>
+      </li>
+      <li class="miss-item">
+        <div class="miss-title">Using information from before January 21, 2025</div>
+        <p>IRCC changed family open work permit rules effective January 21, 2025. Information shared in forums, social media, or older blog posts may describe rules that no longer apply. Always check the current IRCC page.</p>
+      </li>
+      <li class="miss-item">
+        <div class="miss-title">Confusing visitor visa, work permit, and PR sponsorship</div>
+        <p>These are separate application streams with different requirements, fees, and outcomes. A visitor visa does not authorize work. A work permit does not lead automatically to permanent residence. Read each IRCC page carefully for what it actually covers.</p>
+      </li>
+      <li class="miss-item">
+        <div class="miss-title">Assuming children are covered without checking document rules</div>
+        <p>Children are not automatically covered by a parent's permit or visa. Check the IRCC dependent children page separately for each child, depending on their age and plans in Canada.</p>
+      </li>
+      <li class="miss-item">
+        <div class="miss-title">Relying only on social media advice</div>
+        <p>Social media accounts, YouTube videos, and online forums frequently contain outdated, incorrect, or incomplete immigration information. The only reliable source for current eligibility rules is IRCC directly.</p>
+      </li>
+      <li class="miss-item">
+        <div class="miss-title">Submitting without reading the current IRCC checklist</div>
+        <p>Document requirements change. Submitting an incomplete application or including wrong documents can delay processing or result in a refusal. Use the official IRCC checklist for your specific application type.</p>
+      </li>
+      <li class="miss-item">
+        <div class="miss-title">Ignoring biometrics or medical exam instructions</div>
+        <p>If IRCC sends a Biometric Instruction Letter or requests a medical exam, these must be completed within the timeframe IRCC specifies. Missing these deadlines can result in an application being refused or abandoned.</p>
+      </li>
+      <li class="miss-item">
+        <div class="miss-title">Not saving IRCC confirmation messages</div>
+        <p>Save all IRCC correspondence immediately after receiving it, including acknowledgment of receipt emails and application numbers. You will need these to track status and respond to any IRCC requests.</p>
+      </li>
+    </ul>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 06 OFFICIAL LINKS -->
+  <section class="section" id="links">
+    <h2><span class="h2-num">06</span> Official IRCC sources to verify</h2>
+    <p style="font-size:0.85rem;color:var(--text-soft);line-height:1.65;margin-bottom:1rem;">Use these official IRCC pages to verify current eligibility rules and process requirements. Do not rely on secondary summaries of these pages.</p>
+    <ul class="links-list">
+      <li><a class="gov-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/help-your-spouse-common-law-partner-work-canada.html" target="_blank" rel="noopener">
+        <div class="gov-icon">🏛️</div>
+        <div class="gov-text">
+          <div class="gov-title">IRCC — Help your spouse or common-law partner work in Canada</div>
+          <div class="gov-subtitle">Official IRCC page ↗</div>
+          <div class="gov-url">canada.ca → study-canada → work → help-your-spouse-common-law-partner</div>
+        </div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+      <li><a class="gov-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/news/notices/changes-open-work-permits-family-members-temporary-residents.html" target="_blank" rel="noopener">
+        <div class="gov-icon">📋</div>
+        <div class="gov-text">
+          <div class="gov-title">IRCC — Changes to open work permits for family members (January 2025)</div>
+          <div class="gov-subtitle">Official IRCC notice ↗</div>
+          <div class="gov-url">canada.ca → news → notices → changes-open-work-permits-family-members</div>
+        </div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+      <li><a class="gov-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/special-instructions/spouses-dependent-children.html" target="_blank" rel="noopener">
+        <div class="gov-icon">👥</div>
+        <div class="gov-text">
+          <div class="gov-title">IRCC — Open work permits for family members of foreign workers</div>
+          <div class="gov-subtitle">Official IRCC page ↗</div>
+          <div class="gov-url">canada.ca → work-canada → special-instructions → spouses-dependent-children</div>
+        </div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+      <li><a class="gov-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/application/application-forms-guides/guide-5256-applying-visitor-visa-temporary-resident-visa.html" target="_blank" rel="noopener">
+        <div class="gov-icon">✈️</div>
+        <div class="gov-text">
+          <div class="gov-title">IRCC — Visitor visa (Temporary Resident Visa) application guide</div>
+          <div class="gov-subtitle">Official IRCC page ↗</div>
+          <div class="gov-url">canada.ca → application-forms-guides → guide-5256</div>
+        </div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+      <li><a class="gov-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/apply.html" target="_blank" rel="noopener">
+        <div class="gov-icon">📚</div>
+        <div class="gov-text">
+          <div class="gov-title">IRCC — Study permit: how to apply</div>
+          <div class="gov-subtitle">Official IRCC page ↗</div>
+          <div class="gov-url">canada.ca → study-canada → study-permit → apply</div>
+        </div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+      <li><a class="gov-link" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/age-limit-requirements-dependent-children.html" target="_blank" rel="noopener">
+        <div class="gov-icon">👶</div>
+        <div class="gov-text">
+          <div class="gov-title">IRCC — Dependent children age limits and requirements</div>
+          <div class="gov-subtitle">Official IRCC page ↗</div>
+          <div class="gov-url">canada.ca → immigrate-canada → age-limit-requirements-dependent-children</div>
+        </div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+      <li><a class="gov-link" href="https://college-ic.ca/protecting-the-public/find-an-immigration-consultant" target="_blank" rel="noopener">
+        <div class="gov-icon">👤</div>
+        <div class="gov-text">
+          <div class="gov-title">Find a Regulated Canadian Immigration Consultant (RCIC)</div>
+          <div class="gov-subtitle">College of Immigration and Citizenship Consultants ↗</div>
+          <div class="gov-url">college-ic.ca → find-an-immigration-consultant</div>
+        </div>
+        <div class="gov-arrow">↗</div>
+      </a></li>
+    </ul>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 07 WHAT COMES NEXT -->
+  <section class="section" id="next">
+    <h2><span class="h2-num">07</span> Related guides</h2>
+    <p style="font-size:0.85rem;color:var(--text-soft);line-height:1.65;margin-bottom:1rem;">These guides cover related settlement and immigration steps.</p>
+    <div class="next-grid">
+      <a class="next-card" href="/pgwp.html">
+        <div class="next-card-label">Work permit</div>
+        <div class="next-card-title">PGWP Guide</div>
+        <div class="next-card-arrow">Post-Graduation Work Permit steps →</div>
+      </a>
+      <a class="next-card" href="/sin.html">
+        <div class="next-card-label">First setup</div>
+        <div class="next-card-title">SIN Guide</div>
+        <div class="next-card-arrow">Social Insurance Number process →</div>
+      </a>
+      <a class="next-card" href="/cra-account.html">
+        <div class="next-card-label">Tax access</div>
+        <div class="next-card-title">CRA My Account Guide</div>
+        <div class="next-card-arrow">CRA account registration →</div>
+      </a>
+    </div>
+  </section>
+
+  <!-- DISCLAIMER -->
+  <div class="disclaimer">
+    <strong>This page is for educational and navigational purposes only.</strong><br>
+    It does not constitute legal or immigration advice. This guide describes the general process map for understanding where spouse and family work permit rules fit — it does not determine, calculate, or confirm eligibility for any individual or situation. Immigration rules change and personal circumstances vary significantly. Always verify current requirements directly with <a href="https://www.canada.ca/en/immigration-refugees-citizenship.html" target="_blank" rel="noopener">IRCC</a> before making any application decisions. For advice specific to your situation, consult a <a href="https://college-ic.ca/protecting-the-public/find-an-immigration-consultant" target="_blank" rel="noopener">Regulated Canadian Immigration Consultant (RCIC)</a> or licensed immigration lawyer.
+  </div>
+
+</main>
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <div>Independent newcomer resource for Canada. Links directly to official government and institutional sources.</div>
+    <div>Not affiliated with IRCC or the Government of Canada. Educational and navigational use only.</div>
+    <div class="footer-links">
+      <a href="/index.html">All guides</a>
+      <a href="/pgwp.html">PGWP</a>
+      <a href="/spouse-work-permit.html">Spouse Work Permit</a>
+      <a href="/sin.html">SIN</a>
+      <a href="/taxes.html">Taxes</a>
+      <a href="/bank-account.html">Banking</a>
+      <a href="/gic-unlock.html">GIC Unlock</a>
+      <a href="/cra-account.html">CRA Account</a>
+      <a href="/ontario-drivers-license.html">Driver's License</a>
+      <a href="/phone-plan.html">Phone Plan</a>
+      <a href="/ontario-photo-card.html">Photo Card</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

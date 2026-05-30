@@ -3,6 +3,29 @@
 _Tracks files created or modified each session._
 
 ---
+## 2026-05-29 - Spouse Open Work Permit Guide added
+
+**Created:**
+- `spouse-work-permit.html` — new spouse/family work permit navigation guide; 7 sections; IRCC-only sources; strict process-navigation framing with no eligibility claims; higher-risk immigration topic guardrails applied
+
+**Modified:**
+- `index.html` — added Spouse Work Permit Guide entry under Graduation & Immigration; added link to footer
+- `pgwp.html` — added Spouse Work Permit link to footer
+- `sin.html` — added Spouse Work Permit link to footer
+- `taxes.html` — added Spouse Work Permit link to footer
+- `cra-account.html` — added Spouse Work Permit link to footer
+- `bank-account.html` — added Spouse Work Permit link to footer
+- `gic-unlock.html` — added Spouse Work Permit link to footer
+- `phone-plan.html` — added Spouse Work Permit link to footer
+- `ontario-drivers-license.html` — added Spouse Work Permit link to footer
+- `ontario-photo-card.html` — added Spouse Work Permit link to footer
+- `memory/current_state.md` — recorded this change; added spouse-work-permit.html to live pages
+- `memory/next_prompt.md` — added spouse-work-permit.html to current pages list
+- `memory/changed_files.md` — this entry
+- `memory/risks.md` — added R9 for spouse/family permit content-rot risk
+- `daily.md` — appended session log line
+
+---
 ## 2026-05-29 - GIC Unlock Guide added
 
 **Created:**
