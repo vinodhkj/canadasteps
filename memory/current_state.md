@@ -1,6 +1,6 @@
 # Current State
 
-_Updated: 2026-05-31_
+_Updated: 2026-05-31 (corrective homepage pass)_
 
 ## Phase
 
@@ -32,7 +32,11 @@ Phase 1 - Editorial redesign refinement
 
 ## Last change
 
-May 31 - Direction B + Direction A redesign: index.html guide entries converted to card panels (border-radius, bg, gap); hero metrics strip added (11 guides / official sources / independent / May 2026); h1 refined. pgwp.html: Inter removed from font stack; safety/scope module restyled (calm burgundy left rule, no red); pgwp-warning, changelog, reality-check toned down from amber/orange to soft editorial treatment; step numbers lightened (outlined circle); Step 5 IMM 5710 / IMM 1295 routing converted to proper two-column route-cards CSS (desktop side-by-side, mobile stacked). index.html and pgwp.html only. Do not commit until user approves.
+May 31 - Corrective homepage pass: index.html fully rebuilt to match approved Claude Design Direction B. New structure: slim dark topbar (mono, two-sided), single-row white sticky nav (teal dot logo, underline-active, Browse button), two-column hero (large italic-olive serif h1 left, browse/search card right), 4-column metrics strip (May 2026 / 11 / ~9 official / Independent), 3-col card grid (desktop) / 2-col (tablet) / 1-col (mobile), dark navy footer. pgwp.html unchanged. Pending user approval — not committed.
+
+## Previous change (committed 025136e)
+
+May 31 - Direction B + Direction A redesign: index.html guide entries converted to card panels; hero metrics strip added; pgwp.html: Inter removed, scope-module, toned warning boxes, outlined step-nums, route-cards Step 5.
 
 ## Previous change
 

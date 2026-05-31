@@ -1,7 +1,13 @@
 # Changed Files
 
 ---
-## 2026-05-31 - Direction B + Direction A redesign (pending approval — not committed)
+## 2026-05-31 - Corrective homepage pass (pending approval — not committed)
+
+**Modified:**
+- `index.html` — full structural rewrite to match Claude Design Direction B: new CSS variables (warmer palette, olive, burgundy, border-dark); slim dark topbar with mono text both sides; single-row sticky white nav (teal dot logo, underline-active state, Browse button); two-column hero (large serif italic-olive h1 left, browse/search card right); 4-col metrics strip with vertical dividers (May 2026 / 11 / ~9 official / Independent); section headers (burgundy number + serif h2 left, description right, hairline divider); 3-col card grid desktop / 2-col tablet / 1-col mobile; card structure: category + num top, title, desc, source domain footer; dark navy footer with brand left + link grid right. All 11 guide links, GA4, disclaimer, footer links preserved. pgwp.html untouched.
+
+---
+## 2026-05-31 - Direction B + Direction A redesign (committed 025136e)
 
 **Modified:**
 - `index.html` — guide entries converted to card panels (bg, border, border-radius, gap); hero metrics strip added below page-desc; h1 text refined to "Settlement guides for newcomers to Canada"; `.page-reviewed` replaced by metrics row; CSS: `.guide-entry` card style, `.guide-entries` gap, `.hero-metrics` added

@@ -4,7 +4,8 @@ One entry per working session. Most recent first.
 
 ---
 ## 2026-05-31
-May 31 - Direction B + Direction A redesign: index.html guide entries → cards, hero metrics strip added; pgwp.html Inter removed, scope-module, toned warning boxes, outlined step-nums, route-cards for Step 5 IMM routing. Pending user approval before commit.
+May 31 - Direction B + Direction A redesign: index.html guide entries → cards, hero metrics strip added; pgwp.html Inter removed, scope-module, toned warning boxes, outlined step-nums, route-cards for Step 5 IMM routing. Committed 025136e.
+May 31 - Corrective homepage pass: index.html fully rebuilt to match Claude Design Direction B — slim topbar, single-row nav, two-column hero with italic-olive h1, browse card, 4-col metrics strip, 3-col card grid, dark navy footer. pgwp.html unchanged. Pending user approval.
 
 ## 2026-05-30
 May 30 - Must Fix Before Deploy: corrected PGWP form guidance (IMM 5710 inside Canada as default, IMM 1295 outside Canada as alternative); added SettleWise page status bar and safety section ("What SettleWise Does Not Answer"); resolved mobile usability (horizontal-scroll nav, table scroll, and expanded link tap targets). index.html and pgwp.html only.

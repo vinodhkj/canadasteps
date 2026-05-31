@@ -1,13 +1,15 @@
 ---
-CanadaSteps session handoff — updated 2026-05-31
+CanadaSteps session handoff — updated 2026-05-31 (corrective homepage pass)
 
-PENDING USER APPROVAL: Direction B + Direction A redesign is implemented but NOT committed. User must approve before git push.
+PENDING USER APPROVAL: Corrective homepage redesign implemented but NOT committed.
 
-Files changed (not committed):
-- canadasteps/index.html — card guide entries, hero metrics, h1 refined
-- canadasteps/pgwp.html — Inter removed, scope-module, toned boxes, outlined step-nums, route-cards Step 5
-- CanadaSteps-Implementation-Brief.md — created at repo root
-- memory/current_state.md, memory/next_prompt.md, memory/changed_files.md, daily.md — updated
+Files changed since last commit (025136e):
+- canadasteps/index.html — full structural rewrite to match Claude Design Direction B (slim topbar, single-row nav, two-column hero, 4-col metrics strip, 3-col card grid, dark navy footer)
+
+Committed (025136e — do not re-do):
+- pgwp.html — Inter removed, scope-module, toned boxes, outlined step-nums, route-cards
+- CanadaSteps-Implementation-Brief.md — at repo root
+- memory files
 
 ---
 CanadaSteps session handoff
