@@ -1,6 +1,6 @@
 # Current State
 
-_Updated: 2026-05-30_
+_Updated: 2026-05-31_
 
 ## Phase
 
@@ -31,6 +31,10 @@ Phase 1 - Editorial redesign refinement
 - SSL certificate active
 
 ## Last change
+
+May 31 - Direction B + Direction A redesign: index.html guide entries converted to card panels (border-radius, bg, gap); hero metrics strip added (11 guides / official sources / independent / May 2026); h1 refined. pgwp.html: Inter removed from font stack; safety/scope module restyled (calm burgundy left rule, no red); pgwp-warning, changelog, reality-check toned down from amber/orange to soft editorial treatment; step numbers lightened (outlined circle); Step 5 IMM 5710 / IMM 1295 routing converted to proper two-column route-cards CSS (desktop side-by-side, mobile stacked). index.html and pgwp.html only. Do not commit until user approves.
+
+## Previous change
 
 May 30 - Must Fix Before Deploy: PGWP form accuracy corrected (IMM 5710 default, IMM 1295 alternative); SettleWise rulebook compliance added (Page Status Bar, "What SettleWise Does Not Answer" safety block); mobile usability improved (horizontal-scroll nav, table scrolling, and expanded touch targets on nav/footer links). index.html and pgwp.html only.
 

@@ -3,6 +3,9 @@
 One entry per working session. Most recent first.
 
 ---
+## 2026-05-31
+May 31 - Direction B + Direction A redesign: index.html guide entries → cards, hero metrics strip added; pgwp.html Inter removed, scope-module, toned warning boxes, outlined step-nums, route-cards for Step 5 IMM routing. Pending user approval before commit.
+
 ## 2026-05-30
 May 30 - Must Fix Before Deploy: corrected PGWP form guidance (IMM 5710 inside Canada as default, IMM 1295 outside Canada as alternative); added SettleWise page status bar and safety section ("What SettleWise Does Not Answer"); resolved mobile usability (horizontal-scroll nav, table scroll, and expanded link tap targets). index.html and pgwp.html only.
 May 30 - GA4 added: tag G-4M1LTVRG81 inserted after <head> on all 12 public HTML pages; draft/internal files skipped; pending deploy and Realtime verification.

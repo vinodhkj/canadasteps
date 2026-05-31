@@ -1,6 +1,17 @@
 # Changed Files
 
 ---
+## 2026-05-31 - Direction B + Direction A redesign (pending approval — not committed)
+
+**Modified:**
+- `index.html` — guide entries converted to card panels (bg, border, border-radius, gap); hero metrics strip added below page-desc; h1 text refined to "Settlement guides for newcomers to Canada"; `.page-reviewed` replaced by metrics row; CSS: `.guide-entry` card style, `.guide-entries` gap, `.hero-metrics` added
+- `pgwp.html` — Inter removed from body font-family; `.pgwp-warning` toned down (navy left rule, soft bg); `.changelog` toned down (gray left rule, bg-soft); `.reality-check` toned down (step-line left rule, bg-soft); `.step-num` lightened (outlined circle, navy text, no fill); `.scope-module` CSS class added; "What SettleWise does not determine" section HTML converted from inline styles to `.scope-module`; Step 5 inline-styled divs replaced with `.route-cards` grid (`.route-inside` navy / `.route-outside` gray, two-col desktop, stacked mobile)
+
+**Also modified:**
+- `CanadaSteps-Implementation-Brief.md` — created at repo root (new file)
+- `memory/current_state.md`, `memory/next_prompt.md`, `memory/changed_files.md`, `daily.md`
+
+---
 ## 2026-05-30 - Must Fix Before Deploy: UI, Accessibility & Form Accuracy
 
 **Modified:**

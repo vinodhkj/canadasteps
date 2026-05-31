@@ -188,6 +188,25 @@
     color: var(--text-soft);
   }
 
+  /* HERO METRICS */
+  .hero-metrics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem 0.75rem;
+    margin-top: 1.2rem;
+  }
+  .hero-metrics span {
+    font-size: 0.72rem;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    color: var(--text-soft);
+    background: rgba(26,38,64,0.04);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 0.2rem 0.65rem;
+    letter-spacing: 0.03em;
+    white-space: nowrap;
+  }
+
   /* PAGE LAYOUT */
   .page-wrap {
     max-width: 1100px;
@@ -249,19 +268,20 @@
   .guide-entries {
     display: flex;
     flex-direction: column;
+    gap: 0.6rem;
   }
 
   .guide-entry {
-    padding: 1.15rem 0.85rem 1.2rem;
-    margin: 0 -0.85rem;
-    border-top: 1px solid var(--border);
-    transition: background 0.16s ease, border-color 0.16s ease;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.2rem 1.35rem;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
   }
   .guide-entry:hover {
-    background: rgba(255,253,248,0.68);
-    border-top-color: rgba(26,38,64,0.22);
+    border-color: rgba(26,38,64,0.3);
+    box-shadow: 0 1px 5px rgba(0,0,0,0.05);
   }
-  .guide-entry:last-child { border-bottom: 1px solid var(--border); }
 
   .guide-entry-title {
     display: inline-block;
@@ -426,9 +446,14 @@
 <!-- PAGE BANNER -->
 <div class="page-banner">
   <div class="page-banner-inner">
-    <h1>Guides for newcomers to Canada</h1>
-    <p class="page-desc">Practical guides for newcomers and international students in Canada. Every step links to an official source.</p>
-    <p class="page-reviewed">Last reviewed: May 2026</p>
+    <h1>Settlement guides for newcomers to Canada</h1>
+    <p class="page-desc">Practical, step-by-step guides for newcomers and international students. Every step links to an official government source.</p>
+    <div class="hero-metrics">
+      <span>11 guides</span>
+      <span>Official sources</span>
+      <span>Independent — not IRCC</span>
+      <span>Last reviewed May 2026</span>
+    </div>
   </div>
 </div>
 
