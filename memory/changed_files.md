@@ -1,7 +1,14 @@
 # Changed Files
 
 ---
-## 2026-05-31 - Corrective homepage pass (pending approval — not committed)
+## 2026-05-31 - Mobile nav + hero shortcut + identity polish (pending approval — not committed)
+
+**Modified:**
+- `index.html` — (1) nav reordered: All guides / SIN / PGWP / PR / Work & Life / Graduation; (2) search-mock removed, replaced with static shortcut panel with 10 guide buttons and helper text; (3) maple identity layer added: --maple #b23a32 / --maple-soft #f7e7e3 CSS vars, logo dot teal→maple, .section-num and .card-arrow now use maple; (4) .card-icon class added (30×30 maple-soft badge, stroke SVG, no library); SVG icons added to all 11 guide cards. GA4 tag, disclaimer, footer, all 11 guide links preserved. pgwp.html untouched.
+- `memory/current_state.md`, `memory/next_prompt.md`, `memory/changed_files.md`, `daily.md` — updated with this session's changes and backlog notes
+
+---
+## 2026-05-31 - Corrective homepage pass (superseded by above)
 
 **Modified:**
 - `index.html` — full structural rewrite to match Claude Design Direction B: new CSS variables (warmer palette, olive, burgundy, border-dark); slim dark topbar with mono text both sides; single-row sticky white nav (teal dot logo, underline-active state, Browse button); two-column hero (large serif italic-olive h1 left, browse/search card right); 4-col metrics strip with vertical dividers (May 2026 / 11 / ~9 official / Independent); section headers (burgundy number + serif h2 left, description right, hairline divider); 3-col card grid desktop / 2-col tablet / 1-col mobile; card structure: category + num top, title, desc, source domain footer; dark navy footer with brand left + link grid right. All 11 guide links, GA4, disclaimer, footer links preserved. pgwp.html untouched.

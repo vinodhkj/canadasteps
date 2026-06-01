@@ -1,10 +1,10 @@
 ---
-CanadaSteps session handoff — updated 2026-05-31 (corrective homepage pass)
+CanadaSteps session handoff — updated 2026-05-31 (mobile nav + hero shortcut + identity polish)
 
-PENDING USER APPROVAL: Corrective homepage redesign implemented but NOT committed.
+PENDING USER APPROVAL: Three homepage fixes implemented but NOT committed.
 
 Files changed since last commit (025136e):
-- canadasteps/index.html — full structural rewrite to match Claude Design Direction B (slim topbar, single-row nav, two-column hero, 4-col metrics strip, 3-col card grid, dark navy footer)
+- canadasteps/index.html — (1) nav reordered All guides/SIN/PGWP/PR/Work & Life/Graduation; (2) fake search-mock replaced with static 10-button shortcut panel; (3) maple identity: --maple #b23a32, logo dot red, maple section nums/card arrows; (4) SVG card icons on all 11 guide cards
 
 Committed (025136e — do not re-do):
 - pgwp.html — Inter removed, scope-module, toned boxes, outlined step-nums, route-cards

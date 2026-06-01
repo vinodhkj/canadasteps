@@ -32,6 +32,8 @@
     --text-soft:   #52576a;
     --border:      #cec8bb;
     --border-dark: #b8b1a4;
+    --maple:       #b23a32;
+    --maple-soft:  #f7e7e3;
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -98,7 +100,7 @@
   .logo-dot {
     width: 20px; height: 20px;
     border-radius: 50%;
-    background: var(--teal);
+    background: var(--maple);
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -134,7 +136,7 @@
     left: 0.65rem;
     right: 0.65rem;
     height: 2px;
-    background: var(--teal);
+    background: var(--maple);
     border-radius: 1px;
   }
 
@@ -152,7 +154,7 @@
     transition: border-color 0.12s, color 0.12s;
     flex-shrink: 0;
   }
-  .nav-browse:hover { border-color: var(--teal); color: var(--teal); }
+  .nav-browse:hover { border-color: var(--maple); color: var(--maple); }
   .nav-browse svg { flex-shrink: 0; }
 
   /* ── HERO ── */
@@ -197,7 +199,7 @@
     max-width: 510px;
   }
 
-  /* Browse card */
+  /* Shortcut panel */
   .hero-card {
     background: var(--bg-card);
     border: 1px solid var(--border);
@@ -209,43 +211,33 @@
     font-size: 0.92rem;
     font-weight: 600;
     color: var(--navy);
-    margin-bottom: 1rem;
+    margin-bottom: 0.35rem;
   }
-  .search-mock {
-    display: flex;
-    align-items: center;
-    gap: 0.6rem;
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    padding: 0.6rem 0.9rem;
-    background: var(--bg);
-    margin-bottom: 0.9rem;
-  }
-  .search-mock svg { color: var(--gray); flex-shrink: 0; }
-  .search-placeholder {
-    font-size: 0.82rem;
+  .hero-card-hint {
+    font-size: 0.78rem;
     color: var(--gray);
+    margin-bottom: 1rem;
   }
   .quick-links {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.4rem;
+    gap: 0.45rem;
   }
   .quick-links a {
-    font-size: 0.78rem;
+    font-size: 0.82rem;
     color: var(--text-soft);
     text-decoration: none;
     border: 1px solid var(--border);
     border-radius: 20px;
-    padding: 0.25rem 0.8rem;
+    padding: 0.42rem 1rem;
     background: var(--bg);
     transition: border-color 0.12s, color 0.12s, background 0.12s;
     white-space: nowrap;
   }
   .quick-links a:hover {
-    border-color: var(--teal);
-    color: var(--teal);
-    background: var(--teal-light);
+    border-color: var(--maple);
+    color: var(--maple);
+    background: var(--maple-soft);
   }
 
   /* ── METRICS STRIP ── */
@@ -313,7 +305,7 @@
     font-family: Georgia, "Times New Roman", serif;
     font-size: 1rem;
     font-weight: 700;
-    color: var(--burgundy);
+    color: var(--maple);
     flex-shrink: 0;
     line-height: 1;
   }
@@ -353,8 +345,22 @@
     transition: border-color 0.14s, box-shadow 0.14s;
   }
   .guide-card:hover {
-    border-color: var(--teal);
+    border-color: var(--maple);
     box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+  }
+
+  /* Card icon */
+  .card-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    background: var(--maple-soft);
+    color: var(--maple);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.7rem;
+    flex-shrink: 0;
   }
 
   .card-meta {
@@ -401,7 +407,7 @@
     align-items: center;
     justify-content: space-between;
   }
-  .card-arrow { color: var(--teal); }
+  .card-arrow { color: var(--maple); }
 
   /* ── DISCLAIMER ── */
   .disclaimer {
@@ -566,10 +572,11 @@
     </a>
     <div class="nav-links">
       <a class="current" href="/index.html">All guides</a>
-      <a href="/index.html#just-arrived">Just Arrived</a>
+      <a href="/sin.html">SIN</a>
+      <a href="/pgwp.html">PGWP</a>
+      <a href="/pr-pathways.html">PR</a>
       <a href="/index.html#working-daily-life">Work &amp; Life</a>
       <a href="/index.html#graduation-immigration">Graduation</a>
-      <a href="/pr-pathways.html">PR</a>
     </div>
     <a class="nav-browse" href="/index.html#just-arrived">
       <svg width="13" height="13" viewBox="0 0 20 20" fill="none" aria-hidden="true" focusable="false"><circle cx="8.5" cy="8.5" r="5" stroke="currentColor" stroke-width="1.8"/><path d="M13 13l3.5 3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
@@ -588,16 +595,18 @@
     </div>
     <div class="hero-card">
       <div class="hero-card-label">What do you need to do?</div>
-      <div class="search-mock">
-        <svg width="14" height="14" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5" stroke="currentColor" stroke-width="1.8"/><path d="M13 13l3.5 3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
-        <span class="search-placeholder">Search guides — e.g. &ldquo;SIN&rdquo;, &ldquo;PGWP&rdquo;</span>
-      </div>
+      <div class="hero-card-hint">Jump to a common guide.</div>
       <div class="quick-links">
         <a href="/sin.html">SIN</a>
         <a href="/pgwp.html">PGWP</a>
-        <a href="/taxes.html">Taxes</a>
+        <a href="/pr-pathways.html">PR</a>
         <a href="/bank-account.html">Banking</a>
+        <a href="/taxes.html">Taxes</a>
         <a href="/cra-account.html">CRA</a>
+        <a href="/ontario-photo-card.html">Photo Card</a>
+        <a href="/ontario-drivers-license.html">Driver's Licence</a>
+        <a href="/phone-plan.html">Phone Plan</a>
+        <a href="/gic-unlock.html">GIC Unlock</a>
       </div>
     </div>
   </div>
@@ -640,6 +649,9 @@
     <div class="guide-grid">
 
       <a class="guide-card" href="/sin.html">
+        <div class="card-icon" aria-hidden="true">
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><rect x="1" y="3" width="14" height="10" rx="1.5" stroke="currentColor" stroke-width="1.4"/><circle cx="5.5" cy="8" r="1.5" stroke="currentColor" stroke-width="1.2"/><line x1="8.5" y1="6.5" x2="13" y2="6.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/><line x1="8.5" y1="9.5" x2="13" y2="9.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+        </div>
         <div class="card-meta">
           <span class="card-category">First Setup</span>
           <span class="card-num">01</span>
@@ -650,6 +662,9 @@
       </a>
 
       <a class="guide-card" href="/bank-account.html">
+        <div class="card-icon" aria-hidden="true">
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6.3" stroke="currentColor" stroke-width="1.4"/><path d="M8 4.5v1.2M8 10.3v1.2M6.2 6.8h2.6c.6 0 1 .4 1 .9s-.4.9-1 .9H7.2c-.6 0-1 .4-1 .9s.4.9 1 .9h3" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+        </div>
         <div class="card-meta">
           <span class="card-category">Banking</span>
           <span class="card-num">02</span>
@@ -660,6 +675,9 @@
       </a>
 
       <a class="guide-card" href="/gic-unlock.html">
+        <div class="card-icon" aria-hidden="true">
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><rect x="3" y="7.5" width="10" height="7" rx="1.5" stroke="currentColor" stroke-width="1.4"/><path d="M5.5 7.5V5a2.5 2.5 0 015 0v2.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><circle cx="8" cy="11" r="1" fill="currentColor"/></svg>
+        </div>
         <div class="card-meta">
           <span class="card-category">Banking</span>
           <span class="card-num">03</span>
@@ -670,6 +688,9 @@
       </a>
 
       <a class="guide-card" href="/phone-plan.html">
+        <div class="card-icon" aria-hidden="true">
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><rect x="4.5" y="1" width="7" height="14" rx="2" stroke="currentColor" stroke-width="1.4"/><line x1="4.5" y1="11.5" x2="11.5" y2="11.5" stroke="currentColor" stroke-width="1.2"/><circle cx="8" cy="13.2" r="0.75" fill="currentColor"/></svg>
+        </div>
         <div class="card-meta">
           <span class="card-category">Phone Setup</span>
           <span class="card-num">04</span>
@@ -680,6 +701,9 @@
       </a>
 
       <a class="guide-card" href="/ontario-photo-card.html">
+        <div class="card-icon" aria-hidden="true">
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><rect x="1" y="3" width="14" height="10" rx="1.5" stroke="currentColor" stroke-width="1.4"/><circle cx="5.5" cy="7.5" r="1.8" stroke="currentColor" stroke-width="1.2"/><path d="M2.5 13c0-1.7 1.3-2.5 3-2.5s3 .8 3 2.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/><line x1="10" y1="7" x2="13.5" y2="7" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/><line x1="10" y1="9.5" x2="13.5" y2="9.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+        </div>
         <div class="card-meta">
           <span class="card-category">Ontario ID</span>
           <span class="card-num">05</span>
@@ -690,6 +714,9 @@
       </a>
 
       <a class="guide-card" href="/ontario-drivers-license.html">
+        <div class="card-icon" aria-hidden="true">
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6.5" stroke="currentColor" stroke-width="1.4"/><circle cx="8" cy="8" r="2" stroke="currentColor" stroke-width="1.2"/><line x1="8" y1="1.5" x2="8" y2="6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/><line x1="8" y1="10" x2="8" y2="14.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/><line x1="1.5" y1="8" x2="6" y2="8" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/><line x1="10" y1="8" x2="14.5" y2="8" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+        </div>
         <div class="card-meta">
           <span class="card-category">Ontario ID</span>
           <span class="card-num">06</span>
@@ -714,6 +741,9 @@
     <div class="guide-grid">
 
       <a class="guide-card" href="/taxes.html">
+        <div class="card-icon" aria-hidden="true">
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 2h10v11l-1.5-1L9.5 13.5 8 12l-1.5 1.5L5 12l-1.5 1.5L2 12V2z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><line x1="5.5" y1="6" x2="10.5" y2="6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/><line x1="5.5" y1="8.5" x2="10.5" y2="8.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+        </div>
         <div class="card-meta">
           <span class="card-category">Tax Filing</span>
           <span class="card-num">01</span>
@@ -724,6 +754,9 @@
       </a>
 
       <a class="guide-card" href="/cra-account.html">
+        <div class="card-icon" aria-hidden="true">
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M1.5 14h13M3 14V7.5M13 14V7.5M1.5 7.5l6.5-5 6.5 5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/><rect x="5.5" y="10" width="5" height="4" rx="0.5" stroke="currentColor" stroke-width="1.2"/></svg>
+        </div>
         <div class="card-meta">
           <span class="card-category">CRA Access</span>
           <span class="card-num">02</span>
@@ -748,6 +781,9 @@
     <div class="guide-grid">
 
       <a class="guide-card" href="/pgwp.html">
+        <div class="card-icon" aria-hidden="true">
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M8 3L1.5 7l6.5 3.5L14.5 7 8 3z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M4.5 8.5V12c0 0 1.5 1.8 3.5 1.8S11.5 12 11.5 12V8.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/><line x1="14.5" y1="7" x2="14.5" y2="11" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+        </div>
         <div class="card-meta">
           <span class="card-category">Work Permit</span>
           <span class="card-num">01</span>
@@ -758,6 +794,9 @@
       </a>
 
       <a class="guide-card" href="/spouse-work-permit.html">
+        <div class="card-icon" aria-hidden="true">
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><rect x="2" y="6" width="12" height="8" rx="1.5" stroke="currentColor" stroke-width="1.4"/><path d="M5.5 6V4.5a2.5 2.5 0 015 0V6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><line x1="2" y1="10" x2="14" y2="10" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+        </div>
         <div class="card-meta">
           <span class="card-category">Family &amp; Immigration</span>
           <span class="card-num">02</span>
@@ -782,6 +821,9 @@
     <div class="guide-grid">
 
       <a class="guide-card" href="/pr-pathways.html">
+        <div class="card-icon" aria-hidden="true">
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6.5" stroke="currentColor" stroke-width="1.4"/><line x1="8" y1="1.5" x2="8" y2="3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><line x1="8" y1="13" x2="8" y2="14.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><line x1="1.5" y1="8" x2="3" y2="8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><line x1="13" y1="8" x2="14.5" y2="8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M10 6l-2.5 4L6 8l4-2z" stroke="currentColor" stroke-width="1.1" stroke-linejoin="round"/></svg>
+        </div>
         <div class="card-meta">
           <span class="card-category">Navigation Guide</span>
           <span class="card-num">01</span>

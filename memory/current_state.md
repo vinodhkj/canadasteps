@@ -1,6 +1,6 @@
 # Current State
 
-_Updated: 2026-05-31 (corrective homepage pass)_
+_Updated: 2026-05-31 (mobile nav + hero shortcut + identity polish)_
 
 ## Phase
 
@@ -32,7 +32,14 @@ Phase 1 - Editorial redesign refinement
 
 ## Last change
 
-May 31 - Corrective homepage pass: index.html fully rebuilt to match approved Claude Design Direction B. New structure: slim dark topbar (mono, two-sided), single-row white sticky nav (teal dot logo, underline-active, Browse button), two-column hero (large italic-olive serif h1 left, browse/search card right), 4-column metrics strip (May 2026 / 11 / ~9 official / Independent), 3-col card grid (desktop) / 2-col (tablet) / 1-col (mobile), dark navy footer. pgwp.html unchanged. Pending user approval — not committed.
+May 31 - Mobile nav + hero shortcut + identity polish: index.html — (1) nav reordered: All guides / SIN / PGWP / PR / Work & Life / Graduation so PR visible early on mobile; (2) fake search-mock replaced with static shortcut panel (10 buttons: SIN, PGWP, PR, Banking, Taxes, CRA, Photo Card, Driver's Licence, Phone Plan, GIC Unlock); (3) maple identity layer: --maple #b23a32 + --maple-soft #f7e7e3, logo dot teal→maple, section nums maple, card-arrow maple; (4) SVG icons on all 11 guide cards (30×30 maple-soft badge, stroke-based, no library). pgwp.html unchanged. Pending user approval — not committed.
+
+## Backlog (do not implement now)
+
+1. Generic newcomer wording — pages over-referencing "international students": ontario-drivers-license.html, ontario-photo-card.html, taxes.html, cra-account.html, bank-account.html, phone-plan.html. Use broader wording (newcomers, new residents, Ontario residents, etc.). Keep student-specific only where genuinely relevant.
+2. "Plain-English map" overuse — replace with "guide," "checklist," "overview," "starting point" except on pathway-style pages.
+3. Safety wording — review pr-pathways.html (overconfident transition wording), spouse-work-permit.html (spouse eligibility wording), cra-account.html (NOA registration warning), official-source label wording.
+4. SEO + trust content review — homepage, PGWP, SIN, internal linking, title/meta, FAQ opportunities, legal-advice wording. Prioritized backlog (must fix / should improve / nice to have). Conservative — no broad rewrites.
 
 ## Previous change (committed 025136e)
 
