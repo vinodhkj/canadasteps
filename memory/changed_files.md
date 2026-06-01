@@ -1,6 +1,26 @@
 # Changed Files
 
 ---
+## 2026-06-01 - Header/nav consistency pass (pending approval — not committed)
+
+**Modified (all 11 guide pages):**
+- `sin.html` — logo-mark → logo-dot (CSS + HTML); PR nav → /pr-pathways.html
+- `bank-account.html` — same
+- `phone-plan.html` — same
+- `gic-unlock.html` — same
+- `cra-account.html` — same
+- `taxes.html` — same
+- `ontario-drivers-license.html` — same
+- `ontario-photo-card.html` — same
+- `pgwp.html` — same
+- `spouse-work-permit.html` — same
+- `pr-pathways.html` — same; PR nav item also gains `class="current"`
+
+**Not changed:**
+- `index.html` — already had logo-dot and correct PR links; untouched
+- `sitemap.xml`, `robots.txt`, analytics tags, page body content, official links, disclaimers — all untouched
+
+---
 ## 2026-06-01 - Official-source verification cleanup (pending approval — not committed)
 
 **Modified:**

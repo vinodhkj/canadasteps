@@ -1,6 +1,6 @@
 # Current State
 
-_Updated: 2026-06-01 (official-source verification cleanup — gic-unlock, taxes, cra-account, bank-account)_
+_Updated: 2026-06-01 (header/nav consistency pass — maple leaf mark + PR nav fix, all 11 guide pages)_
 
 ## Phase
 
@@ -31,6 +31,14 @@ Phase 1 - Editorial redesign refinement
 - SSL certificate active
 
 ## Last change
+
+Jun 1 - Header/nav consistency pass (pending commit — not committed): all 11 guide pages updated.
+- Logo: replaced old `.logo-mark` snowflake SVG with `.logo-dot` circular maple mark (22×22px, #b23a32 background, white maple leaf SVG) matching index.html identity.
+- PR nav: fixed broken `href="/index.html#pr-pathways"` → `href="/pr-pathways.html"` on all 11 guide pages. pr-pathways.html gets `class="current"` on its own PR nav item.
+- No page body content, disclaimers, official links, or analytics tags changed.
+- index.html untouched (already had correct logo-dot and PR links).
+
+## Previous last change
 
 Jun 1 - Official-source verification cleanup (pending commit — not committed): 4 HTML files updated.
 - gic-unlock.html: SDS program reference removed (SDS ended Nov 2024); replaced with current IRCC financial-support framing; "Most students need in-person appointment" softened to "Many banks require identity verification"; SDS official link replaced with current IRCC proof-of-financial-support URL + FCAC GIC rights link.
