@@ -1,6 +1,40 @@
 # Changed Files
 
 ---
+## 2026-06-01 - SEO & trust backlog — metadata, wording, internal links (pending approval — not committed)
+
+**Modified:**
+- `index.html` — meta description updated (newcomer-focused, topic list); hero desc updated (removed "Warm", added topic list, "links to an official government source")
+- `pgwp.html` — meta description updated; Section 06 PR/employment wording replaced (removed "type of work you do may affect your eligibility for PR" → safe overview framing with PR Pathways link)
+- `sin.html` — meta description updated; taxes transition card: removed "for international students"; section 05: added `step-safe` callout "Your SIN number does not change"
+- `gic-unlock.html` — taxes transition card: removed "what international students need to know" → "for what to collect and when to file"
+- `pr-pathways.html` — founder note updated (removed "newcomers and international students" → "people researching Canadian immigration and settlement steps"); Section 04 "Temporary status vs PR sponsorship": added internal link to spouse-work-permit.html
+- `taxes.html` — disclaimer fixed: IRCC/immigration references → CRA/tax wording; RCIC reference removed (tax page, not immigration)
+- `cra-account.html` — "After filing a tax return" step: added internal link to taxes.html
+- `ontario-photo-card.html` — eligibility section: added internal link to ontario-drivers-license.html
+- `ontario-drivers-license.html` — next-steps: added Ontario Photo Card Guide card (4th related guide)
+
+**Not changed:**
+- `sitemap.xml`, `robots.txt`, analytics tags, CSS/layout, page structure — all untouched
+- `pgwp.html` title tag preserved; `sin.html` title tag preserved
+
+---
+## 2026-05-31 - Content wording cleanup (pending approval — not committed)
+
+**Modified:**
+- `index.html` — card descs: tax "international students" → "newcomers"; CRA "when students may need it" → "when you may need it"; bank "student banking" → "first-arrival banking"; photo card "students and newcomers" → "residents"; driver's "international students and newcomers" → "newcomers and people new to Ontario"; Section 3 desc broadened from "international students" to "people preparing to work in Canada after graduation"
+- `cra-account.html` — title/h1/meta/page-desc: "international students" → "newcomers"; section 02 heading: "When students may need it" → "When you may need it"; body: "Students may use it" → "You may use it"; CRA NOA warning bullet rewritten to preferred safe language ("may not be able to fully register until CRA has processed your first return"); next-steps transition generalized
+- `taxes.html` — title/h1/meta: "international students" → "newcomers"; page-desc updated; section 02 "all international students" → "all newcomers"; bank-account transition generalized
+- `bank-account.html` — title/h1/meta: "international student" → "newcomer"; next-steps tax transition generalized
+- `ontario-drivers-license.html` — title/h1/meta: "international students" → "newcomers to Ontario"; page-desc second-person generalized
+- `pr-pathways.html` — page-desc rewritten to preferred safer language: "A plain-language overview of common PR starting points people often research..." + "This page does not tell you which program you qualify for"
+
+**Reviewed, no changes needed:**
+- `ontario-photo-card.html` — already generic; student-specific eligibility categories are ServiceOntario-accurate
+- `phone-plan.html` — already generic throughout
+- `spouse-work-permit.html` — already well-hedged with temp vs PR distinction; safe language throughout
+
+---
 ## 2026-05-31 - Mobile nav + hero shortcut + identity polish (pending approval — not committed)
 
 **Modified:**

@@ -1,7 +1,16 @@
 ---
-CanadaSteps session handoff — updated 2026-05-31 (mobile nav + hero shortcut + identity polish)
+CanadaSteps session handoff — updated 2026-06-01 (SEO & trust backlog)
 
-PENDING USER APPROVAL: Three homepage fixes implemented but NOT committed.
+PENDING USER APPROVAL — NOT COMMITTED:
+- SEO & trust backlog: 9 HTML files (see changed_files.md 2026-06-01 entry)
+- Prior sessions' memory file updates also uncommitted
+
+Next action: User approves → commit all with descriptive message.
+Deferred (do not implement without explicit instruction):
+- PGWP FAQ block
+- FCAC GIC source addition
+- bank-account SIN FAQ
+- robots meta tags
 
 Files changed since last commit (025136e):
 - canadasteps/index.html — (1) nav reordered All guides/SIN/PGWP/PR/Work & Life/Graduation; (2) fake search-mock replaced with static 10-button shortcut panel; (3) maple identity: --maple #b23a32, logo dot red, maple section nums/card arrows; (4) SVG card icons on all 11 guide cards

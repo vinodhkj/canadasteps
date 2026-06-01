@@ -3,7 +3,11 @@
 One entry per working session. Most recent first.
 
 ---
+## 2026-06-01
+Jun 1 - SEO & trust backlog: 9 HTML files updated — metadata (pgwp, sin, index), hero desc, wording fixes (taxes disclaimer→CRA, pgwp Section 06 PR wording, pr-pathways founder note), internal links (cra→taxes, pr-pathways→spouse-work-permit, photo card↔driver's licence cross-links), SIN callout, stale student refs in sin/gic-unlock. Pending user approval.
+
 ## 2026-05-31
+May 31 - Content wording cleanup: 6 files updated — generic newcomer language (taxes, cra-account, bank-account, ontario-drivers-license, index.html cards), CRA NOA registration warning strengthened, PR pathways page-desc rewritten to safer plain-language framing. Pending user approval.
 May 31 - Direction B + Direction A redesign: index.html guide entries → cards, hero metrics strip added; pgwp.html Inter removed, scope-module, toned warning boxes, outlined step-nums, route-cards for Step 5 IMM routing. Committed 025136e.
 May 31 - Corrective homepage pass: index.html fully rebuilt to match Claude Design Direction B — slim topbar, single-row nav, two-column hero with italic-olive h1, browse card, 4-col metrics strip, 3-col card grid, dark navy footer. pgwp.html unchanged. Pending user approval.
 May 31 - Mobile nav + hero shortcut + identity polish: nav reordered (SIN/PGWP/PR early), fake search replaced with 10-button shortcut panel, maple identity layer (#b23a32 logo dot + accents), SVG card icons on all 11 guide cards. index.html only. Pending user approval.

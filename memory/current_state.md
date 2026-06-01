@@ -1,6 +1,6 @@
 # Current State
 
-_Updated: 2026-05-31 (mobile nav + hero shortcut + identity polish)_
+_Updated: 2026-06-01 (SEO & trust backlog — metadata, wording fixes, internal links)_
 
 ## Phase
 
@@ -31,6 +31,14 @@ Phase 1 - Editorial redesign refinement
 - SSL certificate active
 
 ## Last change
+
+Jun 1 - SEO & trust backlog (pending commit — not committed): 9 HTML files updated with metadata fixes, wording corrections, and internal links. Key items: pgwp.html meta + Section 06 PR wording softened; taxes.html disclaimer fixed (IRCC→CRA); sin.html meta + SIN-doesn't-change callout added; pr-pathways.html founder note generalized + spouse-work-permit internal link; cra-account.html taxes link; ontario-photo-card.html + ontario-drivers-license.html cross-linked; gic-unlock.html + sin.html stale student wording fixed. No CSS, sitemap, robots, or analytics changes.
+
+## Previous last change
+
+May 31 - Content wording cleanup (committed 0394863): (1) Generic newcomer wording: taxes.html, cra-account.html, bank-account.html, ontario-drivers-license.html titles/h1/descs updated from "international students" to "newcomers"; index.html card descs updated to match. (2) CRA My Account warning strengthened to "may not be able to fully register until CRA has processed your first return and issued your NOA." (3) PR pathways page-desc updated to "A plain-language overview of common PR starting points people often research..." with explicit "does not tell you which program you qualify for." ontario-photo-card.html, phone-plan.html, spouse-work-permit.html reviewed — no changes needed (already generic/safe). pgwp.html unchanged.
+
+## Previous last change
 
 May 31 - Mobile nav + hero shortcut + identity polish: index.html — (1) nav reordered: All guides / SIN / PGWP / PR / Work & Life / Graduation so PR visible early on mobile; (2) fake search-mock replaced with static shortcut panel (10 buttons: SIN, PGWP, PR, Banking, Taxes, CRA, Photo Card, Driver's Licence, Phone Plan, GIC Unlock); (3) maple identity layer: --maple #b23a32 + --maple-soft #f7e7e3, logo dot teal→maple, section nums maple, card-arrow maple; (4) SVG icons on all 11 guide cards (30×30 maple-soft badge, stroke-based, no library). pgwp.html unchanged. Pending user approval — not committed.
 
