@@ -1,6 +1,19 @@
 # Changed Files
 
 ---
+## 2026-06-01 - Official-source verification cleanup (pending approval — not committed)
+
+**Modified:**
+- `gic-unlock.html` — SDS reference removed and replaced with current IRCC financial-support framing; "Most students need in-person appointment" → "Many banks require identity verification, in person or online"; SDS official link replaced with current IRCC URL + FCAC GIC rights link added
+- `taxes.html` — self-employed filing deadline caveat added after April 30 mention; CRA Newcomers to Canada page added to official links section
+- `cra-account.html` — registration step-note tightened: explicit "must have filed for current or previous tax year" language; "may not be able to register until you do" added
+- `bank-account.html` — FCAC "Opening a personal bank account: know your rights" link added to official links section
+
+**Not changed:**
+- `sin.html`, `index.html`, `pgwp.html`, `pr-pathways.html`, `spouse-work-permit.html`, `ontario-drivers-license.html`, `ontario-photo-card.html`, `phone-plan.html` — untouched
+- `sitemap.xml`, `robots.txt`, analytics tags, CSS/layout — all untouched
+
+---
 ## 2026-06-01 - SEO & trust backlog — metadata, wording, internal links (pending approval — not committed)
 
 **Modified:**

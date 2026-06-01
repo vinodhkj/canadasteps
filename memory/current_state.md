@@ -1,6 +1,6 @@
 # Current State
 
-_Updated: 2026-06-01 (SEO & trust backlog — metadata, wording fixes, internal links)_
+_Updated: 2026-06-01 (official-source verification cleanup — gic-unlock, taxes, cra-account, bank-account)_
 
 ## Phase
 
@@ -31,6 +31,15 @@ Phase 1 - Editorial redesign refinement
 - SSL certificate active
 
 ## Last change
+
+Jun 1 - Official-source verification cleanup (pending commit — not committed): 4 HTML files updated.
+- gic-unlock.html: SDS program reference removed (SDS ended Nov 2024); replaced with current IRCC financial-support framing; "Most students need in-person appointment" softened to "Many banks require identity verification"; SDS official link replaced with current IRCC proof-of-financial-support URL + FCAC GIC rights link.
+- taxes.html: self-employed deadline caveat added after April 30 mention; CRA Newcomers to Canada page added to official links.
+- cra-account.html: registration step-note tightened to match CRA language more precisely.
+- bank-account.html: FCAC "Opening a personal bank account: know your rights" added to official links.
+No CSS, layout, sitemap, robots, analytics, or sin.html changes.
+
+## Previous last change
 
 Jun 1 - SEO & trust backlog (pending commit — not committed): 9 HTML files updated with metadata fixes, wording corrections, and internal links. Key items: pgwp.html meta + Section 06 PR wording softened; taxes.html disclaimer fixed (IRCC→CRA); sin.html meta + SIN-doesn't-change callout added; pr-pathways.html founder note generalized + spouse-work-permit internal link; cra-account.html taxes link; ontario-photo-card.html + ontario-drivers-license.html cross-linked; gic-unlock.html + sin.html stale student wording fixed. No CSS, sitemap, robots, or analytics changes.
 

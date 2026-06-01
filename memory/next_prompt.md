@@ -1,14 +1,14 @@
 ---
-CanadaSteps session handoff — updated 2026-06-01 (SEO & trust backlog)
+CanadaSteps session handoff — updated 2026-06-01 (official-source verification cleanup)
 
 PENDING USER APPROVAL — NOT COMMITTED:
-- SEO & trust backlog: 9 HTML files (see changed_files.md 2026-06-01 entry)
+- Official-source verification cleanup: 4 HTML files (gic-unlock, taxes, cra-account, bank-account)
+- SEO & trust backlog: 9 HTML files (see changed_files.md 2026-06-01 SEO entry)
 - Prior sessions' memory file updates also uncommitted
 
 Next action: User approves → commit all with descriptive message.
 Deferred (do not implement without explicit instruction):
 - PGWP FAQ block
-- FCAC GIC source addition
 - bank-account SIN FAQ
 - robots meta tags
 

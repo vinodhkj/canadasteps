@@ -4,6 +4,7 @@ One entry per working session. Most recent first.
 
 ---
 ## 2026-06-01
+Jun 1 - Official-source verification cleanup: gic-unlock SDS removed + IRCC link updated + FCAC GIC link added; taxes self-employed caveat + CRA newcomers link; cra-account registration note tightened; bank-account FCAC rights link added. 4 files, no CSS/layout/analytics. Pending user approval.
 Jun 1 - SEO & trust backlog: 9 HTML files updated — metadata (pgwp, sin, index), hero desc, wording fixes (taxes disclaimer→CRA, pgwp Section 06 PR wording, pr-pathways founder note), internal links (cra→taxes, pr-pathways→spouse-work-permit, photo card↔driver's licence cross-links), SIN callout, stale student refs in sin/gic-unlock. Pending user approval.
 
 ## 2026-05-31
