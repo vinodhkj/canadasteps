@@ -97,6 +97,11 @@
     align-items: center;
     gap: 0.4rem;
   }
+  .nav-crumb a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .nav-crumb a:hover { color: var(--teal); }
   .nav-crumb strong { color: var(--text-soft); font-weight: 600; }
 
   .nav-links {
@@ -496,7 +501,11 @@
       <a href="/all-guides.html">All Guides</a>
     </div>
   </div>
-  <div class="nav-crumb">CanadaSteps / Newcomer First Steps / <strong>First Week Checklist</strong></div>
+  <div class="nav-crumb">
+    <a href="/index.html">CanadaSteps</a> /
+    <a href="/all-guides.html#newcomer-first-steps">Newcomer First Steps</a> /
+    <strong aria-current="page">First Week Checklist</strong>
+  </div>
 </nav>
 
 <div class="founder-note">
