@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4M1LTVRG81"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Disclaimer | CanadaSteps</title>
+<meta name="description" content="Disclaimer for CanadaSteps. CanadaSteps provides general educational information only and is not legal, immigration, tax, financial, or professional advice.">
+<style>
+  :root {
+    --bg: #f8f5ee;
+    --bg-card: #fffdf8;
+    --bg-soft: #f1ebe1;
+    --navy: #1a2640;
+    --navy-mid: #243352;
+    --red: #b91c1c;
+    --teal: #166b61;
+    --teal-light: #e8f0ec;
+    --amber: #d97706;
+    --amber-light: #fef9c3;
+    --green: #166534;
+    --green-light: #dcfce7;
+    --gray: #6b7280;
+    --gray-light: #e5e7eb;
+    --text: #1f2937;
+    --text-soft: #465264;
+    --border: #ded6ca;
+    --step-line: #d0c3ab;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    font-size: 17px;
+  }
+
+  /* TOP BAR */
+  .topbar {
+    background: var(--navy);
+    color: rgba(255,255,255,0.65);
+    font-size: 0.74rem;
+    padding: 0.45rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .topbar a { color: rgba(255,255,255,0.72); text-decoration: none; }
+  .topbar a:hover { text-decoration: underline; }
+
+  .founder-note {
+    border-bottom: 1px solid var(--border);
+    padding: 0.5rem 2rem;
+    font-size: 0.75rem;
+    color: var(--gray);
+    line-height: 1.55;
+  }
+
+  /* NAV */
+  nav {
+    background: var(--bg-card);
+    border-bottom: 2px solid var(--navy);
+    padding: 0.9rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }
+
+  .nav-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--navy);
+    text-decoration: none;
+    letter-spacing: -0.3px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+  .logo span { color: var(--teal); }
+  .logo-leaf { flex-shrink: 0; }
+
+  .nav-crumb {
+    font-size: 0.75rem;
+    color: var(--gray);
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  .nav-crumb strong { color: var(--text-soft); font-weight: 600; }
+
+  .nav-links {
+    display: flex;
+    gap: 1.25rem;
+  }
+  .nav-links a {
+    font-size: 0.86rem;
+    color: var(--gray);
+    text-decoration: none;
+  }
+  .nav-links a:hover { color: var(--teal); }
+  .nav-links a.current { color: var(--teal); font-weight: 500; }
+
+  /* PAGE LAYOUT */
+  .page-wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2.25rem 2.25rem 4.5rem;
+  }
+
+  /* HEADER */
+  .page-header {
+    margin-bottom: 1.45rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .track-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: var(--teal-light);
+    color: var(--teal);
+    border: 1px solid rgba(22,107,97,0.2);
+    padding: 0.25rem 0.75rem;
+    border-radius: 100px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 0.9rem;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  }
+  .track-tag.money { background: var(--amber-light); color: var(--amber); border-color: rgba(217,119,6,0.3); }
+
+  h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.6rem, 4vw, 2.2rem);
+    font-weight: 700;
+    color: var(--navy);
+    line-height: 1.25;
+    margin-bottom: 0.6rem;
+    letter-spacing: -0.2px;
+  }
+
+  .page-desc {
+    font-size: 1rem;
+    color: var(--text-soft);
+    line-height: 1.7;
+    max-width: 620px;
+  }
+
+  .meta-row {
+    display: flex;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+    margin-top: 1.1rem;
+  }
+
+  .meta-item {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.75rem;
+    color: var(--gray);
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  }
+
+  .meta-dot {
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    background: var(--teal);
+    flex-shrink: 0;
+  }
+  .meta-dot.amber { background: var(--amber); }
+  .meta-dot.green { background: #16a34a; }
+
+  /* REALITY CHECK */
+  .reality-check {
+    background: var(--amber-light);
+    border: 1px solid rgba(217,119,6,0.25);
+    border-left: 4px solid var(--amber);
+    border-radius: 8px;
+    padding: 1rem 1.1rem;
+    margin-bottom: 1.45rem;
+    font-size: 0.84rem;
+    color: #78350f;
+    line-height: 1.6;
+  }
+  .reality-check strong {
+    display: block;
+    font-weight: 700;
+    font-size: 0.82rem;
+    color: #92400e;
+    margin-bottom: 0.55rem;
+  }
+  .reality-check ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-left: 0;
+  }
+  .reality-check ul li {
+    display: flex;
+    gap: 0.5rem;
+    line-height: 1.55;
+  }
+  .reality-check ul li::before {
+    content: '→';
+    flex-shrink: 0;
+    color: var(--amber);
+    font-weight: 600;
+  }
+  .reality-check a { color: #92400e; font-weight: 600; }
+
+  /* SECTION */
+  .section { margin-bottom: 1.65rem; }
+
+  h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.24rem;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+  }
+
+  .h2-num {
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    font-size: 0.65rem;
+    background: var(--navy);
+    color: white;
+    padding: 0.18rem 0.45rem;
+    border-radius: 4px;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+  }
+
+  .divider {
+    height: 1px;
+    background: var(--border);
+    margin: 1.55rem 0;
+  }
+
+  /* CHECKLIST */
+  .checklist { list-style: none; display: flex; flex-direction: column; gap: 0.55rem; }
+  .checklist li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    font-size: 0.875rem;
+    color: var(--text-soft);
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    box-shadow: 0 1px 0 rgba(26,38,64,0.03);
+    line-height: 1.55;
+  }
+  .check-box {
+    width: 16px; height: 16px;
+    border: 1.5px solid var(--gray-light);
+    border-radius: 3px;
+    flex-shrink: 0;
+    margin-top: 2px;
+    background: var(--bg);
+  }
+  .checklist li strong { color: var(--text); font-weight: 600; }
+
+  /* STEPS */
+  .steps-list { list-style: none; position: relative; }
+  .steps-list::before {
+    content: '';
+    position: absolute;
+    left: 20px; top: 26px; bottom: 26px;
+    width: 1px;
+    background: var(--step-line);
+  }
+
+  .step { display: flex; gap: 1.1rem; margin-bottom: 0.9rem; position: relative; }
+
+  .step-num {
+    width: 42px; height: 42px;
+    border-radius: 50%;
+    background: var(--navy);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    font-size: 0.75rem;
+    font-weight: 500;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1;
+    border: 3px solid var(--bg);
+    box-shadow: 0 0 0 1px var(--step-line);
+  }
+
+  .step-body {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.2rem;
+    box-shadow: 0 1px 0 rgba(26,38,64,0.04);
+    flex: 1;
+  }
+
+  .step-title {
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: var(--navy);
+    margin-bottom: 0.3rem;
+  }
+
+  .step-desc {
+    font-size: 0.83rem;
+    color: var(--text-soft);
+    line-height: 1.6;
+    margin-bottom: 0.6rem;
+  }
+
+  .step-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--teal);
+    text-decoration: none;
+    border: 1px solid rgba(22,107,97,0.25);
+    background: var(--teal-light);
+    padding: 0.28rem 0.65rem;
+    border-radius: 5px;
+    transition: all 0.2s;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    margin-right: 0.4rem;
+    margin-bottom: 0.3rem;
+  }
+  .step-link:hover { background: rgba(22,107,97,0.12); border-color: var(--teal); }
+  .step-link::after { content: ' ↗'; }
+
+  .step-note {
+    margin-top: 0.5rem;
+    font-size: 0.77rem;
+    color: #78350f;
+    background: var(--amber-light);
+    border: 1px solid rgba(217,119,6,0.18);
+    border-radius: 6px;
+    padding: 0.4rem 0.7rem;
+    line-height: 1.5;
+  }
+
+  .step-safe {
+    margin-top: 0.5rem;
+    font-size: 0.77rem;
+    color: #1e3a5f;
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
+    border-radius: 6px;
+    padding: 0.4rem 0.7rem;
+    line-height: 1.5;
+  }
+
+  /* MISSES */
+  .misses-list { list-style: none; display: flex; flex-direction: column; gap: 0.65rem; }
+  .miss-item {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--red);
+    border-radius: 8px;
+    padding: 0.9rem 1.1rem;
+  }
+  .miss-title {
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: var(--red);
+    margin-bottom: 0.25rem;
+  }
+  .miss-item p { font-size: 0.82rem; color: var(--text-soft); line-height: 1.55; }
+
+  /* OFFICIAL LINKS */
+  .links-list { list-style: none; display: flex; flex-direction: column; gap: 0.55rem; }
+  .gov-link {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 9px;
+    padding: 0.85rem 1.1rem;
+    box-shadow: 0 1px 0 rgba(26,38,64,0.035);
+    text-decoration: none;
+    transition: all 0.2s;
+    color: inherit;
+  }
+  .gov-link:hover { border-color: rgba(22,107,97,0.45); background: var(--teal-light); }
+
+  .gov-icon {
+    width: 32px; height: 32px;
+    border-radius: 5px;
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    color: var(--navy);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.82rem;
+    flex-shrink: 0;
+  }
+
+  .gov-text { flex: 1; }
+  .gov-title { font-weight: 600; font-size: 0.85rem; color: var(--navy); line-height: 1.3; }
+  .gov-url { font-size: 0.68rem; color: var(--gray); font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; margin-top: 0.1rem; }
+  .gov-arrow { color: var(--teal); font-size: 0.9rem; flex-shrink: 0; }
+
+  /* DISCLAIMER */
+  .disclaimer {
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.2rem;
+    font-size: 0.78rem;
+    color: var(--gray);
+    line-height: 1.65;
+    margin-top: 2.5rem;
+    text-align: center;
+  }
+  .disclaimer a { color: var(--teal); }
+  .disclaimer strong { color: var(--text-soft); }
+
+  .site-footer {
+    margin: 0;
+    padding: 1.35rem 0 2rem;
+    background: var(--bg-soft);
+    border-top: 1px solid var(--border);
+    color: var(--gray);
+    font-size: 0.72rem;
+    line-height: 1.6;
+  }
+  .site-footer-inner {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 0 2.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+  .site-footer a { color: var(--teal); text-decoration: none; }
+  .site-footer a:hover { text-decoration: underline; }
+  .footer-links { display: flex; flex-wrap: wrap; gap: 0.8rem; }
+
+  @media (max-width: 600px) {
+    body { font-size: 16px; }
+    .page-wrap { padding: 1.5rem 1.1rem 4rem; }
+    .site-footer { padding: 1.2rem 0 2rem; }
+    .site-footer-inner { padding: 0 1.1rem; }
+    h1 { font-size: 1.55rem; }
+    .nav-crumb { display: none; }
+    .topbar { padding: 0.35rem 1.1rem; }
+    nav { padding: 0.75rem 1.1rem; }
+    .nav-links { flex-wrap: wrap; gap: 0.45rem 0.75rem; }
+    .nav-links a { font-size: 0.78rem; }
+    .founder-note { padding: 0.5rem 1.1rem; }
+  }
+</style>
+
+<style>
+  .legal-content {
+    max-width: 820px;
+  }
+  .legal-content p,
+  .legal-content li {
+    font-size: 0.9rem;
+    color: var(--text-soft);
+    line-height: 1.7;
+  }
+  .legal-content p {
+    margin-bottom: 0.85rem;
+  }
+  .legal-content ul {
+    padding-left: 1.25rem;
+    margin: 0.75rem 0 0.9rem;
+  }
+  .legal-content li {
+    margin-bottom: 0.45rem;
+  }
+  .legal-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem 1.15rem;
+    margin: 0.85rem 0 1rem;
+  }
+  .legal-card strong {
+    color: var(--text);
+  }
+  .legal-note {
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--teal);
+    border-radius: 8px;
+    padding: 0.9rem 1rem;
+    font-size: 0.85rem;
+    color: var(--text-soft);
+    margin: 1rem 0;
+  }
+  .legal-content a {
+    color: var(--teal);
+    font-weight: 600;
+  }
+</style>
+
+</head>
+<body>
+<!-- TOP BAR -->
+<div class="topbar">
+  <span>Independent guide. Official sources linked on each page.</span>
+</div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-row">
+    <a class="logo" href="/index.html"><svg class="logo-leaf" width="20" height="22" viewBox="0 0 24 26" aria-hidden="true" focusable="false"><path fill="#b23a32" d="M12,1 L14,6 L20,4 L17,9.5 L22.5,12 L16.5,14.5 L18,16.5 L12,23 L6,16.5 L7.5,14.5 L1.5,12 L7,9.5 L4,4 L10,6 Z M10.8,23 L10.8,25.5 L13.2,25.5 L13.2,23 Z"/></svg>Canada<span>Steps</span></a>
+    <div class="nav-crumb">Site Information &rarr; <strong>Disclaimer</strong></div>
+  </div>
+  <div class="nav-links">
+    <a href="/index.html">Home</a>
+    <a href="/pgwp.html">PGWP</a>
+    <a href="/sin.html">SIN</a>
+    <a href="/pr-pathways.html">PR</a>
+    <a href="/all-guides.html">All Guides</a>
+  </div>
+</nav>
+
+<!-- FOUNDER NOTE -->
+<div class="founder-note">
+  Built by a newcomer to Canada who spent too many hours trying to piece together immigration steps from scattered government pages. Everything here links directly to official sources. No legal advice. No guesswork.
+  <span style="display:block;margin-top:0.25rem;font-size:0.68rem;opacity:0.75;">Not affiliated with IRCC or the Government of Canada.</span>
+</div>
+
+
+<main class="page-wrap legal-content">
+  <header class="page-header">
+    <div class="track-tag">Site Information</div>
+    <h1>Disclaimer</h1>
+    <p class="page-desc">CanadaSteps is a plain-language educational guide site. It helps visitors understand common newcomer, immigration, tax, banking, and settlement topics, but it does not replace official sources or professional advice.</p>
+    <div class="meta-row">
+      <div class="meta-item"><span class="meta-dot"></span>Last reviewed: July 2026</div>
+      <div class="meta-item"><span class="meta-dot amber"></span>Applies to: canadasteps.ca</div>
+      <div class="meta-item"><span class="meta-dot green"></span>General information only</div>
+    </div>
+  </header>
+
+  <div class="legal-note">
+    CanadaSteps is independent. It is not affiliated with IRCC, CRA, Service Canada, any provincial government, or the Government of Canada.
+  </div>
+
+  <section class="section">
+    <h2><span class="h2-num">01</span>General information only</h2>
+    <p>CanadaSteps provides educational and navigational information for newcomers, students, workers, families, and people researching Canadian processes. The content is intended to make official information easier to understand and easier to find.</p>
+    <p>The information on this website is not legal advice, immigration advice, tax advice, financial advice, banking advice, accounting advice, or professional advice of any kind.</p>
+  </section>
+
+  <section class="section">
+    <h2><span class="h2-num">02</span>Not immigration or legal advice</h2>
+    <p>CanadaSteps may discuss immigration-related topics such as study permits, work permits, PGWP, spousal work permits, permanent residence pathways, documents, and common application steps.</p>
+    <p>This content is provided for general understanding only. It does not assess your eligibility, prepare an application, represent you, or advise you on what to do in your specific case.</p>
+    <div class="legal-card">
+      <p><strong>For immigration decisions:</strong> Always verify requirements directly with Immigration, Refugees and Citizenship Canada (IRCC) or consult a qualified immigration lawyer or licensed immigration consultant.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2><span class="h2-num">03</span>Not tax, financial, or banking advice</h2>
+    <p>CanadaSteps may explain topics such as SIN, CRA My Account, tax filing, TFSA contribution room, bank accounts, GIC access, phone plans, and newcomer financial steps.</p>
+    <p>These pages are general guides only. They do not consider your full financial, tax, residency, immigration, family, or employment situation.</p>
+    <div class="legal-card">
+      <p><strong>For tax and financial decisions:</strong> Check official CRA guidance and your own records. For advice about your personal situation, speak with a qualified tax, accounting, legal, or financial professional.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2><span class="h2-num">04</span>Official sources should control</h2>
+    <p>CanadaSteps tries to link directly to official government and institutional sources where possible. However, official rules, forms, fees, eligibility criteria, processing steps, and deadlines can change.</p>
+    <p>If anything on CanadaSteps conflicts with an official source, the official source should be treated as the authority.</p>
+  </section>
+
+  <section class="section">
+    <h2><span class="h2-num">05</span>No guarantee of completeness or accuracy</h2>
+    <p>CanadaSteps aims to keep pages clear, practical, and source-backed. Still, the site may contain outdated information, incomplete summaries, errors, omissions, broken links, or simplified explanations.</p>
+    <p>You are responsible for checking the current official requirements before making decisions, submitting applications, making payments, filing taxes, contributing to registered accounts, or relying on any process described on this website.</p>
+  </section>
+
+  <section class="section">
+    <h2><span class="h2-num">06</span>Tools and calculators</h2>
+    <p>CanadaSteps may provide checklists, calculators, comparison tables, or interactive tools. These tools are estimates or guides only and depend on the information entered by the visitor.</p>
+    <p>Calculator results should not be treated as official determinations. For example, tax and contribution-room tools cannot always detect historical transaction timing, non-resident periods, special transfers, penalties, or every personal edge case.</p>
+  </section>
+
+  <section class="section">
+    <h2><span class="h2-num">07</span>External links</h2>
+    <p>CanadaSteps links to government, institutional, and third-party websites. Those websites are controlled by their own owners and may change without notice.</p>
+    <p>CanadaSteps is not responsible for the accuracy, availability, privacy practices, policies, fees, services, or content of external websites.</p>
+  </section>
+
+  <section class="section">
+    <h2><span class="h2-num">08</span>Advertising and affiliate disclosure</h2>
+    <p>CanadaSteps may display ads or use affiliate links in the future. If affiliate links or sponsored placements are used, the site should identify them clearly where practical.</p>
+    <p>Advertising or affiliate relationships should not be treated as endorsements, professional advice, or a guarantee that a product or service is right for your situation.</p>
+  </section>
+
+  <section class="section">
+    <h2><span class="h2-num">09</span>Use at your own risk</h2>
+    <p>By using CanadaSteps, you understand that you are using the website for general education and navigation only. You are responsible for your own decisions and for confirming official requirements before acting.</p>
+    <p>CanadaSteps is not liable for losses, delays, missed deadlines, refused applications, tax penalties, financial loss, account issues, or other outcomes resulting from use of this website or reliance on its content.</p>
+  </section>
+
+  <section class="section">
+    <h2><span class="h2-num">10</span>Contact</h2>
+    <p>If you find something that appears outdated, unclear, or incorrect, use the contact method listed on the <a href="/contact.html">Contact page</a>. Corrections and source updates are welcome.</p>
+  </section>
+
+  <div class="disclaimer">
+    <strong>Plain-language summary:</strong> CanadaSteps helps you understand steps and find official links. It does not tell you what to do in your personal legal, immigration, tax, or financial situation.
+  </div>
+</main>
+
+
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <div>Independent newcomer resource for Canada. Links directly to official government and institutional sources.</div>
+    <div>Not affiliated with IRCC or the Government of Canada. Educational and navigational use only.</div>
+    <div class="footer-links">
+      <a href="/all-guides.html">All guides</a>
+      <a href="/pgwp.html">PGWP</a>
+      <a href="/spouse-work-permit.html">Spouse Work Permit</a>
+      <a href="/sin.html">SIN</a>
+      <a href="/taxes.html">Taxes</a>
+      <a href="/bank-account.html">Banking</a>
+      <a href="/gic-unlock.html">GIC Unlock</a>
+      <a href="/cra-account.html">CRA Account</a>
+      <a href="/ontario-drivers-license.html">Driver's License</a>
+      <a href="/phone-plan.html">Phone Plan</a>
+      <a href="/ontario-photo-card.html">Photo Card</a>
+      <a href="/pr-pathways.html">PR Pathways</a>
+      <a href="/privacy.html">Privacy</a>
+      <a href="/about.html">About</a>
+      <a href="/contact.html">Contact</a>
+      <a href="/disclaimer.html">Disclaimer</a>
+      <a href="/terms.html">Terms</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
+

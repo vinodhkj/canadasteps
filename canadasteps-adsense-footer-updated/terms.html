@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4M1LTVRG81"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4M1LTVRG81');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terms of Use | CanadaSteps</title>
+<meta name="description" content="Terms of use for CanadaSteps. Learn how to use the site, what the information covers, and the limits of CanadaSteps guides and tools.">
+<style>
+  :root {
+    --bg: #f8f5ee;
+    --bg-card: #fffdf8;
+    --bg-soft: #f1ebe1;
+    --navy: #1a2640;
+    --navy-mid: #243352;
+    --red: #b91c1c;
+    --teal: #166b61;
+    --teal-light: #e8f0ec;
+    --amber: #d97706;
+    --amber-light: #fef9c3;
+    --green: #166534;
+    --green-light: #dcfce7;
+    --gray: #6b7280;
+    --gray-light: #e5e7eb;
+    --text: #1f2937;
+    --text-soft: #465264;
+    --border: #ded6ca;
+    --step-line: #d0c3ab;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    font-size: 17px;
+  }
+
+  .topbar {
+    background: var(--navy);
+    color: rgba(255,255,255,0.65);
+    font-size: 0.74rem;
+    padding: 0.45rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .topbar a { color: rgba(255,255,255,0.72); text-decoration: none; }
+  .topbar a:hover { text-decoration: underline; }
+
+  nav {
+    background: var(--bg-card);
+    border-bottom: 2px solid var(--navy);
+    padding: 0.9rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }
+
+  .nav-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--navy);
+    text-decoration: none;
+    letter-spacing: -0.3px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+  .logo span { color: var(--teal); }
+
+  .nav-crumb {
+    font-size: 0.75rem;
+    color: var(--gray);
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  .nav-crumb a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .nav-crumb a:hover { color: var(--teal); }
+  .nav-crumb strong { color: var(--text-soft); font-weight: 600; }
+
+  .nav-links {
+    display: flex;
+    gap: 1.25rem;
+  }
+  .nav-links a {
+    font-size: 0.86rem;
+    color: var(--gray);
+    text-decoration: none;
+  }
+  .nav-links a:hover { color: var(--teal); }
+  .nav-links a.current { color: var(--teal); font-weight: 500; }
+
+  .founder-note {
+    border-bottom: 1px solid var(--border);
+    padding: 0.5rem 2rem;
+    font-size: 0.75rem;
+    color: var(--gray);
+    line-height: 1.55;
+  }
+
+  .page-wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2.25rem 2.25rem 4.5rem;
+  }
+
+  .page-header {
+    margin-bottom: 1.45rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .track-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: var(--teal-light);
+    color: var(--teal);
+    border: 1px solid rgba(22,107,97,0.2);
+    padding: 0.25rem 0.75rem;
+    border-radius: 100px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 0.9rem;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  }
+
+  h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.6rem, 4vw, 2.2rem);
+    font-weight: 700;
+    color: var(--navy);
+    line-height: 1.25;
+    margin-bottom: 0.6rem;
+    letter-spacing: -0.2px;
+  }
+
+  .page-desc {
+    font-size: 1rem;
+    color: var(--text-soft);
+    line-height: 1.7;
+    max-width: 680px;
+  }
+
+  .meta-row {
+    display: flex;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+    margin-top: 1.1rem;
+  }
+
+  .meta-item {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.75rem;
+    color: var(--gray);
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  }
+
+  .meta-dot {
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    background: var(--teal);
+    flex-shrink: 0;
+  }
+  .meta-dot.amber { background: var(--amber); }
+
+  .section {
+    margin-bottom: 1.85rem;
+    scroll-margin-top: 8.5rem;
+  }
+
+  h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.24rem;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 0.65rem;
+  }
+
+  .content-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.15rem;
+  }
+
+  .content-card p {
+    font-size: 0.9rem;
+    color: var(--text-soft);
+    line-height: 1.68;
+    margin-bottom: 0.75rem;
+  }
+  .content-card p:last-child { margin-bottom: 0; }
+
+  .content-card ul {
+    margin-left: 1.15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+    font-size: 0.9rem;
+    color: var(--text-soft);
+    line-height: 1.62;
+  }
+
+  .reality-check {
+    background: var(--amber-light);
+    border: 1px solid rgba(217,119,6,0.25);
+    border-left: 4px solid var(--amber);
+    border-radius: 8px;
+    padding: 1rem 1.1rem;
+    margin-bottom: 1.45rem;
+    font-size: 0.84rem;
+    color: #78350f;
+    line-height: 1.6;
+  }
+  .reality-check strong {
+    display: block;
+    font-weight: 700;
+    font-size: 0.82rem;
+    color: #92400e;
+    margin-bottom: 0.35rem;
+  }
+
+  .site-footer {
+    background: var(--navy);
+    color: rgba(255,255,255,0.58);
+    padding: 2rem;
+    font-size: 0.78rem;
+  }
+  .footer-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .footer-brand {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0.4rem;
+  }
+  .footer-links {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+  .footer-links a {
+    color: rgba(255,255,255,0.75);
+    text-decoration: none;
+  }
+  .footer-links a:hover { color: #fff; }
+
+  @media (max-width: 760px) {
+    .topbar { padding: 0.45rem 1rem; }
+    nav { padding: 0.85rem 1rem; }
+    .nav-row { align-items: flex-start; gap: 0.85rem; }
+    .nav-links { display: none; }
+    .page-wrap { padding: 1.6rem 1rem 3.5rem; }
+    .founder-note { padding: 0.5rem 1rem; }
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <span>Independent newcomer guide</span>
+  <a href="/all-guides.html">Browse all guides</a>
+</div>
+
+<nav>
+  <div class="nav-row">
+    <a class="logo" href="/index.html">Canada<span>Steps</span></a>
+    <div class="nav-links">
+      <a href="/index.html">Home</a>
+      <a href="/pgwp.html">PGWP</a>
+      <a href="/sin.html">SIN</a>
+      <a href="/pr-pathways.html">PR</a>
+      <a href="/all-guides.html">All Guides</a>
+    </div>
+  </div>
+  <div class="nav-crumb">
+    <a href="/index.html">Home</a>
+    <span>›</span>
+    <strong>Terms of Use</strong>
+  </div>
+</nav>
+
+<div class="founder-note">
+  CanadaSteps is an independent guide website. It is not affiliated with IRCC, CRA, Service Canada, provincial governments, banks, or telecom providers.
+</div>
+
+<main class="page-wrap">
+  <header class="page-header">
+    <div class="track-tag">Site Policy</div>
+    <h1>Terms of Use</h1>
+    <p class="page-desc">These terms explain how you may use CanadaSteps and the limits of the information, guides, tools, links, and resources on this website.</p>
+    <div class="meta-row">
+      <div class="meta-item"><span class="meta-dot"></span>Last reviewed: July 2026</div>
+      <div class="meta-item"><span class="meta-dot amber"></span>Applies to: CanadaSteps.ca</div>
+    </div>
+  </header>
+
+  <div class="reality-check">
+    <strong>Plain-language summary</strong>
+    CanadaSteps is a free educational website. Use it as a starting point, not as a replacement for official sources or qualified professional advice.
+  </div>
+
+  <section class="section">
+    <h2>1. Acceptance of these terms</h2>
+    <div class="content-card">
+      <p>By using CanadaSteps.ca, you agree to these Terms of Use. If you do not agree with these terms, please do not use the website.</p>
+      <p>We may update these terms from time to time. Continued use of the website after updates means you accept the updated terms.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>2. Educational use only</h2>
+    <div class="content-card">
+      <p>CanadaSteps provides plain-language guides, checklists, calculators, and links to help users understand common newcomer processes in Canada.</p>
+      <p>The website is for general educational and navigational purposes only. It is not legal, immigration, tax, financial, banking, employment, or professional advice.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>3. No professional relationship</h2>
+    <div class="content-card">
+      <p>Using CanadaSteps does not create a consultant-client, lawyer-client, accountant-client, advisor-client, or any other professional relationship.</p>
+      <p>For advice specific to your situation, consult a qualified professional or the relevant official agency.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>4. Official sources control</h2>
+    <div class="content-card">
+      <p>CanadaSteps links to official government, public agency, and institutional sources whenever possible. Rules, forms, fees, eligibility criteria, and procedures can change.</p>
+      <p>If there is any difference between CanadaSteps and an official source, the official source should be treated as the controlling source.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>5. Tools and calculators</h2>
+    <div class="content-card">
+      <p>Any calculators, checklists, or interactive tools on CanadaSteps provide estimates or general guidance based on the information entered by the user.</p>
+      <p>These tools may not account for every edge case, timing issue, exception, or personal circumstance. You are responsible for verifying results with official sources and your own records before acting on them.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>6. Accuracy and availability</h2>
+    <div class="content-card">
+      <p>We try to keep CanadaSteps accurate and useful, but we do not guarantee that all information is complete, current, error-free, or suitable for your specific situation.</p>
+      <p>The website may be updated, changed, paused, or removed at any time without notice.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>7. External links</h2>
+    <div class="content-card">
+      <p>CanadaSteps links to external websites, including government and institutional sources. We are not responsible for the content, availability, privacy practices, or accuracy of external websites.</p>
+      <p>External links are provided for convenience and verification. Users should review the policies and terms of those websites separately.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>8. Advertising and affiliate links</h2>
+    <div class="content-card">
+      <p>CanadaSteps may display advertising or use affiliate links in the future. Advertising or affiliate relationships do not change the educational purpose of the website.</p>
+      <p>Where required, sponsored or affiliate content will be disclosed. Users should make their own decisions before buying products or services from third-party providers.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>9. Acceptable use</h2>
+    <div class="content-card">
+      <p>You agree not to misuse CanadaSteps. This includes attempting to disrupt the website, scrape or copy large portions of the site in a way that harms service availability, misrepresent CanadaSteps content as official government advice, or use the site for unlawful purposes.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>10. Limitation of liability</h2>
+    <div class="content-card">
+      <p>CanadaSteps is provided “as is” and “as available.” To the fullest extent permitted by law, CanadaSteps and its maintainers are not liable for losses, damages, missed deadlines, rejected applications, tax consequences, financial losses, or other outcomes arising from use of the website or reliance on its content.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>11. Contact and corrections</h2>
+    <div class="content-card">
+      <p>If you notice outdated information, broken links, or unclear wording, contact us at <a href="mailto:getgroundpages@gmail.com">getgroundpages@gmail.com</a>.</p>
+      <p>Please do not send sensitive personal documents, immigration files, tax records, SIN details, bank information, or medical information.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">CanadaSteps</div>
+    <p>Independent newcomer resource for Canada. Links directly to official government and institutional sources. Not affiliated with IRCC, CRA, Service Canada, or the Government of Canada.</p>
+    <div class="footer-links">
+      <a href="/all-guides.html">All guides</a>
+      <a href="/privacy.html">Privacy</a>
+      <a href="/about.html">About</a>
+      <a href="/contact.html">Contact</a>
+      <a href="/disclaimer.html">Disclaimer</a>
+      <a href="/terms.html">Terms</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
