@@ -64,7 +64,7 @@ May 28 - Layout-density polish: wider desktop container and tighter section rhyt
 
 
 ## 2026-05-27
-May 27 � Trust-polish pass: local/system fonts, Google Fonts removed, teal muted; static sanity check passed.
+May 27 — Trust-polish pass: local/system fonts, Google Fonts removed, teal muted; static sanity check passed.
 
 May 27 — Shared agent memory workflow added to CLAUDE.md and AGENTS.md; memory handoff updated.
 May 27 — Travel URL corrected, mobile topbar restored, founder block added, reality-check tone improved.
